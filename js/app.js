@@ -568,7 +568,7 @@ function selectLocation(name, country, lat, lng) {
     ];
 
     $("#location-status").textContent =
-      `${name}${country ? ", " + country : ""} — showing a randomly selected ${exactCity.length ? "location-linked" : "national"} record for ${state.year}.`;
+      `${name}${country ? ", " + country : ""}  -  showing a randomly selected ${exactCity.length ? "location-linked" : "national"} record for ${state.year}.`;
 
     openEvent(chosen.id);
 
@@ -854,7 +854,7 @@ function bindUI() {
 })();
 
 
-/* Stock Market Notebook — glossary pages and term reader. */
+/* Stock Market Notebook  -  glossary pages and term reader. */
 const STOCK_TERMS = [
  {term:"Ask price",meaning:"The lowest price a seller is currently willing to accept for a security.",real:"If a share has a bid of ₹99 and an ask of ₹100, a buyer placing a market order may pay around ₹100, subject to available orders and execution.",url:"https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work"},
  {term:"Bear market",meaning:"A prolonged period of falling prices and broadly pessimistic market sentiment. A common convention is a fall of 20% or more from a recent peak in a broad market index.",real:"During a bear market, investors may see the value of their equity portfolios decline. The label describes market conditions; it does not tell you when prices will recover.",url:"https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"},
@@ -917,7 +917,7 @@ const STOCK_TERMS = [
  {term:"Relative Strength Index (RSI)",meaning:"A momentum indicator that measures the speed and size of recent price changes on a scale from 0 to 100.",simple:"RSI tries to show whether recent price moves have been unusually strong in either direction.",real:"Some traders watch readings above 70 or below 30, but these are not automatic sell or buy signals. Strong trends can stay at extreme readings.",url:"https://www.investopedia.com/terms/r/rsi.asp"},
  {term:"Resistance",meaning:"A price area where selling interest has previously been strong enough to slow or halt a rise. It is an analytical concept, not a fixed ceiling.",simple:"It is a price zone where a share has struggled to move higher before because sellers appeared.",real:"If a share repeatedly turns down near ₹500, traders may watch ₹500 as resistance. It can still break above it, or turn down somewhere else.",url:"https://www.nseindia.com/market-data"},
  {term:"ROE (return on equity)",meaning:"A profitability ratio measuring net profit attributable to shareholders relative to average shareholders' equity over a period.",simple:"It shows how much profit a company makes from the money shareholders have invested in the business, based on accounting figures.",real:"A 15% ROE means the company earned about ₹15 for every ₹100 of average equity during the period. High debt or a very small equity base can affect the ratio.",url:"https://www.nseindia.com/learn"},
- {term:"SIP (systematic investment plan)",meaning:"A method of investing a fixed amount into a mutual fund at regular intervals, rather than investing one lump sum.",simple:"You set up a recurring investment—say ₹500 every month—into a mutual fund.",real:"A SIP can make regular investing easier and buy units at different prices over time. It does not guarantee profits or protect against market losses.",url:"https://www.amfiindia.com/investor-corner"},
+ {term:"SIP (systematic investment plan)",meaning:"A method of investing a fixed amount into a mutual fund at regular intervals, rather than investing one lump sum.",simple:"You set up a recurring investment - say ₹500 every month - into a mutual fund.",real:"A SIP can make regular investing easier and buy units at different prices over time. It does not guarantee profits or protect against market losses.",url:"https://www.amfiindia.com/investor-corner"},
  {term:"Support",meaning:"A price area where buying interest has previously been strong enough to slow or halt a decline. It is an analytical concept, not a guaranteed floor.",simple:"It is a zone where a share has previously found buyers and stopped falling for a while.",real:"If a share has bounced near ₹400 several times, traders may watch that area as support. It can break if selling pressure continues.",url:"https://www.nseindia.com/market-data"},
  {term:"Upper circuit",meaning:"The maximum permitted upward price movement for a security during a trading session under the applicable exchange price-band rules.",simple:"It is the day's allowed top price limit. Once the share reaches it, further buying may be difficult to execute.",real:"A share hitting its upper circuit may have many buyers but few or no sellers at that limit. Circuit limits and rules vary by security.",url:"https://www.nseindia.com/"},
  {term:"Lower circuit",meaning:"The maximum permitted downward price movement for a security during a trading session under the applicable exchange price-band rules.",simple:"It is the day's allowed bottom price limit. If a share reaches it, selling may become difficult because buyers may be scarce.",real:"A share at lower circuit can leave investors unable to sell at the price they want. The limit does not mean the share has reached its true value.",url:"https://www.nseindia.com/"},
@@ -1081,8 +1081,8 @@ function initStockNotebook(){
  const sorted=[...STOCK_TERMS].sort((a,b)=>a.term.localeCompare(b.term,undefined,{sensitivity:"base"}));let page=0,selectedCategory="all",filtered=sorted;
  const renderSide=(items,start)=>items.map((item,index)=>'<button class="notebook-term" type="button" data-term="'+encodeURIComponent(item.term)+'"><span class="notebook-term-index">'+String(start+index+1).padStart(2,"0")+'</span><span class="notebook-term-name">'+item.term+'</span><span class="notebook-term-arrow">↗</span></button>').join("");
  function render(){const pages=Math.max(1,Math.ceil(filtered.length/20));page=Math.min(page,pages-1);const chunk=filtered.slice(page*20,page*20+20);left.innerHTML=renderSide(chunk.slice(0,10),page*20);right.innerHTML=renderSide(chunk.slice(10,20),page*20+10);
- document.getElementById("notebook-page-left-number").textContent=chunk.length?String(page*20+1).padStart(2,"0")+"—"+String(page*20+Math.min(10,chunk.length)).padStart(2,"0"):"—";
- document.getElementById("notebook-page-right-number").textContent=chunk.length>10?String(page*20+11).padStart(2,"0")+"—"+String(page*20+chunk.length).padStart(2,"0"):"—";
+ document.getElementById("notebook-page-left-number").textContent=chunk.length?String(page*20+1).padStart(2,"0")+" - "+String(page*20+Math.min(10,chunk.length)).padStart(2,"0"):" - ";
+ document.getElementById("notebook-page-right-number").textContent=chunk.length>10?String(page*20+11).padStart(2,"0")+" - "+String(page*20+chunk.length).padStart(2,"0"):" - ";
  document.getElementById("notebook-page-count").textContent="PAGE "+String(page+1).padStart(2,"0");status.textContent="SPREAD "+(page+1)+" OF "+pages;prev.disabled=page===0;next.disabled=page>=pages-1;
  searchStatus.textContent=filtered.length+" terms · "+(selectedCategory==="all"?"all categories":selectedCategory)+" · alphabetically arranged";
  if(!chunk.length){left.innerHTML='<p class="notebook-no-results">No terms found. Try another word.</p>';right.innerHTML='<p class="notebook-no-results">Your next discovery might be one search away.</p>';}}
