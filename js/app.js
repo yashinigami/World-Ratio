@@ -1126,7 +1126,7 @@ initStockNotebook();;
    if(k==="eps"){v=n("income")/n("shares");s="";}
    if(k==="cagr")v=(Math.pow(n("end")/n("start"),1/n("years"))-1)*100;
    if(k==="ytm")v=((n("coupon")+(n("face")-n("price"))/n("years"))/((n("face")+n("price"))/2))*100;
-   const valid=Number.isFinite(v)&&v>=0&&card.querySelectorAll("input").length&&[...card.querySelectorAll("input")].every(input=>input.value!==""&&Number.isFinite(Number(input.value))&&Number(input.value)>=0);
+   const fieldsValid=card.querySelectorAll("input").length&&[...card.querySelectorAll("input")].every(input=>input.value!==""&&Number.isFinite(Number(input.value))&&Number(input.value)>=0);const denominatorValid=(k==="pe"?n("eps")>0:k==="pb"?n("book")>0:k==="roe"?n("equity")>0:k==="eps"?n("shares")>0:k==="cagr"?n("start")>0&&n("end")>0&&n("years")>0:k==="ytm"?n("face")>0&&n("price")>0&&n("years")>0:false);const valid=Number.isFinite(v)&&fieldsValid&&denominatorValid;
    card.querySelector("output").textContent=valid?(k==="eps"?"₹":"")+v.toFixed(2)+s:"Enter valid non-negative values";
    const meaning=card.querySelector(".formula-meaning"),why=card.querySelector(".formula-why");
    if(meaning&&why&&valid){const copy=explanations[k](v,n);meaning.textContent=copy[0];why.textContent=copy[1];}
