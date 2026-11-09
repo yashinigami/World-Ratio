@@ -903,13 +903,13 @@ function initStockNotebook(){
     const chunk=filtered.slice(page*20,page*20+20);
     left.innerHTML=renderSide(chunk.slice(0,10),page*20);
     right.innerHTML=renderSide(chunk.slice(10,20),page*20+10);
-    document.getElementById("notebook-page-left-number").textContent=chunk.length?String(page*10+1).padStart(2,"0")+"—"+String(page*10+Math.min(10,chunk.length)).padStart(2,"0"):"—";
+    document.getElementById("notebook-page-left-number").textContent=chunk.length?String(page*20+1).padStart(2,"0")+"—"+String(page*20+Math.min(10,chunk.length)).padStart(2,"0"):"—";
     document.getElementById("notebook-page-right-number").textContent=chunk.length>10?String(page*20+11).padStart(2,"0")+"—"+String(page*20+chunk.length).padStart(2,"0"):"—";
     document.getElementById("notebook-page-count").textContent="PAGE "+String(page+1).padStart(2,"0");
     status.textContent="SPREAD "+(page+1)+" OF "+pages;
     prev.disabled=page===0;
     next.disabled=page>=pages-1;
-    searchStatus.textContent=search.value.trim()?filtered.length+" matching term"+(filtered.length===1?"":"s")+" · alphabetically arranged":sorted.length+" terms · alphabetically arranged · 10 terms per spread";
+    searchStatus.textContent=search.value.trim()?filtered.length+" matching term"+(filtered.length===1?"":"s")+" · alphabetically arranged":sorted.length+" terms · alphabetically arranged · 10 terms per page";
     if(!chunk.length){
       left.innerHTML='<p class="notebook-no-results">No terms found. Try another word.</p>';
       right.innerHTML='<p class="notebook-no-results">Your next discovery might be one search away.</p>';
