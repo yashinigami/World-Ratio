@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+<title id="title">World Ratio financial history doodle</title><desc id="desc">A playful hand-drawn bank building, coin stack, flowers and sparkles in soft pink and berry colours.</desc>
+<defs><pattern id="paper" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".8" fill="#D9A8B8" opacity=".35"/></pattern></defs>
+<circle cx="210" cy="210" r="183" fill="#F9E9EB" stroke="#D69BAD" stroke-width="3" stroke-dasharray="5 9"/>
+<circle cx="210" cy="210" r="163" fill="url(#paper)"/>
+<g stroke="#8F526B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="#FFF9F4">
+<path d="M95 183 210 115 325 183Z" fill="#E8B5C1"/>
+<path d="M111 187h198v116H111z" />
+<path d="M99 305h222M91 321h238" fill="none"/>
+<path d="M139 202v85M179 202v85M219 202v85M259 202v85M299 202v85" fill="none"/>
+<path d="M193 303v-54a17 17 0 0 1 34 0v54" fill="#F5DDE1"/>
+<path d="M83 185h254" fill="none"/>
+</g>
+<g fill="#B65E7B" stroke="#8F526B" stroke-width="3">
+<circle cx="328" cy="105" r="34"/><circle cx="328" cy="105" r="24" fill="#F5DDE1"/>
+<path d="M322 91h12m-6-8v44m-10-12c2 9 22 10 22 0 0-10-22-9-22-19 0-9 19-10 22-1" fill="none" stroke-width="3"/>
+</g>
+<g fill="#F5DDE1" stroke="#B65E7B" stroke-width="3">
+<path d="M75 100c-18-20-43 1-26 18-23 11-8 38 12 27 9 23 37 12 31-10 22-11 10-38-13-30Z"/>
+<circle cx="75" cy="120" r="8" fill="#D7A05A"/>
+<path d="M343 284c-17-18-38 2-24 17-20 10-7 32 11 24 8 20 31 11 27-9 20-10 9-33-14-26Z"/>
+<circle cx="346" cy="302" r="7" fill="#D7A05A"/>
+</g>
+<g fill="none" stroke="#B65E7B" stroke-width="4" stroke-linecap="round">
+<path d="m105 73 5 12 12 5-12 5-5 12-5-12-12-5 12-5Z"/>
+<path d="m282 65 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/>
+<path d="m70 265 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/>
+<path d="M130 348q18-17 35 0t35 0M245 350q17-17 34 0t34 0"/>
+</g>
+<g fill="#C77D96"><circle cx="150" cy="80" r="4"/><circle cx="268" cy="333" r="4"/><circle cx="54" cy="215" r="4"/><circle cx="364" cy="202" r="4"/></g>
+</svg>
