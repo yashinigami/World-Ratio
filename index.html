@@ -55,6 +55,39 @@
       document.addEventListener("keydown", function (event) {
         if (event.key === "Escape") dismissWelcome(event);
       }, true);
+
+      // Keep the single-page navigation working independently of the welcome layer.
+      function showWorldRatioView() {
+        var id = (window.location.hash || "#home").slice(1);
+        var views = document.querySelectorAll("main .view");
+        var found = false;
+        views.forEach(function (view) {
+          var active = view.id === id;
+          view.classList.toggle("active", active);
+          view.style.display = active ? "block" : "none";
+          if (active) found = true;
+        });
+        if (!found && views.length) {
+          views.forEach(function (view) {
+            var active = view.id === "home";
+            view.classList.toggle("active", active);
+            view.style.display = active ? "block" : "none";
+          });
+        }
+        document.querySelectorAll("[data-nav]").forEach(function (link) {
+          link.classList.toggle("active", link.getAttribute("data-nav") === id);
+        });
+      }
+      window.addEventListener("hashchange", showWorldRatioView);
+      document.addEventListener("click", function (event) {
+        var link = event.target.closest && event.target.closest('a[href^="#"]');
+        if (!link) return;
+        var targetId = link.getAttribute("href").slice(1);
+        if (document.getElementById(targetId) && document.getElementById(targetId).classList.contains("view")) {
+          window.setTimeout(showWorldRatioView, 0);
+        }
+      });
+      showWorldRatioView();
     })();
   </script>
 
