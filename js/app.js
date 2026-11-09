@@ -82,11 +82,32 @@ function initMap() {
 
   state.map = map;
 
-  // Standard OpenStreetMap tiles. No API key required.
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>'
-  }).addTo(map);
+  // Palette-matched vector countries over a solid violet ocean.
+  map.getContainer().style.background = "#503CBA";
+  fetch("https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson")
+    .then(response => {
+      if (!response.ok) throw new Error("Country boundary data unavailable");
+      return response.json();
+    })
+    .then(geojson => {
+      L.geoJSON(geojson, {
+        style: {
+          color: "#171052",
+          weight: 0.65,
+          opacity: 0.85,
+          fillColor: "#FAF5B1",
+          fillOpacity: 1
+        }
+      }).addTo(map);
+    })
+    .catch(() => {
+      const fallback = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: "abcd",
+        maxZoom: 19
+      }).addTo(map);
+      fallback.getContainer?.()?.style && (fallback.getContainer().style.filter = "sepia(1) saturate(2)");
+    });
 
   // Separate layers for financial events and institutions
   state.eventLayer = L.layerGroup().addTo(map);
@@ -162,95 +183,51 @@ function renderMap() {
 
   const eventsOn = $("#events-toggle").checked;
   const institutionsOn = $("#institutions-toggle").checked;
-  const visible = [
-    ...(eventsOn ? currentEvents().map(event => ({ kind: "event", data: event })) : []),
-    ...(institutionsOn ? DATA.institutions
-      .filter(inst => inst.founded <= state.year)
-      .map(inst => ({ kind: "institution", data: inst })) : [])
-  ];
 
-  // Combine records that share the same map coordinates into one browsable marker.
-  const groups = new Map();
-  visible.forEach(record => {
-    const item = record.data;
-    const key = `${Number(item.lat).toFixed(3)},${Number(item.lng).toFixed(3)}`;
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(record);
-  });
-
-  groups.forEach(records => {
-    const first = records[0];
-    const item = first.data;
-    const markerCategory = first.kind === "institution" ? "institution" : item.category;
-    const icon = records.length > 1
-      ? L.divIcon({
-          className: "",
-          html: `<div class="custom-marker ${markerCategory} marker-group"><span>${records.length}</span></div>`,
-          iconSize: [26, 26],
-          iconAnchor: [13, 13]
-        })
-      : iconFor(markerCategory);
-
-    const marker = L.marker([item.lat, item.lng], {
-      icon,
-      title: records.length > 1 ? `${records.length} records · ${item.city}` : (item.title || item.name)
-    }).addTo(records.some(r => r.kind === "event") ? state.eventLayer : state.institutionLayer);
-
-    marker.bindPopup(mapGroupPopup(records, 0), { maxWidth: 310, minWidth: 240 });
-    marker.on("popupopen", () => {
-      let activeIndex = 0;
-      const popup = marker.getPopup();
-      const paint = () => popup.setContent(mapGroupPopup(records, activeIndex));
-      const el = popup.getElement();
-      if (!el) return;
-      el.addEventListener("click", event => {
-        if (event.target.closest("[data-map-prev]")) {
-          activeIndex = (activeIndex - 1 + records.length) % records.length;
-          paint();
-        } else if (event.target.closest("[data-map-next]")) {
-          activeIndex = (activeIndex + 1) % records.length;
-          paint();
-        } else if (event.target.closest("[data-map-open]")) {
-          const selected = records[activeIndex];
-          if (selected.kind === "event") openEvent(selected.data.id);
-          else showInstitution(selected.data.id);
-        }
+  if (eventsOn) {
+    currentEvents().forEach(event => {
+      const epicentres = event.epicentres?.length ? event.epicentres : [{
+        city: event.city, country: event.country, lat: event.lat, lng: event.lng
+      }];
+      epicentres.forEach(place => {
+        const marker = L.marker([place.lat, place.lng], {
+          icon: iconFor(event.category),
+          title: event.title
+        }).addTo(state.eventLayer);
+        marker.on("click", () => openEvent(event.id));
+        marker.bindTooltip(
+          `${event.title} · ${place.city}, ${place.country}`,
+          { direction: "top" }
+        );
       });
     });
-  });
+  }
+
+  if (institutionsOn) {
+    DATA.institutions
+      .filter(i => i.founded <= state.year)
+      .forEach(inst => {
+        const marker = L.marker([inst.lat, inst.lng], {
+          icon: iconFor("institution"),
+          title: inst.name
+        }).addTo(state.institutionLayer);
+
+        marker.bindPopup(
+          `<div class="institution-popup">
+            <strong>${escapeHTML(inst.name)}</strong><br>
+            <span>${escapeHTML(inst.type)} · Est. ${inst.founded}</span><br>
+            <a href="${escapeHTML(inst.url)}" target="_blank" rel="noopener">
+              Official website ↗
+            </a>
+          </div>`
+        );
+        marker.on("click", () => showInstitution(inst.id));
+      });
+  }
 
   $("#selected-year").textContent = state.year;
   $("#results-title").textContent = `Events in ${state.year}`;
   renderEventList();
-}
-
-function mapGroupPopup(records, index) {
-  const record = records[index];
-  const item = record.data;
-  const isEvent = record.kind === "event";
-  const title = isEvent ? item.title : item.name;
-  const place = [item.city, item.country].filter(Boolean).join(", ");
-  const detail = isEvent
-    ? `${prettyDate(item.date)} · ${categoryLabel(item.category)}`
-    : `${item.type} · Established ${item.founded}`;
-  const count = records.length > 1
-    ? `<div class="map-carousel-count">${index + 1} of ${records.length} records at this location</div>`
-    : "";
-  const controls = records.length > 1
-    ? `<div class="map-carousel-controls">
-        <button type="button" data-map-prev aria-label="Previous record">←</button>
-        <span>Browse records</span>
-        <button type="button" data-map-next aria-label="Next record">→</button>
-      </div>`
-    : "";
-  return `<div class="map-record-popup">
-    ${count}
-    <strong>${escapeHTML(title)}</strong>
-    <div class="map-record-place">${escapeHTML(place)}</div>
-    <div class="map-record-meta">${escapeHTML(detail)}</div>
-    ${controls}
-    <button type="button" class="map-record-open" data-map-open>Open record ↗</button>
-  </div>`;
 }
 
 function renderEventList() {
