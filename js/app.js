@@ -804,3 +804,29 @@ function bindUI() {
       '<div class="empty-state">The data files could not be loaded. Run the site through a local web server rather than opening index.html directly. See README.md.</div>';
   }
 })();
+
+
+// Divy welcomes visitors on every fresh page load. Any click dismisses the welcome layer.
+(function initDivyWelcome(){
+  const welcome = document.getElementById("divy-welcome");
+  if (!welcome) return;
+  document.body.classList.add("divy-is-welcoming");
+  const dismiss = () => {
+    if (!welcome.isConnected) return;
+    welcome.classList.add("is-leaving");
+    document.body.classList.remove("divy-is-welcoming");
+    welcome.remove();
+  };
+  welcome.addEventListener("click", event => {
+    if (event.target.closest(".divy-email")) {
+      event.stopPropagation();
+      return;
+    }
+    dismiss();
+  });
+  const email = welcome.querySelector(".divy-email");
+  if (email) email.addEventListener("click", event => event.stopPropagation());
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") dismiss();
+  }, { once: true });
+})();
