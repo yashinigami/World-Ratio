@@ -177,57 +177,98 @@ function currentEvents() {
 
 function renderMap() {
   if (!state.map) return;
-
   state.eventLayer.clearLayers();
   state.institutionLayer.clearLayers();
 
-  const eventsOn = $("#events-toggle").checked;
-  const institutionsOn = $("#institutions-toggle").checked;
-
-  if (eventsOn) {
+  const records = [];
+  if ($("#events-toggle").checked) {
     currentEvents().forEach(event => {
-      const epicentres = event.epicentres?.length ? event.epicentres : [{
+      const places = event.epicentres?.length ? event.epicentres : [{
         city: event.city, country: event.country, lat: event.lat, lng: event.lng
       }];
-      epicentres.forEach(place => {
-        const marker = L.marker([place.lat, place.lng], {
-          icon: iconFor(event.category),
-          title: event.title
-        }).addTo(state.eventLayer);
-        marker.on("click", () => openEvent(event.id));
-        marker.bindTooltip(
-          `${event.title} · ${place.city}, ${place.country}`,
-          { direction: "top" }
-        );
+      places.forEach(place => records.push({
+        kind: "event", data: event, place,
+        city: place.city || event.city, country: place.country || event.country
+      }));
+    });
+  }
+  if ($("#institutions-toggle").checked) {
+    DATA.institutions.filter(inst => inst.founded <= state.year).forEach(inst => {
+      records.push({
+        kind: "institution", data: inst,
+        place: { city: inst.city, country: inst.country, lat: inst.lat, lng: inst.lng },
+        city: inst.city, country: inst.country
       });
     });
   }
 
-  if (institutionsOn) {
-    DATA.institutions
-      .filter(i => i.founded <= state.year)
-      .forEach(inst => {
-        const marker = L.marker([inst.lat, inst.lng], {
-          icon: iconFor("institution"),
-          title: inst.name
-        }).addTo(state.institutionLayer);
+  // One marker per city/country: events, epicentres and institutions share the same browseable dot.
+  const groups = new Map();
+  records.forEach(record => {
+    const key = `${String(record.city).trim().toLowerCase()}|${String(record.country).trim().toLowerCase()}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(record);
+  });
 
-        marker.bindPopup(
-          `<div class="institution-popup">
-            <strong>${escapeHTML(inst.name)}</strong><br>
-            <span>${escapeHTML(inst.type)} · Est. ${inst.founded}</span><br>
-            <a href="${escapeHTML(inst.url)}" target="_blank" rel="noopener">
-              Official website ↗
-            </a>
-          </div>`
-        );
-        marker.on("click", () => showInstitution(inst.id));
+  groups.forEach(group => {
+    const lat = group.reduce((sum, r) => sum + Number(r.place.lat), 0) / group.length;
+    const lng = group.reduce((sum, r) => sum + Number(r.place.lng), 0) / group.length;
+    const categories = group.map(r => r.kind === "institution" ? "institution" : r.data.category);
+    const markerCategory = categories.includes("crisis") ? "crisis" :
+      categories.includes("policy") ? "policy" :
+      categories.includes("global") ? "global" : "institution";
+    const marker = L.marker([lat, lng], {
+      icon: iconFor(markerCategory),
+      title: `${group.length} records · ${group[0].city}, ${group[0].country}`
+    }).addTo(group.some(r => r.kind === "event") ? state.eventLayer : state.institutionLayer);
+    marker.bindPopup(cityBrowsePopup(group), { maxWidth: 440, minWidth: 280, className: "city-browse-leaflet" });
+    marker.on("popupopen", () => {
+      const root = marker.getPopup().getElement();
+      if (!root) return;
+      root.addEventListener("click", event => {
+        const prev = event.target.closest("[data-city-prev]");
+        const next = event.target.closest("[data-city-next]");
+        const open = event.target.closest("[data-city-open]");
+        const rail = root.querySelector(".city-browse-rail");
+        if (prev && rail) rail.scrollBy({ left: -rail.clientWidth * 0.82, behavior: "smooth" });
+        if (next && rail) rail.scrollBy({ left: rail.clientWidth * 0.82, behavior: "smooth" });
+        if (open) {
+          const selected = group[Number(open.dataset.cityOpen)];
+          if (selected.kind === "event") openEvent(selected.data.id);
+          else showInstitution(selected.data.id);
+        }
       });
-  }
+    });
+  });
 
   $("#selected-year").textContent = state.year;
   $("#results-title").textContent = `Events in ${state.year}`;
   renderEventList();
+}
+
+function cityBrowsePopup(group) {
+  const location = `${group[0].city}, ${group[0].country}`;
+  const cards = group.map((record, index) => {
+    const event = record.kind === "event";
+    const title = event ? record.data.title : record.data.name;
+    const meta = event
+      ? `${record.data.year} · ${categoryLabel(record.data.category)}`
+      : `Institution · Established ${record.data.founded}`;
+    return `<article class="city-browse-card">
+      <div class="city-browse-meta">${escapeHTML(meta)}</div>
+      <strong>${escapeHTML(title)}</strong>
+      <button type="button" data-city-open="${index}">View details ↗</button>
+    </article>`;
+  }).join("");
+  return `<div class="city-browse-popup">
+    <div class="city-browse-heading"><strong>${escapeHTML(location)}</strong><span>${group.length} records</span></div>
+    <div class="city-browse-controls">
+      <button type="button" data-city-prev aria-label="Scroll left">←</button>
+      <span>Scroll to explore</span>
+      <button type="button" data-city-next aria-label="Scroll right">→</button>
+    </div>
+    <div class="city-browse-rail">${cards}</div>
+  </div>`;
 }
 
 function renderEventList() {
@@ -546,47 +587,45 @@ function selectLocation(name, country, lat, lng) {
 }
 
 function renderTurningPoints() {
-  $("#turning-count").textContent =
-    `${DATA.turningPoints.length} curated studies`;
+  const countrySelect = $("#turning-country");
+  const yearSelect = $("#turning-year");
+  const countries = [...new Set(DATA.turningPoints.flatMap(t => t.countries || []))].sort((a,b) => a.localeCompare(b));
+  countrySelect.innerHTML = '<option value="all">All countries</option>' +
+    countries.map(country => `<option value="${escapeHTML(country)}">${escapeHTML(country)}</option>`).join("");
+  yearSelect.innerHTML = '<option value="all">All years</option>';
+  yearSelect.disabled = true;
+  renderFilteredTurningPoints();
+}
 
-  $("#turning-list").innerHTML =
-    DATA.turningPoints.map(t => `
-      <article class="turning-card"
-        data-turning="${escapeHTML(t.id)}"
-        tabindex="0"
-        role="button">
+function renderFilteredTurningPoints() {
+  const country = $("#turning-country").value;
+  const year = $("#turning-year").value;
+  const filtered = DATA.turningPoints.filter(t => {
+    const countryMatch = country === "all" || (t.countries || []).includes(country);
+    const yearMatch = year === "all" || String(t.year) === year;
+    return countryMatch && yearMatch;
+  }).sort((a,b) => b.year - a.year || a.title.localeCompare(b.title));
 
-        <div class="event-date">
-          ${t.year} · ${escapeHTML(t.category)}
-        </div>
+  $("#turning-count").textContent = `${filtered.length} curated studies`;
+  $("#turning-list").innerHTML = filtered.length ? filtered.map(t => `
+    <article class="turning-card" data-turning="${escapeHTML(t.id)}" tabindex="0" role="button">
+      <div class="event-date">${t.year} · ${escapeHTML(t.category)}</div>
+      <h2>${escapeHTML(t.title)}</h2>
+      <div class="event-place">${escapeHTML(t.region)}</div>
+      <p>${escapeHTML(t.lede)}</p>
+      <span class="card-read">Explore this turning point ↗</span>
+    </article>
+  `).join("") : '<div class="empty-state">No turning points match this country and year. Try another year or clear the filters.</div>';
 
-        <h2>${escapeHTML(t.title)}</h2>
-
-        <div class="event-place">
-          ${escapeHTML(t.region)}
-        </div>
-
-        <p>${escapeHTML(t.lede)}</p>
-
-        <span class="card-read">
-          Explore this turning point ↗
-        </span>
-      </article>
-    `).join("");
-
-  $("#turning-list")
-    .querySelectorAll("[data-turning]")
-    .forEach(c => {
-      c.addEventListener("click", () =>
-        showTurningPoint(c.dataset.turning)
-      );
-
-      c.addEventListener("keydown", e => {
-        if (e.key === "Enter") {
-          showTurningPoint(c.dataset.turning);
-        }
-      });
+  $("#turning-list").querySelectorAll("[data-turning]").forEach(card => {
+    card.addEventListener("click", () => showTurningPoint(card.dataset.turning));
+    card.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        showTurningPoint(card.dataset.turning);
+      }
     });
+  });
 }
 
 function showTurningPoint(id) {
@@ -700,7 +739,7 @@ function bindUI() {
   );
 
   $("#previous-year").addEventListener("click", () =>
-    updateYear(Math.max(1995, state.year - 1))
+    updateYear(Math.max(1973, state.year - 1))
   );
 
   $("#next-year").addEventListener("click", () =>
@@ -718,6 +757,24 @@ function bindUI() {
 
   $("#events-toggle").addEventListener("change", renderMap);
   $("#institutions-toggle").addEventListener("change", renderMap);
+  $("#turning-country").addEventListener("change", () => {
+    const country = $("#turning-country").value;
+    const years = [...new Set(DATA.turningPoints
+      .filter(t => country === "all" || (t.countries || []).includes(country))
+      .map(t => t.year))].sort((a,b) => b-a);
+    $("#turning-year").innerHTML = '<option value="all">All years</option>' +
+      years.map(year => `<option value="${year}">${year}</option>`).join("");
+    $("#turning-year").disabled = country === "all";
+    renderFilteredTurningPoints();
+  });
+  $("#turning-year").addEventListener("change", renderFilteredTurningPoints);
+  $("#clear-turning-filters").addEventListener("click", () => {
+    $("#turning-country").value = "all";
+    $("#turning-year").innerHTML = '<option value="all">All years</option>';
+    $("#turning-year").value = "all";
+    $("#turning-year").disabled = true;
+    renderFilteredTurningPoints();
+  });
 
   $("#location-form").addEventListener("submit", e => {
     e.preventDefault();
