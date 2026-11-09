@@ -186,6 +186,30 @@
     "turningPoint": "india-monetary-policy-2025"
   },
   {
+    "id": "trump-return-tariff-frameworks",
+    "date": "2025-04-02",
+    "year": 2025,
+    "title": "Trump administration announces a new reciprocal tariff framework",
+    "category": "policy",
+    "city": "Washington, D.C.",
+    "region": "District of Columbia",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "entity": "The White House; U.S. Government",
+    "scope": "global",
+    "summary": "On 2 April 2025, President Donald Trump signed Executive Order 14257 establishing a new U.S. reciprocal tariff framework. The order set a 10% baseline additional tariff on imports, with higher country-specific rates announced for selected trading partners.",
+    "why": "The measure marked a major shift in U.S. trade policy and prompted responses from trading partners, businesses and financial markets. The policy and its subsequent modifications evolved over time, so this record identifies the initial framework rather than treating every later tariff rate as unchanged.",
+    "impact": "The order was issued in Washington, D.C., but applied to imports entering the United States and affected trade relationships worldwide.",
+    "sources": [
+      {
+        "label": "The White House — Executive Order 14257, 2 April 2025",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/"
+      }
+    ]
+  },
+  {
     "id": "rbi-repo-hold-2025-aug",
     "date": "2025-08-06",
     "year": 2025,
@@ -206,6 +230,102 @@
       {
         "label": "RBI — Monetary Policy Statement, 6 August 2025",
         "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60957"
+      }
+    ]
+  },
+  {
+    "id": "fed-easing-cycle-2025",
+    "date": "2025-09-17",
+    "year": 2025,
+    "title": "Federal Reserve begins a new rate-cutting phase",
+    "category": "policy",
+    "city": "Washington, D.C.",
+    "region": "District of Columbia",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 38.8921,
+    "lng": -77.0457,
+    "entity": "Federal Reserve; Federal Open Market Committee",
+    "scope": "global",
+    "summary": "On 17 September 2025, the Federal Open Market Committee lowered the federal funds target range by 25 basis points to 4.00%–4.25%. Further quarter-point cuts followed in October and December 2025.",
+    "why": "The decisions marked a renewed easing phase after the Federal Reserve had held rates steady earlier in 2025. U.S. policy rates influence global borrowing costs, currency markets, capital flows and financial conditions.",
+    "impact": "The policy decision was made in Washington, D.C., with effects transmitted through U.S. and international financial markets.",
+    "sources": [
+      {
+        "label": "Federal Reserve — Open Market Operations and FOMC rate history",
+        "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"
+      }
+    ]
+  },
+  {
+    "id": "us-government-shutdown-2025",
+    "date": "2025-10-01",
+    "year": 2025,
+    "title": "United States enters its longest government-wide shutdown",
+    "category": "crisis",
+    "city": "Washington, D.C.",
+    "region": "District of Columbia",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "entity": "U.S. Congress; U.S. Federal Government",
+    "scope": "national",
+    "summary": "A funding lapse began on 1 October 2025 after Congress did not enact the required appropriations or a continuing resolution. The government-wide shutdown lasted 42 full days and ended on 12 November 2025.",
+    "why": "The shutdown interrupted or delayed parts of federal operations, affected federal workers and contractors, and created uncertainty around public services and economic data releases.",
+    "impact": "The shutdown affected federal agencies and people across the United States. Washington, D.C. is shown as the seat of the federal government, not as the only place affected.",
+    "sources": [
+      {
+        "label": "Congressional Research Service — Federal Funding Gaps: A Brief Overview",
+        "url": "https://www.everycrsreport.com/reports/RS20348.html"
+      }
+    ]
+  },
+  {
+    "id": "india-banking-npa-low-2025",
+    "date": "2025-12-29",
+    "year": 2025,
+    "title": "Indian banks' gross NPA ratio reaches a multi-decadal low",
+    "category": "global",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "entity": "Reserve Bank of India",
+    "scope": "national",
+    "summary": "The RBI's Report on Trend and Progress of Banking in India 2024–25 reported that scheduled commercial banks' gross non-performing asset ratio declined to 2.2% at end-March 2025, a multi-decadal low, and to 2.1% at end-September 2025.",
+    "why": "The improvement reflected stronger asset quality across the banking system and was an important indicator of bank balance-sheet resilience. The ratio is a system-wide measure and should not be confused with the rupee amount of bad loans.",
+    "impact": "The finding covers scheduled commercial banks across India. Mumbai is used as the RBI's institutional location.",
+    "sources": [
+      {
+        "label": "RBI — Report on Trend and Progress of Banking in India 2024–25, 29 December 2025",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61902"
+      }
+    ]
+  },
+  {
+    "id": "africa-stablecoin-fx-use-2025",
+    "date": "2025-12-31",
+    "year": 2025,
+    "title": "Stablecoins emerge as an FX hedge in parts of Africa",
+    "category": "global",
+    "city": "Harare",
+    "region": "Harare",
+    "country": "Zimbabwe",
+    "countryCode": "ZWE",
+    "lat": -17.8252,
+    "lng": 31.0335,
+    "entity": "African crypto-asset and stablecoin users; OECD",
+    "scope": "regional",
+    "summary": "The OECD's Africa Capital Markets Report 2026 documents emerging stablecoin and crypto-asset use cases across African jurisdictions. It notes that consumers and corporates in Zimbabwe have used crypto-assets and stablecoins as hedges against foreign-exchange risk and inflationary pressures.",
+    "why": "The evidence points to a growing but uneven set of use cases, not widespread adoption by African corporates as a whole. Adoption, regulation and transaction patterns differ substantially between countries.",
+    "impact": "The cited corporate FX-hedging use case is specifically documented in Zimbabwe. It should not be generalized to the entire African continent.",
+    "sources": [
+      {
+        "label": "OECD — Africa Capital Markets Report 2026: Crypto-assets and stablecoins in Africa",
+        "url": "https://www.oecd.org/en/publications/2026/11/africa-capital-markets-report-2026_a5928b5c/full-report/developments-in-crypto-asset-and-stablecoin-markets-in-africa_a5934f7c.html"
       }
     ]
   },
@@ -287,6 +407,54 @@
     ]
   },
   {
+    "id": "rupee-depreciation-2026",
+    "date": "2026-03-27",
+    "year": 2026,
+    "title": "Indian rupee records a sharp structural adjustment against the US dollar",
+    "category": "global",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "entity": "Reserve Bank of India; Government of India",
+    "scope": "national",
+    "summary": "A Government of India statement to Parliament reported that the rupee closed at ₹94.82 per U.S. dollar on 27 March 2026, representing a 9.9% depreciation during FY2025–26 up to that date.",
+    "why": "The exchange-rate movement occurred amid global risk aversion, capital-flow pressures and geopolitical uncertainty. The rupee's movement was not unique among Asian currencies, several of which also weakened against the dollar.",
+    "impact": "The exchange-rate movement affected India's foreign-exchange market and import costs. Mumbai is used as the RBI's institutional location.",
+    "sources": [
+      {
+        "label": "Lok Sabha — Government statement on rupee depreciation, 30 March 2026",
+        "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AS504_JzAqfC.pdf?source=pqals"
+      }
+    ]
+  },
+  {
+    "id": "sebi-mps-relaxation-2026",
+    "date": "2026-04-07",
+    "year": 2026,
+    "title": "SEBI relaxes compliance framework for minimum public shareholding",
+    "category": "policy",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "entity": "Securities and Exchange Board of India (SEBI)",
+    "scope": "national",
+    "summary": "On 7 April 2026, SEBI issued a circular providing relaxation from specified provisions of its master circular relating to non-compliance with minimum public shareholding requirements under the Listing Obligations and Disclosure Requirements framework.",
+    "why": "Minimum public shareholding rules are intended to support public float and market liquidity. The circular adjusted the compliance framework for specified cases; it should not be described as a blanket removal of minimum public shareholding requirements.",
+    "impact": "The regulatory circular applies to the relevant listed entities and market participants under SEBI's jurisdiction.",
+    "sources": [
+      {
+        "label": "SEBI — Circular on relaxation of Minimum Public Shareholding compliance, 7 April 2026",
+        "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/relaxation-from-the-applicability-of-sebi-master-circular-for-compliance-with-the-provisions-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015-on-non-compliance-with-the-_100787.html"
+      }
+    ]
+  },
+  {
     "id": "rbi-repo-hold-2026-aug",
     "date": "2026-08-05",
     "year": 2026,
@@ -307,6 +475,166 @@
       {
         "label": "RBI — Monetary Policy Statement, 5 August 2026",
         "url": "https://rbi.org.in/scripts/FS_PressRelease.aspx?fn=2752&prid=63287"
+      }
+    ]
+  },
+  {
+    "id": "imf-world-bank-bangkok-2026",
+    "date": "2026-10-12",
+    "year": 2026,
+    "title": "IMF and World Bank hold their 2026 Annual Meetings in Bangkok",
+    "category": "global",
+    "city": "Bangkok",
+    "region": "Bangkok",
+    "country": "Thailand",
+    "countryCode": "THA",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "entity": "International Monetary Fund; World Bank Group; Government of Thailand",
+    "scope": "global",
+    "summary": "The 2026 Annual Meetings of the IMF and World Bank Group took place in Bangkok from 12 to 18 October 2026, bringing together finance ministers, central bankers, development leaders, private-sector representatives and civil society.",
+    "why": "The meetings provide a major forum for discussions on the global economic outlook, financial stability, development finance and international economic cooperation.",
+    "impact": "The event was hosted in Bangkok and convened participants from member economies around the world.",
+    "sources": [
+      {
+        "label": "IMF — 2026 Annual Meetings",
+        "url": "https://www.imf.org/en/meetings/2026/annual"
+      },
+      {
+        "label": "World Bank — 2026 Annual Meetings venue and dates",
+        "url": "https://www.worldbank.org/en/meetings/splash/annual/venue"
+      }
+    ]
+  },
+  {
+    "id": "meta-equity-financing-2026",
+    "date": "2026-10-26",
+    "year": 2026,
+    "title": "Meta outlines a $97.5 billion equity financing plan",
+    "category": "global",
+    "city": "Menlo Park",
+    "region": "California",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 37.453,
+    "lng": -122.1817,
+    "entity": "Meta Platforms, Inc.",
+    "scope": "global",
+    "summary": "In October 2026, Meta expanded the planned size of its equity offerings to approximately $97.5 billion to help finance its artificial-intelligence infrastructure expansion. The plan combines public stock and preferred-share offerings with a proposed future at-the-market programme.",
+    "why": "The financing plan illustrates the scale of capital required for AI infrastructure and raises questions about corporate funding, capital expenditure, dilution and the links between technology suppliers and customers.",
+    "impact": "The financing was announced by Meta in the United States and is relevant to global equity and technology-capital markets. The full amount is a planned financing programme, not cash already raised.",
+    "sources": [
+      {
+        "label": "Meta — Financing plan and securities offering announcement",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/"
+      },
+      {
+        "label": "Reuters — Meta's planned $97.5 billion equity raise, 27 October 2026",
+        "url": "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/"
+      }
+    ]
+  },
+  {
+    "id": "hong-kong-fintech-week-2026",
+    "date": "2026-11-02",
+    "year": 2026,
+    "title": "Hong Kong FinTech Week 2026 convenes global finance and technology leaders",
+    "category": "global",
+    "city": "Hong Kong",
+    "region": "Hong Kong",
+    "country": "Hong Kong",
+    "countryCode": "HKG",
+    "lat": 22.3027,
+    "lng": 114.1772,
+    "entity": "Invest Hong Kong; Hong Kong SAR Government",
+    "scope": "global",
+    "summary": "Hong Kong FinTech Week x StartmeupHK 2026 ran from 2 to 6 November, with its main conference at the Hong Kong Convention and Exhibition Centre and related events across the city and Greater Bay Area.",
+    "why": "The gathering connects financial institutions, regulators, technology companies, investors and start-ups, highlighting Hong Kong's role as a cross-border financial and innovation hub.",
+    "impact": "The event was centred in Hong Kong and drew participants from international markets.",
+    "sources": [
+      {
+        "label": "Hong Kong FinTech Week — Official 2026 event details",
+        "url": "https://www.hongkong-fintech.hk/en/events/events-2026/hong-kong-fintech-week-x-startmeuphk-2026/"
+      }
+    ]
+  },
+  {
+    "id": "goldman-partner-class-2026",
+    "date": "2026-11-05",
+    "year": 2026,
+    "title": "Goldman Sachs announces its Partner Class of 2026",
+    "category": "global",
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "entity": "Goldman Sachs",
+    "scope": "global",
+    "summary": "On 5 November 2026, Goldman Sachs announced a Partner Class of 109 individuals who are scheduled to become partners on 1 January 2027.",
+    "why": "The partner class is a significant governance and leadership milestone at one of the world's major investment banks, reflecting the firm's internal partnership structure and global business footprint.",
+    "impact": "The announcement was made in New York and includes leaders from multiple global offices and business divisions.",
+    "sources": [
+      {
+        "label": "Goldman Sachs — Announces Partner Class of 2026, 5 November 2026",
+        "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/gs-partner-class-2026"
+      }
+    ]
+  },
+  {
+    "id": "singapore-fintech-festival-2026",
+    "date": "2026-11-18",
+    "year": 2026,
+    "title": "Singapore FinTech Festival 2026",
+    "category": "global",
+    "city": "Singapore",
+    "region": "Singapore",
+    "country": "Singapore",
+    "countryCode": "SGP",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "entity": "Monetary Authority of Singapore; Global Finance & Technology Network; Association of Banks in Singapore",
+    "scope": "global",
+    "summary": "The Singapore FinTech Festival 2026 is scheduled for 18 to 20 November at Singapore EXPO. The event convenes leaders from finance, technology and public policy to discuss the forces reshaping the financial system.",
+    "why": "The festival is a major international meeting point for financial institutions, regulators, fintech companies and investors, with themes spanning geoeconomics, technology, capital, talent and policy.",
+    "impact": "The event is scheduled to take place in Singapore and is expected to attract international participants.",
+    "sources": [
+      {
+        "label": "Singapore FinTech Festival — Official 2026 dates and venue",
+        "url": "https://www.fintechfestival.sg/faq"
+      },
+      {
+        "label": "Monetary Authority of Singapore — SFF 2026 announcement",
+        "url": "https://www.mas.gov.sg/development/fintech/singapore-fintech-festival"
+      }
+    ]
+  },
+  {
+    "id": "india-finance-conference-2026",
+    "date": "2026-12-21",
+    "year": 2026,
+    "title": "15th India Finance Conference at IIM Bangalore",
+    "category": "global",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "entity": "Indian Finance Association; IIM Bangalore; IIM Ahmedabad; IIM Calcutta",
+    "scope": "national",
+    "summary": "The 15th India Finance Conference is scheduled for 21 to 23 December 2026 at IIM Bangalore, with pre-conference tutorials on 20 December. The annual conference brings together researchers and practitioners across areas of finance.",
+    "why": "The conference provides a forum for academic and practitioner research in asset pricing, corporate finance, financial crises, systemic risk, financial econometrics and related fields.",
+    "impact": "The 2026 edition is scheduled to be hosted in Bengaluru, India.",
+    "sources": [
+      {
+        "label": "IIM Bangalore — 15th India Finance Conference 2026",
+        "url": "https://iimb-hrm.iimb.ac.in/IFC_2026/home.htm"
+      },
+      {
+        "label": "Indian Finance Association — IFC 2026",
+        "url": "https://indiafa.org/event/india-finance-conference-ifc-2026/"
       }
     ]
   }
