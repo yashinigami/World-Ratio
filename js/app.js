@@ -1022,87 +1022,36 @@ const STOCK_RELATED_TERMS = {
  "Volume":["Liquidity","Market breadth","VWAP (volume-weighted average price)"]
 };
 
-function initStockNotebook(){
-  const left=document.getElementById("notebook-left-terms");
-  if(!left) return;
-  const right=document.getElementById("notebook-right-terms");
-  const search=document.getElementById("stock-term-search");
-  const prev=document.getElementById("notebook-prev");
-  const next=document.getElementById("notebook-next");
-  const status=document.getElementById("notebook-spread-status");
-  const searchStatus=document.getElementById("stock-search-status");
-  const sorted=[...STOCK_TERMS].sort((a,b)=>a.term.localeCompare(b.term,undefined,{sensitivity:"base"}));
-  let page=0;
-  let filtered=sorted;
-
-  const renderSide=(items,start)=>items.map((item,index)=>`
-    <button class="notebook-term" type="button" data-term="${encodeURIComponent(item.term)}">
-      <span class="notebook-term-index">${String(start+index+1).padStart(2,"0")}</span>
-      <span class="notebook-term-name">${item.term}</span>
-      <span class="notebook-term-arrow">↗</span>
-    </button>`).join("");
-
-  function render(){
-    const pages=Math.max(1,Math.ceil(filtered.length/20));
-    page=Math.min(page,pages-1);
-    const chunk=filtered.slice(page*20,page*20+20);
-    left.innerHTML=renderSide(chunk.slice(0,10),page*20);
-    right.innerHTML=renderSide(chunk.slice(10,20),page*20+10);
-    document.getElementById("notebook-page-left-number").textContent=chunk.length?String(page*20+1).padStart(2,"0")+"—"+String(page*20+Math.min(10,chunk.length)).padStart(2,"0"):"—";
-    document.getElementById("notebook-page-right-number").textContent=chunk.length>10?String(page*20+11).padStart(2,"0")+"—"+String(page*20+chunk.length).padStart(2,"0"):"—";
-    document.getElementById("notebook-page-count").textContent="PAGE "+String(page+1).padStart(2,"0");
-    status.textContent="SPREAD "+(page+1)+" OF "+pages;
-    prev.disabled=page===0;
-    next.disabled=page>=pages-1;
-    searchStatus.textContent=search.value.trim()?filtered.length+" matching term"+(filtered.length===1?"":"s")+" · alphabetically arranged":sorted.length+" terms · alphabetically arranged · 10 terms per page";
-    if(!chunk.length){
-      left.innerHTML='<p class="notebook-no-results">No terms found. Try another word.</p>';
-      right.innerHTML='<p class="notebook-no-results">Your next discovery might be one search away.</p>';
-    }
-  }
-  function showTerm(term){
-    const item=sorted.find(t=>t.term===term);
-    if(!item) return;
-    const modal=document.getElementById("stock-term-modal");
-    modal.querySelector(".stock-term-category").textContent="FROM THE STOCK MARKET NOTEBOOK";
-    modal.querySelector(".stock-term-title").textContent=item.term;
-    modal.querySelector(".stock-term-meaning").textContent=item.meaning;
-    modal.querySelector(".stock-term-simple").textContent=item.simple || STOCK_SIMPLE_EXPLANATIONS[item.term] || "In everyday language: " + item.meaning;
-    modal.querySelector(".stock-term-real").textContent=item.real;
-    const related=modal.querySelector(".stock-term-related");
-    const suggestions=(STOCK_RELATED_TERMS[item.term] || ["Diversification","Risk appetite","Portfolio"]).filter(name=>sorted.some(t=>t.term===name && t.term!==item.term));
-    related.innerHTML=suggestions.length ? suggestions.map(name=>'<button class="stock-related-term" type="button" data-related-term="'+encodeURIComponent(name)+'">'+name+'</button>').join("") : '<span class="stock-related-empty">Keep exploring the glossary for connected ideas.</span>';
-    const link=modal.querySelector(".stock-term-more");
-    link.href=item.url;
-    modal.classList.add("is-open");
-    modal.setAttribute("aria-hidden","false");
-    document.body.classList.add("stock-term-open");
-  }
-  function closeTerm(){
-    const modal=document.getElementById("stock-term-modal");
-    modal.classList.remove("is-open");
-    modal.setAttribute("aria-hidden","true");
-    document.body.classList.remove("stock-term-open");
-  }
-  document.addEventListener("click",e=>{
-    const related=e.target.closest(".stock-related-term");
-    if(related){showTerm(decodeURIComponent(related.dataset.relatedTerm));return;}
-    const button=e.target.closest(".notebook-term");
-    if(button) showTerm(decodeURIComponent(button.dataset.term));
-    if(e.target.closest("[data-close-stock-term]")) closeTerm();
-  });
-  document.addEventListener("keydown",e=>{if(e.key==="Escape") closeTerm();});
-  search.addEventListener("input",()=>{
-    const q=search.value.trim().toLowerCase();
-    filtered=sorted.filter(t=>!q||t.term.toLowerCase().includes(q)||t.meaning.toLowerCase().includes(q)||(t.simple||STOCK_SIMPLE_EXPLANATIONS[t.term]||"").toLowerCase().includes(q)||t.real.toLowerCase().includes(q));
-    page=0;render();
-  });
-  document.getElementById("clear-stock-search").addEventListener("click",()=>{search.value="";filtered=sorted;page=0;render();search.focus();});
-  prev.addEventListener("click",()=>{if(page>0){page--;render();}});
-  next.addEventListener("click",()=>{if((page+1)*20<filtered.length){page++;render();}});
-  render();
+function stockTermCategory(term){
+ const t=term.toLowerCase();
+ if(/pe ratio|p\/e|pb ratio|p\/b|price-to-earnings|price-to-book|book value|face value|earnings per share|\beps\b|\broe\b|return on equity|market capitalisation|market price per share|\bcagr\b|dividend yield|dividend|enterprise value/.test(t))return "Valuation";
+ if(/rsi|macd|moving average|bollinger|support|resistance|technical|vwap|volume|market breadth|indicator|trendline/.test(t))return "Technical Analysis";
+ if(/future|option|call option|put option|open interest|derivative|margin/.test(t))return "Derivatives";
+ if(/mutual fund|sip|systematic investment|net asset value|\bnav\b|expense ratio|exchange-traded fund|\betf\b/.test(t))return "Mutual Funds";
+ if(/bond|yield to maturity|\bytm\b|coupon|fixed income|treasury/.test(t))return "Bonds";
+ return "Trading Basics";
 }
-initStockNotebook();
+function initStockNotebook(){
+ const left=document.getElementById("notebook-left-terms");if(!left)return;
+ const right=document.getElementById("notebook-right-terms"),search=document.getElementById("stock-term-search"),prev=document.getElementById("notebook-prev"),next=document.getElementById("notebook-next"),status=document.getElementById("notebook-spread-status"),searchStatus=document.getElementById("stock-search-status");
+ const sorted=[...STOCK_TERMS].sort((a,b)=>a.term.localeCompare(b.term,undefined,{sensitivity:"base"}));let page=0,selectedCategory="all",filtered=sorted;
+ const renderSide=(items,start)=>items.map((item,index)=>'<button class="notebook-term" type="button" data-term="'+encodeURIComponent(item.term)+'"><span class="notebook-term-index">'+String(start+index+1).padStart(2,"0")+'</span><span class="notebook-term-name">'+item.term+'</span><span class="notebook-term-arrow">↗</span></button>').join("");
+ function render(){const pages=Math.max(1,Math.ceil(filtered.length/20));page=Math.min(page,pages-1);const chunk=filtered.slice(page*20,page*20+20);left.innerHTML=renderSide(chunk.slice(0,10),page*20);right.innerHTML=renderSide(chunk.slice(10,20),page*20+10);
+ document.getElementById("notebook-page-left-number").textContent=chunk.length?String(page*20+1).padStart(2,"0")+"—"+String(page*20+Math.min(10,chunk.length)).padStart(2,"0"):"—";
+ document.getElementById("notebook-page-right-number").textContent=chunk.length>10?String(page*20+11).padStart(2,"0")+"—"+String(page*20+chunk.length).padStart(2,"0"):"—";
+ document.getElementById("notebook-page-count").textContent="PAGE "+String(page+1).padStart(2,"0");status.textContent="SPREAD "+(page+1)+" OF "+pages;prev.disabled=page===0;next.disabled=page>=pages-1;
+ searchStatus.textContent=filtered.length+" terms · "+(selectedCategory==="all"?"all categories":selectedCategory)+" · alphabetically arranged";
+ if(!chunk.length){left.innerHTML='<p class="notebook-no-results">No terms found. Try another word.</p>';right.innerHTML='<p class="notebook-no-results">Your next discovery might be one search away.</p>';}}
+ function applyFilters(){const q=search.value.trim().toLowerCase();filtered=sorted.filter(t=>(selectedCategory==="all"||stockTermCategory(t.term)===selectedCategory)&&(!q||t.term.toLowerCase().includes(q)||t.meaning.toLowerCase().includes(q)||(t.simple||STOCK_SIMPLE_EXPLANATIONS[t.term]||"").toLowerCase().includes(q)||t.real.toLowerCase().includes(q)));page=0;render();}
+ function showTerm(term){const item=sorted.find(t=>t.term===term);if(!item)return;const modal=document.getElementById("stock-term-modal");modal.querySelector(".stock-term-category").textContent=stockTermCategory(item.term).toUpperCase()+" · STOCK MARKET NOTEBOOK";modal.querySelector(".stock-term-title").textContent=item.term;modal.querySelector(".stock-term-meaning").textContent=item.meaning;modal.querySelector(".stock-term-simple").textContent=item.simple||STOCK_SIMPLE_EXPLANATIONS[item.term]||"In everyday language: "+item.meaning;modal.querySelector(".stock-term-real").textContent=item.real;
+ const related=modal.querySelector(".stock-term-related"),suggestions=(STOCK_RELATED_TERMS[item.term]||["Diversification","Risk appetite","Portfolio"]).filter(name=>sorted.some(t=>t.term===name&&t.term!==item.term));related.innerHTML=suggestions.length?suggestions.map(name=>'<button class="stock-related-term" type="button" data-related-term="'+encodeURIComponent(name)+'">'+name+'</button>').join(""):'<span class="stock-related-empty">Keep exploring the glossary for connected ideas.</span>';modal.querySelector(".stock-term-more").href=item.url;modal.classList.add("is-open");modal.setAttribute("aria-hidden","false");document.body.classList.add("stock-term-open");}
+ function closeTerm(){const modal=document.getElementById("stock-term-modal");modal.classList.remove("is-open");modal.setAttribute("aria-hidden","true");document.body.classList.remove("stock-term-open");}
+ document.addEventListener("click",e=>{const related=e.target.closest(".stock-related-term");if(related){showTerm(decodeURIComponent(related.dataset.relatedTerm));return;}const button=e.target.closest(".notebook-term");if(button){showTerm(decodeURIComponent(button.dataset.term));return;}const cat=e.target.closest("[data-term-category]");if(cat){selectedCategory=cat.dataset.termCategory;document.querySelectorAll("[data-term-category]").forEach(b=>b.classList.toggle("is-active",b===cat));applyFilters();return;}if(e.target.closest("[data-close-stock-term]"))closeTerm();});
+ document.addEventListener("keydown",e=>{if(e.key==="Escape")closeTerm();});search.addEventListener("input",applyFilters);
+ document.getElementById("clear-stock-search").addEventListener("click",()=>{search.value="";selectedCategory="all";document.querySelectorAll("[data-term-category]").forEach(b=>b.classList.toggle("is-active",b.dataset.termCategory==="all"));applyFilters();search.focus();});
+ prev.addEventListener("click",()=>{if(page>0){page--;render();}});next.addEventListener("click",()=>{if((page+1)*20<filtered.length){page++;render();}});render();
+}
+initStockNotebook();;
 
 /* Make Divy's welcome layer dismiss reliably from any background click or key. */
 (function hardenDivyWelcome(){
@@ -1124,3 +1073,8 @@ initStockNotebook();
   },true);
   document.addEventListener("keydown",event=>{if(event.key==="Escape")dismiss();});
 })();
+
+/* Live calculations for the notebook's educational formula examples. */
+(function(){document.querySelectorAll("[data-calculator]").forEach(card=>{function update(){const n=k=>Number(card.querySelector('[data-field="'+k+'"]').value);let v=NaN,s="%",k=card.dataset.calculator;
+if(k==="pe"){v=n("price")/n("eps");s="×";}if(k==="pb"){v=n("price")/n("book");s="×";}if(k==="roe")v=n("income")/n("equity")*100;if(k==="eps"){v=n("income")/n("shares");s="";}if(k==="cagr")v=(Math.pow(n("end")/n("start"),1/n("years"))-1)*100;if(k==="ytm")v=((n("coupon")+(n("face")-n("price"))/n("years"))/((n("face")+n("price"))/2))*100;
+card.querySelector("output").textContent=Number.isFinite(v)?(k==="eps"?"₹":"")+v.toFixed(2)+s:"Enter valid positive values";}card.addEventListener("input",update);update();});})();
