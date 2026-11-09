@@ -642,3 +642,7 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 .notebook-formula-card small{display:block;margin-top:12px;color:#8b6877;line-height:1.55;font-size:11px}
 .misconception-card h3{font-size:21px;line-height:1.35}.misconception-card p{font-size:13px;line-height:1.65;color:#795466;margin:10px 0 0}.misconception-card p strong{color:#a04e6c}
 @media(max-width:700px){.notebook-formula-grid,.misconception-grid{grid-template-columns:1fr}.notebook-category-section{padding:24px 16px}.notebook-formula-card,.misconception-card{padding:21px}}
+
+/* Quiz: selected choice stays neutral until the end-of-quiz review. */
+.quiz-option[aria-pressed="true"]{background:#f8e5eb;border-color:#c77d96;box-shadow:inset 0 0 0 1px #c77d96}
+.quiz-option[aria-pressed="true"] .quiz-option-letter{background:#e9c2cf;color:#7e3d58}
