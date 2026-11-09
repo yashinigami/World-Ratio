@@ -1274,3 +1274,8 @@ nav.section-jump-nav a,nav.notebook-jump-nav a{
     letter-spacing:.1em;
   }
 }
+
+
+/* Keep in-page quick-link destinations clear of the sticky site header. */
+main .view [id]{scroll-margin-top:96px}
+@media(max-width:800px){main .view [id]{scroll-margin-top:82px}}
