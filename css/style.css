@@ -623,3 +623,22 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 .quiz-review-correct b{color:#527d5c}
 .quiz-review-explanation{margin:15px 0 0;padding-top:13px;border-top:1px dashed #ead1d8;color:#684354;font-size:14px;line-height:1.7}
 @media(max-width:520px){.quiz-review-item{padding:17px}.quiz-review-item h3{font-size:19px}.quiz-review-answer{display:block}.quiz-review-answer span{display:block;margin-bottom:3px}}
+
+/* Notebook category chapters, interactive formulas and misconceptions. */
+.notebook-category-section,.notebook-formula-section,.notebook-misconceptions{max-width:1120px;margin:42px auto 0}
+.notebook-category-section{text-align:center;padding:28px 24px;background:#fff8f5;border:1px solid #edd4da;border-radius:24px}
+.notebook-category-section h2,.notebook-formula-section .strategy-heading h2,.notebook-misconceptions .strategy-heading h2{font:400 clamp(27px,4vw,38px) Georgia,serif;color:#542d40;margin:8px 0}
+.notebook-category-section>p{color:#805c6b;margin:0 auto 18px}.notebook-category-filters{display:flex;flex-wrap:wrap;justify-content:center;gap:9px}
+.notebook-category-chip{border:1px solid #dfb6c2;background:#fffdfb;color:#89536a;border-radius:999px;padding:9px 15px;font:600 12px var(--sans);cursor:pointer}
+.notebook-category-chip:hover,.notebook-category-chip.is-active{background:#f0d7df;border-color:#c9879c;color:#713b53}
+.notebook-formula-grid,.misconception-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.notebook-formula-card,.misconception-card{padding:24px 26px;background:#fff9f5;border:1px solid #ead0d7;border-radius:18px;box-shadow:0 5px 16px rgba(84,45,64,.04)}
+.notebook-formula-card>span,.misconception-card>span{font-size:9px;letter-spacing:.14em;color:#b16c84;font-weight:700}
+.notebook-formula-card h3,.misconception-card h3{font:400 25px Georgia,serif;color:#542d40;margin:9px 0}
+.notebook-formula-card>p{font-size:12px;line-height:1.5;color:#8b6173;min-height:36px}
+.formula-inputs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}.formula-inputs label{display:grid;gap:5px;color:#8b6173;font-size:11px}
+.formula-inputs input{width:100%;min-width:0;padding:9px 10px;border:1px solid #e2c2cc;border-radius:9px;background:#fff;color:#542d40;font:13px var(--sans)}
+.notebook-formula-card output{display:block;padding:12px 14px;background:#f4e0e6;border-radius:12px;color:#8d4562;font:600 27px Georgia,serif}
+.notebook-formula-card small{display:block;margin-top:12px;color:#8b6877;line-height:1.55;font-size:11px}
+.misconception-card h3{font-size:21px;line-height:1.35}.misconception-card p{font-size:13px;line-height:1.65;color:#795466;margin:10px 0 0}.misconception-card p strong{color:#a04e6c}
+@media(max-width:700px){.notebook-formula-grid,.misconception-grid{grid-template-columns:1fr}.notebook-category-section{padding:24px 16px}.notebook-formula-card,.misconception-card{padding:21px}}
