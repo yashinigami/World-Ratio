@@ -603,3 +603,23 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 @media(max-width:520px){.quiz-view{padding:42px 18px 65px}.quiz-title-row{display:block}.quiz-doodle{display:block;margin-top:15px}.quiz-play-top{font-size:10px}.quiz-result-actions{flex-direction:column;align-items:stretch}.quiz-result-actions .button{width:100%}}
 
 .home-quiz-cta{display:flex;justify-content:center;margin:4px auto 28px}.home-quiz-cta .button{font-size:13px}
+
+
+/* Quiz answer review appears only after the final score. */
+.quiz-review-section{margin:42px auto 10px;padding-top:30px;border-top:1px dashed #dbaab8;text-align:left}
+.quiz-review-heading-row h2{font-family:Georgia,serif;font-size:clamp(27px,4vw,38px);font-weight:400;color:#542d40;margin:8px 0}
+.quiz-review-heading-row p{color:#805c6b;line-height:1.5;margin:0 0 22px}
+.quiz-review-list{display:grid;gap:14px}
+.quiz-review-item{background:#fffaf7;border:1px solid #ecd4d9;border-radius:22px;padding:20px 22px}
+.quiz-review-item.is-right{border-left:5px solid #82a88a}
+.quiz-review-item.is-wrong{border-left:5px solid #c77d96}
+.quiz-review-top{display:flex;justify-content:space-between;gap:12px;font-size:10px;letter-spacing:.12em;color:#a36b80}
+.quiz-review-item.is-right .quiz-review-top strong{color:#527d5c}
+.quiz-review-item.is-wrong .quiz-review-top strong{color:#a64f70}
+.quiz-review-item h3{font-family:Georgia,serif;font-weight:400;font-size:21px;line-height:1.35;color:#542d40;margin:12px 0}
+.quiz-review-answer{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;margin:7px 0;color:#805c6b;font-size:14px}
+.quiz-review-answer span{min-width:105px;color:#a36b80;font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.quiz-review-answer b{font-weight:600;color:#684354}
+.quiz-review-correct b{color:#527d5c}
+.quiz-review-explanation{margin:15px 0 0;padding-top:13px;border-top:1px dashed #ead1d8;color:#684354;font-size:14px;line-height:1.7}
+@media(max-width:520px){.quiz-review-item{padding:17px}.quiz-review-item h3{font-size:19px}.quiz-review-answer{display:block}.quiz-review-answer span{display:block;margin-bottom:3px}}
