@@ -401,6 +401,11 @@
         <button type="button" class="archive-category is-active" data-archive-category="all">All pages</button>
         <button type="button" class="archive-category" data-archive-category="moments">Financial moments</button>
         <button type="button" class="archive-category" data-archive-category="people">People</button>
+        <button type="button" class="archive-category" data-archive-category="people-banking">Banking founders</button>
+        <button type="button" class="archive-category" data-archive-category="people-investors">Market visionaries</button>
+        <button type="button" class="archive-category" data-archive-category="people-policy">Policymakers</button>
+        <button type="button" class="archive-category" data-archive-category="people-tech">Tech &amp; crypto</button>
+        <button type="button" class="archive-category" data-archive-category="people-theory">Theoretical architects</button>
         <button type="button" class="archive-category" data-archive-category="places">Places</button>
         <button type="button" class="archive-category" data-archive-category="art">Art &amp; sculpture</button>
       </div>
@@ -518,7 +523,6 @@ ray-dalio|Ray Dalio|Market visionary & investor|Ray Dalio founded Bridgewater As
 rakesh-jhunjhunwala|Rakesh Jhunjhunwala|Market visionary & investor|Rakesh Jhunjhunwala became one of India's best-known individual investors. His career is closely associated with India's expanding equity culture and public markets.
 jim-simons|Jim Simons|Market visionary & investor|Jim Simons founded Renaissance Technologies and helped pioneer quantitative investing. His use of mathematics, statistics and computing transformed systematic trading.
 alexander-hamilton|Alexander Hamilton|Systemic policymaker & central banker|As the first U.S. Treasury Secretary, Alexander Hamilton established a national financial system, addressed Revolutionary War debts and helped create the First Bank of the United States.
-john-maynard-keynes-archive|John Maynard Keynes|Systemic policymaker & central banker|John Maynard Keynes reshaped macroeconomics by explaining how demand, employment and government policy interact, transforming debates about recessions and recovery.
 paul-volcker|Paul Volcker|Systemic policymaker & central banker|As Federal Reserve Chair, Paul Volcker led the forceful monetary tightening of the early 1980s to bring down entrenched U.S. inflation, at the cost of a severe recession.
 alan-greenspan|Alan Greenspan|Systemic policymaker & central banker|Alan Greenspan chaired the U.S. Federal Reserve from 1987 to 2006, a period marked by major changes in monetary policy, financial markets and debates about asset bubbles.
 ben-bernanke|Ben Bernanke|Systemic policymaker & central banker|Ben Bernanke led the Federal Reserve during the 2008 global financial crisis. Emergency lending, asset purchases and policy responses became central to modern crisis management.
@@ -580,7 +584,8 @@ ifc-seoul|IFC Seoul|Seoul, South Korea|IFC Seoul is a major office and retail co
         "fearless-girl":"art",
         "eccles-building":"places",
         "wall-street-1969":"places",
-        ...Object.fromEntries(archivePeople.map(([id])=>[id,"people"])),
+        ...Object.fromEntries(archivePeople.map(([id,title,group])=>[id,group.startsWith("Banking")?"people-banking":group.startsWith("Market")?"people-investors":group.startsWith("Systemic")?"people-policy":group.startsWith("Modern")?"people-tech":"people-theory"])),
+        "john-maynard-keynes":"people-policy",
         ...Object.fromEntries(archivePlaces.map(([id])=>[id,"places"]))
       };
       let currentCategory="all";
@@ -592,7 +597,7 @@ ifc-seoul|IFC Seoul|Seoul, South Korea|IFC Seoul is a major office and retail co
       const previousButton=document.getElementById("archive-prev");
       const nextButton=document.getElementById("archive-next");
       const categoryButtons=[...document.querySelectorAll("[data-archive-category]")];
-      const archiveItems=()=>Object.entries(entries).filter(([key])=>currentCategory==="all"||categories[key]===currentCategory);
+      const archiveItems=()=>Object.entries(entries).filter(([key])=>currentCategory==="all"||(currentCategory==="people"&&String(categories[key]||"").startsWith("people-"))||categories[key]===currentCategory);
       function renderSpread(){
         const items=archiveItems();
         const total=Math.max(1,Math.ceil(items.length/2));
