@@ -536,3 +536,15 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 #divy-welcome .divy-message,
 #divy-welcome .divy-character,
 #divy-welcome .divy-dismiss-hint{pointer-events:auto!important}
+
+
+/* Stock notebook: clear three-step explanations and clickable related terms. */
+.stock-term-card .stock-term-section{margin:18px 0}
+.stock-term-card .stock-term-section>span,
+.stock-term-related-label{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--rose);font-weight:700;margin-bottom:7px}
+.stock-term-card .stock-term-section p{margin:0;line-height:1.58}
+.stock-term-related-wrap{margin:22px 0 16px;padding-top:16px;border-top:1px dashed var(--line)}
+.stock-term-related{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}
+.stock-related-term{font:inherit;font-size:13px;color:var(--berry);background:#fff7f5;border:1px solid #e8b5c1;border-radius:999px;padding:7px 12px;cursor:pointer;transition:background .2s,transform .2s}
+.stock-related-term:hover{background:#f8e2e7;transform:translateY(-1px)}
+.stock-related-empty{font-size:13px;color:var(--muted)}
