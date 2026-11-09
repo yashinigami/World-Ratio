@@ -256,3 +256,14 @@ a{color:inherit}
  .archive-note{grid-column:1/-1}
  .map-legend{border-radius:10px}
 }
+
+/* Little illustrated stamps keep the archive playful without crowding the data. */
+.turning-card,.event-card{position:relative;overflow:hidden}
+.turning-card::after,.event-card::after{
+ content:"";position:absolute;right:10px;top:12px;width:43px;height:43px;
+ background:url("../assets/finance-flower-doodle.svg") center/contain no-repeat;
+ opacity:.20;pointer-events:none;transform:rotate(9deg)
+}
+.turning-card{padding-right:64px}
+.turning-card .event-place{position:relative;z-index:1}
+.archive-photo a{color:#A64F70}
