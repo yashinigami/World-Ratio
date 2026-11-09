@@ -744,3 +744,93 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 #finance-publications{scroll-margin-top:25px}
 @media(max-width:900px){.home-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.finance-publications{padding-left:20px;padding-right:20px}}
 @media(max-width:600px){.home-grid{grid-template-columns:1fr}.feature-card{min-height:260px}.finance-publication-grid{grid-template-columns:1fr}.finance-publication-card{min-height:205px;padding:21px}.learning-intro{margin-left:18px;margin-right:18px;padding:19px}.finance-publications>h2{font-size:29px}}
+
+
+/* Layout repair: prevent navigation and page content from escaping the viewport. */
+html,body{width:100%;max-width:100%;overflow-x:clip}
+body{min-width:320px}
+.view{width:100%;max-width:100%;min-width:0}
+.view>*{min-width:0}
+.page-heading{width:100%;max-width:100%;min-width:0;flex-wrap:wrap;align-items:flex-end}
+.page-heading>div{min-width:0;max-width:100%}
+.page-heading h1{max-width:100%;overflow-wrap:break-word}
+nav.section-jump-nav,nav.notebook-jump-nav{
+  box-sizing:border-box;width:calc(100% - 40px);max-width:1120px;min-width:0;
+  margin:0 auto 26px;padding:14px 16px;display:flex;flex-flow:row wrap;
+  justify-content:flex-start;align-items:center;gap:9px;overflow:visible;
+}
+nav.section-jump-nav a,nav.notebook-jump-nav a{
+  flex:0 1 auto;max-width:100%;min-width:0;white-space:normal;
+  overflow-wrap:anywhere;line-height:1.35;padding:8px 13px;
+}
+.stock-view .page-heading{margin-bottom:22px}
+.notebook-search-wrap,.notebook-desk,.notebook-category-section,.notebook-formula-section,.notebook-misconceptions,.strategy-section,.finance-publications{
+  box-sizing:border-box;width:calc(100% - 40px);max-width:1120px;min-width:0;
+}
+.notebook-book,.notebook-page,.notebook-formula-card,.misconception-card,.strategy-note{min-width:0}
+.about-content{grid-template-columns:minmax(0,.5fr) minmax(0,1.5fr);gap:clamp(24px,5vw,7vw)}
+.about-content>div{min-width:0}
+.about-mark img{width:min(100%,300px);max-width:100%;height:auto}
+.about-contact a{display:inline-block;width:auto;max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+.turning-intro,.turning-detail,.turning-list,.atlas-results,.timeline-panel,.map-shell{min-width:0;max-width:100%}
+.turning-intro{flex-wrap:wrap}
+.finance-publications{margin-left:auto;margin-right:auto}
+.finance-publication-card{min-width:0;overflow-wrap:anywhere}
+.finance-publication-card a{max-width:100%;overflow-wrap:anywhere}
+.divy-character{width:min(35%,320px)}
+.divy-heart{width:min(790px,74vw);margin-left:25%}
+.divy-message{width:76%;max-width:560px;padding-left:22px;padding-right:22px}
+@media(max-width:800px){
+  .page-heading{padding:34px 20px 22px;align-items:flex-start}
+  .page-heading h1{font-size:clamp(36px,8vw,54px);line-height:1.04}
+  .page-heading .button{flex:0 0 auto}
+  nav.section-jump-nav,nav.notebook-jump-nav{width:calc(100% - 36px);padding:12px;gap:8px;justify-content:flex-start}
+  nav.section-jump-nav a,nav.notebook-jump-nav a{font-size:12px;padding:8px 11px}
+  .notebook-search-wrap,.notebook-desk,.notebook-category-section,.notebook-formula-section,.notebook-misconceptions,.strategy-section,.finance-publications{width:calc(100% - 36px)}
+  .notebook-book{grid-template-columns:minmax(0,1fr) 12px minmax(0,1fr)}
+  .notebook-page{padding:22px 16px}
+  .about-content{grid-template-columns:minmax(0,1fr);gap:22px}
+  .about-mark{justify-content:center}
+  .about-mark img{width:min(100%,220px)}
+  .about-content h2{font-size:clamp(28px,6vw,36px)}
+  .about-content p{font-size:16px;overflow-wrap:anywhere}
+  .about-contact{margin-top:24px}
+  .divy-welcome{overflow-y:auto;align-items:start}
+  .divy-welcome-inner{width:min(100%,560px);min-height:0;margin:auto;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:12px 0 28px}
+  .divy-character{position:relative;left:auto;bottom:auto;width:min(38%,190px);max-height:25svh;margin:0 auto -18px;flex:0 0 auto}
+  .divy-heart{width:100%;min-height:0;margin:0;flex:0 0 auto}
+  .divy-heart:before{clip-path:polygon(50% 98%,39% 91%,15% 72%,5% 60%,0 45%,2% 29%,11% 14%,25% 7%,39% 11%,50% 24%,61% 11%,75% 7%,89% 14%,98% 29%,100% 45%,95% 60%,85% 72%,61% 91%)}
+  .divy-message{width:88%;max-width:500px;padding:76px 18px 64px;font-size:14px;line-height:1.48}
+  .divy-message h2{font-size:clamp(25px,6vw,32px)}
+  .divy-dismiss-hint{position:static;margin:10px auto 0;text-align:center}
+}
+@media(max-width:520px){
+  .page-heading{padding:28px 18px 18px;gap:14px}
+  .page-heading h1{font-size:clamp(32px,9vw,44px)}
+  nav.section-jump-nav,nav.notebook-jump-nav{width:calc(100% - 28px);margin-bottom:20px;padding:10px;gap:7px}
+  nav.section-jump-nav a,nav.notebook-jump-nav a{font-size:11px;padding:7px 10px}
+  .notebook-search-wrap,.notebook-desk,.notebook-category-section,.notebook-formula-section,.notebook-misconceptions,.strategy-section,.finance-publications{width:calc(100% - 28px)}
+  .notebook-desk{padding:14px 10px}
+  .notebook-book{grid-template-columns:minmax(0,1fr);gap:10px;filter:none}
+  .notebook-spine{display:none}
+  .notebook-page{min-height:390px;padding:20px 17px;border:1px solid #ead8d7;border-radius:12px}
+  .notebook-page-right{display:none}
+  .notebook-term{grid-template-columns:22px minmax(0,1fr) 18px}
+  .notebook-term-name{font-size:22px}
+  .notebook-controls{gap:10px;flex-wrap:wrap}
+  .notebook-controls button{padding:9px 12px}
+  .formula-inputs{grid-template-columns:minmax(0,1fr)}
+  .notebook-formula-card,.misconception-card{padding:18px}
+  .about-content{margin:12px 18px 34px}
+  .about-content h2{font-size:29px}
+  .about-content p{font-size:15px}
+  .method-card{margin:0 18px;padding:22px 20px}
+  .turning-intro{margin-left:14px;margin-right:14px;padding:20px}
+  .turning-list,.atlas-results{padding-left:14px;padding-right:14px}
+  .divy-welcome{padding:8px}
+  .divy-welcome-inner{padding-top:8px}
+  .divy-character{width:min(34%,150px);max-height:20svh;margin-bottom:-12px}
+  .divy-message{width:91%;padding:62px 12px 52px;font-size:13px}
+  .divy-message p{margin:8px 0}
+  .divy-email{margin-top:5px}
+}
