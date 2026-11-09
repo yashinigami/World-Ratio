@@ -1208,15 +1208,15 @@
     "id": "us-government-shutdown-2025",
     "date": "2025-10-01",
     "year": 2025,
-    "title": "The 2025–2026 U.S. Government Shutdowns and Fiscal Disruptions",
+    "title": "Prolonged United States Government Financial Shutdown & Global Market Impact (2025–2026)",
     "category": "crisis",
     "city": "Washington, D.C.",
-    "region": "District of Columbia",
+    "region": "Washington, D.C.",
     "country": "United States",
     "countryCode": "USA",
     "lat": 38.9072,
     "lng": -77.0369,
-    "entity": "U.S. Congress; U.S. Federal Government",
+    "entity": "U.S. Congress; White House; federal agencies; Congressional Budget Office; Congressional Research Service; financial markets",
     "scope": "national",
     "summary": "A government-wide U.S. funding lapse began on 1 October 2025, at the start of FY2026, and ended when funding legislation was signed on 12 November 2025 after 42 full days. Separate funding lapses followed in 2026: a brief partial lapse in early February and a Department of Homeland Security funding lapse from 14 February to 30 April 2026. These were distinct shutdown episodes, not one continuous government-wide shutdown.",
     "why": "The shutdowns reflected disagreements over appropriations and continuing funding legislation. They affected federal operations, employee pay and public services, while uncertainty about government data releases and spending could complicate economic analysis and market expectations.",
@@ -1237,9 +1237,10 @@
         "country": "United States",
         "lat": 38.9072,
         "lng": -77.0369,
-        "role": "Federal budget negotiations and shutdown epicentre"
+        "role": "Federal budget negotiations and government shutdown epicentre"
       }
-    ]
+    ],
+    "turningPoint": "us-government-shutdown-2025-26"
   },
   {
     "id": "india-banking-npa-low-2025",
@@ -2588,43 +2589,5 @@
       }
     ],
     "turningPoint": "paytm-payments-bank-rbi-2024"
-  },
-  {
-    "id": "us-government-shutdown-2025-26",
-    "date": "2025-10-01",
-    "year": 2025,
-    "title": "Prolonged United States Government Financial Shutdown & Global Market Impact (2025–2026)",
-    "category": "policy",
-    "city": "Washington, D.C.",
-    "region": "Washington, D.C.",
-    "country": "United States",
-    "countryCode": "USA",
-    "lat": 38.9072,
-    "lng": -77.0369,
-    "scope": "national",
-    "epicentres": [
-      {
-        "city": "Washington, D.C.",
-        "country": "United States",
-        "lat": 38.9072,
-        "lng": -77.0369,
-        "role": "Federal budget negotiations and government shutdown epicentre"
-      }
-    ],
-    "entity": "U.S. Congress; White House; federal agencies; Congressional Budget Office; Congressional Research Service; financial markets",
-    "summary": "A government-wide U.S. funding lapse began on 1 October 2025, at the start of FY2026, and ended when funding legislation was signed on 12 November 2025 after 42 full days. Separate funding lapses followed in 2026: a brief partial lapse in early February and a Department of Homeland Security funding lapse from 14 February to 30 April 2026. These were distinct shutdown episodes, not one continuous government-wide shutdown.",
-    "why": "The shutdowns reflected disagreements over appropriations and continuing funding legislation. They affected federal operations, employee pay and public services, while uncertainty about government data releases and spending could complicate economic analysis and market expectations.",
-    "impact": "The 2025 shutdown was the longest government-wide shutdown on record at the time. The later DHS shutdown was a separate partial shutdown. The funding gaps disrupted services and workers and created uncertainty for businesses and investors; the economic effects varied by agency and duration.",
-    "sources": [
-      {
-        "label": "Congressional Research Service — Past Government Shutdowns: Key Resources (updated 2026)",
-        "url": "https://www.everycrsreport.com/reports/R41759.html"
-      },
-      {
-        "label": "Congressional Research Service — The 2025 (FY2026) Government Shutdown: Economic Effects",
-        "url": "https://www.congress.gov/crs_external_products/R/PDF/R48832/R48832.1.pdf"
-      }
-    ],
-    "turningPoint": "us-government-shutdown-2025-26"
   }
 ]
