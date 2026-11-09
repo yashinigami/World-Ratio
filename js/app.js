@@ -709,9 +709,11 @@ function updateYear(year) {
 function route() {
   const hash = location.hash.replace("#", "") || "home";
 
-  document.querySelectorAll(".view").forEach(v =>
-    v.classList.toggle("active", v.id === hash)
-  );
+  document.querySelectorAll(".view").forEach(v => {
+    const active = v.id === hash;
+    v.classList.toggle("active", active);
+    v.style.display = active ? "block" : "none";
+  });
 
   document.querySelectorAll("[data-nav]").forEach(a =>
     a.classList.toggle("active", a.dataset.nav === hash)
