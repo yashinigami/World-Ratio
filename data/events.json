@@ -186,6 +186,58 @@
     "turningPoint": "india-monetary-policy-2025"
   },
   {
+    "id": "rbi-repo-hold-2025-aug",
+    "date": "2025-08-06",
+    "year": 2025,
+    "title": "RBI keeps the policy repo rate at 5.50%",
+    "category": "policy",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "entity": "Reserve Bank of India; Monetary Policy Committee",
+    "scope": "national",
+    "summary": "On 6 August 2025, the Reserve Bank of India's Monetary Policy Committee voted to keep the policy repo rate unchanged at 5.50%. The decision followed its assessment of the evolving macroeconomic situation and the inflation outlook.",
+    "why": "The policy rate is a key instrument used by the RBI to influence monetary and credit conditions. A pause indicates that the committee chose to hold the rate while assessing incoming economic data; it does not mean all lending rates remained unchanged.",
+    "impact": "The decision applied to India's monetary-policy framework nationally. Mumbai is shown as the RBI's headquarters and institutional location, rather than as the geographic limit of the policy's effects.",
+    "sources": [
+      {
+        "label": "RBI — Monetary Policy Statement, 6 August 2025",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60957"
+      }
+    ]
+  },
+  {
+    "id": "union-budget-2026",
+    "date": "2026-02-01",
+    "year": 2026,
+    "title": "India presents the Union Budget for 2026–27",
+    "category": "policy",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "entity": "Ministry of Finance; Government of India",
+    "scope": "national",
+    "summary": "On 1 February 2026, the Union Finance Minister presented India's Union Budget for 2026–27 in Parliament. The budget set out the government's fiscal estimates, taxation proposals and spending priorities for the coming financial year.",
+    "why": "The annual budget influences public expenditure, taxation, borrowing requirements and sectoral policy. Its proposals can affect households, businesses, investors and the government's financing needs, subject to legislative approval and implementation.",
+    "impact": "The budget is a national fiscal policy statement. Its effects depend on the final enacted measures and subsequent implementation across states, sectors and public services.",
+    "sources": [
+      {
+        "label": "Press Information Bureau — Highlights of Union Budget 2026–27",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&lang=1&reg=3"
+      },
+      {
+        "label": "India Budget — Budget Speech 2026–27",
+        "url": "https://www.indiabudget.gov.in/doc/Budget_Speech.pdf"
+      }
+    ]
+  },
+  {
     "id": "rbi-policy-hold-2026",
     "date": "2026-02-06",
     "year": 2026,
@@ -209,5 +261,53 @@
       }
     ],
     "turningPoint": "india-monetary-policy-2026"
+  },
+  {
+    "id": "india-inflation-target-2031",
+    "date": "2026-03-25",
+    "year": 2026,
+    "title": "India retains its 4% inflation target through 2031",
+    "category": "policy",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "entity": "Government of India; Reserve Bank of India",
+    "scope": "national",
+    "summary": "On 25 March 2026, the Government of India, in consultation with the Reserve Bank of India, notified the continuation of the consumer-price inflation target at 4%, with a tolerance band of plus or minus 2 percentage points, for the five years beginning 1 April 2026.",
+    "why": "The inflation target provides the framework for India's flexible inflation-targeting monetary policy regime. It gives the RBI's Monetary Policy Committee a continuing benchmark for assessing price stability while considering growth.",
+    "impact": "The framework applies nationally and shapes the mandate against which monetary policy is assessed. It does not predetermine the repo rate or guarantee that inflation will remain within the tolerance band.",
+    "sources": [
+      {
+        "label": "RBI — Monetary Policy Report, April 2026",
+        "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23800"
+      }
+    ]
+  },
+  {
+    "id": "rbi-repo-hold-2026-aug",
+    "date": "2026-08-05",
+    "year": 2026,
+    "title": "RBI holds the repo rate at 5.25%",
+    "category": "policy",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "entity": "Reserve Bank of India; Monetary Policy Committee",
+    "scope": "national",
+    "summary": "Following its meeting from 3 to 5 August 2026, the Reserve Bank of India's Monetary Policy Committee unanimously kept the policy repo rate unchanged at 5.25% and retained a neutral stance.",
+    "why": "The committee cited its assessment of evolving domestic and global macroeconomic and financial conditions. It noted uncertainty around inflation and growth, including risks linked to the monsoon, geopolitics and global trade policy.",
+    "impact": "The decision applied nationally. Mumbai is used as the RBI's institutional location, not as a claim that the policy effects were limited to the city.",
+    "sources": [
+      {
+        "label": "RBI — Monetary Policy Statement, 5 August 2026",
+        "url": "https://rbi.org.in/scripts/FS_PressRelease.aspx?fn=2752&prid=63287"
+      }
+    ]
   }
 ]
