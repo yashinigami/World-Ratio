@@ -143,7 +143,7 @@
     ).join("") : "";
     $("quiz-feedback").hidden = true;
     $("quiz-next").hidden = true;
-    $("quiz-next").textContent = index === 14 ? "See my score ↗" : "Next question →";
+    $("quiz-next").textContent = index === 14 ? "Finish quiz & see my score ↗" : "Next question →";
     answered = false;
   }
   function chooseAnswer(choice) {
@@ -152,12 +152,13 @@
     const q = questions[index], correct = choice === q[4];
     if(correct) score++;
     answers.push({question:q[0],chosen:choice,correct:q[4]});
-    if(index === 14) {
-      finishQuiz();
-      return;
-    }
-    index++;
-    renderQuestion();
+    // Keep the selected answer visually neutral; reveal no correctness or lesson
+    // until the complete 15-question quiz has been submitted.
+    $("quiz-next").hidden = false;
+    $("quiz-options").querySelectorAll(".quiz-option").forEach(button => {
+      button.disabled = true;
+      button.setAttribute("aria-pressed", Number(button.dataset.answer) === choice ? "true" : "false");
+    });
   }
   function answerReviewMarkup() {
     return answers.map((answer,i) => {
@@ -195,6 +196,15 @@
     ctx.fillStyle = "#f5dde1"; ctx.beginPath(); ctx.arc(1000,180,115,0,Math.PI*2); ctx.fill();
     ctx.fillStyle = "#a64f70"; ctx.font = "bold 34px Georgia"; ctx.textAlign = "center";
     ctx.fillText("WORLD RATIO",600,190);
+    // Tiny scrapbook-style doodles to make the downloadable card feel celebratory.
+    ctx.save(); ctx.strokeStyle = "#c77d96"; ctx.fillStyle = "#f6dce4"; ctx.lineWidth = 7;
+    [[150,180],[1040,420],[160,1110],[1030,1100]].forEach(([x,y],i)=>{
+      ctx.save(); ctx.translate(x,y); ctx.rotate(i%2?-.22:.22);
+      ctx.beginPath(); ctx.moveTo(0,-24); ctx.lineTo(7,-7); ctx.lineTo(24,0); ctx.lineTo(7,7); ctx.lineTo(0,24); ctx.lineTo(-7,7); ctx.lineTo(-24,0); ctx.lineTo(-7,-7); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.restore();
+    });
+    ctx.fillStyle = "#d88da5"; ctx.font = "42px Georgia";
+    ctx.fillText("♡",175,360); ctx.fillText("✦",1025,1010);
+    ctx.restore();
     ctx.fillStyle = "#542d40"; ctx.font = "bold 86px Georgia"; ctx.fillText("FINANCE QUIZ",600,370);
     ctx.fillStyle = "#a64f70"; ctx.font = "32px Georgia"; ctx.fillText(modeNames[mode].toUpperCase()+" EDITION",600,440);
     ctx.fillStyle = "#f5dde1"; ctx.beginPath(); ctx.roundRect(190,520,820,390,54); ctx.fill();
@@ -221,7 +231,12 @@
     if(modeButton){startQuiz(modeButton.dataset.quizMode);return;}
     const option=e.target.closest("[data-answer]");
     if(option){chooseAnswer(Number(option.dataset.answer));return;}
-    if(e.target.closest("#quiz-next")){if(index===14)finishQuiz();else{index++;renderQuestion();}return;}
+    if(e.target.closest("#quiz-next")){
+      if(!answered) return;
+      if(index===14) finishQuiz();
+      else { index++; renderQuestion(); }
+      return;
+    }
     if(e.target.closest("#quiz-download")){downloadScore();return;}
     if(e.target.closest("#quiz-copy-link")){copyQuizLink();return;}
     if(e.target.closest("#quiz-again") || e.target.closest("#quiz-exit")){resetQuiz();return;}
