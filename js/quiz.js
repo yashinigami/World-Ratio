@@ -188,32 +188,34 @@
     $("quiz-review-list").innerHTML = answerReviewMarkup();
     window.scrollTo({top:0,behavior:"smooth"});
   }
-  function downloadScore() {
-    const canvas = document.createElement("canvas"); canvas.width = 1200; canvas.height = 1500;
-    const ctx = canvas.getContext("2d");
-    ctx.fillStyle = "#fff5f1"; ctx.fillRect(0,0,1200,1500);
-    ctx.strokeStyle = "#d79aaa"; ctx.lineWidth = 8; ctx.strokeRect(42,42,1116,1416);
-    ctx.fillStyle = "#f5dde1"; ctx.beginPath(); ctx.arc(1000,180,115,0,Math.PI*2); ctx.fill();
-    ctx.fillStyle = "#a64f70"; ctx.font = "bold 34px Georgia"; ctx.textAlign = "center";
-    ctx.fillText("WORLD RATIO",600,190);
-    // Tiny scrapbook-style doodles to make the downloadable card feel celebratory.
-    ctx.save(); ctx.strokeStyle = "#c77d96"; ctx.fillStyle = "#f6dce4"; ctx.lineWidth = 7;
-    [[150,180],[1040,420],[160,1110],[1030,1100]].forEach(([x,y],i)=>{
-      ctx.save(); ctx.translate(x,y); ctx.rotate(i%2?-.22:.22);
-      ctx.beginPath(); ctx.moveTo(0,-24); ctx.lineTo(7,-7); ctx.lineTo(24,0); ctx.lineTo(7,7); ctx.lineTo(0,24); ctx.lineTo(-7,7); ctx.lineTo(-24,0); ctx.lineTo(-7,-7); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.restore();
-    });
-    ctx.fillStyle = "#d88da5"; ctx.font = "42px Georgia";
-    ctx.fillText("♡",175,360); ctx.fillText("✦",1025,1010);
-    ctx.restore();
-    ctx.fillStyle = "#542d40"; ctx.font = "bold 86px Georgia"; ctx.fillText("FINANCE QUIZ",600,370);
-    ctx.fillStyle = "#a64f70"; ctx.font = "32px Georgia"; ctx.fillText(modeNames[mode].toUpperCase()+" EDITION",600,440);
-    ctx.fillStyle = "#f5dde1"; ctx.beginPath(); ctx.roundRect(190,520,820,390,54); ctx.fill();
-    ctx.fillStyle = "#a64f70"; ctx.font = "bold 210px Georgia"; ctx.fillText(score+"/15",600,790);
-    ctx.fillStyle = "#542d40"; ctx.font = "italic 38px Georgia";
-    wrapCanvasText(ctx,scoreComment(score),600,1010,900,56);
-    ctx.fillStyle = "#805c6b"; ctx.font = "28px Georgia"; ctx.fillText("See who in your friend group should handle the finances.",600,1220);
-    ctx.fillText("yashinigami.github.io/World-Ratio/#quiz",600,1330);
-    const link = document.createElement("a"); link.download = "world-ratio-"+mode+"-quiz-score.png"; link.href = canvas.toDataURL("image/png"); link.click();
+  async function downloadScore() {
+    await Promise.all([
+      document.fonts.load('700 76px "Playfair Display"'),
+      document.fonts.load('28px "Times New Roman"')
+    ]).catch(()=>{});
+    const canvas=document.createElement("canvas"); canvas.width=1200; canvas.height=1500;
+    const ctx=canvas.getContext("2d");
+    ctx.fillStyle="#fffaf7";ctx.fillRect(0,0,1200,1500);
+    ctx.fillStyle="#f8e9ec";ctx.fillRect(42,42,1116,1416);
+    ctx.fillStyle="#fffaf7";ctx.fillRect(62,62,1076,1376);
+    ctx.strokeStyle="#dca8b8";ctx.lineWidth=3;ctx.strokeRect(62,62,1076,1376);
+    // Real, non-AI flower photograph; if it is unavailable the card remains complete.
+    const photo=new Image();photo.crossOrigin="anonymous";
+    photo.src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85";
+    try{await new Promise((resolve,reject)=>{photo.onload=resolve;photo.onerror=reject;});ctx.save();ctx.beginPath();ctx.roundRect(115,150,970,260,26);ctx.clip();ctx.drawImage(photo,115,150,970,260);ctx.restore();}catch(_){}
+    ctx.textAlign="center";ctx.fillStyle="#743c55";ctx.font='700 68px "Playfair Display", Georgia, serif';
+    ctx.fillText("World Ratio",600,500);
+    ctx.fillStyle="#946477";ctx.font='italic 25px "Times New Roman", serif';ctx.fillText("by niharika jain",600,540);
+    ctx.fillStyle="#743c55";ctx.font='700 52px "Playfair Display", Georgia, serif';ctx.fillText("Finance Quiz",600,650);
+    ctx.fillStyle="#a64f70";ctx.font='26px "Times New Roman", serif';ctx.fillText(modeNames[mode]+" edition",600,705);
+    ctx.strokeStyle="#d99aaf";ctx.lineWidth=4;ctx.beginPath();ctx.roundRect(220,770,760,300,34);ctx.stroke();
+    ctx.fillStyle="#743c55";ctx.font='700 150px "Playfair Display", Georgia, serif';ctx.fillText(score+" / 15",600,965);
+    ctx.fillStyle="#805c6b";ctx.font='italic 32px "Times New Roman", serif';
+    wrapCanvasText(ctx,scoreComment(score),600,1150,880,44);
+    ctx.fillStyle="#805c6b";ctx.font='24px "Times New Roman", serif';
+    ctx.fillText("A little finance knowledge, a lot of curiosity. ♡",600,1310);
+    ctx.fillText("yashinigami.github.io/World-Ratio/#quiz",600,1360);
+    const link=document.createElement("a");link.download="world-ratio-"+mode+"-quiz-score.png";link.href=canvas.toDataURL("image/png");link.click();
   }
   function wrapCanvasText(ctx,text,x,y,maxWidth,lineHeight) {
     const words=text.split(" "); let line="",lineNo=0;
