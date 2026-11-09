@@ -380,3 +380,66 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
  .feature-card,.event-card,.turning-card,.contact-card,.archive-note,.empty-state{padding:62px 24px 72px;min-height:330px}
 }
 @media(prefers-reduced-motion:reduce){.divy-welcome{animation:none}}
+
+
+/* Wider heart cards with a protected text-safe area. */
+.feature-card,.event-card,.turning-card,.contact-card,.archive-note,.empty-state{
+  clip-path:polygon(
+    50% 100%, 39% 91%, 17% 74%, 7% 64%, 1% 53%,
+    0 39%, 4% 24%, 13% 11%, 27% 4%, 39% 7%,
+    50% 19%, 61% 7%, 73% 4%, 87% 11%, 96% 24%,
+    100% 39%, 99% 53%, 93% 64%, 83% 74%, 61% 91%
+  ) !important;
+  box-sizing:border-box;
+}
+.feature-card{
+  min-height:390px;
+  padding:78px 8% 82px !important;
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+  justify-content:center;
+}
+.feature-card > *,.event-card > *,.turning-card > *,.contact-card > *,.archive-note > *,.empty-state > *{
+  position:relative;z-index:1;
+  width:84%;max-width:84%;
+  margin-left:auto;margin-right:auto;
+  overflow-wrap:anywhere;
+}
+.feature-card h2{font-size:clamp(19px,2vw,25px);line-height:1.12;margin:12px auto}
+.feature-card p{font-size:14px;line-height:1.45;margin:8px auto 14px}
+.feature-card .feature-number{font-size:10px;letter-spacing:.12em}
+.feature-card .feature-link{font-size:12px;font-weight:700;margin-top:auto}
+.event-card,.turning-card{
+  min-height:410px;
+  padding:78px 7% 84px !important;
+  justify-content:center;
+}
+.event-card h3,.turning-card h2{font-size:19px;line-height:1.15}
+.event-card p,.turning-card p{width:82%;max-width:82%;font-size:13px;line-height:1.42}
+.event-card .event-tag{white-space:normal;max-width:78%;text-align:center}
+.event-card .card-read,.turning-card .card-read{margin-top:14px}
+.contact-card{padding:82px 8% 88px !important}
+.contact-card p{font-size:13px;line-height:1.45}
+.archive-note{padding:84px 8% 90px !important}
+.archive-note p{font-size:15px;line-height:1.4}
+.empty-state{padding:90px 8% 96px !important}
+.divy-heart{width:min(790px,84vw);min-height:600px;margin-left:19%}
+.divy-heart:before{
+  clip-path:polygon(50% 98%,39% 91%,15% 72%,5% 60%,0 45%,2% 29%,11% 14%,25% 7%,39% 11%,50% 24%,61% 11%,75% 7%,89% 14%,98% 29%,100% 45%,95% 60%,85% 72%,61% 91%);
+}
+.divy-message{width:72%;max-width:540px;padding:118px 18px 82px;font-size:16px;line-height:1.5}
+@media(max-width:800px){
+ .feature-card{min-height:370px}
+ .event-card,.turning-card{min-height:390px}
+ .divy-heart{width:100%;min-height:570px;margin-left:7%}
+ .divy-message{width:74%;padding:105px 12px 75px;font-size:14px}
+}
+@media(max-width:480px){
+ .feature-card,.event-card,.turning-card,.contact-card,.archive-note,.empty-state{
+   padding:72px 7% 80px !important;min-height:360px;
+ }
+ .feature-card > *,.event-card > *,.turning-card > *,.contact-card > *,.archive-note > *,.empty-state > *{
+   width:82%;max-width:82%;
+ }
+ .divy-heart{min-height:540px}
+ .divy-message{width:76%;font-size:12.5px;line-height:1.36;padding:94px 8px 68px}
+}
