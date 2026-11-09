@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#171052">
+  <meta name="theme-color" content="#F5DDE1">
   <meta name="description" content="World Ratio — an interactive atlas of financial events, institutions and economies.">
   <title>World Ratio — The world, through finance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://{s}.basemaps.cartocdn.com">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
@@ -26,6 +28,10 @@
     <section id="home" class="view active home-view">
       <div class="hero">
         <div class="hero-kicker"><span class="kicker-line"></span> A GEOGRAPHICAL HISTORY OF MONEY</div>
+        <div class="hero-sticker" aria-hidden="true">
+          <img src="assets/finance-flower-doodle.svg" alt="">
+          <span class="sticker-caption">a little history<br>never hurt anyone</span>
+        </div>
         <h1 class="hero-title">The world,<br><em>through finance.</em></h1>
         <p class="hero-subtitle">An interactive atlas of financial events, institutions and economies.</p>
         <p class="hero-copy">Come and let's see some financial ups and downs that mightve happened all over the world- and learn a little bit about it (its fun, trust me)</p>
@@ -35,6 +41,28 @@
         </div>
         <div class="hero-footnote">1973 — 2026 <span>·</span> A living research project</div>
       </div>
+      <section class="archive-peek" aria-label="A peek into the archive">
+        <div class="archive-peek-heading">
+          <span class="eyebrow">PULLED FROM THE ARCHIVES</span>
+          <span class="archive-sparkle" aria-hidden="true">✳</span>
+        </div>
+        <div class="archive-peek-grid">
+          <figure class="archive-photo archive-photo-newspaper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Santa_Ana_Register_front_page%2C_Oct_28%2C_1929_-_Flickr_-_Orange_County_Archives.jpg" alt="Historic newspaper front page reporting the 1929 stock market crash" loading="lazy">
+            <figcaption><strong>When the headlines changed</strong><span>Newspaper archive · 1929</span></figcaption>
+          </figure>
+          <figure class="archive-photo archive-photo-crowd">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Crowd_outside_nyse.jpg" alt="Crowd gathered outside the New York Stock Exchange after the 1929 crash" loading="lazy">
+            <figcaption><strong>Wall Street, after the crash</strong><span>Historical photograph · 1929</span></figcaption>
+          </figure>
+          <div class="archive-note">
+            <img src="assets/finance-flower-doodle.svg" alt="" loading="lazy">
+            <p>Real people. Real places. Financial history, with the receipts.</p>
+            <span>THE WORLD RATIO ARCHIVE</span>
+          </div>
+        </div>
+        <p class="archive-credit">Archival images: Orange County Archives / Wikimedia Commons. See image records for original context and rights information.</p>
+      </section>
       <div class="home-grid">
         <a class="feature-card feature-atlas" href="#atlas">
           <div class="feature-number">01 / EXPLORE</div>
@@ -93,6 +121,7 @@
           <label class="toggle-label"><input type="checkbox" id="institutions-toggle" checked> Institutions</label>
         </div>
       </div>
+      <div class="map-postcard-note">✿ Take a little trip through financial history — pick a year, then tap a pin!</div>
       <div class="map-shell">
         <div id="map" role="application" aria-label="Interactive world map"></div>
         <div class="map-legend">
@@ -140,7 +169,7 @@
         </div>
         <a class="button button-small button-outline" href="#home">← Home</a>
       </div>
-      <div class="turning-intro">
+      <div class="turning-intro"><span class="turning-doodle" aria-hidden="true">✿</span>
         <p>Financial history is not just a sequence of market movements. It is also a history of institutions, public policy, livelihoods and the decisions that shape everyday life.</p>
         <span class="turning-count" id="turning-count">— curated studies</span>
       </div>
