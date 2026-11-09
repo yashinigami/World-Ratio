@@ -144,7 +144,7 @@
     ctx.fillStyle = "#542d40"; ctx.font = "italic 38px Georgia";
     wrapCanvasText(ctx,scoreComment(score),600,1010,900,56);
     ctx.fillStyle = "#805c6b"; ctx.font = "28px Georgia"; ctx.fillText("See who in your friend group should handle the finances.",600,1220);
-    ctx.fillText("worldratio.github.io/World-Ratio/#quiz",600,1330);
+    ctx.fillText("yashinigami.github.io/World-Ratio/#quiz",600,1330);
     const link = document.createElement("a"); link.download = "world-ratio-"+mode+"-quiz-score.png"; link.href = canvas.toDataURL("image/png"); link.click();
   }
   function wrapCanvasText(ctx,text,x,y,maxWidth,lineHeight) {
@@ -166,7 +166,7 @@
     if(e.target.closest("#quiz-next")){if(index===14)finishQuiz();else{index++;renderQuestion();}return;}
     if(e.target.closest("#quiz-download")){downloadScore();return;}
     if(e.target.closest("#quiz-copy-link")){copyQuizLink();return;}
-    if(e.target.closest("#quiz-again")){resetQuiz();return;}
+    if(e.target.closest("#quiz-again") || e.target.closest("#quiz-exit")){resetQuiz();return;}
   });
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&$("quiz-play")&&!$("quiz-play").hidden)resetQuiz();});
   document.addEventListener("DOMContentLoaded",()=>{ if(location.hash==="#quiz") showPanel("quiz-intro"); });
