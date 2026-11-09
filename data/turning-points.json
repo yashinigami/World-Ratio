@@ -1,5 +1,97 @@
 [
   {
+    "id": "oil-shock-1973-74",
+    "year": 1973,
+    "date": "1973-10-17",
+    "title": "The 1973–74 Oil Crisis and Global Financial Shock",
+    "region": "Middle East; United States; Western Europe; Japan; India",
+    "category": "Oil shock, inflation and global recession",
+    "lede": "The Yom Kippur War was followed by an Arab oil embargo and production cuts that quadrupled oil prices, transferring income to oil exporters and imposing inflationary and recessionary pressure on oil-importing economies.",
+    "overview": "On 6 October 1973, Egypt and Syria launched a surprise attack on Israel, beginning the Yom Kippur War. Following U.S. resupply of Israel, Arab members of OAPEC announced an embargo against the United States and selected other countries and cut production. The shock interacted with pre-existing oil-market tensions and limited spare capacity. Oil prices rose from about US$2.90 per barrel before the embargo to US$11.65 in January 1974. The embargo was lifted in March 1974, but the price shock remained. This episode is often called the first oil shock; it should not be conflated with the separate 1979–80 oil shock.",
+    "humanImpact": "Oil-importing economies experienced fuel shortages, higher transport and production costs, inflation and recessionary pressure. In the United States, fuel rationing and queues became visible; the United Kingdom introduced a three-day working week during the winter energy crisis. Japan and Western European economies faced major import-cost pressure. India's RBI historical chronology records quadrupled oil prices, double-digit inflation and a global recession. Oil exporters experienced a large increase in export revenues. These outcomes varied by country and policy response.",
+    "timeline": [
+      {
+        "date": "1973-10-06",
+        "title": "Yom Kippur War begins",
+        "text": "Egypt and Syria launch a surprise attack on Israel; fighting takes place on the Sinai and Golan fronts."
+      },
+      {
+        "date": "1973-10-16",
+        "title": "Oil prices are raised",
+        "text": "Major Arab oil producers announce a substantial increase in posted prices."
+      },
+      {
+        "date": "1973-10-17",
+        "title": "Production cuts announced",
+        "text": "Arab oil ministers agree to production cuts, initiating the oil-supply shock."
+      },
+      {
+        "date": "1973-10-19",
+        "title": "U.S. aid to Israel and embargo escalation",
+        "text": "After President Nixon requests emergency aid for Israel, OAPEC announces an embargo on oil shipments to the United States; selected other countries are also targeted."
+      },
+      {
+        "date": "1973-11-07",
+        "title": "U.S. Project Independence announced",
+        "text": "The Nixon administration announces measures aimed at reducing U.S. dependence on imported energy."
+      },
+      {
+        "date": "1974-01-01",
+        "title": "Oil prices reach a much higher level",
+        "text": "Oil prices have risen to roughly four times their pre-embargo level; energy-saving measures intensify in importing countries."
+      },
+      {
+        "date": "1974-03-18",
+        "title": "Embargo lifted",
+        "text": "Arab oil ministers lift the embargo on the United States; the higher global price level persists."
+      },
+      {
+        "date": "1975-12-22",
+        "title": "U.S. Strategic Petroleum Reserve authorised",
+        "text": "The Energy Policy and Conservation Act establishes the basis for the U.S. Strategic Petroleum Reserve."
+      }
+    ],
+    "countries": [
+      "United States",
+      "Egypt",
+      "Syria",
+      "Israel",
+      "Saudi Arabia",
+      "Kuwait",
+      "Iraq",
+      "United Kingdom",
+      "Netherlands",
+      "Japan",
+      "Germany",
+      "India",
+      "France",
+      "Portugal",
+      "South Africa"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve History — Oil Shock of 1973–74",
+        "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74"
+      },
+      {
+        "label": "U.S. Department of State — Oil Embargo, 1973–1974",
+        "url": "https://history.state.gov/milestones/1969-1976/oil-embargo"
+      },
+      {
+        "label": "U.S. Department of Energy — October 1973: First Energy Crisis",
+        "url": "https://www.energy.gov/management/october-1973-first-energy-crisis"
+      },
+      {
+        "label": "Reserve Bank of India — Historical Chronology, 1968–1985",
+        "url": "https://www.rbi.org.in/scripts/his_Chro1968to1985.aspx"
+      },
+      {
+        "label": "IMF — Timeline: Selected Events around Global Recessions and Recoveries",
+        "url": "https://www.elibrary.imf.org/display/book/9781513570020/back-1.xml"
+      }
+    ]
+  },
+  {
     "id": "asian-crisis-1997",
     "year": 1997,
     "date": "1997-07-02",
