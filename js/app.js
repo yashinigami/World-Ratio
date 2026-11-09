@@ -82,8 +82,8 @@ function initMap() {
 
   state.map = map;
 
-  // Palette-matched vector countries over a solid violet ocean.
-  map.getContainer().style.background = "#503CBA";
+  // Soft rose ocean with warm paper-coloured country shapes.
+  map.getContainer().style.background = "#E8B5C1";
   fetch("https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson")
     .then(response => {
       if (!response.ok) throw new Error("Country boundary data unavailable");
@@ -92,10 +92,10 @@ function initMap() {
     .then(geojson => {
       L.geoJSON(geojson, {
         style: {
-          color: "#171052",
-          weight: 0.65,
-          opacity: 0.85,
-          fillColor: "#FAF5B1",
+          color: "#C77D96",
+          weight: 0.75,
+          opacity: 0.9,
+          fillColor: "#FFF5F1",
           fillOpacity: 1
         }
       }).addTo(map);
@@ -106,7 +106,7 @@ function initMap() {
         subdomains: "abcd",
         maxZoom: 19
       }).addTo(map);
-      fallback.getContainer?.()?.style && (fallback.getContainer().style.filter = "sepia(1) saturate(2)");
+      fallback.getContainer?.()?.style && (fallback.getContainer().style.filter = "sepia(.25) saturate(.75) hue-rotate(295deg)");
     });
 
   // Separate layers for financial events and institutions
