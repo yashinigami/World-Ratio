@@ -1189,3 +1189,14 @@ nav.section-jump-nav a,nav.notebook-jump-nav a{
   .notebook-book.is-turning .notebook-page-left,.notebook-book.is-turning .notebook-page-right,
   #photos-archival .archive-album-spread.is-turning::before{animation:none!important}
 }
+
+@media(max-width:600px){
+  .notebook-book.is-turning.turn-next .notebook-page-left{
+    transform-origin:left center;
+    animation:notebookTurnNext .68s cubic-bezier(.22,.72,.25,1) both;
+  }
+  .notebook-book.is-turning.turn-prev .notebook-page-left{
+    transform-origin:right center;
+    animation:notebookTurnPrev .68s cubic-bezier(.22,.72,.25,1) both;
+  }
+}
