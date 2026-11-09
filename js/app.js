@@ -1031,6 +1031,32 @@ function stockTermCategory(term){
  if(/bond|yield to maturity|\bytm\b|coupon|fixed income|treasury/.test(t))return "Bonds";
  return "Trading Basics";
 }
+function notebookPlainLanguage(item){
+ const base=item.simple||STOCK_SIMPLE_EXPLANATIONS[item.term]||item.meaning;
+ const category=stockTermCategory(item.term);
+ const notes={
+  "Valuation":"When you use this idea, remember that a number is only a starting point. Compare it with similar businesses, the company's past performance and the reasons behind the number. One figure on its own cannot tell you whether an investment is good or bad.",
+  "Technical Analysis":"This is a way of describing information already visible in market data. It can help you organise what has happened to a price, but it cannot tell you with certainty what will happen next. Treat it as one clue, not a prediction.",
+  "Derivatives":"These contracts can move in value quickly and may involve leverage, margin and deadlines. A small movement in the underlying asset can have a much bigger effect on the money you put at risk. Understand the contract and the possible loss before using it.",
+  "Mutual Funds":"A fund is a way of investing alongside other people. You own units in the fund, while the fund owns the underlying investments. The fund's value can rise or fall, and costs, risk level and investment strategy all matter.",
+  "Bonds":"Think of this as lending rather than owning a piece of a business. The promised payments depend on the issuer meeting its obligations. The market value can still change before the bond matures, especially when interest rates or the issuer's credit quality change.",
+  "Trading Basics":"This term helps explain how a market transaction or portfolio decision works. In real life, the final result can also depend on timing, charges, taxes, available buyers and sellers, and the rules of the platform or exchange."
+ };
+ return base+" "+(notes[category]||"The key is to understand what this measure describes, what it leaves out and which assumptions sit behind it. It is useful information, but it should be considered alongside the wider situation rather than treated as a complete answer.");
+}
+function notebookRealLife(item){
+ const base=item.real;
+ const category=stockTermCategory(item.term);
+ const notes={
+  "Valuation":"Before drawing a conclusion, ask what could make this figure change: the share price, profits, debt, cash flow or the assumptions used. Two companies can show the same ratio and still have very different risks.",
+  "Technical Analysis":"For example, if you see this on a share-price chart, first check the time period and the broader market trend. Then look at other information too; a chart signal by itself is not a reason to assume a trade will work.",
+  "Derivatives":"In practice, check the contract size, expiry date, margin requirement and worst-case loss. The amount paid or deposited at the beginning is not always the maximum amount that can be lost.",
+  "Mutual Funds":"When comparing two schemes, look beyond recent returns. Check what each fund invests in, its benchmark, risk level, costs and whether it fits the time when you may need the money.",
+  "Bonds":"An investor should look at who issued the bond, when repayment is due, how interest is paid and whether the issuer can realistically make those payments. A higher quoted return can come with higher risk.",
+  "Trading Basics":"A real order may not execute at the exact price you saw on screen. Check the order type, quantity, charges and confirmation after placing it; these details can affect the actual outcome."
+ };
+ return base+" "+(notes[category]||"In an actual financial decision, check the surrounding details and the source of the information. Ask what could change the result, what costs apply and what could go wrong. That is how you turn a definition into something you can use.");
+}
 function initStockNotebook(){
  const left=document.getElementById("notebook-left-terms");if(!left)return;
  const right=document.getElementById("notebook-right-terms"),search=document.getElementById("stock-term-search"),prev=document.getElementById("notebook-prev"),next=document.getElementById("notebook-next"),status=document.getElementById("notebook-spread-status"),searchStatus=document.getElementById("stock-search-status");
@@ -1043,7 +1069,7 @@ function initStockNotebook(){
  searchStatus.textContent=filtered.length+" terms · "+(selectedCategory==="all"?"all categories":selectedCategory)+" · alphabetically arranged";
  if(!chunk.length){left.innerHTML='<p class="notebook-no-results">No terms found. Try another word.</p>';right.innerHTML='<p class="notebook-no-results">Your next discovery might be one search away.</p>';}}
  function applyFilters(){const q=search.value.trim().toLowerCase();filtered=sorted.filter(t=>(selectedCategory==="all"||stockTermCategory(t.term)===selectedCategory)&&(!q||t.term.toLowerCase().includes(q)||t.meaning.toLowerCase().includes(q)||(t.simple||STOCK_SIMPLE_EXPLANATIONS[t.term]||"").toLowerCase().includes(q)||t.real.toLowerCase().includes(q)));page=0;render();}
- function showTerm(term){const item=sorted.find(t=>t.term===term);if(!item)return;const modal=document.getElementById("stock-term-modal");modal.querySelector(".stock-term-category").textContent=stockTermCategory(item.term).toUpperCase()+" · STOCK MARKET NOTEBOOK";modal.querySelector(".stock-term-title").textContent=item.term;modal.querySelector(".stock-term-meaning").textContent=item.meaning;modal.querySelector(".stock-term-simple").textContent=item.simple||STOCK_SIMPLE_EXPLANATIONS[item.term]||"In everyday language: "+item.meaning;modal.querySelector(".stock-term-real").textContent=item.real;
+ function showTerm(term){const item=sorted.find(t=>t.term===term);if(!item)return;const modal=document.getElementById("stock-term-modal");modal.querySelector(".stock-term-category").textContent=stockTermCategory(item.term).toUpperCase()+" · STOCK MARKET NOTEBOOK";modal.querySelector(".stock-term-title").textContent=item.term;modal.querySelector(".stock-term-meaning").textContent=item.meaning;modal.querySelector(".stock-term-simple").textContent=notebookPlainLanguage(item);modal.querySelector(".stock-term-real").textContent=notebookRealLife(item);
  const related=modal.querySelector(".stock-term-related"),suggestions=(STOCK_RELATED_TERMS[item.term]||["Diversification","Risk appetite","Portfolio"]).filter(name=>sorted.some(t=>t.term===name&&t.term!==item.term));related.innerHTML=suggestions.length?suggestions.map(name=>'<button class="stock-related-term" type="button" data-related-term="'+encodeURIComponent(name)+'">'+name+'</button>').join(""):'<span class="stock-related-empty">Keep exploring the glossary for connected ideas.</span>';modal.querySelector(".stock-term-more").href=item.url;modal.classList.add("is-open");modal.setAttribute("aria-hidden","false");document.body.classList.add("stock-term-open");}
  function closeTerm(){const modal=document.getElementById("stock-term-modal");modal.classList.remove("is-open");modal.setAttribute("aria-hidden","true");document.body.classList.remove("stock-term-open");}
  document.addEventListener("click",e=>{const related=e.target.closest(".stock-related-term");if(related){showTerm(decodeURIComponent(related.dataset.relatedTerm));return;}const button=e.target.closest(".notebook-term");if(button){showTerm(decodeURIComponent(button.dataset.term));return;}const cat=e.target.closest("[data-term-category]");if(cat){selectedCategory=cat.dataset.termCategory;document.querySelectorAll("[data-term-category]").forEach(b=>b.classList.toggle("is-active",b===cat));applyFilters();return;}if(e.target.closest("[data-close-stock-term]"))closeTerm();});
