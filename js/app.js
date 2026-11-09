@@ -709,10 +709,12 @@ function updateYear(year) {
 function route() {
   const hash = location.hash.replace("#", "") || "home";
 
+  const validView = document.getElementById(hash)?.classList.contains("view");
+  const activeView = validView ? hash : "home";
   document.querySelectorAll(".view").forEach(v => {
-    const active = v.id === hash;
+    const active = v.id === activeView;
     v.classList.toggle("active", active);
-    v.style.display = active ? "block" : "none";
+    v.style.removeProperty("display");
   });
 
   document.querySelectorAll("[data-nav]").forEach(a =>
