@@ -991,3 +991,17 @@ nav.section-jump-nav a,nav.notebook-jump-nav a{
   .home-view .hero-title{font-size:clamp(40px,10vw,50px)}
   .home-view .hero-sticker{width:min(72%,220px)}
 }
+
+@media(max-width:800px){
+  .site-header{gap:12px;min-width:0}
+  .top-nav{flex:1 1 auto;min-width:0;overflow-x:auto;overflow-y:hidden;white-space:nowrap;justify-content:flex-start;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .top-nav::-webkit-scrollbar{display:none}
+  .top-nav a{flex:0 0 auto}
+  .header-home{flex:0 0 auto}
+}
+@media(max-width:520px){
+  .site-header{padding-left:12px;padding-right:12px;gap:8px}
+  .wordmark img{width:112px;height:auto}
+  .top-nav{gap:12px;font-size:11px}
+  .header-home{font-size:11px;padding:6px 8px}
+}
