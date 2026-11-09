@@ -107,8 +107,8 @@
           <div><div class="eyebrow">HISTORICAL TIMELINE</div><p class="timeline-hint">Select a year to filter the map and records.</p></div>
           <div class="selected-year" id="selected-year">2008</div>
         </div>
-        <input id="year-slider" class="year-slider" type="range" min="1995" max="2026" value="2008" step="1" aria-label="Select year">
-        <div class="year-labels"><span>1995</span><span>2000</span><span>2005</span><span>2010</span><span>2015</span><span>2020</span><span>2026</span></div>
+        <input id="year-slider" class="year-slider" type="range" min="1973" max="2026" value="2008" step="1" aria-label="Select year">
+        <div class="year-labels"><span>1973</span><span>2000</span><span>2005</span><span>2010</span><span>2015</span><span>2020</span><span>2026</span></div>
         <div class="timeline-actions">
           <button id="previous-year" class="text-button">← Previous</button>
           <button id="next-year" class="text-button">Next →</button>
@@ -143,6 +143,17 @@
       <div class="turning-intro">
         <p>Financial history is not just a sequence of market movements. It is also a history of institutions, public policy, livelihoods and the decisions that shape everyday life.</p>
         <span class="turning-count" id="turning-count">— curated studies</span>
+      </div>
+      <div class="turning-filters" aria-label="Filter turning points">
+        <label for="turning-country">Country</label>
+        <select id="turning-country">
+          <option value="all">All countries</option>
+        </select>
+        <label for="turning-year">Year</label>
+        <select id="turning-year" disabled>
+          <option value="all">All years</option>
+        </select>
+        <button id="clear-turning-filters" class="text-button" type="button">Clear filters</button>
       </div>
       <div id="turning-list" class="turning-list"></div>
       <div id="turning-detail" class="turning-detail" hidden></div>
