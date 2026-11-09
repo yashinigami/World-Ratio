@@ -1,0 +1,337 @@
+[
+  {
+    "id": "asian-crisis-1997",
+    "year": 1997,
+    "date": "1997-07-02",
+    "title": "The Asian Financial Crisis",
+    "region": "East and Southeast Asia",
+    "category": "Currency and banking crisis",
+    "lede": "A currency crisis that began with Thailand's decision to float the baht spread through several Asian economies, exposing vulnerabilities in foreign borrowing, exchange-rate regimes and financial institutions.",
+    "overview": "The crisis developed after pressure on Thailand's baht intensified. On 2 July 1997, authorities allowed the currency to float. Contagion and investor reassessment affected Indonesia, Korea, Malaysia, the Philippines and other markets, although each economy had different vulnerabilities and policy responses.",
+    "humanImpact": "The crisis brought recession, unemployment, financial-sector restructuring and hardship for households and workers. IMF retrospective material records a fall of more than 10% in Thailand's real GDP in 1998. Country-level effects should be explored separately rather than treated as identical across Asia.",
+    "timeline": [
+      {
+        "date": "1997-07-02",
+        "title": "Thailand floats the baht",
+        "text": "The exchange-rate peg is abandoned after mounting pressure."
+      },
+      {
+        "date": "1997-08-20",
+        "title": "IMF-supported programme for Thailand",
+        "text": "Thailand enters a three-year Stand-By Arrangement."
+      },
+      {
+        "date": "1997-10 to 1997-12",
+        "title": "Regional stress deepens",
+        "text": "Pressure spreads across regional currencies and financial systems; national timelines differ."
+      },
+      {
+        "date": "1998",
+        "title": "Deep recession in Thailand",
+        "text": "The IMF's retrospective account reports real GDP contraction of more than 10%."
+      }
+    ],
+    "countries": [
+      "Thailand",
+      "Indonesia",
+      "South Korea",
+      "Malaysia",
+      "Philippines"
+    ],
+    "sources": [
+      {
+        "label": "IMF — Financial Sector Crisis and Restructuring: Lessons from Asia",
+        "url": "https://www.imf.org/external/pubs/ft/op/opfinsec/index.htm"
+      },
+      {
+        "label": "IMF — Thailand crisis chronology",
+        "url": "https://www.imf.org/en/news/articles/2015/09/28/04/53/pn0005"
+      }
+    ]
+  },
+  {
+    "id": "global-financial-crisis-2008",
+    "year": 2008,
+    "date": "2008-09-15",
+    "title": "The Global Financial Crisis",
+    "region": "Global; epicentres in the United States and Europe",
+    "category": "Banking and credit crisis",
+    "lede": "A crisis rooted in housing-market losses, securitisation, leverage and fragile funding markets escalated into a global recession.",
+    "overview": "The crisis developed over several years as losses linked to U.S. housing and mortgage-related securities spread through highly interconnected financial institutions. Lehman Brothers filed for bankruptcy on 15 September 2008, a major escalation in the crisis. Other institutions failed, were rescued or merged, while governments and central banks intervened to stabilise markets.",
+    "humanImpact": "The downturn contributed to unemployment, foreclosures, lost income, business failures and public-finance pressures. Impacts differed by country and household. World Ratio should add local evidence for each city or country before making claims about specific communities or mortality.",
+    "timeline": [
+      {
+        "date": "2007",
+        "title": "Credit stress emerges",
+        "text": "Problems in U.S. subprime mortgage markets spread into broader credit markets."
+      },
+      {
+        "date": "2008-03",
+        "title": "Bear Stearns is rescued",
+        "text": "The Federal Reserve facilitates a transaction involving JPMorgan Chase."
+      },
+      {
+        "date": "2008-09-15",
+        "title": "Lehman Brothers files for bankruptcy",
+        "text": "The investment bank files for Chapter 11 protection."
+      },
+      {
+        "date": "2008-10",
+        "title": "Emergency policy responses",
+        "text": "Governments and central banks announce rescue, guarantee and liquidity measures."
+      },
+      {
+        "date": "2009",
+        "title": "Global recession",
+        "text": "The crisis feeds into a deep global downturn and labour-market stress."
+      }
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Iceland",
+      "Ireland",
+      "Spain",
+      "Greece"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve History — The Collapse of Lehman Brothers",
+        "url": "https://www.federalreservehistory.org/essays/lehman-brothers-collapse"
+      },
+      {
+        "label": "IMF — World Economic Outlook, April 2009",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2016/12/31/Crisis-and-Recovery-25082"
+      }
+    ]
+  },
+  {
+    "id": "india-demonetisation-2016",
+    "year": 2016,
+    "date": "2016-11-08",
+    "title": "India's Demonetisation",
+    "region": "India",
+    "category": "Currency and government policy",
+    "lede": "The Government of India announced the withdrawal of legal-tender status for existing ₹500 and ₹1,000 banknotes, triggering a rapid nationwide currency replacement and deposit process.",
+    "overview": "The announcement was made on the evening of 8 November 2016. The RBI later recorded that the specified notes represented nearly 86% of the value of currency in circulation on that date. Banks, ATMs, households and businesses had to manage deposits, exchanges, withdrawal limits and the gradual distribution of replacement notes.",
+    "humanImpact": "Cash-dependent households, small businesses, informal workers and people with limited access to banking services faced adjustment costs. The severity varied across regions and occupations. The atlas should add state- and city-specific evidence only where credible local reporting or official data exists.",
+    "timeline": [
+      {
+        "date": "2016-11-08",
+        "title": "Announcement",
+        "text": "The government announces that existing ₹500 and ₹1,000 notes will cease to be legal tender from midnight, subject to specified exceptions."
+      },
+      {
+        "date": "2016-11-09",
+        "title": "Banks closed for public transactions; exchange and deposit process begins",
+        "text": "The RBI issues instructions to authorised persons; banks prepare for the currency transition."
+      },
+      {
+        "date": "2016-11-10",
+        "title": "Deposit and exchange arrangements begin",
+        "text": "Specified notes can be deposited and exchanged under announced rules and limits."
+      },
+      {
+        "date": "2016-11 to 2016-12",
+        "title": "Cash distribution and remonetisation",
+        "text": "The RBI coordinates the distribution of replacement banknotes through currency chests, branches and ATMs."
+      },
+      {
+        "date": "2017-08-30",
+        "title": "RBI publishes annual report",
+        "text": "The annual report documents currency management and the remonetisation process."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI Annual Report 2016–17 — Currency Management",
+        "url": "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1208"
+      },
+      {
+        "label": "RBI Circular, 9 November 2016",
+        "url": "https://www.rbi.org.in/commonman/English/scripts/Notification.aspx?Id=1939"
+      },
+      {
+        "label": "RBI FAQ — Specified Bank Notes",
+        "url": "https://www.rbi.org.in/scripts/faqview.aspx/scripts/FAQView.aspx?Id=122"
+      }
+    ]
+  },
+  {
+    "id": "covid-economic-shock-2020",
+    "year": 2020,
+    "date": "2020-03-11",
+    "title": "COVID-19 and the Global Economic Shock",
+    "region": "Global",
+    "category": "Global economic shock",
+    "lede": "The pandemic caused an unprecedented public-health shock that disrupted production, travel, employment, demand and financial markets.",
+    "overview": "The WHO characterised COVID-19 as a pandemic on 11 March 2020. Restrictions and voluntary changes in behaviour disrupted supply chains and services, while uncertainty and market repricing increased financial stress. Governments and central banks responded with fiscal support, rate cuts, asset purchases, liquidity facilities and emergency lending measures.",
+    "humanImpact": "The pandemic caused substantial loss of life and disrupted livelihoods, schooling, health services and employment. Economic effects were uneven, with low-income workers, women, migrants and small businesses often facing distinct vulnerabilities. Specific mortality and employment figures must be attached to country-level sources before publication.",
+    "timeline": [
+      {
+        "date": "2020-01-30",
+        "title": "WHO declares a Public Health Emergency of International Concern",
+        "text": "The outbreak is recognised as an international public-health emergency."
+      },
+      {
+        "date": "2020-03-11",
+        "title": "WHO characterises COVID-19 as a pandemic",
+        "text": "WHO describes the outbreak as a pandemic."
+      },
+      {
+        "date": "2020-03 to 2020-04",
+        "title": "Financial markets and economies come under severe stress",
+        "text": "Countries introduce restrictions and emergency economic measures."
+      },
+      {
+        "date": "2020-04",
+        "title": "IMF projects a deep global downturn",
+        "text": "The IMF's April 2020 World Economic Outlook describes the crisis as a severe global downturn."
+      },
+      {
+        "date": "2020 onward",
+        "title": "Uneven recovery",
+        "text": "Recovery paths differ across countries, sectors and households."
+      }
+    ],
+    "countries": [
+      "China",
+      "Italy",
+      "United States",
+      "India",
+      "United Kingdom",
+      "Brazil"
+    ],
+    "sources": [
+      {
+        "label": "WHO — COVID-19 timeline",
+        "url": "https://www.who.int/news-room/detail/27-04-2020-who-timeline---covid-19"
+      },
+      {
+        "label": "WHO — 11 March 2020 remarks",
+        "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
+      },
+      {
+        "label": "IMF — World Economic Outlook, April 2020",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020"
+      }
+    ]
+  },
+  {
+    "id": "us-regional-bank-stress-2023",
+    "year": 2023,
+    "date": "2023-03-10",
+    "title": "The 2023 U.S. Regional Banking Stress",
+    "region": "United States",
+    "category": "Banking crisis",
+    "lede": "The failures of Silicon Valley Bank and other regional lenders renewed attention to interest-rate risk, concentrated deposits and confidence in banks.",
+    "overview": "Silicon Valley Bank was closed on 10 March 2023 and placed into FDIC receivership. Signature Bank followed on 12 March. U.S. authorities invoked a systemic-risk exception to protect all depositors at the two institutions, while shareholders and certain unsecured debt holders were not protected.",
+    "humanImpact": "The failures affected businesses, employees, depositors and the wider technology start-up ecosystem. The authorities' actions were designed to preserve access to deposits and limit contagion. Claims about specific job losses or individual hardship require separate evidence.",
+    "timeline": [
+      {
+        "date": "2023-03-08",
+        "title": "SVB announces securities-sale loss and capital plan",
+        "text": "The bank discloses a loss on securities sales and plans to raise capital."
+      },
+      {
+        "date": "2023-03-09",
+        "title": "Rapid deposit outflows",
+        "text": "The FDIC later described a very large attempted withdrawal of deposits."
+      },
+      {
+        "date": "2023-03-10",
+        "title": "SVB is closed",
+        "text": "California authorities close the bank and appoint the FDIC as receiver."
+      },
+      {
+        "date": "2023-03-12",
+        "title": "Authorities announce depositor protection",
+        "text": "The Treasury, Federal Reserve and FDIC announce steps to protect all depositors of the former SVB and Signature Bank."
+      }
+    ],
+    "countries": [
+      "United States"
+    ],
+    "sources": [
+      {
+        "label": "FDIC — SVB closure, 10 March 2023",
+        "url": "https://www.fdic.gov/news/press-releases/2023/pr23016.html"
+      },
+      {
+        "label": "Joint statement by Treasury, Federal Reserve and FDIC, 12 March 2023",
+        "url": "https://www.fdic.gov/news/press-releases/2023/pr23017.html"
+      },
+      {
+        "label": "FDIC — Lessons learned from regional bank failures",
+        "url": "https://www.fdic.gov/news/speeches/2024/lessons-learned-us-regional-bank-failures-2023"
+      }
+    ]
+  },
+  {
+    "id": "india-monetary-policy-2025",
+    "year": 2025,
+    "date": "2025-02-07",
+    "title": "RBI begins a rate-cut cycle in February 2025",
+    "region": "India",
+    "category": "Monetary policy",
+    "lede": "The RBI's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25%, while retaining a neutral stance.",
+    "overview": "The February 2025 decision was the first repo-rate reduction since May 2020. The rate decision forms part of India's monetary-policy transmission process: changes in the policy rate can influence funding costs, lending rates, deposits and demand, but pass-through varies across institutions and products.",
+    "humanImpact": "The policy rate affects the wider economy through borrowing and saving conditions, but its impact on households and firms is indirect and gradual. This card does not claim that every borrower experienced an immediate reduction in loan rates.",
+    "timeline": [
+      {
+        "date": "2025-02-05",
+        "title": "MPC meeting begins",
+        "text": "The Monetary Policy Committee meets to assess macroeconomic conditions."
+      },
+      {
+        "date": "2025-02-07",
+        "title": "Repo rate reduced to 6.25%",
+        "text": "The RBI announces a 25-basis-point reduction and retains a neutral stance."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI — Monetary Policy Statement, 7 February 2025",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59692"
+      }
+    ]
+  },
+  {
+    "id": "india-monetary-policy-2026",
+    "year": 2026,
+    "date": "2026-02-06",
+    "title": "RBI holds the repo rate at 5.25%",
+    "region": "India",
+    "category": "Monetary policy",
+    "lede": "The RBI's Monetary Policy Committee voted unanimously to keep the policy repo rate unchanged at 5.25% and continue with a neutral stance.",
+    "overview": "The February 2026 decision followed the committee's assessment of economic and financial conditions and its outlook for growth and inflation. The announcement is a national monetary-policy decision; the Mumbai map pin identifies the RBI's institutional location.",
+    "humanImpact": "A rate hold maintains the policy benchmark at its existing level. It does not mean that every bank's lending and deposit rates remain unchanged, because market funding costs and bank-specific decisions also matter.",
+    "timeline": [
+      {
+        "date": "2026-02-04",
+        "title": "MPC meeting begins",
+        "text": "The Monetary Policy Committee meets."
+      },
+      {
+        "date": "2026-02-06",
+        "title": "Repo rate held at 5.25%",
+        "text": "The MPC votes unanimously to maintain the rate and neutral stance."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI — Monetary Policy Statement, 6 February 2026",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62169"
+      }
+    ]
+  }
+]

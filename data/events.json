@@ -1,0 +1,213 @@
+[
+  {
+    "id": "thai-baht-float-1997",
+    "date": "1997-07-02",
+    "year": 1997,
+    "title": "Thailand floats the baht",
+    "category": "crisis",
+    "city": "Bangkok",
+    "region": "Bangkok",
+    "country": "Thailand",
+    "countryCode": "THA",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "entity": "Bank of Thailand; Government of Thailand",
+    "scope": "national",
+    "summary": "On 2 July 1997, Thailand abandoned its exchange-rate peg and allowed the baht to float after mounting pressure on its currency and foreign-exchange reserves. The move became the opening trigger in the Asian financial crisis, which spread through several economies in the region.",
+    "why": "The episode exposed vulnerabilities linked to short-term foreign borrowing, currency mismatches, weak financial-sector balance sheets and pressure on fixed exchange-rate regimes. Thailand entered an IMF-supported adjustment programme in August 1997. The crisis then affected Indonesia, Korea and other regional markets, although each country experienced its own sequence of events.",
+    "impact": "The downturn brought recession, financial-sector restructuring and significant social strain across affected economies. The IMF's retrospective account reports that Thailand's real GDP fell by more than 10% in 1998. This record describes the regional crisis trigger; it does not imply that every later consequence occurred in Bangkok itself.",
+    "sources": [
+      {
+        "label": "IMF — Financial Sector Crisis and Restructuring: Lessons from Asia",
+        "url": "https://www.imf.org/external/pubs/ft/op/opfinsec/index.htm"
+      },
+      {
+        "label": "IMF — Thailand: Public Information Notice and crisis chronology",
+        "url": "https://www.imf.org/en/news/articles/2015/09/28/04/53/pn0005"
+      }
+    ],
+    "turningPoint": "asian-crisis-1997"
+  },
+  {
+    "id": "lehman-bankruptcy-2008",
+    "date": "2008-09-15",
+    "year": 2008,
+    "title": "Lehman Brothers files for bankruptcy",
+    "category": "crisis",
+    "city": "New York City",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "entity": "Lehman Brothers",
+    "scope": "global",
+    "summary": "Lehman Brothers Holdings Inc. filed for Chapter 11 bankruptcy protection on 15 September 2008. The failure of the investment bank became one of the defining moments of the global financial crisis and intensified already severe stress in credit and funding markets.",
+    "why": "Lehman's collapse was not the sole cause of the global financial crisis. It was a major escalation within a crisis rooted in housing-market losses, securitisation, leverage and fragile short-term funding. Its failure disrupted counterparties and confidence across interconnected financial markets.",
+    "impact": "The crisis contributed to a deep global recession, rising unemployment, business failures, foreclosures and household financial distress. The scale and timing of impacts differed across countries. This card does not attribute individual deaths to the bankruptcy; such claims require separate, carefully sourced evidence.",
+    "sources": [
+      {
+        "label": "Federal Reserve History — The Collapse of Lehman Brothers",
+        "url": "https://www.federalreservehistory.org/essays/lehman-brothers-collapse"
+      },
+      {
+        "label": "U.S. Bankruptcy Court — Lehman Brothers case information",
+        "url": "https://www.nysb.uscourts.gov/lehman"
+      }
+    ],
+    "turningPoint": "global-financial-crisis-2008"
+  },
+  {
+    "id": "india-demonetisation-2016",
+    "date": "2016-11-08",
+    "year": 2016,
+    "title": "India announces withdrawal of ₹500 and ₹1,000 notes",
+    "category": "policy",
+    "city": "New Delhi",
+    "region": "Delhi",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "entity": "Government of India; Reserve Bank of India",
+    "scope": "national",
+    "summary": "On the evening of 8 November 2016, the Government of India announced that existing ₹500 and ₹1,000 banknotes would cease to be legal tender from midnight, subject to specified exceptions and exchange/deposit arrangements. The RBI's annual report records that these notes represented nearly 86% of the value of currency in circulation on 8 November 2016.",
+    "why": "The policy was presented by the government as a measure against counterfeit currency, illicit wealth and corruption, among other stated objectives. Its implementation required rapid cash exchange, deposits, new-note distribution and changes to withdrawal arrangements.",
+    "impact": "The sudden withdrawal of high-denomination cash disrupted cash-dependent transactions and required households, firms and banks to adjust. The intensity of effects varied by region, occupation and access to banking and digital payments. The RBI later documented the remonetisation process and the volume of notes supplied. This record does not claim a uniform impact across every Indian state or city.",
+    "sources": [
+      {
+        "label": "RBI Annual Report 2016–17 — Currency Management",
+        "url": "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1208"
+      },
+      {
+        "label": "RBI Circular, 9 November 2016 — Withdrawal of legal tender character",
+        "url": "https://www.rbi.org.in/commonman/English/scripts/Notification.aspx?Id=1939"
+      },
+      {
+        "label": "RBI FAQ — Specified Bank Notes",
+        "url": "https://www.rbi.org.in/scripts/faqview.aspx/scripts/FAQView.aspx?Id=122"
+      }
+    ],
+    "turningPoint": "india-demonetisation-2016"
+  },
+  {
+    "id": "covid-pandemic-2020",
+    "date": "2020-03-11",
+    "year": 2020,
+    "title": "WHO characterises COVID-19 as a pandemic",
+    "category": "global",
+    "city": "Geneva",
+    "region": "Geneva",
+    "country": "Switzerland",
+    "countryCode": "CHE",
+    "lat": 46.2044,
+    "lng": 6.1432,
+    "entity": "World Health Organization",
+    "scope": "global",
+    "summary": "On 11 March 2020, the World Health Organization assessed that COVID-19 could be characterised as a pandemic. The public-health emergency rapidly became a global economic shock as restrictions, voluntary distancing and uncertainty affected production, travel, employment and demand.",
+    "why": "Financial markets repriced sharply during the early pandemic period. Governments and central banks introduced emergency fiscal, monetary and liquidity measures. The shock was unusual because it combined a public-health crisis with supply disruptions and a sudden fall in demand.",
+    "impact": "The economic and human consequences varied widely across countries and communities. Job disruption, business closures, income losses and unequal access to support were widely documented. This event is pinned to Geneva as the location of the WHO announcement; its effects were global, not confined to Switzerland.",
+    "sources": [
+      {
+        "label": "WHO — Director-General's remarks, 11 March 2020",
+        "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
+      },
+      {
+        "label": "WHO — COVID-19 timeline",
+        "url": "https://www.who.int/news-room/detail/27-04-2020-who-timeline---covid-19"
+      },
+      {
+        "label": "IMF — World Economic Outlook, April 2020",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020"
+      }
+    ],
+    "turningPoint": "covid-economic-shock-2020"
+  },
+  {
+    "id": "svb-failure-2023",
+    "date": "2023-03-10",
+    "year": 2023,
+    "title": "Silicon Valley Bank is closed by regulators",
+    "category": "crisis",
+    "city": "Santa Clara",
+    "region": "California",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 37.3541,
+    "lng": -121.9552,
+    "entity": "Silicon Valley Bank; Federal Deposit Insurance Corporation",
+    "scope": "national",
+    "summary": "On 10 March 2023, California banking authorities closed Silicon Valley Bank and appointed the Federal Deposit Insurance Corporation as receiver. The FDIC reported that the bank had approximately $209 billion in total assets and $175.4 billion in deposits at 31 December 2022.",
+    "why": "The failure followed a rapid loss of depositor confidence and liquidity pressure. The bank's customer base was concentrated in technology and venture-capital-related businesses, and a large share of deposits exceeded the standard insurance limit.",
+    "impact": "The failure raised concerns about deposit flight and vulnerabilities at other regional banks. On 12 March, U.S. authorities announced steps to protect all depositors of the former SVB under a systemic-risk exception. Shareholders and certain unsecured debt holders were not protected.",
+    "sources": [
+      {
+        "label": "FDIC — SVB closure and receivership, 10 March 2023",
+        "url": "https://www.fdic.gov/news/press-releases/2023/pr23016.html"
+      },
+      {
+        "label": "U.S. Treasury, Federal Reserve and FDIC — Joint statement, 12 March 2023",
+        "url": "https://www.fdic.gov/news/press-releases/2023/pr23017.html"
+      },
+      {
+        "label": "FDIC — Lessons learned from U.S. regional bank failures",
+        "url": "https://www.fdic.gov/news/speeches/2024/lessons-learned-us-regional-bank-failures-2023"
+      }
+    ],
+    "turningPoint": "us-regional-bank-stress-2023"
+  },
+  {
+    "id": "rbi-rate-cut-2025",
+    "date": "2025-02-07",
+    "year": 2025,
+    "title": "RBI cuts the policy repo rate to 6.25%",
+    "category": "policy",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "entity": "Reserve Bank of India; Monetary Policy Committee",
+    "scope": "national",
+    "summary": "On 7 February 2025, the Reserve Bank of India's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25%, with immediate effect. It retained a neutral monetary-policy stance.",
+    "why": "The decision was made after the MPC assessed the evolving macroeconomic situation. A repo-rate change influences the policy rate corridor and can affect market interest rates, borrowing costs and monetary transmission, although the pass-through to individual borrowers is neither immediate nor identical.",
+    "impact": "The decision applied to India's monetary-policy framework nationally. Mumbai is shown because it is the RBI's headquarters and the institutional location associated with the policy record; the economic effects were not limited to Mumbai.",
+    "sources": [
+      {
+        "label": "RBI — Monetary Policy Statement, 7 February 2025",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59692"
+      },
+      {
+        "label": "RBI — Governor's Statement, 7 February 2025",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59694"
+      }
+    ],
+    "turningPoint": "india-monetary-policy-2025"
+  },
+  {
+    "id": "rbi-policy-hold-2026",
+    "date": "2026-02-06",
+    "year": 2026,
+    "title": "RBI keeps the repo rate at 5.25%",
+    "category": "policy",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IND",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "entity": "Reserve Bank of India; Monetary Policy Committee",
+    "scope": "national",
+    "summary": "On 6 February 2026, the Reserve Bank of India's Monetary Policy Committee voted unanimously to keep the policy repo rate unchanged at 5.25% and continue with a neutral stance.",
+    "why": "The decision reflected the MPC's assessment of domestic and global economic conditions and its growth and inflation outlook. A policy-rate hold is a monetary-policy decision, not evidence that borrowing rates for every household or business remained unchanged.",
+    "impact": "The decision applied nationally. Mumbai is used as the institutional map location for the RBI, not as a claim that the policy's effects were geographically limited to the city.",
+    "sources": [
+      {
+        "label": "RBI — Monetary Policy Statement, 6 February 2026",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62169"
+      }
+    ],
+    "turningPoint": "india-monetary-policy-2026"
+  }
+]
