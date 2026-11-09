@@ -11,3 +11,24 @@
 .leaflet-control-attribution{background:rgba(23,16,82,.85)!important;color:#F4F2FA!important}
 .leaflet-control-attribution a{color:#FAF5B1!important}
 .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#F4F2FA;color:#171052}
+
+/* Country and year filters for financial turning points */
+.turning-filters{margin:0 clamp(20px,5vw,76px) 24px;padding:18px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--bg-deep);border:1px solid var(--line)}
+.turning-filters label{font-size:13px;color:var(--muted)}
+.turning-filters select{min-width:190px;padding:10px 12px;background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+.turning-filters select:disabled{opacity:.55}
+.turning-filters button{margin-left:auto}
+.city-browse-popup{width:100%;min-width:260px;color:#171052;font-family:var(--serif)}
+.city-browse-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-bottom:8px;border-bottom:1px solid #ddd8eb}
+.city-browse-heading strong{font-size:15px}
+.city-browse-heading span,.city-browse-controls span{font:11px Arial,sans-serif;color:#71698c}
+.city-browse-controls{display:flex;justify-content:space-between;align-items:center;margin:8px 0;gap:8px}
+.city-browse-controls button,.city-browse-card button{border:1px solid #c9c1df;background:#f4f2fa;color:#171052;padding:5px 10px;cursor:pointer}
+.city-browse-controls button{font-size:17px;min-width:34px}
+.city-browse-rail{display:flex;gap:9px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;padding:2px 1px 10px;max-width:380px}
+.city-browse-card{flex:0 0 205px;min-height:120px;padding:12px;border:1px solid #ddd8eb;border-radius:3px;background:#faf9fd;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.city-browse-meta{font:10px Arial,sans-serif;color:#71698c;text-transform:uppercase;letter-spacing:.04em}
+.city-browse-card strong{font-size:14px;line-height:1.25}
+.city-browse-card button{margin-top:auto;font:11px Arial,sans-serif}
+.leaflet-popup-content{margin:12px!important;min-width:260px}
+@media(max-width:600px){.turning-filters{align-items:stretch;flex-direction:column}.turning-filters select{width:100%}.turning-filters button{margin-left:0}.city-browse-rail{max-width:270px}.city-browse-card{flex-basis:190px}}
