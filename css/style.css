@@ -548,3 +548,58 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 .stock-related-term{font:inherit;font-size:13px;color:var(--berry);background:#fff7f5;border:1px solid #e8b5c1;border-radius:999px;padding:7px 12px;cursor:pointer;transition:background .2s,transform .2s}
 .stock-related-term:hover{background:#f8e2e7;transform:translateY(-1px)}
 .stock-related-empty{font-size:13px;color:var(--muted)}
+
+
+/* World Ratio finance quiz — new page styles only. */
+.quiz-view{padding:64px 4.2% 90px;background:var(--paper,#fff5f1)}
+.quiz-page-shell{max-width:1320px;margin:0 auto}
+.quiz-kicker,.quiz-mode-number,.quiz-intro-note,.quiz-question-kicker,.quiz-result-mode,.quiz-result-sparkle{font-size:10px;letter-spacing:.15em;color:var(--rose,#c77d96);font-weight:700}
+.quiz-title-row{display:flex;align-items:center;justify-content:space-between;gap:28px;margin:18px 0 34px}
+.quiz-title-row h1{font-family:Georgia,serif;font-size:clamp(42px,6vw,76px);font-weight:400;letter-spacing:-.04em;color:var(--plum,#542d40);margin:0 0 12px}
+.quiz-lede{font-size:18px;line-height:1.55;color:var(--muted,#805c6b);max-width:760px;margin:0}
+.quiz-doodle{font-size:60px;color:var(--dusty,#d79aaa);white-space:nowrap}
+.quiz-panel{background:#fae9ec;border:1px solid #edcbd3;border-radius:34px;padding:clamp(22px,4vw,54px);box-shadow:0 16px 42px rgba(103,52,72,.07)}
+.quiz-intro-note{font-family:"Patrick Hand",cursive;font-size:17px;letter-spacing:.06em}
+.quiz-intro-copy{font-size:17px;line-height:1.55;color:#805c6b;max-width:760px;margin:10px 0 28px}
+.quiz-mode-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.quiz-mode-card{min-height:330px;border:1px solid #e7b9c5;border-radius:48% 48% 24px 24px / 20% 20% 24px 24px;background:#fff9f5;color:#542d40;padding:44px 24px 28px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.quiz-mode-card:hover{transform:translateY(-5px);box-shadow:0 15px 30px rgba(103,52,72,.12)}
+.quiz-medium{background:#fff3f4}.quiz-hard{background:#f7e3e9}
+.quiz-mode-emoji{font-size:34px;color:#c77d96;line-height:1}
+.quiz-mode-card strong{font-family:Georgia,serif;font-size:36px;font-weight:400}
+.quiz-mode-card>span:not(.quiz-mode-emoji):not(.quiz-mode-number){font-size:14px;line-height:1.45;color:#805c6b;min-height:42px}
+.quiz-mode-card em{font-size:11px;color:#a36b80;font-style:normal;letter-spacing:.06em;margin-top:auto}
+.quiz-mode-card b{font-size:13px;color:#a64f70;margin-top:5px}
+.quiz-share-nudge,.quiz-footer-note{font-family:"Patrick Hand",cursive;font-size:18px;color:#9b657a;text-align:center;margin:26px auto 0}
+.quiz-play-panel{max-width:900px;margin:0 auto}
+.quiz-play-top{display:flex;justify-content:space-between;gap:16px;color:#a64f70;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.quiz-progress-track{height:8px;background:#f3d4dc;border-radius:99px;overflow:hidden;margin:15px 0 28px}
+.quiz-progress-fill{height:100%;width:0;background:#b65e7b;border-radius:99px;transition:width .25s}
+.quiz-question-paper{background:#fffaf5;border:1px solid #efd9d9;border-radius:24px;padding:clamp(22px,4vw,46px);background-image:repeating-linear-gradient(to bottom,transparent 0,transparent 47px,rgba(204,151,161,.12) 48px)}
+.quiz-question-paper h2{font-family:Georgia,serif;font-weight:400;font-size:clamp(24px,3.2vw,36px);line-height:1.3;color:#542d40;margin:12px 0 28px}
+.quiz-options{display:grid;gap:12px}
+.quiz-option{display:flex;align-items:center;gap:14px;text-align:left;border:1px solid #e6c4cb;background:rgba(255,255,255,.88);border-radius:16px;padding:15px 18px;color:#684354;font:inherit;cursor:pointer;transition:background .2s,border-color .2s}
+.quiz-option:hover:not(:disabled){background:#fff0f2;border-color:#c77d96}
+.quiz-option:disabled{cursor:default}
+.quiz-option-letter{width:32px;height:32px;flex:0 0 32px;border-radius:50%;display:grid;place-items:center;background:#f5dde1;color:#a64f70;font-weight:700}
+.quiz-option.is-correct{border-color:#6e9b7d;background:#eef6ee}
+.quiz-option.is-wrong{border-color:#c77d96;background:#fbe4e7}
+.quiz-feedback{margin-top:20px;padding:17px 20px;border-radius:16px;background:#f8e7eb;color:#684354}
+.quiz-feedback.is-correct{background:#edf5ed}.quiz-feedback strong{display:block;margin-bottom:5px}.quiz-feedback p{margin:0;line-height:1.5}
+.quiz-next{margin-top:22px}
+.quiz-text-button{border:0;background:transparent;color:#a64f70;font:inherit;padding:16px 0;cursor:pointer}
+.quiz-result-panel{text-align:center;max-width:900px;margin:0 auto;background:#fff5f1}
+.quiz-result-sparkle{font-family:"Patrick Hand",cursive;font-size:18px}
+.quiz-result-mode{margin-top:18px}
+.quiz-score{font-family:Georgia,serif;font-size:clamp(100px,18vw,180px);line-height:1.05;color:#a64f70;margin:12px 0}
+.quiz-score-comment{font-family:Georgia,serif;font-size:clamp(24px,3.5vw,38px);font-weight:400;color:#542d40;margin:0 auto 12px;max-width:700px}
+.quiz-score-detail{color:#805c6b;font-size:16px}
+.quiz-result-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:28px auto 10px}
+.quiz-link-status{min-height:24px;color:#a64f70;font-size:13px}
+.quiz-challenge-line{font-family:"Patrick Hand",cursive;font-size:20px;color:#a64f70;margin:20px auto 0}
+.quiz-footer-note{font-size:16px}
+[hidden]{display:none!important}
+@media(max-width:850px){.quiz-mode-grid{grid-template-columns:1fr;max-width:540px;margin:auto}.quiz-mode-card{min-height:270px;border-radius:38px;padding:30px 24px}.quiz-title-row{align-items:flex-start}.quiz-doodle{font-size:38px}}
+@media(max-width:520px){.quiz-view{padding:42px 18px 65px}.quiz-title-row{display:block}.quiz-doodle{display:block;margin-top:15px}.quiz-play-top{font-size:10px}.quiz-result-actions{flex-direction:column;align-items:stretch}.quiz-result-actions .button{width:100%}}
+
+.home-quiz-cta{display:flex;justify-content:center;margin:4px auto 28px}.home-quiz-cta .button{font-size:13px}
