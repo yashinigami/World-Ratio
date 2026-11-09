@@ -20,9 +20,10 @@ function initMap(){
   if(!window.L){ $("#map").innerHTML='<div class="empty-state">The map library could not load. Check your internet connection and refresh.</div>'; return; }
   const map=L.map("map",{worldCopyJump:true,scrollWheelZoom:true}).setView([24,10],2);
   state.map=map;
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{
-    subdomains:"abcd",maxZoom:19,
-    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>'
+  // Standard OpenStreetMap tiles with a CSS dark filter; no API key required.
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+    subdomains:"abc",maxZoom:19,
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>'
   }).addTo(map);
   state.eventLayer=L.layerGroup().addTo(map);
   state.institutionLayer=L.layerGroup().addTo(map);
