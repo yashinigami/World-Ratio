@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6,.hero-title,.feature-card h2,.page-heading h1{
 .leaflet-popup-content{margin:12px!important}
 
 /* =========================================================
-   WORLD RATIO — CUTE ARCHIVE EDITION
+   WORLD RATIO  -  CUTE ARCHIVE EDITION
    Soft rose, paper cream, berry ink and scrapbook details.
    ========================================================= */
 :root{
@@ -444,7 +444,7 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
  .divy-message{width:76%;font-size:12.5px;line-height:1.36;padding:94px 8px 68px}
 }
 
-/* Stock Market Notebook — illustrated double-page study spread. */
+/* Stock Market Notebook  -  illustrated double-page study spread. */
 .stock-view{padding-bottom:70px}.stock-view .page-heading{margin-bottom:28px}
 .notebook-search-wrap{max-width:720px;margin:0 auto 28px}.notebook-search-wrap>label{display:block;margin:0 0 8px 12px;color:#a64f70}
 .notebook-search{display:flex;align-items:center;gap:12px;background:#fffaf7;border:1px solid #dfb9c5;border-radius:28px;padding:8px 16px;box-shadow:0 5px 15px rgba(84,45,64,.06)}
@@ -550,7 +550,7 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 .stock-related-empty{font-size:13px;color:var(--muted)}
 
 
-/* World Ratio finance quiz — new page styles only. */
+/* World Ratio finance quiz  -  new page styles only. */
 .quiz-view{padding:64px 4.2% 90px;background:var(--paper,#fff5f1)}
 .quiz-page-shell{max-width:1320px;margin:0 auto}
 .quiz-kicker,.quiz-mode-number,.quiz-intro-note,.quiz-question-kicker,.quiz-result-mode,.quiz-result-sparkle{font-size:10px;letter-spacing:.15em;color:var(--rose,#c77d96);font-weight:700}
