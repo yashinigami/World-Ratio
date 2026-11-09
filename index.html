@@ -38,6 +38,7 @@
     <nav class="top-nav" aria-label="Main navigation">
       <a href="#atlas" data-nav="atlas">Atlas</a>
       <a href="#turning-points" data-nav="turning-points">Turning points</a>
+      <a href="#stock-market" data-nav="stock-market">Stock market</a>
       <a href="#about" data-nav="about">About</a>
     </nav>
     <a class="header-home" href="#home">Home <span aria-hidden="true">↗</span></a>
@@ -97,13 +98,20 @@
           <p>Explore the events that changed economies, institutions and everyday lives.</p>
           <span class="feature-link">Explore the timeline ↗</span>
         </a>
-        <div class="feature-card feature-about">
+        <a class="feature-card feature-about" href="#about">
           <div class="feature-number">03 / THE PROJECT</div>
           <div class="feature-icon">⌁</div>
           <h2>About<br>World Ratio</h2>
           <p>An independent learning project connecting finance, geography and history.</p>
-          <a class="feature-link" href="#about">Read about the project ↗</a>
-        </div>
+          <span class="feature-link">Read about the project ↗</span>
+        </a>
+        <a class="feature-card feature-notebook" href="#stock-market">
+          <div class="feature-number">04 / LEARN</div>
+          <div class="feature-icon">✎</div>
+          <h2>The Stock Market<br>Notebook</h2>
+          <p>Flip through the basics, one handwritten term at a time. No prior knowledge needed.</p>
+          <span class="feature-link">Open the notebook ↗</span>
+        </a>
       </div>
       <section class="home-bottom">
         <div>
@@ -206,6 +214,39 @@
       <div id="turning-list" class="turning-list"></div>
       <div id="turning-detail" class="turning-detail" hidden></div>
       <div class="source-note">Each study links to primary or institutional sources. Human-impact claims are qualified and should be expanded only when location-specific evidence is available.</div>
+    </section>
+
+
+    <section id="stock-market" class="view stock-view">
+      <div class="page-heading">
+        <div><div class="eyebrow">WORLD RATIO / THE LEARNING DESK</div><h1>Learn about the stock market</h1><p>A little notebook for big financial words. Start anywhere, look things up, and take your time.</p></div>
+        <a class="button button-small button-outline" href="#home">← Home</a>
+      </div>
+      <div class="notebook-search-wrap">
+        <label class="eyebrow" for="stock-term-search">LOOKING FOR A WORD?</label>
+        <div class="notebook-search"><span aria-hidden="true">⌕</span><input id="stock-term-search" type="search" placeholder="Try “dividend”, “bull market”, “IPO”…" autocomplete="off"><button id="clear-stock-search" type="button" aria-label="Clear search">×</button></div>
+        <p id="stock-search-status" class="notebook-search-status">30 terms · alphabetically arranged · 10 terms per spread</p>
+      </div>
+      <div class="notebook-desk">
+        <div class="notebook-topline"><span>WORLD RATIO FIELD NOTES</span><span>VOL. 01 · STOCK MARKET BASICS</span></div>
+        <div class="notebook-book" aria-label="Interactive stock market glossary">
+          <div class="notebook-page notebook-page-left"><div class="notebook-page-head"><span>THE GLOSSARY</span><span id="notebook-page-left-number">01—05</span></div><div id="notebook-left-terms" class="notebook-term-list"></div><div class="notebook-page-foot"><span>✿ keep curious</span><span>WORLD RATIO</span></div></div>
+          <div class="notebook-spine" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <div class="notebook-page notebook-page-right"><div class="notebook-page-head"><span>THE GLOSSARY</span><span id="notebook-page-right-number">06—10</span></div><div id="notebook-right-terms" class="notebook-term-list"></div><div class="notebook-page-foot"><span>✎ notes from the desk</span><span id="notebook-page-count">PAGE 01</span></div></div>
+        </div>
+        <div class="notebook-controls"><button id="notebook-prev" type="button" disabled>← Previous spread</button><span id="notebook-spread-status">SPREAD 1 OF 3</span><button id="notebook-next" type="button">Next spread →</button></div>
+        <p class="notebook-instruction">Tap any handwritten term to open its meaning, see how it shows up in real life, and follow a reading link if you want to go deeper.</p>
+      </div>
+      <section class="strategy-section">
+        <div class="strategy-heading"><div class="eyebrow">AFTER THE BASICS</div><h2>A few ways people approach investing</h2><p>Strategies are frameworks, not shortcuts or guaranteed outcomes. Each comes with trade-offs.</p></div>
+        <div class="strategy-notes">
+          <article class="strategy-note"><span class="strategy-number">01</span><span class="strategy-doodle">↗</span><h3>Buy and hold</h3><p>Investors buy an asset with a long-term view and hold through shorter market swings, usually because they believe its value can grow over time.</p><p class="strategy-caution"><strong>Keep in mind:</strong> Long holding periods do not remove the risk of loss. The business and your reasons for owning it still matter.</p></article>
+          <article class="strategy-note"><span class="strategy-number">02</span><span class="strategy-doodle">◌</span><h3>Rupee-cost averaging</h3><p>A fixed amount is invested at regular intervals. When prices are lower, the same amount buys more units; when prices are higher, it buys fewer.</p><p class="strategy-caution"><strong>Keep in mind:</strong> It can support disciplined investing, but it does not guarantee a profit or protect against falling markets.</p></article>
+          <article class="strategy-note"><span class="strategy-number">03</span><span class="strategy-doodle">✿</span><h3>Diversification</h3><p>Money is spread across different companies, sectors or asset types so the outcome does not depend on just one holding.</p><p class="strategy-caution"><strong>Keep in mind:</strong> Diversification can reduce concentration risk, but it cannot eliminate market risk.</p></article>
+          <article class="strategy-note"><span class="strategy-number">04</span><span class="strategy-doodle">⌕</span><h3>Value investing</h3><p>Investors look for securities they believe are priced below a reasonable estimate of their underlying worth, based on research and assumptions.</p><p class="strategy-caution"><strong>Keep in mind:</strong> An apparently cheap stock may be cheap for a reason. Valuation is uncertain and requires careful analysis.</p></article>
+        </div>
+        <p class="strategy-disclaimer">Learning material only — not personal investment advice or a recommendation to buy or sell any security.</p>
+      </section>
     </section>
 
     <section id="about" class="view about-view">
