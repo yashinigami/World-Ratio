@@ -387,7 +387,7 @@ function openEvent(id) {
     </div>
 
     ${e.turningPoint
-      ? `<div class="modal-actions"><button id="open-turning-point">Explore this turning point</button></div>`
+      ? `<div class="modal-actions"><button id="open-turning-point">What happened next? Explore the full story ↗</button></div>`
       : ""}
   `;
 
@@ -668,6 +668,24 @@ function showTurningPoint(id) {
           </div>
         </div>
       `).join("")}
+    </section>
+
+    <section class="what-happened-next">
+      <div class="eyebrow">THE STORY CONTINUES</div>
+      <h3>What happened next?</h3>
+      <p class="what-next-intro">A financial event is more than its headline moment. Follow the later developments recorded in this study to see how the situation unfolded.</p>
+      ${t.timeline.length > 1 ? `
+        <div class="what-next-timeline">
+          ${t.timeline.slice(1).map((item, index) => `
+            <article class="what-next-item">
+              <span class="what-next-index">${String(index + 1).padStart(2, "0")}</span>
+              <div><time>${escapeHTML(prettyDate(item.date))}</time><h4>${escapeHTML(item.title)}</h4><p>${escapeHTML(item.text)}</p></div>
+            </article>
+          `).join("")}
+        </div>
+      ` : `
+        <p class="what-next-limited">The current record does not yet contain a separate aftermath timeline for this event. Explore the impact notes and source links above; no later developments have been added without supporting records.</p>
+      `}
     </section>
 
     <div class="modal-section">
