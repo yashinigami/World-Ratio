@@ -333,5 +333,32 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="js/app.js"></script>
+  <script>
+    // Navigation fallback: page visibility is controlled only by the .active class.
+    // This is deliberately independent of app.js so a data/map error cannot strand the visitor on Home.
+    (function () {
+      function displaySelectedPage() {
+        var requested = (window.location.hash || "#home").slice(1);
+        var selected = document.getElementById(requested);
+        if (!selected || !selected.classList.contains("view")) {
+          selected = document.getElementById("home");
+        }
+        document.querySelectorAll("main .view").forEach(function (page) {
+          page.classList.toggle("active", page === selected);
+          page.style.removeProperty("display");
+        });
+        document.querySelectorAll("[data-nav]").forEach(function (link) {
+          link.classList.toggle("active", link.getAttribute("data-nav") === selected.id);
+        });
+      }
+      window.addEventListener("hashchange", displaySelectedPage);
+      window.addEventListener("pageshow", displaySelectedPage);
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", displaySelectedPage, { once: true });
+      } else {
+        displaySelectedPage();
+      }
+    })();
+  </script>
 </body>
 </html>
