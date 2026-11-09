@@ -65,6 +65,7 @@
       <a href="#atlas" data-nav="atlas">Atlas</a>
       <a href="#turning-points" data-nav="turning-points">Turning points</a>
       <a href="#stock-market" data-nav="stock-market">Stock market</a>
+      <a href="#quiz" data-nav="quiz">Quiz</a>
       <a href="#about" data-nav="about">About</a>
     </nav>
     <a class="header-home" href="#home">Home <span aria-hidden="true">↗</span></a>
@@ -139,6 +140,7 @@
           <span class="feature-link">Open the notebook ↗</span>
         </a>
       </div>
+      <div class="home-quiz-cta"><a class="button button-small button-outline" href="#quiz">Think you know finance? Take the quiz ↗</a></div>
       <section class="home-bottom">
         <div>
           <div class="eyebrow">ABOUT THE DEVELOPER</div>
@@ -275,6 +277,64 @@
       </section>
     </section>
 
+    <section id="quiz" class="view quiz-view">
+      <div class="quiz-page-shell">
+        <div class="quiz-kicker">WORLD RATIO / A LITTLE BRAIN GYM</div>
+        <div class="quiz-title-row">
+          <div>
+            <h1>Think you know finance?</h1>
+            <p class="quiz-lede">Let's quiz it. ;) From money moments around the world to the markets that move them — how much do you really know?</p>
+          </div>
+          <span class="quiz-doodle" aria-hidden="true">✳ ♡ ✳</span>
+        </div>
+        <div id="quiz-intro" class="quiz-panel">
+          <div class="quiz-intro-note">PICK YOUR LEVEL, SMARTY PANTS ✎</div>
+          <p class="quiz-intro-copy">Three levels. Fifteen questions each. A little world finance, a little brain workout, and absolutely no help from your group chat.</p>
+          <div class="quiz-mode-grid">
+            <button class="quiz-mode-card quiz-easy" type="button" data-quiz-mode="easy">
+              <span class="quiz-mode-number">01 / WARM UP</span><span class="quiz-mode-emoji">☁</span><strong>Easy</strong><span>Let's get the money basics sorted.</span><em>15 questions · Beginner</em><b>I'm in ↗</b>
+            </button>
+            <button class="quiz-mode-card quiz-medium" type="button" data-quiz-mode="medium">
+              <span class="quiz-mode-number">02 / THINK A LITTLE</span><span class="quiz-mode-emoji">♡</span><strong>Medium</strong><span>Some history, some markets, some thinking.</span><em>15 questions · Intermediate</em><b>Challenge me ↗</b>
+            </button>
+            <button class="quiz-mode-card quiz-hard" type="button" data-quiz-mode="hard">
+              <span class="quiz-mode-number">03 / BIG BRAIN ENERGY</span><span class="quiz-mode-emoji">♠</span><strong>Hard</strong><span>For the ones who read the footnotes.</span><em>15 questions · Advanced</em><b>Bring it on ↗</b>
+            </button>
+          </div>
+          <p class="quiz-share-nudge">Know someone who claims to know everything about money? Oh, we have a little test for them.</p>
+        </div>
+
+        <div id="quiz-play" class="quiz-panel quiz-play-panel" hidden>
+          <div class="quiz-play-top"><span id="quiz-level-label">Easy mode</span><span id="quiz-question-count">QUESTION 01 / 15</span></div>
+          <div class="quiz-progress-track"><div id="quiz-progress-fill" class="quiz-progress-fill"></div></div>
+          <div class="quiz-question-paper">
+            <div class="quiz-question-kicker">A QUESTION FOR YOUR FINANCIAL BRAIN</div>
+            <h2 id="quiz-question"></h2>
+            <div id="quiz-options" class="quiz-options"></div>
+            <div id="quiz-feedback" class="quiz-feedback" hidden><strong id="quiz-feedback-title"></strong><p id="quiz-feedback-copy"></p></div>
+            <button id="quiz-next" class="button button-primary quiz-next" type="button" hidden>Next question →</button>
+          </div>
+          <button id="quiz-exit" class="quiz-text-button" type="button">← Leave quiz</button>
+        </div>
+
+        <div id="quiz-result" class="quiz-panel quiz-result-panel" hidden>
+          <div class="quiz-result-sparkle">✳ A LITTLE RESULT FOR YOU ✳</div>
+          <div id="quiz-score-mode" class="quiz-result-mode">EASY FINANCE QUIZ</div>
+          <div id="quiz-score" class="quiz-score">15/15</div>
+          <h2 id="quiz-score-comment" class="quiz-score-comment"></h2>
+          <p id="quiz-score-detail" class="quiz-score-detail"></p>
+          <div class="quiz-result-actions">
+            <button id="quiz-download" class="button button-primary" type="button">Download my score card ↓</button>
+            <button id="quiz-copy-link" class="button button-outline" type="button">Copy quiz link ↗</button>
+            <button id="quiz-again" class="button button-small button-outline" type="button">Try another level</button>
+          </div>
+          <p id="quiz-link-status" class="quiz-link-status" aria-live="polite"></p>
+          <p class="quiz-challenge-line">Send this to your friends. See who in your group should actually handle the finances. ;) </p>
+        </div>
+        <div class="quiz-footer-note">A playful learning quiz by World Ratio. No financial advice, no real money at stake — just bragging rights.</div>
+      </div>
+    </section>
+
     <section id="about" class="view about-view">
       <div class="page-heading">
         <div><div class="eyebrow">WORLD RATIO / ABOUT</div><h1>About the project</h1></div>
@@ -335,6 +395,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="js/app.js"></script>
+  <script src="js/quiz.js"></script>
   <script>
     // Navigation fallback: page visibility is controlled only by the .active class.
     // This is deliberately independent of app.js so a data/map error cannot strand the visitor on Home.
