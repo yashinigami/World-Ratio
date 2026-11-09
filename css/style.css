@@ -32,3 +32,23 @@
 .city-browse-card button{margin-top:auto;font:11px Arial,sans-serif}
 .leaflet-popup-content{margin:12px!important;min-width:260px}
 @media(max-width:600px){.turning-filters{align-items:stretch;flex-direction:column}.turning-filters select{width:100%}.turning-filters button{margin-left:0}.city-browse-rail{max-width:270px}.city-browse-card{flex-basis:190px}}
+
+/* Typography refresh: Playfair Display body; condensed Times headings */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+:root{--serif:"Playfair Display",Georgia,serif;--brand:"Playfair Display",Georgia,serif}
+body,button,input,select,textarea{font-family:"Playfair Display",Georgia,serif}
+h1,h2,h3,h4,h5,h6,.hero-title,.feature-card h2,.page-heading h1{
+  font-family:"Times New Roman","Times New Roman Condensed",Times,serif!important;
+  font-stretch:condensed;letter-spacing:-.035em;
+}
+/* Compact single-record map popup with side navigation */
+.city-browse-popup{min-width:235px;max-width:300px;color:#171052;font-family:"Playfair Display",Georgia,serif}
+.city-browse-nav{display:flex;align-items:center;gap:10px}
+.city-browse-nav>button{flex:0 0 30px;width:30px;height:34px;border:1px solid #c8c0df;background:#f4f2fa;color:#171052;font:20px "Playfair Display",Georgia,serif;cursor:pointer;border-radius:2px}
+.city-browse-nav>button:disabled{opacity:.25;cursor:default}
+.city-browse-copy{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px}
+.city-browse-place{font-size:11px;color:#6e6688;line-height:1.35}
+.city-browse-meta{font-size:11px;color:#6e6688;line-height:1.35}
+.city-browse-copy>strong{font-size:14px;line-height:1.35;color:#171052}
+.city-browse-details{align-self:flex-start;margin-top:4px;padding:5px 9px;border:1px solid #c8c0df;background:#f4f2fa;color:#171052;font-size:11px;cursor:pointer}
+.leaflet-popup-content{margin:12px!important}
