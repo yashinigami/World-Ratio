@@ -96,7 +96,7 @@
     "year": 1997,
     "date": "1997-07-02",
     "title": "The Asian Financial Crisis",
-    "region": "East and Southeast Asia",
+    "region": "Bangkok, Thailand; Jakarta, Indonesia; Seoul, South Korea; Kuala Lumpur, Malaysia; wider East and Southeast Asia",
     "category": "Currency and banking crisis",
     "lede": "A currency crisis that began with Thailand's decision to float the baht spread through several Asian economies, exposing vulnerabilities in foreign borrowing, exchange-rate regimes and financial institutions.",
     "overview": "The crisis developed after pressure on Thailand's baht intensified. On 2 July 1997, authorities allowed the currency to float. Contagion and investor reassessment affected Indonesia, Korea, Malaysia, the Philippines and other markets, although each economy had different vulnerabilities and policy responses.",
@@ -1505,6 +1505,731 @@
       {
         "label": "Reuters — Middle East oil price war heralds post-conflict glut (9 Nov 2026)",
         "url": "https://www.reuters.com/commentary/reuters-open-interest/middle-east-oil-price-war-heralds-post-conflict-glut-2026-11-09/"
+      }
+    ]
+  },
+  {
+    "id": "mexican-peso-crisis-1994",
+    "year": 1994,
+    "date": "1994-12-20",
+    "title": "The Mexican Peso Crisis (1994–1995)",
+    "region": "Mexico City, Mexico",
+    "category": "Financial crisis and market disruption",
+    "lede": "In December 1994, Mexico devalued the peso after pressure on foreign-exchange reserves and the exchange-rate regime. Capital outflows, short-term dollar-linked public debt and declining confidence intensified the crisis. The peso fell sharply, financing conditions tightened and the shock spread to other emerging markets, becoming known as the Tequila Crisis.",
+    "overview": "In December 1994, Mexico devalued the peso after pressure on foreign-exchange reserves and the exchange-rate regime. Capital outflows, short-term dollar-linked public debt and declining confidence intensified the crisis. The peso fell sharply, financing conditions tightened and the shock spread to other emerging markets, becoming known as the Tequila Crisis. The crisis showed how a fixed or tightly managed exchange-rate commitment can become vulnerable when reserves, fiscal credibility, short-term financing and investor confidence come under pressure. The structure of short-term dollar-linked debt made refinancing particularly difficult.",
+    "humanImpact": "Mexico faced recession, inflation and a severe squeeze on household purchasing power. Banks and businesses came under stress, while the United States and international institutions arranged emergency support. The episode also triggered wider reassessment of emerging-market risk.",
+    "timeline": [
+      {
+        "date": "1994-12-20",
+        "title": "Key event and immediate trigger",
+        "text": "In December 1994, Mexico devalued the peso after pressure on foreign-exchange reserves and the exchange-rate regime. Capital outflows, short-term dollar-linked public debt and declining confidence intensified the crisis. The peso fell sharply, financing conditions tightened and the shock spread to other emerging markets, becoming known as the Tequila Crisis."
+      },
+      {
+        "date": "1994-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Mexico faced recession, inflation and a severe squeeze on household purchasing power. Banks and businesses came under stress, while the United States and international institutions arranged emergency support. The episode also triggered wider reassessment of emerging-market risk."
+      }
+    ],
+    "countries": [
+      "Mexico"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve History — Mexican Peso Crisis",
+        "url": "https://www.federalreservehistory.org/essays/mexican-peso-crisis"
+      },
+      {
+        "label": "IMF — Mexico and the 1994–95 crisis",
+        "url": "https://www.imf.org/external/pubs/ft/history/2012/pdf/c8.pdf"
+      }
+    ]
+  },
+  {
+    "id": "asian-financial-crisis-1997",
+    "year": 1997,
+    "date": "1997-07-02",
+    "title": "The Asian Financial Crisis (1997–1998)",
+    "region": "Bangkok, Thailand; Jakarta, Indonesia; Seoul, South Korea; Kuala Lumpur, Malaysia",
+    "category": "Financial crisis and market disruption",
+    "lede": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia.",
+    "overview": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia. The episode demonstrated how currency mismatches, leveraged borrowing and fragile banking systems can turn pressure on one currency into a regional financial crisis. National experiences and policy responses differed; the crisis was not a single identical event across every country.",
+    "humanImpact": "Businesses failed, banks were restructured, currencies depreciated and output contracted. Households experienced job losses and reduced incomes. The crisis also reshaped regional financial regulation, reserve management and debates about IMF crisis programmes.",
+    "timeline": [
+      {
+        "date": "1997-07-02",
+        "title": "Key event and immediate trigger",
+        "text": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia."
+      },
+      {
+        "date": "1997-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Businesses failed, banks were restructured, currencies depreciated and output contracted. Households experienced job losses and reduced incomes. The crisis also reshaped regional financial regulation, reserve management and debates about IMF crisis programmes."
+      }
+    ],
+    "countries": [
+      "Thailand",
+      "Indonesia",
+      "South Korea",
+      "Malaysia"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve History — Asian Financial Crisis",
+        "url": "https://www.federalreservehistory.org/essays/asian-financial-crisis"
+      },
+      {
+        "label": "IMF — Financial Sector Crisis and Restructuring: Lessons from Asia",
+        "url": "https://www.imf.org/external/pubs/ft/op/opfinsec/index.htm"
+      }
+    ]
+  },
+  {
+    "id": "russian-crisis-ltcm-1998",
+    "year": 1998,
+    "date": "1998-08-17",
+    "title": "The Russian Financial Crisis & LTCM Collapse (1998)",
+    "region": "Moscow, Russia; Greenwich, United States",
+    "category": "Financial crisis and market disruption",
+    "lede": "Russia devalued the rouble, restructured domestic government debt and declared a moratorium on some private external debt payments in August 1998. The turmoil caused investors to flee riskier assets. Long-Term Capital Management (LTCM), a highly leveraged hedge fund with large positions across global markets, suffered severe losses as normally related prices moved sharply apart. A private-sector recapitalisation was organised with the Federal Reserve Bank of New York facilitating discussions.",
+    "overview": "Russia devalued the rouble, restructured domestic government debt and declared a moratorium on some private external debt payments in August 1998. The turmoil caused investors to flee riskier assets. Long-Term Capital Management (LTCM), a highly leveraged hedge fund with large positions across global markets, suffered severe losses as normally related prices moved sharply apart. A private-sector recapitalisation was organised with the Federal Reserve Bank of New York facilitating discussions. The episode illustrated how sovereign risk, market liquidity and highly leveraged financial institutions can interact. Positions that appear diversified under normal conditions may become correlated during a crisis, while forced selling can intensify market stress.",
+    "humanImpact": "Russian households and businesses faced inflation, financial disruption and loss of confidence. International markets experienced a flight to quality and wider credit spreads. The LTCM episode intensified scrutiny of leverage, counterparty exposures and systemic risk.",
+    "timeline": [
+      {
+        "date": "1998-08-17",
+        "title": "Key event and immediate trigger",
+        "text": "Russia devalued the rouble, restructured domestic government debt and declared a moratorium on some private external debt payments in August 1998. The turmoil caused investors to flee riskier assets. Long-Term Capital Management (LTCM), a highly leveraged hedge fund with large positions across global markets, suffered severe losses as normally related prices moved sharply apart. A private-sector recapitalisation was organised with the Federal Reserve Bank of New York facilitating discussions."
+      },
+      {
+        "date": "1998-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Russian households and businesses faced inflation, financial disruption and loss of confidence. International markets experienced a flight to quality and wider credit spreads. The LTCM episode intensified scrutiny of leverage, counterparty exposures and systemic risk."
+      }
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve History — The Collapse of Long-Term Capital Management",
+        "url": "https://www.federalreservehistory.org/essays/long-term-capital-management"
+      },
+      {
+        "label": "IMF — Russian Federation: Recent Economic Developments",
+        "url": "https://www.imf.org/external/pubs/ft/scr/1999/cr99100.pdf"
+      }
+    ]
+  },
+  {
+    "id": "enron-scandal-2001",
+    "year": 2001,
+    "date": "2001-10-16",
+    "title": "The Enron Corporate Accounting Scandal (2001)",
+    "region": "Houston, United States",
+    "category": "Financial crisis and market disruption",
+    "lede": "Enron disclosed a large quarterly loss in October 2001 and revealed accounting issues that undermined confidence in its reported earnings and financial position. The company had used complex structures and accounting practices to obscure debt and inflate performance. It filed for bankruptcy in December 2001, then the largest U.S. corporate bankruptcy at the time.",
+    "overview": "Enron disclosed a large quarterly loss in October 2001 and revealed accounting issues that undermined confidence in its reported earnings and financial position. The company had used complex structures and accounting practices to obscure debt and inflate performance. It filed for bankruptcy in December 2001, then the largest U.S. corporate bankruptcy at the time. The scandal exposed weaknesses in corporate governance, auditor independence, disclosure and the oversight of off-balance-sheet entities. It showed how investors can be misled when financial statements do not present a clear picture of a company's obligations and risks.",
+    "humanImpact": "Employees lost jobs and retirement savings, shareholders suffered major losses, and confidence in corporate reporting was damaged. The scandal helped drive the Sarbanes–Oxley Act of 2002 and tighter requirements for audit committees, internal controls and financial disclosures.",
+    "timeline": [
+      {
+        "date": "2001-10-16",
+        "title": "Key event and immediate trigger",
+        "text": "Enron disclosed a large quarterly loss in October 2001 and revealed accounting issues that undermined confidence in its reported earnings and financial position. The company had used complex structures and accounting practices to obscure debt and inflate performance. It filed for bankruptcy in December 2001, then the largest U.S. corporate bankruptcy at the time."
+      },
+      {
+        "date": "2001-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Employees lost jobs and retirement savings, shareholders suffered major losses, and confidence in corporate reporting was damaged. The scandal helped drive the Sarbanes–Oxley Act of 2002 and tighter requirements for audit committees, internal controls and financial disclosures."
+      }
+    ],
+    "countries": [
+      "United States"
+    ],
+    "sources": [
+      {
+        "label": "U.S. SEC — Enron litigation releases",
+        "url": "https://www.sec.gov/enforcement-litigation/litigation-releases"
+      },
+      {
+        "label": "U.S. Congress — Sarbanes–Oxley Act of 2002",
+        "url": "https://www.congress.gov/107/plaws/publ204/PLAW-107publ204.pdf"
+      }
+    ]
+  },
+  {
+    "id": "argentina-default-2001",
+    "year": 2001,
+    "date": "2001-12-23",
+    "title": "The Argentine Debt Default & Peso Devaluation (2001–2002)",
+    "region": "Buenos Aires, Argentina",
+    "category": "Financial crisis and market disruption",
+    "lede": "After years of recession and mounting debt pressures, Argentina defaulted on sovereign debt in December 2001. In early 2002 it abandoned the currency-board arrangement that had pegged the peso one-to-one with the U.S. dollar. The peso depreciated sharply, bank withdrawals were restricted and the financial system suffered a deep crisis.",
+    "overview": "After years of recession and mounting debt pressures, Argentina defaulted on sovereign debt in December 2001. In early 2002 it abandoned the currency-board arrangement that had pegged the peso one-to-one with the U.S. dollar. The peso depreciated sharply, bank withdrawals were restricted and the financial system suffered a deep crisis. The crisis reflected an increasingly unsustainable exchange-rate arrangement, rising public debt, weak growth and reduced access to external financing. The sudden end of convertibility exposed the risks of trying to maintain a currency peg without a supporting fiscal and economic framework.",
+    "humanImpact": "Output and incomes collapsed, poverty rose and savings were disrupted. Banks, businesses and households faced severe uncertainty as deposits and contracts were affected by emergency measures. The crisis became a major case study in sovereign debt restructuring and exchange-rate regimes.",
+    "timeline": [
+      {
+        "date": "2001-12-23",
+        "title": "Key event and immediate trigger",
+        "text": "After years of recession and mounting debt pressures, Argentina defaulted on sovereign debt in December 2001. In early 2002 it abandoned the currency-board arrangement that had pegged the peso one-to-one with the U.S. dollar. The peso depreciated sharply, bank withdrawals were restricted and the financial system suffered a deep crisis."
+      },
+      {
+        "date": "2001-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Output and incomes collapsed, poverty rose and savings were disrupted. Banks, businesses and households faced severe uncertainty as deposits and contracts were affected by emergency measures. The crisis became a major case study in sovereign debt restructuring and exchange-rate regimes."
+      }
+    ],
+    "countries": [
+      "Argentina"
+    ],
+    "sources": [
+      {
+        "label": "IMF Independent Evaluation Office — Argentina, 1991–2001",
+        "url": "https://www.imf.org/external/np/ieo/2004/arg/eng/index.htm"
+      },
+      {
+        "label": "IMF — Argentina 2002 Article IV consultation",
+        "url": "https://www.imf.org/en/news/articles/2015/09/28/04/53/pn0388"
+      }
+    ]
+  },
+  {
+    "id": "libor-rigging-2012",
+    "year": 2012,
+    "date": "2012-06-27",
+    "title": "The Libor Interest Rate Rigging Scandal (2012)",
+    "region": "London, United Kingdom",
+    "category": "Financial crisis and market disruption",
+    "lede": "In June 2012, Barclays agreed to major regulatory settlements after investigations found that traders and submitters had attempted to manipulate submissions used to calculate the London Interbank Offered Rate (Libor). The benchmark influenced borrowing costs and financial contracts around the world, so the misconduct raised questions about the reliability of a key reference rate.",
+    "overview": "In June 2012, Barclays agreed to major regulatory settlements after investigations found that traders and submitters had attempted to manipulate submissions used to calculate the London Interbank Offered Rate (Libor). The benchmark influenced borrowing costs and financial contracts around the world, so the misconduct raised questions about the reliability of a key reference rate. Libor relied on submissions from panel banks, creating opportunities for conflicts of interest and manipulation. The scandal exposed weaknesses in benchmark governance, internal controls and oversight of financial-market conduct.",
+    "humanImpact": "The case damaged public trust in banks and prompted criminal and regulatory investigations, fines and reforms to benchmark administration. Libor was subsequently phased out in major currencies and replaced by alternative reference rates.",
+    "timeline": [
+      {
+        "date": "2012-06-27",
+        "title": "Key event and immediate trigger",
+        "text": "In June 2012, Barclays agreed to major regulatory settlements after investigations found that traders and submitters had attempted to manipulate submissions used to calculate the London Interbank Offered Rate (Libor). The benchmark influenced borrowing costs and financial contracts around the world, so the misconduct raised questions about the reliability of a key reference rate."
+      },
+      {
+        "date": "2012-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The case damaged public trust in banks and prompted criminal and regulatory investigations, fines and reforms to benchmark administration. Libor was subsequently phased out in major currencies and replaced by alternative reference rates."
+      }
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "sources": [
+      {
+        "label": "UK FCA — Barclays fined for Libor and Euribor misconduct",
+        "url": "https://www.fca.org.uk/news/press-releases/barclays-fined-libor-and-euribor-misconduct"
+      },
+      {
+        "label": "U.S. CFTC — Barclays Libor settlement",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/pr6289-12"
+      }
+    ]
+  },
+  {
+    "id": "swiss-franc-shock-2015",
+    "year": 2015,
+    "date": "2015-01-15",
+    "title": "The Swiss Franc De-pegging Shock (2015)",
+    "region": "Zurich, Switzerland",
+    "category": "Financial crisis and market disruption",
+    "lede": "On 15 January 2015, the Swiss National Bank unexpectedly discontinued its minimum exchange rate of CHF 1.20 per euro and lowered interest rates. The franc appreciated sharply, causing extreme volatility and losses for some leveraged currency traders and brokers.",
+    "overview": "On 15 January 2015, the Swiss National Bank unexpectedly discontinued its minimum exchange rate of CHF 1.20 per euro and lowered interest rates. The franc appreciated sharply, causing extreme volatility and losses for some leveraged currency traders and brokers. The minimum exchange rate had required sustained intervention as the euro weakened. The SNB concluded that maintaining the floor was no longer sustainable in the changed international environment. The abrupt policy change left markets little time to adjust.",
+    "humanImpact": "The franc's rapid appreciation affected exporters, tourism businesses and investors. Some retail foreign-exchange brokers suffered heavy losses, highlighting the risks of leverage, thin liquidity and sudden central-bank policy changes.",
+    "timeline": [
+      {
+        "date": "2015-01-15",
+        "title": "Key event and immediate trigger",
+        "text": "On 15 January 2015, the Swiss National Bank unexpectedly discontinued its minimum exchange rate of CHF 1.20 per euro and lowered interest rates. The franc appreciated sharply, causing extreme volatility and losses for some leveraged currency traders and brokers."
+      },
+      {
+        "date": "2015-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The franc's rapid appreciation affected exporters, tourism businesses and investors. Some retail foreign-exchange brokers suffered heavy losses, highlighting the risks of leverage, thin liquidity and sudden central-bank policy changes."
+      }
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "sources": [
+      {
+        "label": "Swiss National Bank — 15 January 2015 press release",
+        "url": "https://www.snb.ch/en/publications/communication/press-releases/2015/pre_20150115"
+      },
+      {
+        "label": "BIS — Rationale for discontinuing the minimum exchange rate",
+        "url": "https://www.bis.org/speeches/20150116-rationale-discontinuing-minimum-exchange-rate-and-lowering-interest-rates"
+      }
+    ]
+  },
+  {
+    "id": "ftx-collapse-2022",
+    "year": 2022,
+    "date": "2022-11-11",
+    "title": "The Crypto Market Contagion & FTX Collapse (2022)",
+    "region": "Nassau, Bahamas",
+    "category": "Financial crisis and market disruption",
+    "lede": "After concerns about FTX's financial position and links with Alameda Research triggered a rush of customer withdrawals, FTX halted withdrawals and filed for Chapter 11 bankruptcy in November 2022. The collapse followed a sharp loss of confidence and exposed serious failures in the handling of customer assets and corporate controls.",
+    "overview": "After concerns about FTX's financial position and links with Alameda Research triggered a rush of customer withdrawals, FTX halted withdrawals and filed for Chapter 11 bankruptcy in November 2022. The collapse followed a sharp loss of confidence and exposed serious failures in the handling of customer assets and corporate controls. The episode showed the danger of opaque related-party transactions, weak governance, inadequate custody controls and the absence of clear safeguards between an exchange and a trading affiliate. Crypto-market links transmitted stress to other firms and tokens.",
+    "humanImpact": "Customers faced uncertainty over recovering funds, crypto prices fell and other digital-asset firms came under pressure. The collapse accelerated regulatory scrutiny of crypto exchanges, custody, disclosures and risk management.",
+    "timeline": [
+      {
+        "date": "2022-11-11",
+        "title": "Key event and immediate trigger",
+        "text": "After concerns about FTX's financial position and links with Alameda Research triggered a rush of customer withdrawals, FTX halted withdrawals and filed for Chapter 11 bankruptcy in November 2022. The collapse followed a sharp loss of confidence and exposed serious failures in the handling of customer assets and corporate controls."
+      },
+      {
+        "date": "2022-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Customers faced uncertainty over recovering funds, crypto prices fell and other digital-asset firms came under pressure. The collapse accelerated regulatory scrutiny of crypto exchanges, custody, disclosures and risk management."
+      }
+    ],
+    "countries": [
+      "Bahamas"
+    ],
+    "sources": [
+      {
+        "label": "U.S. Bankruptcy Court — FTX case docket",
+        "url": "https://restructuring.ra.kroll.com/FTX/"
+      },
+      {
+        "label": "U.S. SEC — Charges against FTX and Sam Bankman-Fried",
+        "url": "https://www.sec.gov/newsroom/press-releases/2022-219"
+      }
+    ]
+  },
+  {
+    "id": "us-regional-banking-crisis-2023",
+    "year": 2023,
+    "date": "2023-03-10",
+    "title": "The U.S. Regional Banking Crisis (2023)",
+    "region": "Santa Clara, United States; New York City, United States",
+    "category": "Financial crisis and market disruption",
+    "lede": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system.",
+    "overview": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system. Rapid interest-rate increases reduced the market value of some banks' fixed-income assets, while concentrated and uninsured deposits made withdrawals faster and more destabilising. Digital communication and connected customer networks accelerated the run.",
+    "humanImpact": "The episode unsettled U.S. and global bank shares, prompted emergency liquidity measures and renewed attention to interest-rate risk, deposit concentration, supervision and contingency planning.",
+    "timeline": [
+      {
+        "date": "2023-03-10",
+        "title": "Key event and immediate trigger",
+        "text": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system."
+      },
+      {
+        "date": "2023-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The episode unsettled U.S. and global bank shares, prompted emergency liquidity measures and renewed attention to interest-rate risk, deposit concentration, supervision and contingency planning."
+      }
+    ],
+    "countries": [
+      "United States"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve — Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank",
+        "url": "https://www.federalreserve.gov/publications/review-of-the-federal-reserves-supervision-and-regulation-of-silicon-valley-bank.htm"
+      },
+      {
+        "label": "FDIC — Bank Failures in Brief: 2023",
+        "url": "https://www.fdic.gov/bank-failures-in-brief"
+      }
+    ]
+  },
+  {
+    "id": "yen-carry-unwind-2024",
+    "year": 2024,
+    "date": "2024-08-05",
+    "title": "The Yen Carry Trade Unwind Market Panic (2024)",
+    "region": "Tokyo, Japan",
+    "category": "Financial crisis and market disruption",
+    "lede": "In early August 2024, global markets experienced a sharp bout of volatility as leveraged positions were unwound. A stronger yen and changing expectations about Japanese and U.S. interest rates contributed to pressure on carry trades, while weaker-than-expected U.S. economic data intensified the sell-off. Japanese equities recorded an exceptionally sharp one-day fall on 5 August before markets stabilised.",
+    "overview": "In early August 2024, global markets experienced a sharp bout of volatility as leveraged positions were unwound. A stronger yen and changing expectations about Japanese and U.S. interest rates contributed to pressure on carry trades, while weaker-than-expected U.S. economic data intensified the sell-off. Japanese equities recorded an exceptionally sharp one-day fall on 5 August before markets stabilised. A yen carry trade typically involves borrowing in a low-interest-rate currency to invest in higher-yielding assets elsewhere. When the funding currency strengthens or interest-rate expectations change, investors may close positions quickly, amplifying price movements across markets.",
+    "humanImpact": "The Nikkei experienced a historic one-day decline, global equity markets fell and volatility spiked. The episode highlighted how leverage, crowded trades and currency movements can connect markets across countries.",
+    "timeline": [
+      {
+        "date": "2024-08-05",
+        "title": "Key event and immediate trigger",
+        "text": "In early August 2024, global markets experienced a sharp bout of volatility as leveraged positions were unwound. A stronger yen and changing expectations about Japanese and U.S. interest rates contributed to pressure on carry trades, while weaker-than-expected U.S. economic data intensified the sell-off. Japanese equities recorded an exceptionally sharp one-day fall on 5 August before markets stabilised."
+      },
+      {
+        "date": "2024-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The Nikkei experienced a historic one-day decline, global equity markets fell and volatility spiked. The episode highlighted how leverage, crowded trades and currency movements can connect markets across countries."
+      }
+    ],
+    "countries": [
+      "Japan"
+    ],
+    "sources": [
+      {
+        "label": "BIS — The market turbulence and carry trade unwind of August 2024",
+        "url": "https://www.bis.org/publ/bisbull90.htm"
+      },
+      {
+        "label": "Bank of Japan — Statement on Monetary Policy, 31 July 2024",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k240731a.pdf"
+      }
+    ]
+  },
+  {
+    "id": "crb-mutual-fund-scam-1997",
+    "year": 1997,
+    "date": "1997-05-20",
+    "title": "The CRB Mutual Fund Scam (1997)",
+    "region": "Mumbai, India",
+    "category": "Financial crisis and market disruption",
+    "lede": "CRB Capital Markets and its associated mutual-fund operations became the centre of a major financial scandal in the 1990s. The group raised money from investors through financial products and schemes that came under regulatory scrutiny as the company ran into severe financial trouble. The episode exposed weaknesses in oversight of non-bank financial businesses and investor protection.",
+    "overview": "CRB Capital Markets and its associated mutual-fund operations became the centre of a major financial scandal in the 1990s. The group raised money from investors through financial products and schemes that came under regulatory scrutiny as the company ran into severe financial trouble. The episode exposed weaknesses in oversight of non-bank financial businesses and investor protection. The case highlighted the risks of complex financial groups operating across deposits, investments and mutual-fund products, especially when disclosures, governance and regulatory supervision are inadequate.",
+    "humanImpact": "Investors faced losses and uncertainty, while the episode contributed to closer scrutiny of mutual funds and non-bank financial companies in India. The description of a retail run is best understood as a crisis of confidence around the group rather than a banking-system-wide run.",
+    "timeline": [
+      {
+        "date": "1997-05-20",
+        "title": "Key event and immediate trigger",
+        "text": "CRB Capital Markets and its associated mutual-fund operations became the centre of a major financial scandal in the 1990s. The group raised money from investors through financial products and schemes that came under regulatory scrutiny as the company ran into severe financial trouble. The episode exposed weaknesses in oversight of non-bank financial businesses and investor protection."
+      },
+      {
+        "date": "1997-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Investors faced losses and uncertainty, while the episode contributed to closer scrutiny of mutual funds and non-bank financial companies in India. The description of a retail run is best understood as a crisis of confidence around the group rather than a banking-system-wide run."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "SEBI — Annual reports and enforcement archive",
+        "url": "https://www.sebi.gov.in/annual-reports.html"
+      },
+      {
+        "label": "RBI — Report on Trend and Progress of Banking in India archive",
+        "url": "https://www.rbi.org.in/Scripts/AnnualPublications.aspx?head=Trend+and+Progress+of+Banking+in+India"
+      }
+    ]
+  },
+  {
+    "id": "ketan-parekh-scam-2001",
+    "year": 2001,
+    "date": "2001-03-01",
+    "title": "The Ketan Parekh Stock Market Scam (2001)",
+    "region": "Mumbai, India",
+    "category": "Financial crisis and market disruption",
+    "lede": "Investigations into the 2001 market turmoil found that entities associated with Ketan Parekh had engaged in manipulative trading practices, including circular and synchronised trades that created artificial volumes and prices in selected shares. The episode followed a period of sharp rises in a group of technology and media stocks often called the K-10 shares.",
+    "overview": "Investigations into the 2001 market turmoil found that entities associated with Ketan Parekh had engaged in manipulative trading practices, including circular and synchronised trades that created artificial volumes and prices in selected shares. The episode followed a period of sharp rises in a group of technology and media stocks often called the K-10 shares. The case exposed how concentrated financing, connected trading accounts and artificial volumes can distort price discovery. It also highlighted the importance of market surveillance, broker oversight and controls on conflicts of interest.",
+    "humanImpact": "Investors suffered losses as prices collapsed, market confidence weakened and regulatory investigations followed. SEBI took enforcement action against Parekh and associated entities, contributing to stronger market surveillance and enforcement.",
+    "timeline": [
+      {
+        "date": "2001-03-01",
+        "title": "Key event and immediate trigger",
+        "text": "Investigations into the 2001 market turmoil found that entities associated with Ketan Parekh had engaged in manipulative trading practices, including circular and synchronised trades that created artificial volumes and prices in selected shares. The episode followed a period of sharp rises in a group of technology and media stocks often called the K-10 shares."
+      },
+      {
+        "date": "2001-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Investors suffered losses as prices collapsed, market confidence weakened and regulatory investigations followed. SEBI took enforcement action against Parekh and associated entities, contributing to stronger market surveillance and enforcement."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "SEBI — Order against Ketan V. Parekh and associated entities",
+        "url": "https://www.sebi.gov.in/media/press-releases/nov-2007/order-against-shri-ketan-v-parekh-and-his-associated-entities_8321.html"
+      },
+      {
+        "label": "SEBI — Investigation and enforcement material on the 2001 stock-market scam",
+        "url": "https://www.sebi.gov.in/sebi_data/docfiles/15937_t.html"
+      }
+    ]
+  },
+  {
+    "id": "satyam-fraud-2009",
+    "year": 2009,
+    "date": "2009-01-07",
+    "title": "The Satyam Computers Accounting Fraud (2009)",
+    "region": "Hyderabad, India",
+    "category": "Financial crisis and market disruption",
+    "lede": "On 7 January 2009, Satyam's chairman disclosed that the company's accounts had been falsified over several years, including inflated cash balances and profits. The admission shocked investors and raised questions about audit quality, board oversight and corporate governance in India's technology sector.",
+    "overview": "On 7 January 2009, Satyam's chairman disclosed that the company's accounts had been falsified over several years, including inflated cash balances and profits. The admission shocked investors and raised questions about audit quality, board oversight and corporate governance in India's technology sector. The fraud showed how fabricated financial statements can mislead investors, lenders and employees when independent verification, audit challenge and board oversight fail. It became a major test of India's corporate-governance and enforcement framework.",
+    "humanImpact": "Satyam's share price collapsed, employees faced uncertainty and investors suffered losses. The government intervened to stabilise the company, which was later acquired by Tech Mahindra. The case prompted renewed scrutiny of auditors and listed-company governance.",
+    "timeline": [
+      {
+        "date": "2009-01-07",
+        "title": "Key event and immediate trigger",
+        "text": "On 7 January 2009, Satyam's chairman disclosed that the company's accounts had been falsified over several years, including inflated cash balances and profits. The admission shocked investors and raised questions about audit quality, board oversight and corporate governance in India's technology sector."
+      },
+      {
+        "date": "2009-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Satyam's share price collapsed, employees faced uncertainty and investors suffered losses. The government intervened to stabilise the company, which was later acquired by Tech Mahindra. The case prompted renewed scrutiny of auditors and listed-company governance."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "Government of India Press Information Bureau — Satyam investigation",
+        "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=56471"
+      },
+      {
+        "label": "SEBI — Satyam proceedings and orders",
+        "url": "https://www.sebi.gov.in/"
+      }
+    ]
+  },
+  {
+    "id": "india-taper-tantrum-2013",
+    "year": 2013,
+    "date": "2013-05-22",
+    "title": "The Foreign Institutional Investor (FII) “Taper Tantrum” Shock (2013)",
+    "region": "Washington, D.C., United States; Mumbai, India",
+    "category": "Financial crisis and market disruption",
+    "lede": "In May 2013, Federal Reserve communication about the possible reduction of asset purchases triggered a reassessment of global interest-rate expectations. Portfolio investors withdrew funds from several emerging markets, including India. The rupee came under intense pressure and fell sharply against the U.S. dollar during the following months.",
+    "overview": "In May 2013, Federal Reserve communication about the possible reduction of asset purchases triggered a reassessment of global interest-rate expectations. Portfolio investors withdrew funds from several emerging markets, including India. The rupee came under intense pressure and fell sharply against the U.S. dollar during the following months. The episode showed how a change in monetary policy expectations in a major reserve-currency economy can redirect global capital flows. India's external vulnerabilities and macroeconomic imbalances amplified the impact of foreign portfolio outflows.",
+    "humanImpact": "The rupee depreciated sharply, bond yields and market volatility rose, and the RBI introduced measures to stabilise the foreign-exchange market. The episode became a key example of emerging-market exposure to global financial conditions.",
+    "timeline": [
+      {
+        "date": "2013-05-22",
+        "title": "Key event and immediate trigger",
+        "text": "In May 2013, Federal Reserve communication about the possible reduction of asset purchases triggered a reassessment of global interest-rate expectations. Portfolio investors withdrew funds from several emerging markets, including India. The rupee came under intense pressure and fell sharply against the U.S. dollar during the following months."
+      },
+      {
+        "date": "2013-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The rupee depreciated sharply, bond yields and market volatility rose, and the RBI introduced measures to stabilise the foreign-exchange market. The episode became a key example of emerging-market exposure to global financial conditions."
+      }
+    ],
+    "countries": [
+      "United States",
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI Bulletin — Taper Tantrum and Indian financial markets",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22929"
+      },
+      {
+        "label": "RBI — Rupee volatility and capital flows in 2013",
+        "url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=15229"
+      }
+    ]
+  },
+  {
+    "id": "pnb-nirav-modi-fraud-2018",
+    "year": 2018,
+    "date": "2018-02-14",
+    "title": "The PNB–Nirav Modi Banking Fraud (2018)",
+    "region": "Mumbai, India",
+    "category": "Financial crisis and market disruption",
+    "lede": "Punjab National Bank disclosed unauthorised letters of undertaking issued through its Brady House branch in Mumbai. The instruments had been used to obtain credit from overseas branches of other banks without being properly recorded in the bank's core systems. The fraud involved billions of dollars in exposure and triggered investigations.",
+    "overview": "Punjab National Bank disclosed unauthorised letters of undertaking issued through its Brady House branch in Mumbai. The instruments had been used to obtain credit from overseas branches of other banks without being properly recorded in the bank's core systems. The fraud involved billions of dollars in exposure and triggered investigations. The case exposed failures in internal controls, access management, reconciliation and oversight of trade-finance instruments. It showed how transactions can bypass a bank's normal risk systems when messaging and core banking controls are not integrated.",
+    "humanImpact": "The disclosure damaged confidence in PNB and raised concerns about governance and controls across the banking sector. Investigations, asset recovery efforts and regulatory scrutiny followed.",
+    "timeline": [
+      {
+        "date": "2018-02-14",
+        "title": "Key event and immediate trigger",
+        "text": "Punjab National Bank disclosed unauthorised letters of undertaking issued through its Brady House branch in Mumbai. The instruments had been used to obtain credit from overseas branches of other banks without being properly recorded in the bank's core systems. The fraud involved billions of dollars in exposure and triggered investigations."
+      },
+      {
+        "date": "2018-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The disclosure damaged confidence in PNB and raised concerns about governance and controls across the banking sector. Investigations, asset recovery efforts and regulatory scrutiny followed."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI — Statement on fraud in Punjab National Bank",
+        "url": "https://www.rbi.org.in/commonman/English/scripts/PressReleases.aspx?Id=2604"
+      },
+      {
+        "label": "Central Bureau of Investigation — PNB fraud case information",
+        "url": "https://cbi.gov.in/"
+      }
+    ]
+  },
+  {
+    "id": "franklin-templeton-debt-crisis-2020",
+    "year": 2020,
+    "date": "2020-04-23",
+    "title": "The Franklin Templeton Mutual Fund Debt Crisis (2020)",
+    "region": "Mumbai, India",
+    "category": "Financial crisis and market disruption",
+    "lede": "In April 2020, Franklin Templeton announced the winding up of six Indian debt mutual-fund schemes, citing severe market dislocation and a lack of liquidity during the COVID-19 shock. Investors could not redeem units in the usual way while the schemes moved into a wind-up process.",
+    "overview": "In April 2020, Franklin Templeton announced the winding up of six Indian debt mutual-fund schemes, citing severe market dislocation and a lack of liquidity during the COVID-19 shock. Investors could not redeem units in the usual way while the schemes moved into a wind-up process. The episode showed that debt mutual funds are exposed to liquidity risk as well as credit risk. Assets that appear tradable in normal markets can become difficult to sell when many investors seek cash at the same time and buyers disappear.",
+    "humanImpact": "Investors faced uncertainty and delayed access to their money. The case led to legal proceedings, regulatory scrutiny and debate about liquidity management, valuation and risk disclosures in debt funds.",
+    "timeline": [
+      {
+        "date": "2020-04-23",
+        "title": "Key event and immediate trigger",
+        "text": "In April 2020, Franklin Templeton announced the winding up of six Indian debt mutual-fund schemes, citing severe market dislocation and a lack of liquidity during the COVID-19 shock. Investors could not redeem units in the usual way while the schemes moved into a wind-up process."
+      },
+      {
+        "date": "2020-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Investors faced uncertainty and delayed access to their money. The case led to legal proceedings, regulatory scrutiny and debate about liquidity management, valuation and risk disclosures in debt funds."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "SEBI — Franklin Templeton mutual fund orders and proceedings",
+        "url": "https://www.sebi.gov.in/"
+      },
+      {
+        "label": "Supreme Court of India — Franklin Templeton case judgments",
+        "url": "https://main.sci.gov.in/"
+      }
+    ]
+  },
+  {
+    "id": "lic-ipo-2022",
+    "year": 2022,
+    "date": "2022-05-17",
+    "title": "Life Insurance Corporation (LIC) Historic IPO (2022)",
+    "region": "New Delhi, India; Mumbai, India",
+    "category": "Capital markets and public finance",
+    "lede": "LIC's initial public offering opened in May 2022 and became India's largest IPO at the time. The government sold a minority stake in the state-owned insurer as part of its disinvestment programme, while LIC's listing brought a major public financial institution into the listed equity market.",
+    "overview": "LIC's initial public offering opened in May 2022 and became India's largest IPO at the time. The government sold a minority stake in the state-owned insurer as part of its disinvestment programme, while LIC's listing brought a major public financial institution into the listed equity market. The IPO was significant for India's capital markets, public-sector disinvestment and retail investor participation. It also raised questions about valuation, public ownership and how a large, established insurer should be assessed by listed-market investors.",
+    "humanImpact": "The offering attracted substantial attention from domestic and international investors and expanded public-market access to LIC shares. The listing became a landmark in India's equity-market history.",
+    "timeline": [
+      {
+        "date": "2022-05-17",
+        "title": "Key event and immediate trigger",
+        "text": "LIC's initial public offering opened in May 2022 and became India's largest IPO at the time. The government sold a minority stake in the state-owned insurer as part of its disinvestment programme, while LIC's listing brought a major public financial institution into the listed equity market."
+      },
+      {
+        "date": "2022-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The offering attracted substantial attention from domestic and international investors and expanded public-market access to LIC shares. The listing became a landmark in India's equity-market history."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "DIPAM — LIC IPO and disinvestment documents",
+        "url": "https://dipam.gov.in/"
+      },
+      {
+        "label": "LIC — Annual reports and investor information",
+        "url": "https://licindia.in/"
+      }
+    ]
+  },
+  {
+    "id": "india-startup-valuation-winter-2023",
+    "year": 2023,
+    "date": "2023-01-01",
+    "title": "The Tech Startup Valuation Winter & Governance Crises (2023–2024)",
+    "region": "Bengaluru, India",
+    "category": "Financial crisis and market disruption",
+    "lede": "During 2023–2024, tighter global financing conditions and more demanding investor expectations contributed to a reset in startup valuations and funding across India. Several firms cut costs, reduced headcount, delayed listings or faced scrutiny over governance, related-party transactions and accounting practices. The experience varied by company and sector.",
+    "overview": "During 2023–2024, tighter global financing conditions and more demanding investor expectations contributed to a reset in startup valuations and funding across India. Several firms cut costs, reduced headcount, delayed listings or faced scrutiny over governance, related-party transactions and accounting practices. The experience varied by company and sector. The period highlighted the dependence of high-growth businesses on continued access to external capital, the importance of credible unit economics and the risks of valuing companies mainly on future growth assumptions.",
+    "humanImpact": "Startups and employees faced layoffs and restructuring, investors reassessed portfolios and founders faced greater pressure to demonstrate sustainable cash flows and governance standards. Bengaluru was one important ecosystem centre, not the only location affected.",
+    "timeline": [
+      {
+        "date": "2023-01-01",
+        "title": "Key event and immediate trigger",
+        "text": "During 2023–2024, tighter global financing conditions and more demanding investor expectations contributed to a reset in startup valuations and funding across India. Several firms cut costs, reduced headcount, delayed listings or faced scrutiny over governance, related-party transactions and accounting practices. The experience varied by company and sector."
+      },
+      {
+        "date": "2023-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Startups and employees faced layoffs and restructuring, investors reassessed portfolios and founders faced greater pressure to demonstrate sustainable cash flows and governance standards. Bengaluru was one important ecosystem centre, not the only location affected."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "Tracxn — India Tech Annual Funding Report",
+        "url": "https://tracxn.com/d/reports/india-tech-annual-funding-report"
+      },
+      {
+        "label": "NASSCOM — Indian Tech Startup Ecosystem reports",
+        "url": "https://nasscom.in/knowledge-center/publications"
+      }
+    ]
+  },
+  {
+    "id": "paytm-payments-bank-rbi-2024",
+    "year": 2024,
+    "date": "2024-01-31",
+    "title": "RBI Regulatory Clampdown on Fintech Payment Gateways (2024)",
+    "region": "Mumbai, India",
+    "category": "Financial regulation and policy",
+    "lede": "On 31 January 2024, the RBI directed Paytm Payments Bank to stop accepting fresh deposits, credit transactions and top-ups after 29 February, citing persistent non-compliance and supervisory concerns. The deadline was later extended to 15 March 2024. The action affected customer and merchant payment arrangements linked to the bank.",
+    "overview": "On 31 January 2024, the RBI directed Paytm Payments Bank to stop accepting fresh deposits, credit transactions and top-ups after 29 February, citing persistent non-compliance and supervisory concerns. The deadline was later extended to 15 March 2024. The action affected customer and merchant payment arrangements linked to the bank. The action underscored that fintech innovation does not remove the need for banking regulation, KYC compliance, operational controls and protection of customer funds. It also distinguished the regulated bank from other parts of the Paytm group.",
+    "humanImpact": "Customers and merchants had to shift certain banking and payment functions, while the wider fintech sector reassessed compliance and operational dependencies. RBI's action became a major regulatory moment for India's digital-payments ecosystem.",
+    "timeline": [
+      {
+        "date": "2024-01-31",
+        "title": "Key event and immediate trigger",
+        "text": "On 31 January 2024, the RBI directed Paytm Payments Bank to stop accepting fresh deposits, credit transactions and top-ups after 29 February, citing persistent non-compliance and supervisory concerns. The deadline was later extended to 15 March 2024. The action affected customer and merchant payment arrangements linked to the bank."
+      },
+      {
+        "date": "2024-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Customers and merchants had to shift certain banking and payment functions, while the wider fintech sector reassessed compliance and operational dependencies. RBI's action became a major regulatory moment for India's digital-payments ecosystem."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI — Press release on Paytm Payments Bank, 31 January 2024",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57199"
+      },
+      {
+        "label": "RBI — FAQs on Paytm Payments Bank",
+        "url": "https://www.rbi.org.in/"
+      }
+    ]
+  },
+  {
+    "id": "us-government-shutdown-2025-26",
+    "year": 2025,
+    "date": "2025-10-01",
+    "title": "Prolonged United States Government Financial Shutdown & Global Market Impact (2025–2026)",
+    "region": "Washington, D.C., United States",
+    "category": "Financial regulation and policy",
+    "lede": "A government-wide U.S. funding lapse began on 1 October 2025, at the start of FY2026, and ended when funding legislation was signed on 12 November 2025 after 42 full days. Separate funding lapses followed in 2026: a brief partial lapse in early February and a Department of Homeland Security funding lapse from 14 February to 30 April 2026. These were distinct shutdown episodes, not one continuous government-wide shutdown.",
+    "overview": "A government-wide U.S. funding lapse began on 1 October 2025, at the start of FY2026, and ended when funding legislation was signed on 12 November 2025 after 42 full days. Separate funding lapses followed in 2026: a brief partial lapse in early February and a Department of Homeland Security funding lapse from 14 February to 30 April 2026. These were distinct shutdown episodes, not one continuous government-wide shutdown. The shutdowns reflected disagreements over appropriations and continuing funding legislation. They affected federal operations, employee pay and public services, while uncertainty about government data releases and spending could complicate economic analysis and market expectations.",
+    "humanImpact": "The 2025 shutdown was the longest government-wide shutdown on record at the time. The later DHS shutdown was a separate partial shutdown. The funding gaps disrupted services and workers and created uncertainty for businesses and investors; the economic effects varied by agency and duration.",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "title": "Key event and immediate trigger",
+        "text": "A government-wide U.S. funding lapse began on 1 October 2025, at the start of FY2026, and ended when funding legislation was signed on 12 November 2025 after 42 full days. Separate funding lapses followed in 2026: a brief partial lapse in early February and a Department of Homeland Security funding lapse from 14 February to 30 April 2026. These were distinct shutdown episodes, not one continuous government-wide shutdown."
+      },
+      {
+        "date": "2025-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The 2025 shutdown was the longest government-wide shutdown on record at the time. The later DHS shutdown was a separate partial shutdown. The funding gaps disrupted services and workers and created uncertainty for businesses and investors; the economic effects varied by agency and duration."
+      }
+    ],
+    "countries": [
+      "United States"
+    ],
+    "sources": [
+      {
+        "label": "Congressional Research Service — Past Government Shutdowns: Key Resources (updated 2026)",
+        "url": "https://www.everycrsreport.com/reports/R41759.html"
+      },
+      {
+        "label": "Congressional Research Service — The 2025 (FY2026) Government Shutdown: Economic Effects",
+        "url": "https://www.congress.gov/crs_external_products/R/PDF/R48832/R48832.1.pdf"
       }
     ]
   }
