@@ -711,3 +711,36 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 .what-next-item h4{margin:5px 0;color:#684354;font-size:16px}
 .what-next-item p{margin:0;color:#775969;line-height:1.75;font-size:14px}
 @media(max-width:640px){.section-jump-nav{gap:7px;padding:10px}.section-jump-nav a{font-size:11px;padding:7px 10px}.what-next-item{grid-template-columns:32px 1fr;gap:10px}.what-next-index{width:29px;height:29px}}
+
+
+/* Finance learning directory and expandable formula explanations. */
+.notebook-formula-card .formula-explanation{display:block;margin-top:15px;padding-top:12px;border-top:1px dashed #dfbdc7}
+.notebook-formula-card .formula-explanation summary{display:inline-flex;align-items:center;gap:8px;cursor:pointer;list-style:none;color:#a45d77;font:600 12px var(--sans);padding:8px 0;transition:color .2s}
+.notebook-formula-card .formula-explanation summary::-webkit-details-marker{display:none}
+.notebook-formula-card .formula-explanation summary::after{content:"＋";font-size:15px;line-height:1}
+.notebook-formula-card .formula-explanation[open] summary::after{content:"−"}
+.notebook-formula-card .formula-explanation summary:hover{color:#704057}
+.notebook-formula-card .formula-explanation[open]{display:grid;gap:12px}
+.notebook-formula-card .formula-explanation section{margin:0}
+.home-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.feature-quiz{background:#4a244d}
+.feature-learning{background:#382b58}
+.feature-quiz .feature-icon,.feature-learning .feature-icon{color:#f2c9d3}
+.learn-finance-view{padding-bottom:65px}
+.learning-intro{max-width:1040px;margin:0 auto 38px;padding:22px 26px;background:#fff8f5;border:1px solid #edd4da;border-radius:18px}
+.learning-intro p{margin:0;color:#704c5d;font-size:16px;line-height:1.8}
+.learning-intro span{display:block;margin-top:12px;color:#a36b80;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.finance-publications{max-width:1120px;margin:0 auto;padding:0 0 20px}
+.finance-publications>h2{font:400 clamp(28px,4vw,40px) Georgia,serif;color:#542d40;margin:8px 0 24px}
+.finance-publication-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.finance-publication-card{display:flex;flex-direction:column;min-height:230px;padding:23px 25px;background:#fff9f5;border:1px solid #ead0d7;border-radius:18px;transition:transform .2s,border-color .2s,box-shadow .2s}
+.finance-publication-card:hover{transform:translateY(-3px);border-color:#d7a3b2;box-shadow:0 8px 22px rgba(84,45,64,.06)}
+.finance-publication-card .publication-type{color:#a45d77;font:700 9px var(--sans);letter-spacing:.12em}
+.finance-publication-card h3{margin:13px 0 8px;color:#542d40;font:400 25px Georgia,serif}
+.finance-publication-card p{margin:0 0 18px;color:#775969;font-size:14px;line-height:1.75}
+.finance-publication-card a{margin-top:auto;align-self:flex-start;color:#9b4f6b;font-size:13px;font-weight:600;text-decoration:none;border-bottom:1px solid #d9a9b8;padding-bottom:3px}
+.finance-publication-card a:hover{color:#542d40;border-color:#542d40}
+.learn-finance-view>.source-note{max-width:1120px;margin:24px auto;padding:0 2px}
+#finance-publications{scroll-margin-top:25px}
+@media(max-width:900px){.home-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.finance-publications{padding-left:20px;padding-right:20px}}
+@media(max-width:600px){.home-grid{grid-template-columns:1fr}.feature-card{min-height:260px}.finance-publication-grid{grid-template-columns:1fr}.finance-publication-card{min-height:205px;padding:21px}.learning-intro{margin-left:18px;margin-right:18px;padding:19px}.finance-publications>h2{font-size:29px}}
