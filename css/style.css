@@ -524,3 +524,15 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 .notebook-term{min-height:58px}
 @media(max-width:800px){.notebook-book{min-height:700px}.notebook-page{min-height:700px}}
 @media(max-width:600px){.notebook-book{min-height:0}.notebook-page{min-height:700px}}
+
+
+/* Keep the welcome layer above every page element and make it the click target. */
+#divy-welcome.divy-welcome{
+  position:fixed!important;inset:0!important;z-index:2147483000!important;
+  pointer-events:auto!important;touch-action:manipulation;
+}
+#divy-welcome .divy-welcome-inner,
+#divy-welcome .divy-heart,
+#divy-welcome .divy-message,
+#divy-welcome .divy-character,
+#divy-welcome .divy-dismiss-hint{pointer-events:auto!important}
