@@ -122,13 +122,13 @@
     "OMG, we have our finance wizard hereeee! Please don't start charging us consultation fees."
   ];
   const $ = (id) => document.getElementById(id);
-  let mode = null, questions = [], index = 0, score = 0, answered = false, answers = [];
+  let mode = null, questions = [], index = 0, score = 0, answered = false, selectedChoice = null, answers = [];
   const modeNames = {easy:"Easy",medium:"Medium",hard:"Hard"};
   function showPanel(name) {
     ["quiz-intro","quiz-play","quiz-result"].forEach(id => $(id).hidden = id !== name);
   }
   function startQuiz(level) {
-    mode = level; questions = shuffledQuestions(level); index = 0; score = 0; answered = false; answers = [];
+    mode = level; questions = shuffledQuestions(level); index = 0; score = 0; answered = false; selectedChoice = null; answers = [];
     showPanel("quiz-play"); renderQuestion();
     window.scrollTo({top:0,behavior:"smooth"});
   }
@@ -143,22 +143,28 @@
     ).join("") : "";
     $("quiz-feedback").hidden = true;
     $("quiz-next").hidden = true;
-    $("quiz-next").textContent = index === 14 ? "Finish quiz & see my score ↗" : "Next question →";
+    $("quiz-next").textContent = index === 14 ? "Submit answer & see my score ↗" : "Submit answer & next question →";
     answered = false;
+    selectedChoice = null;
   }
   function chooseAnswer(choice) {
     if(answered) return;
-    answered = true;
-    const q = questions[index], correct = choice === q[4];
-    if(correct) score++;
-    answers.push({question:q[0],chosen:choice,correct:q[4]});
-    // Keep the selected answer visually neutral; reveal no correctness or lesson
-    // until the complete 15-question quiz has been submitted.
+    selectedChoice = choice;
     $("quiz-next").hidden = false;
     $("quiz-options").querySelectorAll(".quiz-option").forEach(button => {
-      button.disabled = true;
-      button.setAttribute("aria-pressed", Number(button.dataset.answer) === choice ? "true" : "false");
+      const selected = Number(button.dataset.answer) === choice;
+      button.disabled = false;
+      button.setAttribute("aria-pressed", selected ? "true" : "false");
     });
+  }
+  function submitAnswer() {
+    if(answered || selectedChoice === null) return false;
+    const q = questions[index], correct = selectedChoice === q[4];
+    if(correct) score++;
+    answers.push({question:q[0],chosen:selectedChoice,correct:q[4]});
+    answered = true;
+    $("quiz-options").querySelectorAll(".quiz-option").forEach(button => { button.disabled = true; });
+    return true;
   }
   function answerReviewMarkup() {
     return answers.map((answer,i) => {
@@ -233,7 +239,7 @@
     const option=e.target.closest("[data-answer]");
     if(option){chooseAnswer(Number(option.dataset.answer));return;}
     if(e.target.closest("#quiz-next")){
-      if(!answered) return;
+      if(!submitAnswer()) return;
       if(index===14) finishQuiz();
       else { index++; renderQuestion(); }
       return;
