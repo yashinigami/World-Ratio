@@ -33,6 +33,30 @@
       <span class="divy-dismiss-hint">CLICK ANYWHERE TO ENTER ✦</span>
     </div>
   </div>
+  <script>
+    // Install this before the main application script so the welcome screen
+    // remains dismissible even if another page script fails.
+    (function () {
+      var layer = document.getElementById("divy-welcome");
+      if (!layer) return;
+      document.body.classList.add("divy-is-welcoming");
+      function dismissWelcome(event) {
+        var activeLayer = document.getElementById("divy-welcome");
+        if (!activeLayer) {
+          document.removeEventListener("click", dismissWelcome, true);
+          return;
+        }
+        if (event && event.target && event.target.closest && event.target.closest(".divy-email")) return;
+        document.body.classList.remove("divy-is-welcoming");
+        activeLayer.remove();
+        document.removeEventListener("click", dismissWelcome, true);
+      }
+      document.addEventListener("click", dismissWelcome, true);
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") dismissWelcome(event);
+      }, true);
+    })();
+  </script>
 
   <header class="site-header">
     <a class="wordmark" href="#home" aria-label="World Ratio home">WORLD RATIO<span class="wordmark-dot">.</span></a>
