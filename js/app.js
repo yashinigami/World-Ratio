@@ -227,7 +227,8 @@ function renderMap() {
     });
     marker.on("popupopen", () => {
       const root = marker.getPopup().getElement();
-      if (!root) return;
+      if (!root || root.dataset.cityBrowseBound === "true") return;
+      root.dataset.cityBrowseBound = "true";
       root.addEventListener("click", event => {
         const prev = event.target.closest("[data-city-prev]");
         const next = event.target.closest("[data-city-next]");
