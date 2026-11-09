@@ -725,23 +725,38 @@ function updateYear(year) {
 }
 
 function route() {
-  const hash = location.hash.replace("#", "") || "home";
+  const hash = decodeURIComponent(location.hash.slice(1)) || "home";
+  const target = document.getElementById(hash);
+  const validView = target?.classList.contains("view");
 
-  const validView = document.getElementById(hash)?.classList.contains("view");
-  const activeView = validView ? hash : "home";
-  document.querySelectorAll(".view").forEach(v => {
-    const active = v.id === activeView;
-    v.classList.toggle("active", active);
-    v.style.removeProperty("display");
+  // A hash can point either to a page or to a section inside the current page.
+  // Keep the containing page active for section links instead of falling back to Home.
+  const sectionView = !validView && target ? target.closest(".view") : null;
+  const currentView = document.querySelector(".view.active");
+  const activeView = validView ? hash : (sectionView?.id || currentView?.id || "home");
+
+  document.querySelectorAll(".view").forEach(view => {
+    view.classList.toggle("active", view.id === activeView);
+    view.style.removeProperty("display");
   });
 
-  document.querySelectorAll("[data-nav]").forEach(a =>
-    a.classList.toggle("active", a.dataset.nav === hash)
+  document.querySelectorAll("[data-nav]").forEach(link =>
+    link.classList.toggle("active", link.dataset.nav === activeView)
   );
 
-  if (hash === "atlas" && state.map) {
+  if (activeView === "atlas" && state.map) {
     setTimeout(() => state.map.invalidateSize(), 100);
     renderMap();
+  }
+
+  if (sectionView && !validView) {
+    requestAnimationFrame(() => {
+      const header = document.querySelector(".site-header");
+      const offset = header ? header.getBoundingClientRect().height + 18 : 18;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: "smooth" });
+    });
+    return;
   }
 
   window.scrollTo({ top: 0, behavior: "smooth" });
