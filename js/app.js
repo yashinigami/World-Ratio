@@ -904,7 +904,7 @@ const STOCK_TERMS = [
  {term:"Upper circuit",meaning:"The maximum permitted upward price movement for a security during a trading session under the applicable exchange price-band rules.",simple:"It is the day's allowed top price limit. Once the share reaches it, further buying may be difficult to execute.",real:"A share hitting its upper circuit may have many buyers but few or no sellers at that limit. Circuit limits and rules vary by security.",url:"https://www.nseindia.com/"},
  {term:"Lower circuit",meaning:"The maximum permitted downward price movement for a security during a trading session under the applicable exchange price-band rules.",simple:"It is the day's allowed bottom price limit. If a share reaches it, selling may become difficult because buyers may be scarce.",real:"A share at lower circuit can leave investors unable to sell at the price they want. The limit does not mean the share has reached its true value.",url:"https://www.nseindia.com/"},
  {term:"YTM (yield to maturity)",meaning:"The annualised rate of return implied by a bond's current price, scheduled cash flows and repayment at maturity, assuming the stated payments occur and the bond is held to maturity.",simple:"It is the estimated yearly return you would earn from a bond if you bought it at today's price and held it until it matures, assuming payments happen as promised.",real:"A bond bought below face value may have a YTM above its coupon rate. YTM is an estimate based on assumptions, not a guaranteed return if you sell early or the issuer defaults.",url:"https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds"},
- {term:"Market correction",meaning:"A commonly used term for a decline of around 10% or more from a recent market peak. It is a market description, not a formal prediction.",simple:"It means the market has fallen noticeably from a recent high, often around 10% or more.",real:"A broad index falling 10% from its high may be described as being in correction territory. A correction can happen even during a longer-term upward trend.",url:"https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"},
+ 
  {term:"Market indices",meaning:"Plural of index: benchmark measures that track groups of securities according to defined rules.",simple:"An index is like a scoreboard for a selected group of shares. Indices are the different scoreboards for different markets or sectors.",real:"NIFTY 50 and SENSEX are widely followed Indian equity indices. They help people track broad market movement but are not individual shares.",url:"https://www.niftyindices.com/"},
  {term:"Mutual funds",meaning:"Pooled investment schemes that collect money from investors and invest it in assets such as shares, bonds or money-market instruments according to the scheme's objective.",simple:"Many people put money into one shared pool, and the fund invests that pool for them. Each investor owns units of the fund.",real:"An equity mutual fund may hold shares in many companies. Check the scheme's objective, costs, risks and documents; returns are not guaranteed.",url:"https://www.amfiindia.com/investor-corner"},
  {term:"Open interest",meaning:"The total number of outstanding derivative contracts that have not been closed, exercised or settled.",simple:"It counts how many futures or options contracts are still open, rather than how many were traded today.",real:"Traders may study open interest alongside price and volume to understand participation in derivatives. It does not reveal market direction on its own.",url:"https://www.nseindia.com/"},
@@ -919,6 +919,100 @@ const STOCK_TERMS = [
  {term:"Gap up",meaning:"A situation where a security opens at a price materially above its previous session's close.",simple:"The share starts the day noticeably higher than where it finished yesterday.",real:"A company announcement or broad market news may lead to a gap up. The price can continue rising or fall back after the open.",url:"https://www.nseindia.com/market-data"},
  {term:"Gap down",meaning:"A situation where a security opens at a price materially below its previous session's close.",simple:"The share starts the day noticeably lower than where it finished yesterday.",real:"Unexpected bad news or a market-wide sell-off can cause a gap down. Stop orders may execute at prices different from their trigger levels.",url:"https://www.nseindia.com/market-data"}
 ];
+
+
+
+// Short, everyday-language explanations for the original glossary entries.
+const STOCK_SIMPLE_EXPLANATIONS = {
+ "Ask price":"The lowest price someone is currently asking for a share.",
+ "Bear market":"A period when the overall market has been falling for a while.",
+ "Bid price":"The highest price someone is currently offering to pay for a share.",
+ "Blue-chip stock":"A share in a big, well-known company that has been around for a long time.",
+ "Brokerage":"The company or app that helps you buy and sell investments.",
+ "Bull market":"A period when the overall market has been rising for a while.",
+ "Capital gain":"The money you make when you sell something for more than you paid.",
+ "Dividend":"Money a company chooses to distribute to its shareholders.",
+ "Diversification":"Not putting all your investment money into one company or one type of asset.",
+ "Earnings per share (EPS)":"The company's profit divided across its shares. It is a rough way to see how much profit relates to each share.",
+ "Equity":"Owning a small part of a company.",
+ "Exchange-traded fund (ETF)":"A basket of investments that you can buy and sell on a stock exchange like a share.",
+ "Index":"A group of selected shares tracked together to show how that part of the market is doing.",
+ "Initial public offering (IPO)":"The first time a company offers its shares to public investors.",
+ "Limit order":"An instruction that sets the highest price you will pay or the lowest price you will accept.",
+ "Liquidity":"How easily you can buy or sell something without moving its price too much.",
+ "Market capitalisation":"The market value of all a company's listed shares added together.",
+ "Market order":"An instruction to buy or sell as soon as possible at the best prices available.",
+ "Mutual fund":"A pool of money from many investors that is invested together.",
+ "Portfolio":"All the investments you own, taken together.",
+ "Price-to-earnings ratio (P/E)":"A way to compare a share's price with the company's profit per share.",
+ "Primary market":"Where a company or government sells new securities to raise money.",
+ "Risk appetite":"How much uncertainty or possible loss you are comfortable taking with your money.",
+ "Secondary market":"Where investors buy and sell securities that have already been issued.",
+ "Short selling":"Selling borrowed shares because you hope to buy them back later at a lower price.",
+ "Stock exchange":"An organised marketplace where shares and other securities are bought and sold.",
+ "Stop-loss order":"An instruction intended to sell or buy if a price reaches a level you set.",
+ "Volatility":"How much and how quickly a price moves up and down.",
+ "Volume":"How many shares or contracts were traded in a period.",
+ "Yield":"The income an investment pays compared with its price or value.",
+ "Asset allocation":"How you divide your money between shares, bonds, cash and other types of investments.",
+ "Bond":"A loan you make to a company or government in return for promised payments.",
+ "Circuit breaker":"A safety pause or trading limit used when prices move very sharply.",
+ "Custodian":"An institution that safely holds investments on behalf of their owner.",
+ "Demat account":"An electronic account where your shares are held.",
+ "Face value":"The original nominal value printed for a share or bond; it is not necessarily its current price.",
+ "Fundamental analysis":"Studying a company's business and finances to judge how it is doing and what it may be worth.",
+ "Insider trading":"Trading using important company information that the public does not yet know, where the law prohibits it.",
+ "Rights issue":"When a company gives its existing shareholders the chance to buy more of its shares."
+};
+const STOCK_RELATED_TERMS = {
+ "Face value":["Book value","Market price per share (MPS)","Dividend"],
+ "Book value":["Face value","P/B ratio (price-to-book)","ROE (return on equity)"],
+ "P/B ratio (price-to-book)":["Book value","Face value","Market capitalisation"],
+ "PE ratio (P/E ratio)":["Earnings per share (EPS)","Market price per share (MPS)","CAGR"],
+ "Price-to-earnings ratio (P/E)":["Earnings per share (EPS)","Market price per share (MPS)","CAGR"],
+ "Earnings per share (EPS)":["PE ratio (P/E ratio)","ROE (return on equity)","Dividend"],
+ "ROE (return on equity)":["Book value","Debt-to-equity ratio","Earnings per share (EPS)"],
+ "Debt-to-equity ratio":["ROE (return on equity)","Interest rate","Bond"],
+ "Dividend yield":["Dividend","Market price per share (MPS)","Yield"],
+ "CAGR":["Volatility","Capital gain","Yield"],
+ "YTM (yield to maturity)":["Bond","Yield","Interest rate"],
+ "Market price per share (MPS)":["Face value","PE ratio (P/E ratio)","Dividend yield"],
+ "Support":["Resistance","Volume","Relative Strength Index (RSI)"],
+ "Resistance":["Support","Volume","Relative Strength Index (RSI)"],
+ "Upper circuit":["Lower circuit","Volatility","Liquidity"],
+ "Lower circuit":["Upper circuit","Volatility","Liquidity"],
+ "Futures":["Options","Open interest","Margin"],
+ "Options":["Futures","Call option","Put option"],
+ "Call option":["Put option","Options","Futures"],
+ "Put option":["Call option","Options","Futures"],
+ "Indicators":["Moving average","Relative Strength Index (RSI)","MACD"],
+ "Moving average":["50-day moving average","200-day moving average","MACD"],
+ "50-day moving average":["200-day moving average","Moving average","Relative Strength Index (RSI)"],
+ "200-day moving average":["50-day moving average","Moving average","MACD"],
+ "Relative Strength Index (RSI)":["MACD","Moving average","Volume"],
+ "MACD":["Relative Strength Index (RSI)","Moving average","Bollinger Bands"],
+ "Bollinger Bands":["Volatility","Moving average","Relative Strength Index (RSI)"],
+ "VWAP (volume-weighted average price)":["Volume","Market price per share (MPS)","Moving average"],
+ "Mutual funds":["SIP (systematic investment plan)","Net asset value (NAV)","Expense ratio"],
+ "Mutual fund":["SIP (systematic investment plan)","Net asset value (NAV)","Expense ratio"],
+ "Bond":["YTM (yield to maturity)","Yield","Interest rate"],
+ "Bonds":["YTM (yield to maturity)","Yield","Interest rate"],
+ "Market indices":["Index","Market breadth","ETF"],
+ "Index":["Market indices","ETF","Market breadth"],
+ "OTC (over-the-counter) market":["Liquidity","Stock exchange","Bond"],
+ "Market correction":["Bear market","Volatility","Market indices"],
+ "Market breadth":["Index","Volume","Market indices"],
+ "Open interest":["Futures","Options","Volume"],
+ "Margin":["Futures","Options","Short selling"],
+ "SIP (systematic investment plan)":["Mutual funds","Diversification","Net asset value (NAV)"],
+ "Net asset value (NAV)":["Mutual funds","ETF","Expense ratio"],
+ "Expense ratio":["Mutual funds","ETF","Net asset value (NAV)"],
+ "Capital gain":["CAGR","Yield","Dividend"],
+ "Diversification":["Asset allocation","Portfolio","Mutual funds"],
+ "Portfolio":["Asset allocation","Diversification","Risk appetite"],
+ "Liquidity":["Volume","Bid price","Ask price"],
+ "Volume":["Liquidity","Market breadth","VWAP (volume-weighted average price)"]
+};
 
 function initStockNotebook(){
   const left=document.getElementById("notebook-left-terms");
@@ -965,7 +1059,11 @@ function initStockNotebook(){
     modal.querySelector(".stock-term-category").textContent="FROM THE STOCK MARKET NOTEBOOK";
     modal.querySelector(".stock-term-title").textContent=item.term;
     modal.querySelector(".stock-term-meaning").textContent=item.meaning;
+    modal.querySelector(".stock-term-simple").textContent=item.simple || STOCK_SIMPLE_EXPLANATIONS[item.term] || "In everyday language: " + item.meaning;
     modal.querySelector(".stock-term-real").textContent=item.real;
+    const related=modal.querySelector(".stock-term-related");
+    const suggestions=(STOCK_RELATED_TERMS[item.term] || ["Diversification","Risk appetite","Portfolio"]).filter(name=>sorted.some(t=>t.term===name && t.term!==item.term));
+    related.innerHTML=suggestions.length ? suggestions.map(name=>'<button class="stock-related-term" type="button" data-related-term="'+encodeURIComponent(name)+'">'+name+'</button>').join("") : '<span class="stock-related-empty">Keep exploring the glossary for connected ideas.</span>';
     const link=modal.querySelector(".stock-term-more");
     link.href=item.url;
     modal.classList.add("is-open");
@@ -979,6 +1077,8 @@ function initStockNotebook(){
     document.body.classList.remove("stock-term-open");
   }
   document.addEventListener("click",e=>{
+    const related=e.target.closest(".stock-related-term");
+    if(related){showTerm(decodeURIComponent(related.dataset.relatedTerm));return;}
     const button=e.target.closest(".notebook-term");
     if(button) showTerm(decodeURIComponent(button.dataset.term));
     if(e.target.closest("[data-close-stock-term]")) closeTerm();
@@ -986,7 +1086,7 @@ function initStockNotebook(){
   document.addEventListener("keydown",e=>{if(e.key==="Escape") closeTerm();});
   search.addEventListener("input",()=>{
     const q=search.value.trim().toLowerCase();
-    filtered=sorted.filter(t=>!q||t.term.toLowerCase().includes(q)||t.meaning.toLowerCase().includes(q)||t.real.toLowerCase().includes(q));
+    filtered=sorted.filter(t=>!q||t.term.toLowerCase().includes(q)||t.meaning.toLowerCase().includes(q)||(t.simple||STOCK_SIMPLE_EXPLANATIONS[t.term]||"").toLowerCase().includes(q)||t.real.toLowerCase().includes(q));
     page=0;render();
   });
   document.getElementById("clear-stock-search").addEventListener("click",()=>{search.value="";filtered=sorted;page=0;render();search.focus();});
