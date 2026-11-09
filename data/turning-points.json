@@ -639,6 +639,52 @@
     ]
   },
   {
+    "id": "india-demonetisation-2016",
+    "year": 2016,
+    "date": "2016-11-08",
+    "title": "India's Demonetisation Announcement (2016)",
+    "region": "India",
+    "category": "policy",
+    "lede": "On 8 November 2016, the Government of India announced that existing ₹500 and ₹1,000 banknotes would cease to be legal tender, subject to specified exceptions. The notes represented about 86% of the value of currency in circulation.",
+    "overview": "On 8 November 2016, the Government of India announced that existing ₹500 and ₹1,000 banknotes would cease to be legal tender, subject to specified exceptions. The notes represented about 86% of the value of currency in circulation. The announcement triggered a rapid nationwide currency exchange and deposit process, affecting cash-dependent households, small businesses and informal workers.",
+    "humanImpact": "The decision was announced in New Delhi and implemented throughout India through banks, ATMs and cash-distribution networks.",
+    "timeline": [
+      {
+        "date": "2016-11-08",
+        "title": "Announcement",
+        "text": "The government announces withdrawal of legal-tender status for specified notes."
+      },
+      {
+        "date": "2016-11-09",
+        "title": "Banking transition begins",
+        "text": "Banks prepare for deposits and exchange under RBI directions."
+      },
+      {
+        "date": "2016-11-10",
+        "title": "Cash replacement",
+        "text": "Banks and ATMs distribute replacement banknotes under changing limits."
+      },
+      {
+        "date": "2017-08-30",
+        "title": "RBI annual report",
+        "text": "The RBI publishes data on returned specified banknotes."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI Annual Report 2016–17 — Currency Management",
+        "url": "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1208"
+      },
+      {
+        "label": "RBI — Specified Bank Notes FAQ",
+        "url": "https://www.rbi.org.in/scripts/faqview.aspx/scripts/FAQView.aspx?Id=122"
+      }
+    ]
+  },
+  {
     "id": "brexit-vote",
     "year": 2016,
     "date": "2016-06-23",
@@ -684,52 +730,6 @@
       {
         "label": "UK Parliament — Brexit timeline",
         "url": "https://www.parliament.uk/business/news/2019/january/brexit-timeline/"
-      }
-    ]
-  },
-  {
-    "id": "india-demonetisation-2016",
-    "year": 2016,
-    "date": "2016-11-08",
-    "title": "India's Demonetisation Announcement (2016)",
-    "region": "India",
-    "category": "policy",
-    "lede": "On 8 November 2016, the Government of India announced that existing ₹500 and ₹1,000 banknotes would cease to be legal tender, subject to specified exceptions. The notes represented about 86% of the value of currency in circulation.",
-    "overview": "On 8 November 2016, the Government of India announced that existing ₹500 and ₹1,000 banknotes would cease to be legal tender, subject to specified exceptions. The notes represented about 86% of the value of currency in circulation. The announcement triggered a rapid nationwide currency exchange and deposit process, affecting cash-dependent households, small businesses and informal workers.",
-    "humanImpact": "The decision was announced in New Delhi and implemented throughout India through banks, ATMs and cash-distribution networks.",
-    "timeline": [
-      {
-        "date": "2016-11-08",
-        "title": "Announcement",
-        "text": "The government announces withdrawal of legal-tender status for specified notes."
-      },
-      {
-        "date": "2016-11-09",
-        "title": "Banking transition begins",
-        "text": "Banks prepare for deposits and exchange under RBI directions."
-      },
-      {
-        "date": "2016-11-10",
-        "title": "Cash replacement",
-        "text": "Banks and ATMs distribute replacement banknotes under changing limits."
-      },
-      {
-        "date": "2017-08-30",
-        "title": "RBI annual report",
-        "text": "The RBI publishes data on returned specified banknotes."
-      }
-    ],
-    "countries": [
-      "India"
-    ],
-    "sources": [
-      {
-        "label": "RBI Annual Report 2016–17 — Currency Management",
-        "url": "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1208"
-      },
-      {
-        "label": "RBI — Specified Bank Notes FAQ",
-        "url": "https://www.rbi.org.in/scripts/faqview.aspx/scripts/FAQView.aspx?Id=122"
       }
     ]
   },
@@ -780,6 +780,47 @@
     ]
   },
   {
+    "id": "ilfs-credit-crunch",
+    "year": 2018,
+    "date": "2018-08-27",
+    "title": "IL&FS Defaults and the NBFC Credit Crunch (2018)",
+    "region": "India",
+    "category": "crisis",
+    "lede": "A series of IL&FS group defaults in August and September 2018 exposed severe liquidity and governance problems at a large infrastructure financing group and triggered wider stress in India's non-bank financial company debt markets.",
+    "overview": "A series of IL&FS group defaults in August and September 2018 exposed severe liquidity and governance problems at a large infrastructure financing group and triggered wider stress in India's non-bank financial company debt markets. The episode highlighted maturity mismatches, excessive leverage, opaque group structures and dependence on short-term market funding among some non-bank lenders.",
+    "humanImpact": "IL&FS and major financial-market intermediaries were headquartered in Mumbai; the funding shock affected mutual funds, debt investors and NBFCs across India.",
+    "timeline": [
+      {
+        "date": "2018-08",
+        "title": "Early group defaults",
+        "text": "IL&FS group companies begin defaulting on debt obligations."
+      },
+      {
+        "date": "2018-09",
+        "title": "Defaults and rating downgrades spread",
+        "text": "Further defaults increase stress in debt and money markets."
+      },
+      {
+        "date": "2018-10-01",
+        "title": "Board superseded",
+        "text": "The government announces action to preserve IL&FS assets and liquidity."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "PIB — Government action following IL&FS defaults, 1 October 2018",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=183856"
+      },
+      {
+        "label": "RBI Bulletin — Financial stability and NBFC supervision",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22317"
+      }
+    ]
+  },
+  {
     "id": "us-china-trade-war",
     "year": 2018,
     "date": "2018-07-06",
@@ -826,47 +867,6 @@
       {
         "label": "AP — Timeline of U.S.-China tit-for-tat tariffs",
         "url": "https://apnews.com/article/08b5d468e61ba15e760563ef0186b2bb"
-      }
-    ]
-  },
-  {
-    "id": "ilfs-credit-crunch",
-    "year": 2018,
-    "date": "2018-08-27",
-    "title": "IL&FS Defaults and the NBFC Credit Crunch (2018)",
-    "region": "India",
-    "category": "crisis",
-    "lede": "A series of IL&FS group defaults in August and September 2018 exposed severe liquidity and governance problems at a large infrastructure financing group and triggered wider stress in India's non-bank financial company debt markets.",
-    "overview": "A series of IL&FS group defaults in August and September 2018 exposed severe liquidity and governance problems at a large infrastructure financing group and triggered wider stress in India's non-bank financial company debt markets. The episode highlighted maturity mismatches, excessive leverage, opaque group structures and dependence on short-term market funding among some non-bank lenders.",
-    "humanImpact": "IL&FS and major financial-market intermediaries were headquartered in Mumbai; the funding shock affected mutual funds, debt investors and NBFCs across India.",
-    "timeline": [
-      {
-        "date": "2018-08",
-        "title": "Early group defaults",
-        "text": "IL&FS group companies begin defaulting on debt obligations."
-      },
-      {
-        "date": "2018-09",
-        "title": "Defaults and rating downgrades spread",
-        "text": "Further defaults increase stress in debt and money markets."
-      },
-      {
-        "date": "2018-10-01",
-        "title": "Board superseded",
-        "text": "The government announces action to preserve IL&FS assets and liquidity."
-      }
-    ],
-    "countries": [
-      "India"
-    ],
-    "sources": [
-      {
-        "label": "PIB — Government action following IL&FS defaults, 1 October 2018",
-        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=183856"
-      },
-      {
-        "label": "RBI Bulletin — Financial stability and NBFC supervision",
-        "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22317"
       }
     ]
   },
@@ -945,6 +945,66 @@
       {
         "label": "RBI — Withdrawal limit revision, 26 September 2019",
         "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48243"
+      }
+    ]
+  },
+  {
+    "id": "covid-economic-shock-2020",
+    "year": 2020,
+    "date": "2020-03-11",
+    "title": "COVID-19 and the Global Economic Shock",
+    "region": "Global",
+    "category": "Global economic shock",
+    "lede": "The pandemic caused an unprecedented public-health shock that disrupted production, travel, employment, demand and financial markets.",
+    "overview": "The WHO characterised COVID-19 as a pandemic on 11 March 2020. Restrictions and voluntary changes in behaviour disrupted supply chains and services, while uncertainty and market repricing increased financial stress. Governments and central banks responded with fiscal support, rate cuts, asset purchases, liquidity facilities and emergency lending measures.",
+    "humanImpact": "The pandemic caused substantial loss of life and disrupted livelihoods, schooling, health services and employment. Economic effects were uneven, with low-income workers, women, migrants and small businesses often facing distinct vulnerabilities. Specific mortality and employment figures must be attached to country-level sources before publication.",
+    "timeline": [
+      {
+        "date": "2020-01-30",
+        "title": "WHO declares a Public Health Emergency of International Concern",
+        "text": "The outbreak is recognised as an international public-health emergency."
+      },
+      {
+        "date": "2020-03-11",
+        "title": "WHO characterises COVID-19 as a pandemic",
+        "text": "WHO describes the outbreak as a pandemic."
+      },
+      {
+        "date": "2020-03-01",
+        "title": "Financial markets and economies come under severe stress",
+        "text": "Countries introduce restrictions and emergency economic measures."
+      },
+      {
+        "date": "2020-04",
+        "title": "IMF projects a deep global downturn",
+        "text": "The IMF's April 2020 World Economic Outlook describes the crisis as a severe global downturn."
+      },
+      {
+        "date": "2020-06-01",
+        "title": "Uneven recovery",
+        "text": "Recovery paths differ across countries, sectors and households."
+      }
+    ],
+    "countries": [
+      "China",
+      "Italy",
+      "United States",
+      "India",
+      "United Kingdom",
+      "Brazil"
+    ],
+    "sources": [
+      {
+        "label": "WHO — COVID-19 timeline",
+        "url": "https://www.who.int/news-room/detail/27-04-2020-who-timeline---covid-19"
+      },
+      {
+        "label": "WHO — 11 March 2020 remarks",
+        "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
+      },
+      {
+        "label": "IMF — World Economic Outlook, April 2020",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020"
       }
     ]
   },
@@ -1051,66 +1111,6 @@
       {
         "label": "RBI — Report on Trend and Progress of Banking in India 2019–20",
         "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=20269"
-      }
-    ]
-  },
-  {
-    "id": "covid-economic-shock-2020",
-    "year": 2020,
-    "date": "2020-03-11",
-    "title": "COVID-19 and the Global Economic Shock",
-    "region": "Global",
-    "category": "Global economic shock",
-    "lede": "The pandemic caused an unprecedented public-health shock that disrupted production, travel, employment, demand and financial markets.",
-    "overview": "The WHO characterised COVID-19 as a pandemic on 11 March 2020. Restrictions and voluntary changes in behaviour disrupted supply chains and services, while uncertainty and market repricing increased financial stress. Governments and central banks responded with fiscal support, rate cuts, asset purchases, liquidity facilities and emergency lending measures.",
-    "humanImpact": "The pandemic caused substantial loss of life and disrupted livelihoods, schooling, health services and employment. Economic effects were uneven, with low-income workers, women, migrants and small businesses often facing distinct vulnerabilities. Specific mortality and employment figures must be attached to country-level sources before publication.",
-    "timeline": [
-      {
-        "date": "2020-01-30",
-        "title": "WHO declares a Public Health Emergency of International Concern",
-        "text": "The outbreak is recognised as an international public-health emergency."
-      },
-      {
-        "date": "2020-03-11",
-        "title": "WHO characterises COVID-19 as a pandemic",
-        "text": "WHO describes the outbreak as a pandemic."
-      },
-      {
-        "date": "2020-03-01",
-        "title": "Financial markets and economies come under severe stress",
-        "text": "Countries introduce restrictions and emergency economic measures."
-      },
-      {
-        "date": "2020-04",
-        "title": "IMF projects a deep global downturn",
-        "text": "The IMF's April 2020 World Economic Outlook describes the crisis as a severe global downturn."
-      },
-      {
-        "date": "2020-06-01",
-        "title": "Uneven recovery",
-        "text": "Recovery paths differ across countries, sectors and households."
-      }
-    ],
-    "countries": [
-      "China",
-      "Italy",
-      "United States",
-      "India",
-      "United Kingdom",
-      "Brazil"
-    ],
-    "sources": [
-      {
-        "label": "WHO — COVID-19 timeline",
-        "url": "https://www.who.int/news-room/detail/27-04-2020-who-timeline---covid-19"
-      },
-      {
-        "label": "WHO — 11 March 2020 remarks",
-        "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
-      },
-      {
-        "label": "IMF — World Economic Outlook, April 2020",
-        "url": "https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020"
       }
     ]
   },
@@ -1413,6 +1413,98 @@
       {
         "label": "NSE draft prospectus — FY2026 IPO capital raised",
         "url": "https://images.moneycontrol.com/news_html_files/pdffiles/Jun2026/national-stock.pdf"
+      }
+    ]
+  },
+  {
+    "id": "iran-war-oil-shock-2026",
+    "year": 2026,
+    "date": "2026-02-28",
+    "title": "The 2026 Iran War, Strait of Hormuz Disruption and Global Oil Shock",
+    "region": "Persian Gulf; Middle East; Asia; Europe; global energy markets",
+    "category": "Geopolitical oil shock and global supply-chain disruption",
+    "lede": "The war involving Iran, Israel and the United States disrupted shipping through the Strait of Hormuz, triggering a major oil and gas supply shock whose effects travelled through energy-importing economies, freight networks and financial markets.",
+    "overview": "On 28 February 2026, the United States and Israel began military strikes against Iran. Iran retaliated across the region, and traffic through the Strait of Hormuz—normally carrying roughly one-fifth to one-quarter of seaborne oil and petroleum-product trade—fell sharply. The disruption affected crude, refined products and LNG exports from the Gulf. Emergency stock releases, rerouting through bypass infrastructure, increased output elsewhere and weaker demand cushioned the shock, but did not immediately restore normal flows. By September, the IEA reported renewed upward price pressure as hostilities persisted and inventories had fallen. In early November, oil prices fell sharply amid hopes of de-escalation and signs of recovering exports, though shipping attacks and the lack of a comprehensive settlement kept risk elevated.",
+    "humanImpact": "The disruption raised uncertainty and costs for households, transport operators, airlines, manufacturers and governments. Oil-importing Asian economies—including India, Japan, South Korea and China—were especially exposed to Gulf supply and price changes. Gulf exporters faced interrupted shipments and risks to infrastructure. European and Asian refining, trading and shipping hubs faced higher freight, insurance and product-market volatility. The effects differed by country and over time: the map marks important energy nodes and economic exposure centres, not identical levels of direct damage.",
+    "timeline": [
+      {
+        "date": "2026-02-28",
+        "title": "U.S. and Israeli strikes on Iran begin",
+        "text": "The military campaign begins, triggering Iranian retaliation and an immediate rise in geopolitical risk for Gulf energy flows."
+      },
+      {
+        "date": "2026-03-04",
+        "title": "Iran declares the Strait of Hormuz closed",
+        "text": "Iran threatens and attacks commercial shipping; traffic through the key oil and LNG corridor collapses."
+      },
+      {
+        "date": "2026-03-11",
+        "title": "IEA announces emergency stock release",
+        "text": "IEA member countries agree to release 400 million barrels from emergency reserves to cushion the disruption."
+      },
+      {
+        "date": "2026-04-07",
+        "title": "Ceasefire announced",
+        "text": "The United States and Iran agree to a temporary ceasefire, but shipping flows remain fragile and normal traffic does not immediately return."
+      },
+      {
+        "date": "2026-04-13",
+        "title": "U.S. blockade of Iranian ports begins",
+        "text": "A new maritime blockade and continuing tensions add further uncertainty to Gulf shipping and energy exports."
+      },
+      {
+        "date": "2026-07-15",
+        "title": "IMF assesses the scale of the shock",
+        "text": "The IMF reports that the Strait disruption cut off around 20 million barrels per day of crude and refined products at its height, while warning that market buffers were running low."
+      },
+      {
+        "date": "2026-09-18",
+        "title": "IEA warns of renewed oil-market pressure",
+        "text": "The IEA reports renewed hostilities, constrained Middle East exports and rapid inventory drawdowns, with prices under upward pressure."
+      },
+      {
+        "date": "2026-11-08",
+        "title": "Oil prices retreat amid de-escalation hopes",
+        "text": "Reuters reports a sharp weekly fall in Brent prices as markets weigh diplomatic signals against continuing shipping attacks and unresolved conflict."
+      }
+    ],
+    "countries": [
+      "Iran",
+      "Israel",
+      "United States",
+      "Oman",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Qatar",
+      "Iraq",
+      "India",
+      "Singapore",
+      "Japan",
+      "South Korea",
+      "China",
+      "Netherlands",
+      "United Kingdom"
+    ],
+    "sources": [
+      {
+        "label": "Congressional Research Service — The Strait of Hormuz: Security Developments and Impacts on Oil, Gas, and Other Commodities (7 Aug 2026)",
+        "url": "https://www.everycrsreport.com/reports/R45281.html"
+      },
+      {
+        "label": "IMF — The Oil Market Absorbed the War Shock, but Buffers Are Running Low (15 Jul 2026)",
+        "url": "https://www.imf.org/en/blogs/articles/2026/07/15/the-oil-market-absorbed-the-war-shock-but-buffers-are-running-low"
+      },
+      {
+        "label": "IEA — Oil markets strain to plug the gap left by Middle East supply shortfall (18 Sep 2026)",
+        "url": "https://www.iea.org/commentaries/oil-markets-strain-to-plug-the-gap-left-by-middle-east-supply-shortfall"
+      },
+      {
+        "label": "Reuters — Oil falls as Trump signals restraint on Iran despite fresh shipping attacks (8 Nov 2026)",
+        "url": "https://www.reuters.com/business/energy/oil-falls-open-trump-says-fresh-iran-attacks-unlikely-2026-11-08/"
+      },
+      {
+        "label": "Reuters — Middle East oil price war heralds post-conflict glut (9 Nov 2026)",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/middle-east-oil-price-war-heralds-post-conflict-glut-2026-11-09/"
       }
     ]
   }
