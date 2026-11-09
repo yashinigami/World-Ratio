@@ -664,9 +664,13 @@ ifc-seoul|IFC Seoul|Seoul, South Korea|IFC Seoul is a major office and retail co
     (function () {
       function displaySelectedPage() {
         var requested = (window.location.hash || "#home").slice(1);
-        var selected = document.getElementById(requested);
-        if (!selected || !selected.classList.contains("view")) {
+        var target = document.getElementById(requested);
+        var selected = target && target.classList.contains("view")
+          ? target
+          : target && target.closest(".view");
+        if (!selected) {
           selected = document.getElementById("home");
+          target = selected;
         }
         document.querySelectorAll("main .view").forEach(function (page) {
           page.classList.toggle("active", page === selected);
@@ -674,6 +678,16 @@ ifc-seoul|IFC Seoul|Seoul, South Korea|IFC Seoul is a major office and retail co
         });
         document.querySelectorAll("[data-nav]").forEach(function (link) {
           link.classList.toggle("active", link.getAttribute("data-nav") === selected.id);
+        });
+        // Allow the selected page to become visible before jumping to its subsection.
+        window.requestAnimationFrame(function () {
+          window.requestAnimationFrame(function () {
+            if (target && target !== selected) {
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
+            } else {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          });
         });
       }
       window.addEventListener("hashchange", displaySelectedPage);
