@@ -500,6 +500,52 @@
         "eccles-building":{title:"The Federal Reserve's Eccles Building",type:"Financial place · Washington, DC · 1937",image:"https://upload.wikimedia.org/wikipedia/commons/0/04/US_Federal_Reserve_Eccles_Building_1937.jpg",alt:"The Federal Reserve Eccles Building in 1937",description:"Completed in 1937, the Eccles Building is the headquarters of the United States Federal Reserve Board. The institution at this address helps conduct monetary policy, supervise parts of the banking system and support financial stability. The building is an architectural landmark, but it also represents the public institutions behind central banking and the management of money.",source:"https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-board.htm",sourceName:"Board of Governors of the Federal Reserve System"},
         "wall-street-1969":{title:"Wall Street, in another era",type:"Financial place · New York · 1969",image:"https://commons.wikimedia.org/wiki/Special:FilePath/New_York_City_Stock_Exchange_%26_Wall_Street.jpg",alt:"New York Stock Exchange and Wall Street in 1969",description:"Wall Street became a centre of American securities trading as merchants and brokers gathered to exchange shares and bonds. Its history traces the development of organised markets, stock exchanges, financial information and the institutions that connect investors with businesses and governments. The street remains shorthand for the wider financial industry.",source:"https://www.moaf.org/collections/photos-prints",sourceName:"Museum of American Finance"}
       };
+      const categories={
+        "wall-street-1929":"moments",
+        "bretton-woods":"moments",
+        "luca-pacioli":"people",
+        "john-maynard-keynes":"people",
+        "charging-bull":"art",
+        "fearless-girl":"art",
+        "eccles-building":"places",
+        "wall-street-1969":"places"
+      };
+      let currentCategory="all";
+      let currentSpread=0;
+      const spreadRoot=document.getElementById("archive-album-spread");
+      const pageCount=document.getElementById("archive-page-count");
+      const previousButton=document.getElementById("archive-prev");
+      const nextButton=document.getElementById("archive-next");
+      const categoryButtons=[...document.querySelectorAll("[data-archive-category]")];
+      const archiveItems=()=>Object.entries(entries).filter(([key])=>currentCategory==="all"||categories[key]===currentCategory);
+      function renderSpread(){
+        const items=archiveItems();
+        const total=Math.max(1,Math.ceil(items.length/2));
+        currentSpread=Math.min(Math.max(0,currentSpread),total-1);
+        const pair=items.slice(currentSpread*2,currentSpread*2+2);
+        spreadRoot.innerHTML=pair.map(([key,item],index)=>`
+          <button class="archive-album-photo" type="button" data-archive-item="${key}" aria-label="Read about ${item.title}">
+            <span class="archive-photo-number">${String(currentSpread*2+index+1).padStart(2,"0")}</span>
+            <span class="archive-photo-image-wrap"><img src="${item.image}" alt="${item.alt}" loading="lazy"><span class="archive-image-unavailable">Image preview unavailable<br>Open the story for details</span></span>
+            <span class="archive-photo-caption"><span class="archive-card-type">${item.type}</span><strong>${item.title}</strong><span class="archive-card-action">Read the story ↗</span></span>
+          </button>`).join("");
+        spreadRoot.querySelectorAll("img").forEach(img=>img.addEventListener("error",()=>img.closest(".archive-photo-image-wrap")?.classList.add("image-failed"),{once:true}));
+        pageCount.textContent="Spread "+(currentSpread+1)+" of "+total;
+        previousButton.disabled=currentSpread===0;
+        nextButton.disabled=currentSpread>=total-1;
+        spreadRoot.classList.remove("is-turning");
+        void spreadRoot.offsetWidth;
+        spreadRoot.classList.add("is-turning");
+      }
+      categoryButtons.forEach(button=>button.addEventListener("click",()=>{
+        currentCategory=button.dataset.archiveCategory;
+        currentSpread=0;
+        categoryButtons.forEach(item=>item.classList.toggle("is-active",item===button));
+        renderSpread();
+      }));
+      previousButton.addEventListener("click",()=>{if(currentSpread>0){currentSpread--;renderSpread();}});
+      nextButton.addEventListener("click",()=>{if(currentSpread<Math.ceil(archiveItems().length/2)-1){currentSpread++;renderSpread();}});
+      renderSpread();
       const modal=document.getElementById("archive-modal");
       const image=document.getElementById("archive-modal-image");
       function close(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.style.overflow="";}
