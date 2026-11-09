@@ -330,6 +330,34 @@
     ]
   },
   {
+    "id": "wef-davos-2026",
+    "date": "2026-01-19",
+    "year": 2026,
+    "title": "World Economic Forum Annual Meeting 2026 in Davos",
+    "category": "global",
+    "city": "Davos",
+    "region": "Graubünden",
+    "country": "Switzerland",
+    "countryCode": "CHE",
+    "lat": 46.8027,
+    "lng": 9.836,
+    "entity": "World Economic Forum; global political and business leaders",
+    "scope": "global",
+    "summary": "The World Economic Forum's 56th Annual Meeting took place in Davos-Klosters from 19 to 23 January 2026 under the theme 'A Spirit of Dialogue'. Discussions addressed cooperation in a contested world, new sources of growth, investment in people, responsible innovation and prosperity within planetary boundaries.",
+    "why": "The meeting convened leaders from government, business, civil society and academia amid rising geoeconomic fragmentation and technological change. The event provided a forum for dialogue on trade, geopolitical risk, global growth and financial-sector transformation.",
+    "impact": "The meeting was hosted in Davos, Switzerland, and brought together participants from more than 130 countries. This record describes the meeting's agenda; it does not attribute the separate quantified costs of fragmentation to the conference itself.",
+    "sources": [
+      {
+        "label": "World Economic Forum — Annual Meeting 2026: A Spirit of Dialogue",
+        "url": "https://www.weforum.org/stories/forum-in-focus/davos-2026-convenes-under-the-theme-a-spirit-of-dialogue"
+      },
+      {
+        "label": "World Economic Forum — Annual Meeting 2026 press release",
+        "url": "https://www.weforum.org/press/2026/01/a-spirit-of-dialogue-brings-record-numbers-of-world-leaders-to-davos-for-world-economic-forum-annual-meeting-2026//"
+      }
+    ]
+  },
+  {
     "id": "union-budget-2026",
     "date": "2026-02-01",
     "year": 2026,
