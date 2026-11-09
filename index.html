@@ -87,7 +87,7 @@
           <a class="button button-primary" href="#atlas">Explore the atlas <span>→</span></a>
           <a class="button button-outline" href="#turning-points">Learn about turning points</a>
         </div>
-        <div class="hero-footnote">1973 — 2026 <span>·</span> A living research project</div>
+        <div class="hero-footnote">1973 — 2026 <span>·</span> A living research project</div><nav class="section-jump-nav home-jump-nav" aria-label="Quick explore"><a href="#atlas">Explore the map</a><a href="#turning-points">Financial turning points</a><a href="#stock-market">Learn market basics</a><a href="#quiz">Test your knowledge</a></nav>
       </div>
       <section class="archive-peek" aria-label="A peek into the archive">
         <div class="archive-peek-heading">
@@ -166,7 +166,8 @@
         </div>
         <a class="button button-small button-outline" href="#home">← Home</a>
       </div>
-      <div class="atlas-toolbar">
+      <nav class="section-jump-nav" aria-label="Atlas quick links"><a href="#atlas-map">Interactive map</a><a href="#atlas-timeline">Choose a year</a><a href="#atlas-discoveries">Event records</a></nav>
+      <div class="atlas-toolbar" id="atlas-map">
         <form id="location-form" class="location-search">
           <span aria-hidden="true">⌕</span>
           <input id="location-search" type="search" placeholder="Search a city, town or country..." autocomplete="off" aria-label="Search location">
@@ -187,7 +188,7 @@
           <span><i class="legend-dot institution"></i> Institution</span>
         </div>
       </div>
-      <div class="timeline-panel">
+      <div class="timeline-panel" id="atlas-timeline">
         <div class="timeline-top">
           <div><div class="eyebrow">HISTORICAL TIMELINE</div><p class="timeline-hint">Select a year to filter the map and records.</p></div>
           <div class="selected-year" id="selected-year">2008</div>
@@ -200,7 +201,7 @@
           <button id="today-year" class="text-button">Jump to 2026</button>
         </div>
       </div>
-      <div class="atlas-results">
+      <div class="atlas-results" id="atlas-discoveries">
         <div class="results-heading">
           <div><div class="eyebrow">DISCOVERIES</div><h2 id="results-title">Events in 2008</h2></div>
           <select id="category-filter" aria-label="Filter by event category">
@@ -225,11 +226,12 @@
         </div>
         <a class="button button-small button-outline" href="#home">← Home</a>
       </div>
+      <nav class="section-jump-nav" aria-label="Turning points quick links"><a href="#turning-filters">Filter by country and year</a><a href="#turning-list">Browse studies</a></nav>
       <div class="turning-intro"><span class="turning-doodle" aria-hidden="true">✿</span>
         <p>Financial history is not just a sequence of market movements. It is also a history of institutions, public policy, livelihoods and the decisions that shape everyday life.</p>
         <span class="turning-count" id="turning-count">— curated studies</span>
       </div>
-      <div class="turning-filters" aria-label="Filter turning points">
+      <div class="turning-filters" id="turning-filters" aria-label="Filter turning points">
         <label for="turning-country">Country</label>
         <select id="turning-country">
           <option value="all">All countries</option>
@@ -368,6 +370,7 @@
         <div><div class="eyebrow">WORLD RATIO / ABOUT</div><h1>About the project</h1></div>
         <a class="button button-small button-outline" href="#home">← Home</a>
       </div>
+      <nav class="section-jump-nav" aria-label="About page quick links"><a href="#atlas">Explore the atlas</a><a href="#turning-points">Financial turning points</a><a href="#stock-market">Stock market notebook</a><a href="#quiz">Take the quiz</a></nav>
       <div class="about-content">
         <div class="about-mark"><img src="assets/world-ratio-logo-horizontal.jpg" alt="World Ratio"></div>
         <div>
