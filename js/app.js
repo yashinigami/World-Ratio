@@ -1093,9 +1093,11 @@ function notebookRealLife(item){
 function initStockNotebook(){
  const left=document.getElementById("notebook-left-terms");if(!left)return;
  const right=document.getElementById("notebook-right-terms"),search=document.getElementById("stock-term-search"),prev=document.getElementById("notebook-prev"),next=document.getElementById("notebook-next"),status=document.getElementById("notebook-spread-status"),searchStatus=document.getElementById("stock-search-status");
- const sorted=[...STOCK_TERMS].sort((a,b)=>a.term.localeCompare(b.term,undefined,{sensitivity:"base"}));let page=0,selectedCategory="all",filtered=sorted;
+ const sorted=[...STOCK_TERMS].sort((a,b)=>a.term.localeCompare(b.term,undefined,{sensitivity:"base"}));let page=0,selectedCategory="all",filtered=sorted,flipDirection="next",shouldFlip=false;
+ const book=document.querySelector(".notebook-book");
  const renderSide=(items,start)=>items.map((item,index)=>'<button class="notebook-term" type="button" data-term="'+encodeURIComponent(item.term)+'"><span class="notebook-term-index">'+String(start+index+1).padStart(2,"0")+'</span><span class="notebook-term-name">'+item.term+'</span><span class="notebook-term-arrow">↗</span></button>').join("");
  function render(){const pages=Math.max(1,Math.ceil(filtered.length/20));page=Math.min(page,pages-1);const chunk=filtered.slice(page*20,page*20+20);left.innerHTML=renderSide(chunk.slice(0,10),page*20);right.innerHTML=renderSide(chunk.slice(10,20),page*20+10);
+ if(shouldFlip&&book){book.classList.remove("is-turning","turn-next","turn-prev");void book.offsetWidth;book.classList.add("is-turning",flipDirection==="next"?"turn-next":"turn-prev");window.setTimeout(()=>book.classList.remove("is-turning","turn-next","turn-prev"),720);shouldFlip=false;}
  document.getElementById("notebook-page-left-number").textContent=chunk.length?String(page*20+1).padStart(2,"0")+" - "+String(page*20+Math.min(10,chunk.length)).padStart(2,"0"):" - ";
  document.getElementById("notebook-page-right-number").textContent=chunk.length>10?String(page*20+11).padStart(2,"0")+" - "+String(page*20+chunk.length).padStart(2,"0"):" - ";
  document.getElementById("notebook-page-count").textContent="PAGE "+String(page+1).padStart(2,"0");status.textContent="SPREAD "+(page+1)+" OF "+pages;prev.disabled=page===0;next.disabled=page>=pages-1;
@@ -1108,7 +1110,7 @@ function initStockNotebook(){
  document.addEventListener("click",e=>{const related=e.target.closest(".stock-related-term");if(related){showTerm(decodeURIComponent(related.dataset.relatedTerm));return;}const button=e.target.closest(".notebook-term");if(button){showTerm(decodeURIComponent(button.dataset.term));return;}const cat=e.target.closest("[data-term-category]");if(cat){selectedCategory=cat.dataset.termCategory;document.querySelectorAll("[data-term-category]").forEach(b=>b.classList.toggle("is-active",b===cat));applyFilters();return;}if(e.target.closest("[data-close-stock-term]"))closeTerm();});
  document.addEventListener("keydown",e=>{if(e.key==="Escape")closeTerm();});search.addEventListener("input",applyFilters);
  document.getElementById("clear-stock-search").addEventListener("click",()=>{search.value="";selectedCategory="all";document.querySelectorAll("[data-term-category]").forEach(b=>b.classList.toggle("is-active",b.dataset.termCategory==="all"));applyFilters();search.focus();});
- prev.addEventListener("click",()=>{if(page>0){page--;render();}});next.addEventListener("click",()=>{if((page+1)*20<filtered.length){page++;render();}});render();
+ prev.addEventListener("click",()=>{if(page>0){page--;flipDirection="prev";shouldFlip=true;render();}});next.addEventListener("click",()=>{if((page+1)*20<filtered.length){page++;flipDirection="next";shouldFlip=true;render();}});render();
 }
 initStockNotebook();;
 
