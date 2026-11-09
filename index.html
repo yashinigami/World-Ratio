@@ -397,39 +397,20 @@
         <p>A visual scrapbook of moments and objects that shaped the way money moves through the world. Select any picture to find out why it matters.</p>
         <span>HISTORICAL PHOTOGRAPHS · FINANCIAL FIGURES · PLACES · ART &amp; SCULPTURE</span>
       </div>
-      <div class="archive-gallery" aria-label="Financial history photo gallery">
-        <button class="archive-gallery-card" type="button" data-archive-item="wall-street-1929">
-          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Crowd_outside_nyse.jpg" alt="Crowd outside the New York Stock Exchange during the 1929 crash" loading="lazy">
-          <span class="archive-card-type">FINANCIAL MOMENT · 1929</span><strong>Wall Street after the crash</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
-        <button class="archive-gallery-card" type="button" data-archive-item="bretton-woods">
-          <img src="https://the1991project.com/sites/default/files/2024-12/Bretton-Woods-Conference-July-1944.jpeg" alt="Delegates at the Bretton Woods Conference in July 1944" loading="lazy">
-          <span class="archive-card-type">FINANCIAL MOMENT · 1944</span><strong>The Bretton Woods Conference</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
-        <button class="archive-gallery-card" type="button" data-archive-item="luca-pacioli">
-          <img src="https://centralnumismatica.com/media/magefan_blog/Pacioli.jpg" alt="Portrait of Luca Pacioli with mathematical instruments and a book" loading="lazy">
-          <span class="archive-card-type">FINANCIAL FIGURE · RENAISSANCE</span><strong>Luca Pacioli and the art of accounting</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
-        <button class="archive-gallery-card" type="button" data-archive-item="john-maynard-keynes">
-          <img src="https://cdn.thecollector.com/wp-content/uploads/2021/09/economics-john-maynard-keynes-photo.jpg?quality=55&width=1400" alt="Black and white portrait of economist John Maynard Keynes" loading="lazy">
-          <span class="archive-card-type">FINANCIAL FIGURE · 1883-1946</span><strong>John Maynard Keynes</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
-        <button class="archive-gallery-card" type="button" data-archive-item="charging-bull">
-          <img src="https://cdn.thecrazytourist.com/wp-content/uploads/2020/03/ccimage-shutterstock_189611477.jpg" alt="Charging Bull bronze sculpture in Manhattan's Financial District" loading="lazy">
-          <span class="archive-card-type">SCULPTURE · NEW YORK</span><strong>Charging Bull</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
-        <button class="archive-gallery-card" type="button" data-archive-item="fearless-girl">
-          <img src="https://cdn.tripster.com/media/product/gallery/original/Historic_Walking_Tour_of_the_Financial_District_with_tickets_to_the_Fraunces_Tavern_Museum_%2893079%29.jpg" alt="Fearless Girl sculpture in the Financial District of New York" loading="lazy">
-          <span class="archive-card-type">SCULPTURE · 2017</span><strong>Fearless Girl</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
-        <button class="archive-gallery-card" type="button" data-archive-item="eccles-building">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/US_Federal_Reserve_Eccles_Building_1937.jpg" alt="The Federal Reserve Eccles Building in Washington DC, photographed in 1937" loading="lazy">
-          <span class="archive-card-type">FINANCIAL PLACE · 1937</span><strong>The Federal Reserve's Eccles Building</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
-        <button class="archive-gallery-card" type="button" data-archive-item="wall-street-1969">
-          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_York_City_Stock_Exchange_%26_Wall_Street.jpg" alt="New York Stock Exchange and Wall Street, photographed in 1969" loading="lazy">
-          <span class="archive-card-type">FINANCIAL PLACE · 1969</span><strong>Wall Street, in another era</strong><span class="archive-card-action">Why this image matters ↗</span>
-        </button>
+      <div class="archive-album-controls" aria-label="Filter photo album by category">
+        <button type="button" class="archive-category is-active" data-archive-category="all">All pages</button>
+        <button type="button" class="archive-category" data-archive-category="moments">Financial moments</button>
+        <button type="button" class="archive-category" data-archive-category="people">People</button>
+        <button type="button" class="archive-category" data-archive-category="places">Places</button>
+        <button type="button" class="archive-category" data-archive-category="art">Art &amp; sculpture</button>
+      </div>
+      <div class="archive-album" aria-label="Photo album">
+        <div class="archive-album-spread" id="archive-album-spread" aria-live="polite"></div>
+        <div class="archive-album-navigation">
+          <button type="button" id="archive-prev" class="archive-page-button" disabled>← Previous spread</button>
+          <span id="archive-page-count" class="archive-page-count">Spread 1 of 4</span>
+          <button type="button" id="archive-next" class="archive-page-button">Next spread →</button>
+        </div>
       </div>
       <p class="archive-page-credit">Images are linked from their respective collections and publishers. Select a picture for context and the original source.</p>
     </section>
