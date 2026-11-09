@@ -92,52 +92,41 @@
     ]
   },
   {
-    "id": "asian-crisis-1997",
+    "id": "asian-financial-crisis-1997",
     "year": 1997,
     "date": "1997-07-02",
-    "title": "The Asian Financial Crisis",
-    "region": "Bangkok, Thailand; Jakarta, Indonesia; Seoul, South Korea; Kuala Lumpur, Malaysia; wider East and Southeast Asia",
-    "category": "Currency and banking crisis",
-    "lede": "A currency crisis that began with Thailand's decision to float the baht spread through several Asian economies, exposing vulnerabilities in foreign borrowing, exchange-rate regimes and financial institutions.",
-    "overview": "The crisis developed after pressure on Thailand's baht intensified. On 2 July 1997, authorities allowed the currency to float. Contagion and investor reassessment affected Indonesia, Korea, Malaysia, the Philippines and other markets, although each economy had different vulnerabilities and policy responses.",
-    "humanImpact": "The crisis brought recession, unemployment, financial-sector restructuring and hardship for households and workers. IMF retrospective material records a fall of more than 10% in Thailand's real GDP in 1998. Country-level effects should be explored separately rather than treated as identical across Asia.",
+    "title": "The Asian Financial Crisis (1997–1998)",
+    "region": "Bangkok, Thailand; Jakarta, Indonesia; Seoul, South Korea; Kuala Lumpur, Malaysia",
+    "category": "Financial crisis and market disruption",
+    "lede": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia.",
+    "overview": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia. The episode demonstrated how currency mismatches, leveraged borrowing and fragile banking systems can turn pressure on one currency into a regional financial crisis. National experiences and policy responses differed; the crisis was not a single identical event across every country.",
+    "humanImpact": "Businesses failed, banks were restructured, currencies depreciated and output contracted. Households experienced job losses and reduced incomes. The crisis also reshaped regional financial regulation, reserve management and debates about IMF crisis programmes.",
     "timeline": [
       {
         "date": "1997-07-02",
-        "title": "Thailand floats the baht",
-        "text": "The exchange-rate peg is abandoned after mounting pressure."
+        "title": "Key event and immediate trigger",
+        "text": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia."
       },
       {
-        "date": "1997-08-20",
-        "title": "IMF-supported programme for Thailand",
-        "text": "Thailand enters a three-year Stand-By Arrangement."
-      },
-      {
-        "date": "1997-10-01",
-        "title": "Regional stress deepens",
-        "text": "Pressure spreads across regional currencies and financial systems; national timelines differ."
-      },
-      {
-        "date": "1998",
-        "title": "Deep recession in Thailand",
-        "text": "The IMF's retrospective account reports real GDP contraction of more than 10%."
+        "date": "1997-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "Businesses failed, banks were restructured, currencies depreciated and output contracted. Households experienced job losses and reduced incomes. The crisis also reshaped regional financial regulation, reserve management and debates about IMF crisis programmes."
       }
     ],
     "countries": [
       "Thailand",
       "Indonesia",
       "South Korea",
-      "Malaysia",
-      "Philippines"
+      "Malaysia"
     ],
     "sources": [
       {
-        "label": "IMF — Financial Sector Crisis and Restructuring: Lessons from Asia",
-        "url": "https://www.imf.org/external/pubs/ft/op/opfinsec/index.htm"
+        "label": "Federal Reserve History — Asian Financial Crisis",
+        "url": "https://www.federalreservehistory.org/essays/asian-financial-crisis"
       },
       {
-        "label": "IMF — Thailand crisis chronology",
-        "url": "https://www.imf.org/en/news/articles/2015/09/28/04/53/pn0005"
+        "label": "IMF — Financial Sector Crisis and Restructuring: Lessons from Asia",
+        "url": "https://www.imf.org/external/pubs/ft/op/opfinsec/index.htm"
       }
     ]
   },
@@ -1219,32 +1208,22 @@
     "id": "us-regional-bank-stress-2023",
     "year": 2023,
     "date": "2023-03-10",
-    "title": "The 2023 U.S. Regional Banking Stress",
-    "region": "United States",
-    "category": "Banking crisis",
-    "lede": "The failures of Silicon Valley Bank and other regional lenders renewed attention to interest-rate risk, concentrated deposits and confidence in banks.",
-    "overview": "Silicon Valley Bank was closed on 10 March 2023 and placed into FDIC receivership. Signature Bank followed on 12 March. U.S. authorities invoked a systemic-risk exception to protect all depositors at the two institutions, while shareholders and certain unsecured debt holders were not protected.",
-    "humanImpact": "The failures affected businesses, employees, depositors and the wider technology start-up ecosystem. The authorities' actions were designed to preserve access to deposits and limit contagion. Claims about specific job losses or individual hardship require separate evidence.",
+    "title": "The U.S. Regional Banking Crisis (2023)",
+    "region": "Santa Clara, United States; New York City, United States",
+    "category": "Financial crisis and market disruption",
+    "lede": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system.",
+    "overview": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system. Rapid interest-rate increases reduced the market value of some banks' fixed-income assets, while concentrated and uninsured deposits made withdrawals faster and more destabilising. Digital communication and connected customer networks accelerated the run.",
+    "humanImpact": "The episode unsettled U.S. and global bank shares, prompted emergency liquidity measures and renewed attention to interest-rate risk, deposit concentration, supervision and contingency planning.",
     "timeline": [
       {
-        "date": "2023-03-08",
-        "title": "SVB announces securities-sale loss and capital plan",
-        "text": "The bank discloses a loss on securities sales and plans to raise capital."
-      },
-      {
-        "date": "2023-03-09",
-        "title": "Rapid deposit outflows",
-        "text": "The FDIC later described a very large attempted withdrawal of deposits."
-      },
-      {
         "date": "2023-03-10",
-        "title": "SVB is closed",
-        "text": "California authorities close the bank and appoint the FDIC as receiver."
+        "title": "Key event and immediate trigger",
+        "text": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system."
       },
       {
-        "date": "2023-03-12",
-        "title": "Authorities announce depositor protection",
-        "text": "The Treasury, Federal Reserve and FDIC announce steps to protect all depositors of the former SVB and Signature Bank."
+        "date": "2023-12-31",
+        "title": "Aftermath and wider implications",
+        "text": "The episode unsettled U.S. and global bank shares, prompted emergency liquidity measures and renewed attention to interest-rate risk, deposit concentration, supervision and contingency planning."
       }
     ],
     "countries": [
@@ -1252,16 +1231,12 @@
     ],
     "sources": [
       {
-        "label": "FDIC — SVB closure, 10 March 2023",
-        "url": "https://www.fdic.gov/news/press-releases/2023/pr23016.html"
+        "label": "Federal Reserve — Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank",
+        "url": "https://www.federalreserve.gov/publications/review-of-the-federal-reserves-supervision-and-regulation-of-silicon-valley-bank.htm"
       },
       {
-        "label": "Joint statement by Treasury, Federal Reserve and FDIC, 12 March 2023",
-        "url": "https://www.fdic.gov/news/press-releases/2023/pr23017.html"
-      },
-      {
-        "label": "FDIC — Lessons learned from regional bank failures",
-        "url": "https://www.fdic.gov/news/speeches/2024/lessons-learned-us-regional-bank-failures-2023"
+        "label": "FDIC — Bank Failures in Brief: 2023",
+        "url": "https://www.fdic.gov/bank-failures-in-brief"
       }
     ]
   },
@@ -1545,45 +1520,6 @@
     ]
   },
   {
-    "id": "asian-financial-crisis-1997",
-    "year": 1997,
-    "date": "1997-07-02",
-    "title": "The Asian Financial Crisis (1997–1998)",
-    "region": "Bangkok, Thailand; Jakarta, Indonesia; Seoul, South Korea; Kuala Lumpur, Malaysia",
-    "category": "Financial crisis and market disruption",
-    "lede": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia.",
-    "overview": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia. The episode demonstrated how currency mismatches, leveraged borrowing and fragile banking systems can turn pressure on one currency into a regional financial crisis. National experiences and policy responses differed; the crisis was not a single identical event across every country.",
-    "humanImpact": "Businesses failed, banks were restructured, currencies depreciated and output contracted. Households experienced job losses and reduced incomes. The crisis also reshaped regional financial regulation, reserve management and debates about IMF crisis programmes.",
-    "timeline": [
-      {
-        "date": "1997-07-02",
-        "title": "Key event and immediate trigger",
-        "text": "The crisis began when Thailand abandoned its baht-dollar peg on 2 July 1997. Currency pressure and investor reassessment spread through Indonesia, South Korea, Malaysia and other regional markets. Foreign-currency borrowing, short-term external debt, weak financial institutions and fragile exchange-rate arrangements amplified the shock. The crisis continued through 1998 and had spillovers beyond Asia."
-      },
-      {
-        "date": "1997-12-31",
-        "title": "Aftermath and wider implications",
-        "text": "Businesses failed, banks were restructured, currencies depreciated and output contracted. Households experienced job losses and reduced incomes. The crisis also reshaped regional financial regulation, reserve management and debates about IMF crisis programmes."
-      }
-    ],
-    "countries": [
-      "Thailand",
-      "Indonesia",
-      "South Korea",
-      "Malaysia"
-    ],
-    "sources": [
-      {
-        "label": "Federal Reserve History — Asian Financial Crisis",
-        "url": "https://www.federalreservehistory.org/essays/asian-financial-crisis"
-      },
-      {
-        "label": "IMF — Financial Sector Crisis and Restructuring: Lessons from Asia",
-        "url": "https://www.imf.org/external/pubs/ft/op/opfinsec/index.htm"
-      }
-    ]
-  },
-  {
     "id": "russian-crisis-ltcm-1998",
     "year": 1998,
     "date": "1998-08-17",
@@ -1797,42 +1733,6 @@
       {
         "label": "U.S. SEC — Charges against FTX and Sam Bankman-Fried",
         "url": "https://www.sec.gov/newsroom/press-releases/2022-219"
-      }
-    ]
-  },
-  {
-    "id": "us-regional-banking-crisis-2023",
-    "year": 2023,
-    "date": "2023-03-10",
-    "title": "The U.S. Regional Banking Crisis (2023)",
-    "region": "Santa Clara, United States; New York City, United States",
-    "category": "Financial crisis and market disruption",
-    "lede": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system.",
-    "overview": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system. Rapid interest-rate increases reduced the market value of some banks' fixed-income assets, while concentrated and uninsured deposits made withdrawals faster and more destabilising. Digital communication and connected customer networks accelerated the run.",
-    "humanImpact": "The episode unsettled U.S. and global bank shares, prompted emergency liquidity measures and renewed attention to interest-rate risk, deposit concentration, supervision and contingency planning.",
-    "timeline": [
-      {
-        "date": "2023-03-10",
-        "title": "Key event and immediate trigger",
-        "text": "In March 2023, Silicon Valley Bank failed after depositors rapidly withdrew funds, exposing losses on long-duration securities and a concentrated, largely uninsured deposit base. Signature Bank was closed soon afterwards. Authorities announced measures to protect depositors and support confidence in the banking system."
-      },
-      {
-        "date": "2023-12-31",
-        "title": "Aftermath and wider implications",
-        "text": "The episode unsettled U.S. and global bank shares, prompted emergency liquidity measures and renewed attention to interest-rate risk, deposit concentration, supervision and contingency planning."
-      }
-    ],
-    "countries": [
-      "United States"
-    ],
-    "sources": [
-      {
-        "label": "Federal Reserve — Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank",
-        "url": "https://www.federalreserve.gov/publications/review-of-the-federal-reserves-supervision-and-regulation-of-silicon-valley-bank.htm"
-      },
-      {
-        "label": "FDIC — Bank Failures in Brief: 2023",
-        "url": "https://www.fdic.gov/bank-failures-in-brief"
       }
     ]
   },
