@@ -917,7 +917,11 @@ const STOCK_TERMS = [
  {term:"Margin",meaning:"Money or eligible collateral an investor must provide to open or maintain certain leveraged or derivative positions.",simple:"It is the security deposit you need to put up when trading with borrowed exposure or in derivatives.",real:"If a position moves against you, the broker or exchange may require more margin or close the position under its rules. Leverage can magnify losses.",url:"https://www.nseindia.com/"},
  {term:"Market lot",meaning:"The standard minimum quantity or contract size in which a particular security or derivative contract can be traded, where applicable.",simple:"It is the fixed bundle size you may have to trade instead of choosing any number you like.",real:"Some derivative contracts are traded in fixed lots. Lot sizes can change, so traders should check current exchange specifications.",url:"https://www.nseindia.com/"},
  {term:"Gap up",meaning:"A situation where a security opens at a price materially above its previous session's close.",simple:"The share starts the day noticeably higher than where it finished yesterday.",real:"A company announcement or broad market news may lead to a gap up. The price can continue rising or fall back after the open.",url:"https://www.nseindia.com/market-data"},
- {term:"Gap down",meaning:"A situation where a security opens at a price materially below its previous session's close.",simple:"The share starts the day noticeably lower than where it finished yesterday.",real:"Unexpected bad news or a market-wide sell-off can cause a gap down. Stop orders may execute at prices different from their trigger levels.",url:"https://www.nseindia.com/market-data"}
+ {term:"Gap down",meaning:"A situation where a security opens at a price materially below its previous session's close.",simple:"The share starts the day noticeably lower than where it finished yesterday.",real:"Unexpected bad news or a market-wide sell-off can cause a gap down. Stop orders may execute at prices different from their trigger levels.",url:"https://www.nseindia.com/market-data"},
+
+ {term:"Bonds",meaning:"Debt investments issued by governments, companies or other organisations. The issuer borrows money and agrees to pay interest, principal or both under the bond's terms.",simple:"A bond is basically an IOU: you lend money to an issuer, and it promises to pay you back under agreed rules.",real:"An investor can buy a government or corporate bond to receive scheduled payments. The issuer may default, and the bond's market price can change before maturity.",url:"https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds"},
+ {term:"PB Ratio",meaning:"A valuation ratio comparing a company's market price per share with its book value per share.",simple:"It compares the share's price in the market with the company's accounting value per share.",real:"A PB ratio of 2 means the market price is twice the book value per share. A low ratio is not automatically a bargain; asset quality and future profits matter.",url:"https://www.nseindia.com/learn"},
+ {term:"PE Ratio",meaning:"A valuation ratio comparing a company's market price per share with its earnings per share.",simple:"It tells you how much investors are paying for each rupee of the company's earnings per share.",real:"If a share costs ₹300 and earns ₹15 per share, its PE ratio is 20. Compare it with similar companies and consider expected growth and risk.",url:"https://www.nseindia.com/learn"}
 ];
 
 
@@ -954,6 +958,7 @@ const STOCK_SIMPLE_EXPLANATIONS = {
  "Volatility":"How much and how quickly a price moves up and down.",
  "Volume":"How many shares or contracts were traded in a period.",
  "Yield":"The income an investment pays compared with its price or value.",
+ "Market correction":"A noticeable fall from a recent market high, often around 10% or more. It is a description of what has happened, not a forecast.",
  "Asset allocation":"How you divide your money between shares, bonds, cash and other types of investments.",
  "Bond":"A loan you make to a company or government in return for promised payments.",
  "Circuit breaker":"A safety pause or trading limit used when prices move very sharply.",
@@ -996,6 +1001,9 @@ const STOCK_RELATED_TERMS = {
  "Mutual funds":["SIP (systematic investment plan)","Net asset value (NAV)","Expense ratio"],
  "Mutual fund":["SIP (systematic investment plan)","Net asset value (NAV)","Expense ratio"],
  "Bond":["YTM (yield to maturity)","Yield","Interest rate"],
+ "Bonds":["YTM (yield to maturity)","Yield","Interest rate"],
+ "PB Ratio":["Book value","P/B ratio (price-to-book)","Market price per share (MPS)"],
+ "PE Ratio":["Earnings per share (EPS)","Price-to-earnings ratio (P/E)","Market price per share (MPS)"],
  "Bonds":["YTM (yield to maturity)","Yield","Interest rate"],
  "Market indices":["Index","Market breadth","ETF"],
  "Index":["Market indices","ETF","Market breadth"],
