@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171052">
+  <meta name="description" content="World Ratio — an interactive atlas of financial events, institutions and economies.">
+  <title>World Ratio — The world, through finance</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://{s}.basemaps.cartocdn.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="World Ratio home">WORLD RATIO<span class="wordmark-dot">.</span></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#atlas" data-nav="atlas">Atlas</a>
+      <a href="#turning-points" data-nav="turning-points">Turning points</a>
+      <a href="#about" data-nav="about">About</a>
+    </nav>
+    <a class="header-home" href="#home">Home <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="view active home-view">
+      <div class="hero">
+        <div class="hero-kicker"><span class="kicker-line"></span> A GEOGRAPHICAL HISTORY OF MONEY</div>
+        <h1 class="hero-title">The world,<br><em>through finance.</em></h1>
+        <p class="hero-subtitle">An interactive atlas of financial events, institutions and economies.</p>
+        <p class="hero-copy">Explore the places, decisions and turning points that have shaped the financial world — one location and one event at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#atlas">Explore the atlas <span>→</span></a>
+          <a class="button button-outline" href="#turning-points">Learn about turning points</a>
+        </div>
+        <div class="hero-footnote">1995 — 2026 <span>·</span> A living research project</div>
+      </div>
+      <div class="home-grid">
+        <a class="feature-card feature-atlas" href="#atlas">
+          <div class="feature-number">01 / EXPLORE</div>
+          <div class="feature-icon">◎</div>
+          <h2>Interactive<br>Financial Atlas</h2>
+          <p>Move across the map. Choose a year. Discover what happened in a place.</p>
+          <span class="feature-link">Open the map ↗</span>
+        </a>
+        <a class="feature-card feature-turning" href="#turning-points">
+          <div class="feature-number">02 / UNDERSTAND</div>
+          <div class="feature-icon">↗</div>
+          <h2>Financial<br>Turning Points</h2>
+          <p>Explore the events that changed economies, institutions and everyday lives.</p>
+          <span class="feature-link">Explore the timeline ↗</span>
+        </a>
+        <div class="feature-card feature-about">
+          <div class="feature-number">03 / THE PROJECT</div>
+          <div class="feature-icon">⌁</div>
+          <h2>About<br>World Ratio</h2>
+          <p>An independent learning project connecting finance, geography and history.</p>
+          <a class="feature-link" href="#about">Read about the project ↗</a>
+        </div>
+      </div>
+      <section class="home-bottom">
+        <div>
+          <div class="eyebrow">ABOUT THE DEVELOPER</div>
+          <h2>Built with curiosity.<br>Grounded in research.</h2>
+          <p>World Ratio was created by Niharika Jain, an MSc Finance student based in India, to make learning about financial history easier and more accessible.</p>
+        </div>
+        <div class="contact-card">
+          <div class="eyebrow">CONTACT THE DEVELOPER</div>
+          <h3>Niharika Jain</h3>
+          <a href="mailto:njainn0810@gmail.com">njainn0810@gmail.com ↗</a>
+          <p>Questions, corrections, source suggestions and contributions are welcome.</p>
+        </div>
+      </section>
+    </section>
+
+    <section id="atlas" class="view atlas-view">
+      <div class="page-heading">
+        <div>
+          <div class="eyebrow">WORLD RATIO / EXPLORE</div>
+          <h1>Financial Atlas</h1>
+          <p>Choose a year, explore a location and discover its financial history.</p>
+        </div>
+        <a class="button button-small button-outline" href="#home">← Home</a>
+      </div>
+      <div class="atlas-toolbar">
+        <form id="location-form" class="location-search">
+          <span aria-hidden="true">⌕</span>
+          <input id="location-search" type="search" placeholder="Search a city, town or country..." autocomplete="off" aria-label="Search location">
+          <button type="submit">Find</button>
+        </form>
+        <div class="layer-controls">
+          <label class="toggle-label"><input type="checkbox" id="events-toggle" checked> Events</label>
+          <label class="toggle-label"><input type="checkbox" id="institutions-toggle" checked> Institutions</label>
+        </div>
+      </div>
+      <div class="map-shell">
+        <div id="map" role="application" aria-label="Interactive world map"></div>
+        <div class="map-legend">
+          <span><i class="legend-dot crisis"></i> Crisis / loss</span>
+          <span><i class="legend-dot policy"></i> Policy</span>
+          <span><i class="legend-dot global"></i> Global event</span>
+          <span><i class="legend-dot institution"></i> Institution</span>
+        </div>
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-top">
+          <div><div class="eyebrow">HISTORICAL TIMELINE</div><p class="timeline-hint">Select a year to filter the map and records.</p></div>
+          <div class="selected-year" id="selected-year">2008</div>
+        </div>
+        <input id="year-slider" class="year-slider" type="range" min="1995" max="2026" value="2008" step="1" aria-label="Select year">
+        <div class="year-labels"><span>1995</span><span>2000</span><span>2005</span><span>2010</span><span>2015</span><span>2020</span><span>2026</span></div>
+        <div class="timeline-actions">
+          <button id="previous-year" class="text-button">← Previous</button>
+          <button id="next-year" class="text-button">Next →</button>
+          <button id="today-year" class="text-button">Jump to 2026</button>
+        </div>
+      </div>
+      <div class="atlas-results">
+        <div class="results-heading">
+          <div><div class="eyebrow">DISCOVERIES</div><h2 id="results-title">Events in 2008</h2></div>
+          <select id="category-filter" aria-label="Filter by event category">
+            <option value="all">All categories</option>
+            <option value="crisis">Crises & losses</option>
+            <option value="policy">Government & policy</option>
+            <option value="global">Global developments</option>
+          </select>
+        </div>
+        <div id="event-list" class="event-list"></div>
+        <div id="location-status" class="location-status">Select a marker or search for a place to explore its records.</div>
+      </div>
+      <div class="source-note">Map tiles © OpenStreetMap contributors / CARTO. Historical records are a curated sample, not a complete global database. See sources on each event card.</div>
+    </section>
+
+    <section id="turning-points" class="view turning-view">
+      <div class="page-heading">
+        <div>
+          <div class="eyebrow">WORLD RATIO / CONTEXT</div>
+          <h1>Financial Turning Points</h1>
+          <p>Explore major events through their causes, timelines and human consequences.</p>
+        </div>
+        <a class="button button-small button-outline" href="#home">← Home</a>
+      </div>
+      <div class="turning-intro">
+        <p>Financial history is not just a sequence of market movements. It is also a history of institutions, public policy, livelihoods and the decisions that shape everyday life.</p>
+        <span class="turning-count" id="turning-count">— curated studies</span>
+      </div>
+      <div id="turning-list" class="turning-list"></div>
+      <div id="turning-detail" class="turning-detail" hidden></div>
+      <div class="source-note">Each study links to primary or institutional sources. Human-impact claims are qualified and should be expanded only when location-specific evidence is available.</div>
+    </section>
+
+    <section id="about" class="view about-view">
+      <div class="page-heading">
+        <div><div class="eyebrow">WORLD RATIO / ABOUT</div><h1>About the project</h1></div>
+        <a class="button button-small button-outline" href="#home">← Home</a>
+      </div>
+      <div class="about-content">
+        <div class="about-mark">WR<span>.</span></div>
+        <div>
+          <h2>The financial history of the world, made explorable.</h2>
+          <p>World Ratio is an independent financial-history exploration project developed by an MSc Finance student based in India.</p>
+          <p>It was created to make learning about financial history easier, more accessible and more engaging by connecting financial events with the places, institutions and people they have affected.</p>
+          <p>From major financial crises and government policies to local economic developments, World Ratio aims to help people understand how financial decisions and events have shaped the world.</p>
+          <div class="about-contact"><div class="eyebrow">DEVELOPER</div><strong>Niharika Jain</strong><a href="mailto:njainn0810@gmail.com">njainn0810@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="method-card">
+        <div class="eyebrow">RESEARCH PRINCIPLES</div>
+        <h2>Evidence before volume.</h2>
+        <p>Events are stored as structured records with source links. The initial dataset is intentionally small. An empty location or year means the current sample contains no verified record — it does not mean nothing happened there.</p>
+        <ul>
+          <li>Prefer official reports, regulators, central banks and primary records.</li>
+          <li>Use reputable journalism and academic research for context.</li>
+          <li>Distinguish facts, estimates, interpretation and causal claims.</li>
+          <li>Never invent a financial event to fill a map.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">WORLD RATIO<span>.</span></a>
+    <p>An interactive atlas of financial events, institutions and economies.</p>
+    <div>© <span id="footer-year"></span> World Ratio · Built by Niharika Jain</div>
+  </footer>
+
+  <div id="event-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div id="modal-content"></div>
+    </article>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
