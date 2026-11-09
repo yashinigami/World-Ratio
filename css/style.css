@@ -517,3 +517,10 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
  .divy-heart{min-height:520px;margin-left:6%}.divy-message{width:78%;padding:92px 8px 66px;font-size:12px;line-height:1.38}.divy-message h2{font-size:25px}
  .feature-card,.event-card,.turning-card,.contact-card,.archive-note,.empty-state{padding:78px 7% 84px!important;min-height:370px}.feature-card>*,.event-card>*,.turning-card>*,.contact-card>*,.archive-note>*,.empty-state>*{width:78%;max-width:78%}
 }
+
+/* A complete ten-term column on each side of the open spread. */
+.notebook-book{min-height:760px}
+.notebook-page{min-height:760px}
+.notebook-term{min-height:58px}
+@media(max-width:800px){.notebook-book{min-height:700px}.notebook-page{min-height:700px}}
+@media(max-width:600px){.notebook-book{min-height:0}.notebook-page{min-height:700px}}
