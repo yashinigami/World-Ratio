@@ -646,3 +646,13 @@ body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:non
 /* Quiz: selected choice stays neutral until the end-of-quiz review. */
 .quiz-option[aria-pressed="true"]{background:#f8e5eb;border-color:#c77d96;box-shadow:inset 0 0 0 1px #c77d96}
 .quiz-option[aria-pressed="true"] .quiz-option-letter{background:#e9c2cf;color:#7e3d58}
+
+/* Notebook explanations: comfortable reading width and room for longer beginner-friendly copy. */
+.stock-term-card{width:min(760px,94vw);max-height:90vh;padding:58px 54px 42px;text-align:left}
+.stock-term-title{text-align:center}
+.stock-term-category{text-align:center;display:block}
+.stock-term-section{padding:20px 0}
+.stock-term-section p{font-size:16px;line-height:1.85;color:#604353}
+.stock-term-section>span{font-size:10px;letter-spacing:.14em}
+.stock-term-related-wrap{margin-top:18px}
+@media(max-width:600px){.stock-term-card{width:96vw;max-height:92vh;padding:48px 25px 30px}.stock-term-section p{font-size:15px;line-height:1.75}}
