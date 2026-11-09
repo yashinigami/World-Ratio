@@ -585,6 +585,8 @@ ifc-seoul|IFC Seoul|Seoul, South Korea|IFC Seoul is a major office and retail co
       };
       let currentCategory="all";
       let currentSpread=0;
+      let turnDirection="next";
+      let shouldAnimateTurn=false;
       const spreadRoot=document.getElementById("archive-album-spread");
       const pageCount=document.getElementById("archive-page-count");
       const previousButton=document.getElementById("archive-prev");
@@ -614,9 +616,13 @@ ifc-seoul|IFC Seoul|Seoul, South Korea|IFC Seoul is a major office and retail co
         pageCount.textContent="Spread "+(currentSpread+1)+" of "+total;
         previousButton.disabled=currentSpread===0;
         nextButton.disabled=currentSpread>=total-1;
-        spreadRoot.classList.remove("is-turning");
-        void spreadRoot.offsetWidth;
-        spreadRoot.classList.add("is-turning");
+        spreadRoot.classList.remove("is-turning","turn-next","turn-prev");
+        if(shouldAnimateTurn){
+          void spreadRoot.offsetWidth;
+          spreadRoot.classList.add("is-turning",turnDirection==="next"?"turn-next":"turn-prev");
+          window.setTimeout(()=>spreadRoot.classList.remove("is-turning","turn-next","turn-prev"),760);
+          shouldAnimateTurn=false;
+        }
       }
       categoryButtons.forEach(button=>button.addEventListener("click",()=>{
         currentCategory=button.dataset.archiveCategory;
@@ -624,8 +630,8 @@ ifc-seoul|IFC Seoul|Seoul, South Korea|IFC Seoul is a major office and retail co
         categoryButtons.forEach(item=>item.classList.toggle("is-active",item===button));
         renderSpread();
       }));
-      previousButton.addEventListener("click",()=>{if(currentSpread>0){currentSpread--;renderSpread();}});
-      nextButton.addEventListener("click",()=>{if(currentSpread<Math.ceil(archiveItems().length/2)-1){currentSpread++;renderSpread();}});
+      previousButton.addEventListener("click",()=>{if(currentSpread>0){currentSpread--;turnDirection="prev";shouldAnimateTurn=true;renderSpread();}});
+      nextButton.addEventListener("click",()=>{if(currentSpread<Math.ceil(archiveItems().length/2)-1){currentSpread++;turnDirection="next";shouldAnimateTurn=true;renderSpread();}});
       renderSpread();
       const modal=document.getElementById("archive-modal");
       const image=document.getElementById("archive-modal-image");
