@@ -992,7 +992,7 @@ const STOCK_RELATED_TERMS = {
  "Relative Strength Index (RSI)":["MACD","Moving average","Volume"],
  "MACD":["Relative Strength Index (RSI)","Moving average","Bollinger Bands"],
  "Bollinger Bands":["Volatility","Moving average","Relative Strength Index (RSI)"],
- "VWAP (volume-weighted average price)":["Volume","Market price per share (MPS)","Moving average"],
+ "Volume-weighted average price (VWAP)":["Volume","Market price per share (MPS)","Moving average"],
  "Mutual funds":["SIP (systematic investment plan)","Net asset value (NAV)","Expense ratio"],
  "Mutual fund":["SIP (systematic investment plan)","Net asset value (NAV)","Expense ratio"],
  "Bond":["YTM (yield to maturity)","Yield","Interest rate"],
