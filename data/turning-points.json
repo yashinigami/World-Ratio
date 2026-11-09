@@ -50,6 +50,291 @@
     ]
   },
   {
+    "id": "dotcom-bubble",
+    "year": 2000,
+    "date": "2000-03-10",
+    "title": "The Dot-Com Bubble Burst (2000–2002)",
+    "region": "United States; global technology markets",
+    "category": "crisis",
+    "lede": "Technology shares peaked on 10 March 2000 before a prolonged collapse in internet and technology valuations. The Nasdaq Composite fell about 77% from its peak by October 2002, as speculative business models, high valuations and financing conditions unwound.",
+    "overview": "Technology shares peaked on 10 March 2000 before a prolonged collapse in internet and technology valuations. The Nasdaq Composite fell about 77% from its peak by October 2002, as speculative business models, high valuations and financing conditions unwound. The episode exposed the risks of valuing growth companies on expectations without durable earnings or cash flows. The repricing affected venture funding, IPO markets, technology employment and equity portfolios.",
+    "humanImpact": "The technology-company concentration around Silicon Valley and the trading and capital-raising ecosystem in New York were two important nodes; the repricing spread internationally.",
+    "timeline": [
+      {
+        "date": "2000-03-10",
+        "title": "Nasdaq peaks",
+        "text": "The Nasdaq Composite reaches its closing peak of 5,048.62."
+      },
+      {
+        "date": "2000–2001",
+        "title": "Technology valuations unwind",
+        "text": "Many internet firms lose access to capital and fail or restructure."
+      },
+      {
+        "date": "2002-10-04",
+        "title": "Market trough",
+        "text": "The Nasdaq closes at 1,139.90, around 77% below its peak."
+      }
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Japan",
+      "South Korea"
+    ],
+    "sources": [
+      {
+        "label": "Library of Congress — Dot-com bubble",
+        "url": "https://guides.loc.gov/business-booms-busts/dot-com-real-estate"
+      },
+      {
+        "label": "Goldman Sachs — The Late 1990s Dot-Com Bubble Implodes in 2000",
+        "url": "https://www.goldmansachs.com/our-firm/history/moments/2000-dot-com-bubble"
+      }
+    ]
+  },
+  {
+    "id": "911-market-halt",
+    "year": 2001,
+    "date": "2001-09-11",
+    "title": "The 9/11 Attacks and the Halt of U.S. Financial Markets",
+    "region": "New York City, United States",
+    "category": "crisis",
+    "lede": "The terrorist attacks on 11 September 2001 devastated Lower Manhattan and disrupted financial-market infrastructure, payments and communications. U.S. equity markets remained closed until Monday, 17 September, the longest closure since 1933.",
+    "overview": "The terrorist attacks on 11 September 2001 devastated Lower Manhattan and disrupted financial-market infrastructure, payments and communications. U.S. equity markets remained closed until Monday, 17 September, the longest closure since 1933. The attacks created operational and liquidity challenges for banks and market participants, while the Federal Reserve supplied liquidity to support the payments system and market reopening.",
+    "humanImpact": "The financial epicentre was Lower Manhattan and the wider New York market infrastructure; disruptions also affected institutions and payment flows across the United States.",
+    "timeline": [
+      {
+        "date": "2001-09-11",
+        "title": "Attacks and market closure",
+        "text": "U.S. equity markets close following the attacks."
+      },
+      {
+        "date": "2001-09-12",
+        "title": "Emergency liquidity operations",
+        "text": "The Federal Reserve supports liquidity in the banking and payments system."
+      },
+      {
+        "date": "2001-09-17",
+        "title": "Markets reopen",
+        "text": "U.S. securities markets resume trading."
+      }
+    ],
+    "countries": [
+      "United States"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve History — The Federal Reserve's Response to the September 11 Terrorist Attacks",
+        "url": "https://www.federalreservehistory.org/essays/september-11"
+      },
+      {
+        "label": "SEC — Market Recovery Information",
+        "url": "https://www.sec.gov/investor/mktrecovery.shtml"
+      }
+    ]
+  },
+  {
+    "id": "euro-cash-2002",
+    "year": 2002,
+    "date": "2002-01-01",
+    "title": "Introduction of Euro Banknotes and Coins",
+    "region": "Euro area",
+    "category": "global",
+    "lede": "Euro banknotes and coins entered circulation on 1 January 2002 in 12 countries, replacing national cash currencies at fixed conversion rates. The euro had already existed as an electronic and accounting currency since 1999.",
+    "overview": "Euro banknotes and coins entered circulation on 1 January 2002 in 12 countries, replacing national cash currencies at fixed conversion rates. The euro had already existed as an electronic and accounting currency since 1999. The cash changeover was a major monetary and logistical integration project involving central banks, commercial banks, retailers, cash machines and households.",
+    "humanImpact": "Frankfurt is the headquarters of the European Central Bank and an institutional epicentre; the cash transition took place simultaneously across the participating euro-area countries.",
+    "timeline": [
+      {
+        "date": "1999-01-01",
+        "title": "Euro launched as an accounting currency",
+        "text": "The euro begins as a currency for electronic payments and accounting."
+      },
+      {
+        "date": "2001-09",
+        "title": "Frontloading begins",
+        "text": "Euro cash is distributed to banks and retailers ahead of launch."
+      },
+      {
+        "date": "2002-01-01",
+        "title": "Cash changeover",
+        "text": "Euro banknotes and coins enter circulation in 12 countries."
+      },
+      {
+        "date": "2002-03-01",
+        "title": "Sole legal tender",
+        "text": "Euro cash becomes the sole legal tender across the euro area."
+      }
+    ],
+    "countries": [
+      "Austria",
+      "Belgium",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Ireland",
+      "Italy",
+      "Luxembourg",
+      "Netherlands",
+      "Portugal",
+      "Spain"
+    ],
+    "sources": [
+      {
+        "label": "ECB — Initial changeover (2002)",
+        "url": "https://www.ecb.europa.eu/euro/changeover/2002/html/index.en.html"
+      },
+      {
+        "label": "ECB — Our money",
+        "url": "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "id": "india-election-market-crash-2004",
+    "year": 2004,
+    "date": "2004-05-17",
+    "title": "The 2004 General Election Market Crash",
+    "region": "India",
+    "category": "crisis",
+    "lede": "On 17 May 2004, Indian equity markets plunged following the general-election result and uncertainty over the formation and policy direction of the new government. Trading was halted twice after sharp index declines; the Sensex closed down around 11%.",
+    "overview": "On 17 May 2004, Indian equity markets plunged following the general-election result and uncertainty over the formation and policy direction of the new government. Trading was halted twice after sharp index declines; the Sensex closed down around 11%. The episode demonstrated how political uncertainty can trigger abrupt repricing, liquidity stress and trading halts in equity markets.",
+    "humanImpact": "New Delhi was the political decision centre and Mumbai the exchange and market infrastructure centre.",
+    "timeline": [
+      {
+        "date": "2004-05-13",
+        "title": "Election results emerge",
+        "text": "The results point to a change in the governing coalition."
+      },
+      {
+        "date": "2004-05-17",
+        "title": "Markets plunge and trading halts",
+        "text": "BSE and NSE halt trading after sharp falls; markets later recover part of the decline."
+      },
+      {
+        "date": "2004-05-31",
+        "title": "Partial recovery",
+        "text": "The Nifty recovers part of the May decline."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "India Economic Survey 2003–04 — Market movements on 17 May 2004",
+        "url": "https://www.indiabudget.gov.in/budget_archive/es2003-04/chapt2004/chap42.pdf"
+      },
+      {
+        "label": "Economic Times — Market meltdown continues as Sensex loses 564 points",
+        "url": "https://economictimes.indiatimes.com/articleshow/681788.cms"
+      }
+    ]
+  },
+  {
+    "id": "india-market-cap-trillion-2007",
+    "year": 2007,
+    "date": "2007-05-28",
+    "title": "India's Listed Equity Market Crosses US$1 Trillion (2007)",
+    "region": "India",
+    "category": "global",
+    "lede": "On 28 May 2007, the combined market capitalisation of companies listed on the Bombay Stock Exchange crossed US$1 trillion for the first time, supported by rising share prices and rupee appreciation.",
+    "overview": "On 28 May 2007, the combined market capitalisation of companies listed on the Bombay Stock Exchange crossed US$1 trillion for the first time, supported by rising share prices and rupee appreciation. The milestone reflected the rapid expansion and internationalisation of India's equity market, although the dollar value was influenced by exchange-rate movements as well as share prices.",
+    "humanImpact": "Mumbai is the location of the BSE and India's major securities-market infrastructure.",
+    "timeline": [
+      {
+        "date": "2006",
+        "title": "Market capitalisation expands",
+        "text": "Indian listed-company valuations rise strongly."
+      },
+      {
+        "date": "2007-05-28",
+        "title": "BSE crosses US$1 trillion",
+        "text": "The combined value of BSE-listed companies exceeds US$1 trillion."
+      },
+      {
+        "date": "2007-07-05",
+        "title": "NSE crosses US$1 trillion",
+        "text": "The combined value of NSE-listed companies also crosses the milestone."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "Rediff/PTI — BSE market cap hits trillion-dollar mark",
+        "url": "https://www.rediff.com/business/report/bse/20070528.htm"
+      },
+      {
+        "label": "Mint/PTI — Market cap of NSE-listed firms crosses $1 trillion",
+        "url": "https://www.livemint.com/Money/LYmiTsCfyDO9glKFaRAOXK/Market-cap-of-NSE-listed-firms-crosses-1-trillion.html"
+      }
+    ]
+  },
+  {
+    "id": "global-financial-crisis",
+    "year": 2007,
+    "date": "2007-08-09",
+    "title": "The Global Financial Crisis (2007–2009)",
+    "region": "United States; global financial system",
+    "category": "crisis",
+    "lede": "Stress in U.S. subprime mortgage markets and structured-credit products escalated from 2007 into a global banking and economic crisis. Lehman Brothers filed for bankruptcy on 15 September 2008, and governments and central banks intervened to contain systemic disruption.",
+    "overview": "Stress in U.S. subprime mortgage markets and structured-credit products escalated from 2007 into a global banking and economic crisis. Lehman Brothers filed for bankruptcy on 15 September 2008, and governments and central banks intervened to contain systemic disruption. High leverage, weak underwriting, securitisation complexity and fragile wholesale funding transmitted housing losses through interconnected financial institutions.",
+    "humanImpact": "New York was a centre of major financial institutions and markets; Washington, D.C. was the centre of federal crisis response. The crisis spread through banking, trade and capital flows worldwide.",
+    "timeline": [
+      {
+        "date": "2007-08-09",
+        "title": "Credit-market stress intensifies",
+        "text": "BNP Paribas suspends redemptions in three funds exposed to U.S. mortgage markets."
+      },
+      {
+        "date": "2008-03-16",
+        "title": "Bear Stearns rescue",
+        "text": "JPMorgan Chase acquires Bear Stearns with Federal Reserve support."
+      },
+      {
+        "date": "2008-09-15",
+        "title": "Lehman bankruptcy",
+        "text": "Lehman Brothers files for Chapter 11."
+      },
+      {
+        "date": "2008-10",
+        "title": "Emergency stabilisation",
+        "text": "Governments and central banks announce guarantees, liquidity and recapitalisation measures."
+      },
+      {
+        "date": "2009",
+        "title": "Global recession",
+        "text": "The financial crisis feeds into a severe global downturn."
+      }
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Iceland",
+      "Ireland",
+      "Spain",
+      "Greece"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve Bank of New York — Policy response timelines",
+        "url": "https://www.newyorkfed.org/research/global_economy/policyresponses"
+      },
+      {
+        "label": "Federal Reserve History — Lehman Brothers collapse",
+        "url": "https://www.federalreservehistory.org/essays/lehman-brothers-collapse"
+      },
+      {
+        "label": "IMF — World Economic Outlook, April 2009",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2016/12/31/Crisis-and-Recovery-25082"
+      }
+    ]
+  },
+  {
     "id": "global-financial-crisis-2008",
     "year": 2008,
     "date": "2008-09-15",
@@ -106,40 +391,240 @@
     ]
   },
   {
+    "id": "eurozone-debt-crisis",
+    "year": 2009,
+    "date": "2009-10-20",
+    "title": "The Eurozone Sovereign Debt Crisis (2010–2012)",
+    "region": "Euro area periphery",
+    "category": "crisis",
+    "lede": "The sovereign-debt crisis emerged after Greece disclosed a much larger fiscal deficit than previously reported in October 2009. Market stress spread to other euro-area countries, leading to financial assistance programmes, austerity measures and new European crisis-management institutions.",
+    "overview": "The sovereign-debt crisis emerged after Greece disclosed a much larger fiscal deficit than previously reported in October 2009. Market stress spread to other euro-area countries, leading to financial assistance programmes, austerity measures and new European crisis-management institutions. Sovereign-bank feedback loops, high public debt, competitiveness gaps and the limits of euro-area fiscal architecture amplified the crisis.",
+    "humanImpact": "Greece was the initial programme country; Ireland and Portugal also required assistance, while Spain and Italy experienced intense sovereign and banking-market pressure. The epicentre pins indicate affected national capitals, not identical crisis paths.",
+    "timeline": [
+      {
+        "date": "2009-10-20",
+        "title": "Greek fiscal data revised",
+        "text": "The new government reveals the public finances are worse than previously reported."
+      },
+      {
+        "date": "2010-05-02",
+        "title": "First Greek assistance programme",
+        "text": "Euro-area countries and the IMF approve financial assistance."
+      },
+      {
+        "date": "2010-06-01",
+        "title": "EFSF established",
+        "text": "The temporary euro-area rescue fund is created."
+      },
+      {
+        "date": "2010-12-01",
+        "title": "Ireland assistance package",
+        "text": "EU and IMF assistance is agreed for Ireland."
+      },
+      {
+        "date": "2011-05-17",
+        "title": "Portugal assistance package",
+        "text": "Financial assistance is agreed for Portugal."
+      },
+      {
+        "date": "2012-03",
+        "title": "Second Greek programme",
+        "text": "A second programme and private-sector debt restructuring are agreed."
+      }
+    ],
+    "countries": [
+      "Greece",
+      "Ireland",
+      "Portugal",
+      "Spain",
+      "Italy"
+    ],
+    "sources": [
+      {
+        "label": "European Stability Mechanism — History",
+        "url": "https://www.esm.europa.eu/about-us/history"
+      },
+      {
+        "label": "European Stability Mechanism — Greece programme timeline",
+        "url": "https://www.esm.europa.eu/assistance/greece/timeline-greece-exit"
+      },
+      {
+        "label": "Congressional Research Service — Eurozone Crisis overview",
+        "url": "https://www.everycrsreport.com/reports/R42377.html"
+      }
+    ]
+  },
+  {
+    "id": "nsel-payment-crisis",
+    "year": 2013,
+    "date": "2013-07-31",
+    "title": "The NSEL Payment Crisis (2013)",
+    "region": "India",
+    "category": "crisis",
+    "lede": "NSEL suspended trading in most contracts on 31 July 2013 after a payment crisis of approximately ₹5,600 crore emerged, leaving thousands of traders and investors facing unpaid obligations.",
+    "overview": "NSEL suspended trading in most contracts on 31 July 2013 after a payment crisis of approximately ₹5,600 crore emerged, leaving thousands of traders and investors facing unpaid obligations. The crisis raised questions about exchange oversight, warehouse receipts, collateral verification, related-party exposures and regulatory supervision of commodity-market infrastructure.",
+    "humanImpact": "The exchange and much of the regulatory and investigative response were centred in Mumbai; affected traders were located across India.",
+    "timeline": [
+      {
+        "date": "2013-07-12",
+        "title": "Fresh contracts restricted",
+        "text": "The Department of Consumer Affairs directs NSEL not to launch new contracts."
+      },
+      {
+        "date": "2013-07-31",
+        "title": "Trading suspended",
+        "text": "NSEL suspends trading in most contracts and settlement defaults emerge."
+      },
+      {
+        "date": "2013-08-14",
+        "title": "Settlement plan announced",
+        "text": "NSEL issues a proposed repayment schedule."
+      },
+      {
+        "date": "2013-09-30",
+        "title": "Investigations ordered",
+        "text": "Authorities order inspection of NSEL and FTIL records."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "Supreme Court of India — NSEL judgment, 30 April 2019",
+        "url": "https://api.sci.gov.in/supremecourt/2018/4493/4493_2018_Judgement_30-Apr-2019.pdf"
+      },
+      {
+        "label": "SEBI — NSEL chronology and payment crisis",
+        "url": "https://www.sebi.gov.in/web/?file=%2Fsebi_data%2Fattachdocs%2Fmay-2019%2F1557112833293.pdf"
+      }
+    ]
+  },
+  {
+    "id": "china-stock-turbulence",
+    "year": 2015,
+    "date": "2015-06-12",
+    "title": "Chinese Stock Market Turbulence (2015)",
+    "region": "China",
+    "category": "crisis",
+    "lede": "After a rapid equity-market rally, Chinese shares plunged in June and July 2015. Between 12 June and 7 July, the Shanghai Composite fell about 32% and the Shenzhen Composite about 40%, prompting market-support measures and regulatory intervention.",
+    "overview": "After a rapid equity-market rally, Chinese shares plunged in June and July 2015. Between 12 June and 7 July, the Shanghai Composite fell about 32% and the Shenzhen Composite about 40%, prompting market-support measures and regulatory intervention. The episode exposed risks from leveraged retail speculation, rapid price appreciation and policy uncertainty in China's equity markets.",
+    "humanImpact": "The Shanghai and Shenzhen exchanges were the two principal market centres affected; volatility also influenced global investor sentiment.",
+    "timeline": [
+      {
+        "date": "2014–2015",
+        "title": "Rapid equity rally",
+        "text": "Chinese share prices surge amid strong retail participation."
+      },
+      {
+        "date": "2015-06-12",
+        "title": "Shanghai Composite peaks",
+        "text": "The benchmark reaches a high before the sharp reversal."
+      },
+      {
+        "date": "2015-07-08",
+        "title": "Trading and selling restrictions",
+        "text": "Authorities impose measures to stem the decline."
+      },
+      {
+        "date": "2015-08-11",
+        "title": "Currency regime adjustment",
+        "text": "The PBOC adjusts the renminbi fixing mechanism, adding to market volatility."
+      }
+    ],
+    "countries": [
+      "China"
+    ],
+    "sources": [
+      {
+        "label": "Congressional Research Service — China's Recent Stock Market Volatility",
+        "url": "https://www.everycrsreport.com/reports/IN10325.html"
+      },
+      {
+        "label": "Peterson Institute — Churning over China: Anatomy of a Slowdown",
+        "url": "https://www.piie.com/blogs/china-economic-watch/churning-over-china-anatomy-slowdown"
+      }
+    ]
+  },
+  {
+    "id": "brexit-vote",
+    "year": 2016,
+    "date": "2016-06-23",
+    "title": "The Brexit Referendum",
+    "region": "United Kingdom",
+    "category": "policy",
+    "lede": "In the 23 June 2016 referendum, 51.9% of voters chose to leave the European Union. The result triggered immediate volatility in sterling and UK financial markets and began a multi-year process of negotiating the UK's withdrawal.",
+    "overview": "In the 23 June 2016 referendum, 51.9% of voters chose to leave the European Union. The result triggered immediate volatility in sterling and UK financial markets and began a multi-year process of negotiating the UK's withdrawal. The vote created uncertainty around trade, regulation, labour mobility, financial passporting and the future location of financial services activity.",
+    "humanImpact": "London was a major financial-market and policy hub affected by the result; the referendum outcome was national and had consequences across Europe.",
+    "timeline": [
+      {
+        "date": "2016-06-23",
+        "title": "Referendum held",
+        "text": "Voters decide whether the UK should remain in or leave the EU."
+      },
+      {
+        "date": "2016-06-24",
+        "title": "Result announced",
+        "text": "Leave wins with 51.9% of votes cast."
+      },
+      {
+        "date": "2017-03-29",
+        "title": "Article 50 invoked",
+        "text": "The UK formally notifies the EU of its intention to withdraw."
+      },
+      {
+        "date": "2020-01-31",
+        "title": "UK leaves the EU",
+        "text": "The withdrawal takes legal effect."
+      }
+    ],
+    "countries": [
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Germany"
+    ],
+    "sources": [
+      {
+        "label": "UK Electoral Commission — EU referendum results",
+        "url": "https://www.electoralcommission.org.uk/research-reports-and-data/our-reports-and-data-past-elections-and-referendums/results-and-turnout-2016-eu-referendum"
+      },
+      {
+        "label": "UK Parliament — Brexit timeline",
+        "url": "https://www.parliament.uk/business/news/2019/january/brexit-timeline/"
+      }
+    ]
+  },
+  {
     "id": "india-demonetisation-2016",
     "year": 2016,
     "date": "2016-11-08",
-    "title": "India's Demonetisation",
+    "title": "India's Demonetisation Announcement (2016)",
     "region": "India",
-    "category": "Currency and government policy",
-    "lede": "The Government of India announced the withdrawal of legal-tender status for existing ₹500 and ₹1,000 banknotes, triggering a rapid nationwide currency replacement and deposit process.",
-    "overview": "The announcement was made on the evening of 8 November 2016. The RBI later recorded that the specified notes represented nearly 86% of the value of currency in circulation on that date. Banks, ATMs, households and businesses had to manage deposits, exchanges, withdrawal limits and the gradual distribution of replacement notes.",
-    "humanImpact": "Cash-dependent households, small businesses, informal workers and people with limited access to banking services faced adjustment costs. The severity varied across regions and occupations. The atlas should add state- and city-specific evidence only where credible local reporting or official data exists.",
+    "category": "policy",
+    "lede": "On 8 November 2016, the Government of India announced that existing ₹500 and ₹1,000 banknotes would cease to be legal tender, subject to specified exceptions. The notes represented about 86% of the value of currency in circulation.",
+    "overview": "On 8 November 2016, the Government of India announced that existing ₹500 and ₹1,000 banknotes would cease to be legal tender, subject to specified exceptions. The notes represented about 86% of the value of currency in circulation. The announcement triggered a rapid nationwide currency exchange and deposit process, affecting cash-dependent households, small businesses and informal workers.",
+    "humanImpact": "The decision was announced in New Delhi and implemented throughout India through banks, ATMs and cash-distribution networks.",
     "timeline": [
       {
         "date": "2016-11-08",
         "title": "Announcement",
-        "text": "The government announces that existing ₹500 and ₹1,000 notes will cease to be legal tender from midnight, subject to specified exceptions."
+        "text": "The government announces withdrawal of legal-tender status for specified notes."
       },
       {
         "date": "2016-11-09",
-        "title": "Banks closed for public transactions; exchange and deposit process begins",
-        "text": "The RBI issues instructions to authorised persons; banks prepare for the currency transition."
-      },
-      {
-        "date": "2016-11-10",
-        "title": "Deposit and exchange arrangements begin",
-        "text": "Specified notes can be deposited and exchanged under announced rules and limits."
+        "title": "Banking transition begins",
+        "text": "Banks prepare for deposits and exchange under RBI directions."
       },
       {
         "date": "2016-11 to 2016-12",
-        "title": "Cash distribution and remonetisation",
-        "text": "The RBI coordinates the distribution of replacement banknotes through currency chests, branches and ATMs."
+        "title": "Cash replacement",
+        "text": "Banks and ATMs distribute replacement banknotes under changing limits."
       },
       {
         "date": "2017-08-30",
-        "title": "RBI publishes annual report",
-        "text": "The annual report documents currency management and the remonetisation process."
+        "title": "RBI annual report",
+        "text": "The RBI publishes data on returned specified banknotes."
       }
     ],
     "countries": [
@@ -151,12 +636,329 @@
         "url": "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1208"
       },
       {
-        "label": "RBI Circular, 9 November 2016",
-        "url": "https://www.rbi.org.in/commonman/English/scripts/Notification.aspx?Id=1939"
+        "label": "RBI — Specified Bank Notes FAQ",
+        "url": "https://www.rbi.org.in/scripts/faqview.aspx/scripts/FAQView.aspx?Id=122"
+      }
+    ]
+  },
+  {
+    "id": "india-gst-2017",
+    "year": 2017,
+    "date": "2017-07-01",
+    "title": "Implementation of the Goods and Services Tax (GST)",
+    "region": "India",
+    "category": "policy",
+    "lede": "India's Goods and Services Tax came into effect on 1 July 2017, subsuming multiple central and state indirect taxes and creating a common national framework for taxing supplies of goods and services.",
+    "overview": "India's Goods and Services Tax came into effect on 1 July 2017, subsuming multiple central and state indirect taxes and creating a common national framework for taxing supplies of goods and services. GST reshaped India's indirect-tax architecture, compliance systems, input-tax credits and inter-state trade. Its implementation required coordination between the Union and state governments.",
+    "humanImpact": "New Delhi is the national policy and parliamentary centre; implementation and effects extended across all states and union territories.",
+    "timeline": [
+      {
+        "date": "2000",
+        "title": "GST concept introduced",
+        "text": "The Union government begins work on a national GST framework."
       },
       {
-        "label": "RBI FAQ — Specified Bank Notes",
-        "url": "https://www.rbi.org.in/scripts/faqview.aspx/scripts/FAQView.aspx?Id=122"
+        "date": "2016-09",
+        "title": "GST Council constituted",
+        "text": "The constitutional amendment and Council establish the federal decision framework."
+      },
+      {
+        "date": "2017-04",
+        "title": "GST legislation passed",
+        "text": "Parliament passes key central GST legislation."
+      },
+      {
+        "date": "2017-07-01",
+        "title": "GST launched",
+        "text": "GST comes into force across India, with state legislation implemented in parallel."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "CBIC — The Journey to GST",
+        "url": "https://cbic-gst.gov.in/pdf/01062019-GST-An-Update.pdf"
+      },
+      {
+        "label": "PIB — GST rollout and key features",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513001&lang=2&reg=3"
+      }
+    ]
+  },
+  {
+    "id": "us-china-trade-war",
+    "year": 2018,
+    "date": "2018-07-06",
+    "title": "The U.S.–China Trade War and Tariffs (2018–2019)",
+    "region": "United States and China",
+    "category": "policy",
+    "lede": "The United States imposed tariffs on an initial tranche of Chinese imports on 6 July 2018, and China retaliated. Further rounds escalated through 2018 and 2019 before a Phase One agreement was signed in January 2020.",
+    "overview": "The United States imposed tariffs on an initial tranche of Chinese imports on 6 July 2018, and China retaliated. Further rounds escalated through 2018 and 2019 before a Phase One agreement was signed in January 2020. The dispute raised costs and uncertainty for global supply chains, exporters, manufacturers and investors, and became a major source of geoeconomic risk.",
+    "humanImpact": "Washington and Beijing were the policy decision centres; the effects were transmitted through trade flows, supply chains and global markets.",
+    "timeline": [
+      {
+        "date": "2018-03-22",
+        "title": "Section 301 action announced",
+        "text": "The U.S. administration announces action following its investigation into Chinese technology transfer and IP practices."
+      },
+      {
+        "date": "2018-07-06",
+        "title": "First major tariff tranche takes effect",
+        "text": "The United States and China impose retaliatory tariffs on goods."
+      },
+      {
+        "date": "2019-05",
+        "title": "Tariffs escalate",
+        "text": "Additional tariff increases and retaliatory measures are announced."
+      },
+      {
+        "date": "2020-01-15",
+        "title": "Phase One agreement signed",
+        "text": "The two countries sign a partial trade agreement."
+      }
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Mexico",
+      "Germany",
+      "South Korea"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve — U.S. tariffs on imports from China",
+        "url": "https://www.federalreserve.gov/econres/notes/feds-notes/factors-affecting-recent-us-tariffs-on-imports-from-china-20210217.html"
+      },
+      {
+        "label": "AP — Timeline of U.S.-China tit-for-tat tariffs",
+        "url": "https://apnews.com/article/08b5d468e61ba15e760563ef0186b2bb"
+      }
+    ]
+  },
+  {
+    "id": "ilfs-credit-crunch",
+    "year": 2018,
+    "date": "2018-08-27",
+    "title": "IL&FS Defaults and the NBFC Credit Crunch (2018)",
+    "region": "India",
+    "category": "crisis",
+    "lede": "A series of IL&FS group defaults in August and September 2018 exposed severe liquidity and governance problems at a large infrastructure financing group and triggered wider stress in India's non-bank financial company debt markets.",
+    "overview": "A series of IL&FS group defaults in August and September 2018 exposed severe liquidity and governance problems at a large infrastructure financing group and triggered wider stress in India's non-bank financial company debt markets. The episode highlighted maturity mismatches, excessive leverage, opaque group structures and dependence on short-term market funding among some non-bank lenders.",
+    "humanImpact": "IL&FS and major financial-market intermediaries were headquartered in Mumbai; the funding shock affected mutual funds, debt investors and NBFCs across India.",
+    "timeline": [
+      {
+        "date": "2018-08",
+        "title": "Early group defaults",
+        "text": "IL&FS group companies begin defaulting on debt obligations."
+      },
+      {
+        "date": "2018-09",
+        "title": "Defaults and rating downgrades spread",
+        "text": "Further defaults increase stress in debt and money markets."
+      },
+      {
+        "date": "2018-10-01",
+        "title": "Board superseded",
+        "text": "The government announces action to preserve IL&FS assets and liquidity."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "PIB — Government action following IL&FS defaults, 1 October 2018",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=183856"
+      },
+      {
+        "label": "RBI Bulletin — Financial stability and NBFC supervision",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22317"
+      }
+    ]
+  },
+  {
+    "id": "india-corporate-tax-cut-2019",
+    "year": 2019,
+    "date": "2019-09-20",
+    "title": "Historic Indian Corporate Tax Cut (2019)",
+    "region": "India",
+    "category": "policy",
+    "lede": "On 20 September 2019, the Government announced an option for eligible domestic companies to pay corporate income tax at 22%, and for qualifying new domestic manufacturing companies at 15%, subject to conditions.",
+    "overview": "On 20 September 2019, the Government announced an option for eligible domestic companies to pay corporate income tax at 22%, and for qualifying new domestic manufacturing companies at 15%, subject to conditions. The measure was intended to encourage investment and support growth by reducing headline corporate tax rates, while requiring companies choosing the concessional regime to forgo specified exemptions and incentives.",
+    "humanImpact": "The announcement was made by the Ministry of Finance in New Delhi and applied to eligible companies across India.",
+    "timeline": [
+      {
+        "date": "2019-09-20",
+        "title": "Tax cut announced",
+        "text": "The government announces the concessional 22% and 15% tax regimes."
+      },
+      {
+        "date": "2019-09-20",
+        "title": "Ordinance issued",
+        "text": "The Taxation Laws (Amendment) Ordinance 2019 gives effect to the changes."
+      },
+      {
+        "date": "FY2019–20 onward",
+        "title": "Companies elect regime",
+        "text": "Eligible companies choose whether to opt into the concessional tax structure."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "PIB — Corporate tax rates slashed, 20 September 2019",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1585641&lang=2&reg=48"
+      }
+    ]
+  },
+  {
+    "id": "pmc-bank-crisis-2019",
+    "year": 2019,
+    "date": "2019-09-23",
+    "title": "PMC Bank Crisis (2019)",
+    "region": "India",
+    "category": "crisis",
+    "lede": "The RBI placed Punjab and Maharashtra Cooperative Bank under regulatory directions effective 23 September 2019 after fraud and serious deterioration in the bank's net worth. Initial withdrawal limits caused acute hardship for depositors.",
+    "overview": "The RBI placed Punjab and Maharashtra Cooperative Bank under regulatory directions effective 23 September 2019 after fraud and serious deterioration in the bank's net worth. Initial withdrawal limits caused acute hardship for depositors. The episode raised concerns about cooperative-bank governance, connected exposures, audit quality, supervision and depositor protection.",
+    "humanImpact": "PMC Bank was headquartered in Mumbai, where the restrictions directly affected depositors; the case prompted wider scrutiny of urban cooperative banks.",
+    "timeline": [
+      {
+        "date": "2019-09-23",
+        "title": "RBI directions take effect",
+        "text": "PMC Bank is placed under restrictions, including a withdrawal cap."
+      },
+      {
+        "date": "2019-09-26",
+        "title": "Withdrawal limit revised",
+        "text": "The RBI modifies the permitted withdrawal amount."
+      },
+      {
+        "date": "2021-11",
+        "title": "Amalgamation proposal",
+        "text": "The RBI places a draft amalgamation scheme with Unity Small Finance Bank in the public domain."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI — Directions under Section 35A, 24 September 2019",
+        "url": "https://www.rbi.org.in/commonman/English/scripts/PressReleases.aspx?Id=3075"
+      },
+      {
+        "label": "RBI — Withdrawal limit revision, 26 September 2019",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48243"
+      }
+    ]
+  },
+  {
+    "id": "covid-market-crash",
+    "year": 2020,
+    "date": "2020-02-20",
+    "title": "The COVID-19 Pandemic Market Crash (2020)",
+    "region": "Global; outbreak and financial-market centres",
+    "category": "crisis",
+    "lede": "The COVID-19 outbreak developed into a global pandemic and triggered an abrupt repricing of risk in global financial markets in February and March 2020. Wuhan is marked as the early outbreak centre; New York and London are marked as major financial-market hubs, not as the origin of the virus.",
+    "overview": "The COVID-19 outbreak developed into a global pandemic and triggered an abrupt repricing of risk in global financial markets in February and March 2020. Wuhan is marked as the early outbreak centre; New York and London are marked as major financial-market hubs, not as the origin of the virus. Public-health restrictions, uncertainty about economic activity and forced selling produced sharp market declines, liquidity strains and emergency monetary and fiscal interventions.",
+    "humanImpact": "The shock was global. These pins distinguish the outbreak's early centre from two major financial-market centres where panic and policy responses were visible.",
+    "timeline": [
+      {
+        "date": "2019-12",
+        "title": "Cluster of pneumonia cases identified",
+        "text": "Cases are reported in Wuhan, China."
+      },
+      {
+        "date": "2020-01-30",
+        "title": "WHO emergency declaration",
+        "text": "WHO declares a Public Health Emergency of International Concern."
+      },
+      {
+        "date": "2020-02-20",
+        "title": "Global market sell-off begins",
+        "text": "Risk assets begin a sharp decline as the outbreak spreads internationally."
+      },
+      {
+        "date": "2020-03-11",
+        "title": "Pandemic characterised",
+        "text": "WHO characterises COVID-19 as a pandemic."
+      },
+      {
+        "date": "2020-03-23",
+        "title": "Market low and policy response",
+        "text": "Major central banks and governments expand emergency support."
+      }
+    ],
+    "countries": [
+      "China",
+      "United States",
+      "United Kingdom",
+      "Italy",
+      "India",
+      "Brazil"
+    ],
+    "sources": [
+      {
+        "label": "WHO — COVID-19 timeline",
+        "url": "https://www.who.int/news-room/detail/27-04-2020-who-timeline---covid-19"
+      },
+      {
+        "label": "WHO — 11 March 2020 remarks",
+        "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
+      },
+      {
+        "label": "IMF — World Economic Outlook, April 2020",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020"
+      }
+    ]
+  },
+  {
+    "id": "yes-bank-crisis-2020",
+    "year": 2020,
+    "date": "2020-03-05",
+    "title": "Yes Bank Crisis and Moratorium (2020)",
+    "region": "India",
+    "category": "crisis",
+    "lede": "On 5 March 2020, the central government placed Yes Bank under a moratorium following a sustained deterioration in its financial position, inability to raise capital and deposit withdrawals. A reconstruction scheme was subsequently notified and the moratorium lifted on 18 March.",
+    "overview": "On 5 March 2020, the central government placed Yes Bank under a moratorium following a sustained deterioration in its financial position, inability to raise capital and deposit withdrawals. A reconstruction scheme was subsequently notified and the moratorium lifted on 18 March. The resolution highlighted risks arising from asset-quality deterioration, governance weaknesses, capital shortfalls and confidence-sensitive deposit funding.",
+    "humanImpact": "Yes Bank's headquarters and key financial operations were in Mumbai; the resolution involved the RBI, government and a consortium of financial institutions.",
+    "timeline": [
+      {
+        "date": "2020-03-05",
+        "title": "Moratorium imposed",
+        "text": "The government places Yes Bank under moratorium on the RBI's application."
+      },
+      {
+        "date": "2020-03-06",
+        "title": "Draft reconstruction scheme",
+        "text": "The RBI publishes a draft scheme for public comment."
+      },
+      {
+        "date": "2020-03-13",
+        "title": "Reconstruction scheme notified",
+        "text": "The government sanctions the reconstruction scheme."
+      },
+      {
+        "date": "2020-03-18",
+        "title": "Moratorium lifted",
+        "text": "The reconstruction scheme takes effect."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "RBI — Yes Bank placed under Moratorium, 5 March 2020",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49476"
+      },
+      {
+        "label": "RBI — Report on Trend and Progress of Banking in India 2019–20",
+        "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=20269"
       }
     ]
   },
@@ -217,6 +1019,107 @@
       {
         "label": "IMF — World Economic Outlook, April 2020",
         "url": "https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020"
+      }
+    ]
+  },
+  {
+    "id": "global-inflation-hikes",
+    "year": 2022,
+    "date": "2022-03-16",
+    "title": "Global Inflation and the Interest-Rate Hike Cycle (2022–2023)",
+    "region": "United States and euro area",
+    "category": "policy",
+    "lede": "Central banks shifted rapidly toward monetary tightening as inflation reached multi-decade highs. The Federal Reserve began raising rates in March 2022; the ECB raised its key rates for the first time in July 2022, with further increases through 2023.",
+    "overview": "Central banks shifted rapidly toward monetary tightening as inflation reached multi-decade highs. The Federal Reserve began raising rates in March 2022; the ECB raised its key rates for the first time in July 2022, with further increases through 2023. Higher policy rates increased borrowing costs, repriced bonds and equities, strengthened some currencies and created stress for leveraged borrowers and financial institutions.",
+    "humanImpact": "Washington and Frankfurt are the policy headquarters for the Fed and ECB; rate changes transmitted globally through funding markets and exchange rates.",
+    "timeline": [
+      {
+        "date": "2022-03-16",
+        "title": "Federal Reserve begins tightening",
+        "text": "The FOMC raises the federal funds target range by 25 basis points."
+      },
+      {
+        "date": "2022-07-21",
+        "title": "ECB raises rates",
+        "text": "The ECB announces its first rate increase in 11 years."
+      },
+      {
+        "date": "2022-09 to 2023-07",
+        "title": "Further rapid increases",
+        "text": "The Fed and ECB continue tightening policy."
+      },
+      {
+        "date": "2023-07-26",
+        "title": "Fed reaches 5.25%–5.50%",
+        "text": "The FOMC raises its target range to the highest level in 22 years."
+      }
+    ],
+    "countries": [
+      "United States",
+      "Germany",
+      "France",
+      "United Kingdom",
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve — FOMC calendars and statements",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      {
+        "label": "Federal Reserve Bank of Richmond — Federal funds rate history",
+        "url": "https://www.richmondfed.org/research/national_economy/monetary_policy/federal_funds_rate"
+      },
+      {
+        "label": "ECB — Key ECB interest rates",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "id": "hindenburg-adani-2023",
+    "year": 2023,
+    "date": "2023-01-24",
+    "title": "Hindenburg Research Report and the Adani Market Shock (2023)",
+    "region": "United States and India",
+    "category": "crisis",
+    "lede": "Hindenburg Research published a short-seller report on the Adani Group on 24 January 2023. Adani Group companies experienced sharp share-price declines, and the planned Adani Enterprises follow-on public offering was withdrawn.",
+    "overview": "Hindenburg Research published a short-seller report on the Adani Group on 24 January 2023. Adani Group companies experienced sharp share-price declines, and the planned Adani Enterprises follow-on public offering was withdrawn. The episode raised questions about short selling, corporate governance, conglomerate leverage, disclosure, market integrity and cross-border securities research. Allegations in the report were disputed by the Adani Group; the map does not present allegations as judicial findings.",
+    "humanImpact": "New York is marked as the report publisher's base; Ahmedabad is marked as the Adani Group's principal corporate base. Market effects were felt across Indian and international investor portfolios.",
+    "timeline": [
+      {
+        "date": "2023-01-24",
+        "title": "Hindenburg report published",
+        "text": "The short-seller publishes its report on Adani Group."
+      },
+      {
+        "date": "2023-01-25",
+        "title": "Adani Group responds",
+        "text": "The group issues a public statement disputing the report."
+      },
+      {
+        "date": "2023-02-01",
+        "title": "FPO withdrawn",
+        "text": "Adani Enterprises announces withdrawal of its follow-on offering and return of investor funds."
+      },
+      {
+        "date": "2023 onward",
+        "title": "Regulatory and legal scrutiny",
+        "text": "Indian authorities and courts examine aspects of the matter."
+      }
+    ],
+    "countries": [
+      "United States",
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "Hindenburg Research — Adani Group report, 24 January 2023",
+        "url": "https://hindenburgresearch.com/adani/"
+      },
+      {
+        "label": "Adani Group — Media statement, 25 January 2023",
+        "url": "https://www.adani.com/newsroom/media-releases/media-statement-25-jan"
       }
     ]
   },
@@ -303,6 +1206,52 @@
     ]
   },
   {
+    "id": "trump-tariff-return-2025",
+    "year": 2025,
+    "date": "2025-04-02",
+    "title": "Return of the Trump Administration and New Tariff Frameworks (2025–2026)",
+    "region": "United States; global trading partners",
+    "category": "policy",
+    "lede": "Following the January 2025 change of administration, the White House announced a reciprocal tariff framework on 2 April 2025. The policy was subsequently modified through further executive actions, negotiations and court proceedings, so the map record identifies the framework's launch rather than implying one unchanged tariff schedule through 2026.",
+    "overview": "Following the January 2025 change of administration, the White House announced a reciprocal tariff framework on 2 April 2025. The policy was subsequently modified through further executive actions, negotiations and court proceedings, so the map record identifies the framework's launch rather than implying one unchanged tariff schedule through 2026. The tariff measures altered trade expectations, import costs and supply-chain planning, and became a major source of uncertainty for global markets and governments.",
+    "humanImpact": "Washington, D.C. is the policy epicentre; the trade and market effects extended across trading partners.",
+    "timeline": [
+      {
+        "date": "2025-01-20",
+        "title": "Trump administration begins",
+        "text": "Donald Trump is inaugurated as the 47th U.S. president."
+      },
+      {
+        "date": "2025-04-02",
+        "title": "Reciprocal tariff framework announced",
+        "text": "Executive Order 14257 establishes additional tariffs on imports."
+      },
+      {
+        "date": "2025–2026",
+        "title": "Tariff measures modified",
+        "text": "Rates and country arrangements change through subsequent actions and negotiations."
+      }
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Canada",
+      "Mexico",
+      "European Union",
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "White House — Executive Order 14257",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/"
+      },
+      {
+        "label": "AP — Timeline of U.S.-China tariffs",
+        "url": "https://apnews.com/article/08b5d468e61ba15e760563ef0186b2bb"
+      }
+    ]
+  },
+  {
     "id": "india-monetary-policy-2026",
     "year": 2026,
     "date": "2026-02-06",
@@ -331,6 +1280,47 @@
       {
         "label": "RBI — Monetary Policy Statement, 6 February 2026",
         "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62169"
+      }
+    ]
+  },
+  {
+    "id": "india-ipo-record-2026",
+    "year": 2026,
+    "date": "2026-03-31",
+    "title": "Record Indian Primary-Market IPO Fundraising (FY2025–26)",
+    "region": "India",
+    "category": "global",
+    "lede": "SEBI's FY2025–26 capital-market review reported that mainboard IPO listings crossed 100 and mobilised a record ₹1.8 lakh crore during the financial year. A 2026 NSE draft prospectus separately reported approximately US$20.06 billion of IPO capital raised on NSE in FY2026.",
+    "overview": "SEBI's FY2025–26 capital-market review reported that mainboard IPO listings crossed 100 and mobilised a record ₹1.8 lakh crore during the financial year. A 2026 NSE draft prospectus separately reported approximately US$20.06 billion of IPO capital raised on NSE in FY2026. The milestone reflects the scale of India's primary equity market and its role in corporate capital formation. The dollar figure depends on the exchange and IPO measurement scope, so the record is described primarily using SEBI's rupee measure.",
+    "humanImpact": "Mumbai is the institutional centre for NSE and SEBI and a major hub for India's capital markets.",
+    "timeline": [
+      {
+        "date": "2025-04-01",
+        "title": "FY2025–26 begins",
+        "text": "The financial-year measurement period for the record starts."
+      },
+      {
+        "date": "2026-03-31",
+        "title": "FY2025–26 closes",
+        "text": "The full-year primary-market fundraising record is measured."
+      },
+      {
+        "date": "2026-04",
+        "title": "SEBI publishes FY26 review",
+        "text": "SEBI reports over 100 mainboard IPOs and ₹1.8 lakh crore mobilised."
+      }
+    ],
+    "countries": [
+      "India"
+    ],
+    "sources": [
+      {
+        "label": "SEBI Bulletin — March 2026, Capital Market Review",
+        "url": "https://www.sebi.gov.in/sebi_data/attachdocs/apr-2026/1775034592968.pdf"
+      },
+      {
+        "label": "NSE draft prospectus — FY2026 IPO capital raised",
+        "url": "https://images.moneycontrol.com/news_html_files/pdffiles/Jun2026/national-stock.pdf"
       }
     ]
   }
