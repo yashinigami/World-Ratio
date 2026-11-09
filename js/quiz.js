@@ -189,32 +189,31 @@
     window.scrollTo({top:0,behavior:"smooth"});
   }
   async function downloadScore() {
-    await Promise.all([
-      document.fonts.load('700 76px "Playfair Display"'),
-      document.fonts.load('28px "Times New Roman"')
-    ]).catch(()=>{});
-    const canvas=document.createElement("canvas"); canvas.width=1200; canvas.height=1500;
+    await Promise.all([document.fonts.load('700 76px "Playfair Display"'),document.fonts.load('28px "Times New Roman"')]).catch(()=>{});
+    const canvas=document.createElement("canvas");canvas.width=1200;canvas.height=1500;
     const ctx=canvas.getContext("2d");
     ctx.fillStyle="#fffaf7";ctx.fillRect(0,0,1200,1500);
     ctx.fillStyle="#f8e9ec";ctx.fillRect(42,42,1116,1416);
     ctx.fillStyle="#fffaf7";ctx.fillRect(62,62,1076,1376);
     ctx.strokeStyle="#dca8b8";ctx.lineWidth=3;ctx.strokeRect(62,62,1076,1376);
-    // Real, non-AI flower photograph; if it is unavailable the card remains complete.
-    const photo=new Image();photo.crossOrigin="anonymous";
-    photo.src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85";
-    try{await new Promise((resolve,reject)=>{photo.onload=resolve;photo.onerror=reject;});ctx.save();ctx.beginPath();ctx.roundRect(115,150,970,260,26);ctx.clip();ctx.drawImage(photo,115,150,970,260);ctx.restore();}catch(_){}
-    ctx.textAlign="center";ctx.fillStyle="#743c55";ctx.font='700 68px "Playfair Display", Georgia, serif';
-    ctx.fillText("World Ratio",600,500);
-    ctx.fillStyle="#946477";ctx.font='italic 25px "Times New Roman", serif';ctx.fillText("by niharika jain",600,540);
-    ctx.fillStyle="#743c55";ctx.font='700 52px "Playfair Display", Georgia, serif';ctx.fillText("Finance Quiz",600,650);
-    ctx.fillStyle="#a64f70";ctx.font='26px "Times New Roman", serif';ctx.fillText(modeNames[mode]+" edition",600,705);
-    ctx.strokeStyle="#d99aaf";ctx.lineWidth=4;ctx.beginPath();ctx.roundRect(220,770,760,300,34);ctx.stroke();
-    ctx.fillStyle="#743c55";ctx.font='700 150px "Playfair Display", Georgia, serif';ctx.fillText(score+" / 15",600,965);
-    ctx.fillStyle="#805c6b";ctx.font='italic 32px "Times New Roman", serif';
-    wrapCanvasText(ctx,scoreComment(score),600,1150,880,44);
-    ctx.fillStyle="#805c6b";ctx.font='24px "Times New Roman", serif';
-    ctx.fillText("A little finance knowledge, a lot of curiosity. ♡",600,1310);
+    // Use the actual uploaded site logo, preserving its complete aspect ratio.
+    const logo=new Image();logo.src="assets/world-ratio-logo-horizontal.jpg";
+    try{await new Promise((resolve,reject)=>{logo.onload=resolve;logo.onerror=reject;});const w=760,h=w*(logo.naturalHeight/logo.naturalWidth);ctx.drawImage(logo,(1200-w)/2,100,w,h);}catch(_){}
+    ctx.textAlign="center";ctx.fillStyle="#743c55";ctx.font='700 52px "Playfair Display", Georgia, serif';
+    ctx.fillText("Finance Quiz",600,625);
+    ctx.fillStyle="#a64f70";ctx.font='26px "Times New Roman", serif';ctx.fillText(modeNames[mode]+" edition",600,680);
+    ctx.strokeStyle="#d99aaf";ctx.lineWidth=4;ctx.beginPath();ctx.roundRect(220,745,760,300,34);ctx.stroke();
+    ctx.fillStyle="#743c55";ctx.font='700 150px "Playfair Display", Georgia, serif';ctx.fillText(score+" / 15",600,940);
+    ctx.fillStyle="#805c6b";ctx.font='italic 32px "Times New Roman", serif';wrapCanvasText(ctx,scoreComment(score),600,1125,880,44);
+    ctx.fillStyle="#805c6b";ctx.font='24px "Times New Roman", serif';ctx.fillText("A little finance knowledge, a lot of curiosity. ♡",600,1305);
     ctx.fillText("yashinigami.github.io/World-Ratio/#quiz",600,1360);
+    // Original, hand-drawn cat doodle made with simple canvas strokes (not generated artwork).
+    ctx.save();ctx.translate(1010,1135);ctx.rotate(.08);ctx.strokeStyle="#b87591";ctx.fillStyle="#f7e4e9";ctx.lineWidth=6;ctx.lineCap="round";ctx.lineJoin="round";
+    ctx.beginPath();ctx.moveTo(-55,-35);ctx.lineTo(-66,-88);ctx.quadraticCurveTo(-25,-76,-12,-48);ctx.quadraticCurveTo(20,-75,58,-86);ctx.lineTo(48,-30);ctx.quadraticCurveTo(72,28,28,55);ctx.quadraticCurveTo(-18,72,-52,35);ctx.quadraticCurveTo(-75,4,-55,-35);ctx.fill();ctx.stroke();
+    ctx.beginPath();ctx.moveTo(-32,-5);ctx.quadraticCurveTo(-22,-17,-12,-5);ctx.moveTo(18,-5);ctx.quadraticCurveTo(28,-17,38,-5);ctx.moveTo(-5,15);ctx.lineTo(3,21);ctx.lineTo(11,15);ctx.moveTo(3,21);ctx.quadraticCurveTo(-3,36,-18,28);ctx.moveTo(3,21);ctx.quadraticCurveTo(14,36,27,28);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(-45,15);ctx.lineTo(-86,5);ctx.moveTo(-44,27);ctx.lineTo(-82,35);ctx.moveTo(48,15);ctx.lineTo(88,5);ctx.moveTo(48,27);ctx.lineTo(85,37);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(-42,50);ctx.quadraticCurveTo(-52,82,-26,83);ctx.moveTo(35,50);ctx.quadraticCurveTo(48,82,67,68);ctx.stroke();
+    ctx.restore();
     const link=document.createElement("a");link.download="world-ratio-"+mode+"-quiz-score.png";link.href=canvas.toDataURL("image/png");link.click();
   }
   function wrapCanvasText(ctx,text,x,y,maxWidth,lineHeight) {
