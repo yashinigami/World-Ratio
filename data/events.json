@@ -1,5 +1,139 @@
 [
   {
+    "id": "oil-shock-1973-74",
+    "date": "1973-10-17",
+    "year": 1973,
+    "title": "The 1973–74 Oil Crisis and Global Financial Shock",
+    "category": "crisis",
+    "city": "Washington, D.C.",
+    "region": "Middle East; global oil-importing economies",
+    "country": "United States",
+    "countryCode": "USA",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "scope": "global",
+    "epicentres": [
+      {
+        "city": "Cairo",
+        "country": "Egypt",
+        "lat": 30.0444,
+        "lng": 31.2357,
+        "role": "Yom Kippur War political and military centre"
+      },
+      {
+        "city": "Damascus",
+        "country": "Syria",
+        "lat": 33.5138,
+        "lng": 36.2765,
+        "role": "Yom Kippur War political and military centre"
+      },
+      {
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "lat": 32.0853,
+        "lng": 34.7818,
+        "role": "Israeli government and wartime financial centre"
+      },
+      {
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "lat": 24.7136,
+        "lng": 46.6753,
+        "role": "Oil producer and embargo decision centre"
+      },
+      {
+        "city": "Kuwait City",
+        "country": "Kuwait",
+        "lat": 29.3759,
+        "lng": 47.9774,
+        "role": "Oil producer and OAPEC member"
+      },
+      {
+        "city": "Baghdad",
+        "country": "Iraq",
+        "lat": 33.3152,
+        "lng": 44.3661,
+        "role": "Oil producer and OAPEC member"
+      },
+      {
+        "city": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.9072,
+        "lng": -77.0369,
+        "role": "U.S. foreign-policy and emergency energy-policy centre"
+      },
+      {
+        "city": "New York City",
+        "country": "United States",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "role": "Major financial-market centre affected by the shock"
+      },
+      {
+        "city": "London",
+        "country": "United Kingdom",
+        "lat": 51.5072,
+        "lng": -0.1276,
+        "role": "Major financial and energy-importing centre"
+      },
+      {
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "lat": 51.9244,
+        "lng": 4.4777,
+        "role": "Major European port and a country targeted by the embargo"
+      },
+      {
+        "city": "Tokyo",
+        "country": "Japan",
+        "lat": 35.6762,
+        "lng": 139.6503,
+        "role": "Major oil-importing economy and financial centre"
+      },
+      {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "lat": 50.1109,
+        "lng": 8.6821,
+        "role": "Major European financial centre and oil-importing economy"
+      },
+      {
+        "city": "Mumbai",
+        "country": "India",
+        "lat": 19.076,
+        "lng": 72.8777,
+        "role": "Indian financial centre; RBI records the oil shock and resulting double-digit inflation"
+      }
+    ],
+    "entity": "Arab members of OAPEC; OPEC; Egypt; Syria; Israel; United States; global oil-importing economies",
+    "summary": "The first major oil shock followed the Yom Kippur War of 6–26 October 1973. After the United States resupplied Israel, Arab members of OAPEC announced an embargo against the United States and selected other countries, alongside production cuts. The price of oil rose from about US$2.90 per barrel before the embargo to US$11.65 by January 1974. The embargo was lifted in March 1974, but higher prices and the economic shock persisted.",
+    "why": "The war was the immediate geopolitical trigger, but the crisis also reflected pre-existing tensions over oil pricing, producer power, supply capacity and the growing dependence of industrial economies on imported petroleum. The embargo and production cuts transmitted a supply shock through energy, transport, manufacturing, inflation, trade balances and financial markets.",
+    "impact": "The United States, Japan and Western European oil importers faced shortages, higher energy costs, inflation and recessionary pressure. India also experienced a severe oil-price shock; the RBI's historical chronology records quadrupled oil prices, double-digit inflation and a global recession. Oil-exporting states received a major transfer of income. The map distinguishes the war's political centres, oil-producing decision centres and selected financial/industrial centres exposed to the shock; it does not imply that each location was equally affected.",
+    "sources": [
+      {
+        "label": "Federal Reserve History — Oil Shock of 1973–74",
+        "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74"
+      },
+      {
+        "label": "U.S. Department of State — Oil Embargo, 1973–1974",
+        "url": "https://history.state.gov/milestones/1969-1976/oil-embargo"
+      },
+      {
+        "label": "U.S. Department of Energy — October 1973: First Energy Crisis",
+        "url": "https://www.energy.gov/management/october-1973-first-energy-crisis"
+      },
+      {
+        "label": "Reserve Bank of India — Historical Chronology, 1968–1985",
+        "url": "https://www.rbi.org.in/scripts/his_Chro1968to1985.aspx"
+      },
+      {
+        "label": "IMF — Timeline: Selected Events around Global Recessions and Recoveries",
+        "url": "https://www.elibrary.imf.org/display/book/9781513570020/back-1.xml"
+      }
+    ],
+    "turningPoint": "oil-shock-1973-74"
+  },
+  {
     "id": "thai-baht-float-1997",
     "date": "1997-07-02",
     "year": 1997,
