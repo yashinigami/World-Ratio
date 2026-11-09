@@ -221,7 +221,10 @@ function renderMap() {
       icon: iconFor(markerCategory),
       title: `${group.length} records · ${group[0].city}, ${group[0].country}`
     }).addTo(group.some(r => r.kind === "event") ? state.eventLayer : state.institutionLayer);
-    marker.bindPopup(cityBrowsePopup(group), { maxWidth: 440, minWidth: 280, className: "city-browse-leaflet" });
+    let popupIndex = 0;
+    marker.bindPopup(cityBrowsePopup(group, popupIndex), {
+      maxWidth: 360, minWidth: 270, className: "city-browse-leaflet"
+    });
     marker.on("popupopen", () => {
       const root = marker.getPopup().getElement();
       if (!root) return;
@@ -229,11 +232,14 @@ function renderMap() {
         const prev = event.target.closest("[data-city-prev]");
         const next = event.target.closest("[data-city-next]");
         const open = event.target.closest("[data-city-open]");
-        const rail = root.querySelector(".city-browse-rail");
-        if (prev && rail) rail.scrollBy({ left: -rail.clientWidth * 0.82, behavior: "smooth" });
-        if (next && rail) rail.scrollBy({ left: rail.clientWidth * 0.82, behavior: "smooth" });
-        if (open) {
-          const selected = group[Number(open.dataset.cityOpen)];
+        if (prev && group.length > 1) {
+          popupIndex = (popupIndex - 1 + group.length) % group.length;
+          marker.setPopupContent(cityBrowsePopup(group, popupIndex));
+        } else if (next && group.length > 1) {
+          popupIndex = (popupIndex + 1) % group.length;
+          marker.setPopupContent(cityBrowsePopup(group, popupIndex));
+        } else if (open) {
+          const selected = group[popupIndex];
           if (selected.kind === "event") openEvent(selected.data.id);
           else showInstitution(selected.data.id);
         }
@@ -246,28 +252,25 @@ function renderMap() {
   renderEventList();
 }
 
-function cityBrowsePopup(group) {
-  const location = `${group[0].city}, ${group[0].country}`;
-  const cards = group.map((record, index) => {
-    const event = record.kind === "event";
-    const title = event ? record.data.title : record.data.name;
-    const meta = event
-      ? `${record.data.year} · ${categoryLabel(record.data.category)}`
-      : `Institution · Established ${record.data.founded}`;
-    return `<article class="city-browse-card">
-      <div class="city-browse-meta">${escapeHTML(meta)}</div>
-      <strong>${escapeHTML(title)}</strong>
-      <button type="button" data-city-open="${index}">View details ↗</button>
-    </article>`;
-  }).join("");
+function cityBrowsePopup(group, index = 0) {
+  const record = group[index];
+  const isEvent = record.kind === "event";
+  const title = isEvent ? record.data.title : record.data.name;
+  const meta = isEvent
+    ? `${record.data.year} · ${categoryLabel(record.data.category)}`
+    : `Institution · Established ${record.data.founded}`;
+  const place = `${group[0].city}, ${group[0].country}`;
   return `<div class="city-browse-popup">
-    <div class="city-browse-heading"><strong>${escapeHTML(location)}</strong><span>${group.length} records</span></div>
-    <div class="city-browse-controls">
-      <button type="button" data-city-prev aria-label="Scroll left">←</button>
-      <span>Scroll to explore</span>
-      <button type="button" data-city-next aria-label="Scroll right">→</button>
+    <div class="city-browse-nav">
+      <button type="button" data-city-prev aria-label="Previous record" ${group.length < 2 ? "disabled" : ""}>←</button>
+      <div class="city-browse-copy">
+        <div class="city-browse-place">${escapeHTML(place)} · ${index + 1} of ${group.length}</div>
+        <div class="city-browse-meta">${escapeHTML(meta)}</div>
+        <strong>${escapeHTML(title)}</strong>
+        <button type="button" class="city-browse-details" data-city-open>View details ↗</button>
+      </div>
+      <button type="button" data-city-next aria-label="Next record" ${group.length < 2 ? "disabled" : ""}>→</button>
     </div>
-    <div class="city-browse-rail">${cards}</div>
   </div>`;
 }
 
@@ -382,24 +385,14 @@ function openEvent(id) {
       </div>
     </div>
 
-    <div class="modal-actions">
-      <button id="another-event">
-        Discover another event in ${e.city}
-      </button>
-
-      ${e.turningPoint
-        ? `<button id="open-turning-point">Explore this turning point</button>`
-        : ""}
-    </div>
+    ${e.turningPoint
+      ? `<div class="modal-actions"><button id="open-turning-point">Explore this turning point</button></div>`
+      : ""}
   `;
 
   modal.classList.add("open");
   modal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
-
-  $("#another-event").addEventListener("click", () =>
-    discoverAnother(e)
-  );
 
   if (e.turningPoint) {
     $("#open-turning-point").addEventListener("click", () => {
