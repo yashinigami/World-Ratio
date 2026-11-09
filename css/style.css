@@ -1005,3 +1005,136 @@ nav.section-jump-nav a,nav.notebook-jump-nav a{
   .top-nav{gap:12px;font-size:11px}
   .header-home{font-size:11px;padding:6px 8px}
 }
+
+
+/* Photos Archival: a two-page scrapbook album with category tabs. */
+#photos-archival .archive-album-controls{
+  width:min(1160px,calc(100% - 40px));margin:0 auto 18px;
+  display:flex;flex-wrap:wrap;gap:9px;align-items:center;
+}
+#photos-archival .archive-category{
+  appearance:none;border:1px solid #E5BFCB!important;border-radius:999px!important;
+  background:#FFF9F5!important;color:#87516A!important;padding:10px 17px!important;
+  font:500 13px/1.2 Georgia,serif!important;cursor:pointer;box-shadow:none!important;
+  white-space:nowrap;transition:background .2s,color .2s,border-color .2s;
+}
+#photos-archival .archive-category:hover,
+#photos-archival .archive-category.is-active{
+  background:#A95778!important;border-color:#A95778!important;color:#FFF9F5!important;
+}
+#photos-archival .archive-album{
+  width:min(1160px,calc(100% - 40px));margin:0 auto;
+  padding:clamp(14px,2.5vw,28px);
+  border:1px solid #E8CBD3;border-radius:8px 8px 20px 20px;
+  background:#F8E9E9;
+  box-shadow:0 14px 34px rgba(91,49,68,.09),inset 0 0 0 5px rgba(255,255,255,.35);
+}
+#photos-archival .archive-album-spread{
+  position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:0;min-height:470px;overflow:hidden;border:1px solid #E5D2CC;
+  border-radius:4px;background:#FFFCF7;
+  box-shadow:0 4px 12px rgba(76,45,52,.06);
+}
+#photos-archival .archive-album-spread::after{
+  content:"";position:absolute;z-index:2;top:0;bottom:0;left:50%;width:22px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,rgba(76,45,52,.08),rgba(255,255,255,.76) 45%,rgba(76,45,52,.09));
+  pointer-events:none;
+}
+#photos-archival .archive-album-photo{
+  position:relative;display:flex!important;min-width:0;min-height:0;
+  flex-direction:column;align-items:stretch;gap:0;
+  padding:24px clamp(14px,2.4vw,30px) 22px!important;
+  border:0!important;border-radius:0!important;
+  background:#FFFCF7!important;color:#542D40!important;
+  text-align:left!important;white-space:normal!important;
+  cursor:pointer;box-shadow:none!important;
+}
+#photos-archival .archive-album-photo:first-child{
+  border-right:1px solid rgba(197,151,161,.2)!important;
+  box-shadow:inset -12px 0 18px -19px rgba(72,38,54,.45)!important;
+}
+#photos-archival .archive-album-photo:last-child{
+  box-shadow:inset 12px 0 18px -19px rgba(72,38,54,.45)!important;
+}
+#photos-archival .archive-photo-number{
+  display:block;margin-bottom:12px;color:#B4778D;
+  font:italic 13px Georgia,serif;letter-spacing:.08em;
+}
+#photos-archival .archive-photo-image-wrap{
+  position:relative;display:block;width:100%;height:clamp(190px,24vw,285px);
+  overflow:hidden;background:#F2E6E3;border:7px solid #FFF;
+  box-shadow:0 2px 10px rgba(75,43,55,.13);
+}
+#photos-archival .archive-photo-image-wrap img{
+  display:block!important;width:100%!important;height:100%!important;
+  max-width:100%!important;object-fit:cover!important;
+  border:0!important;border-radius:0!important;filter:sepia(.08) saturate(.86);
+}
+#photos-archival .archive-image-unavailable{
+  display:none;position:absolute;inset:0;align-items:center;justify-content:center;
+  padding:15px;color:#94657A;text-align:center;font-size:13px;line-height:1.6;
+}
+#photos-archival .archive-photo-image-wrap.image-failed img{display:none!important}
+#photos-archival .archive-photo-image-wrap.image-failed .archive-image-unavailable{display:flex}
+#photos-archival .archive-photo-caption{
+  display:flex;flex-direction:column;align-items:flex-start;gap:8px;
+  padding:17px 3px 0;
+}
+#photos-archival .archive-photo-caption .archive-card-type{
+  display:block;margin:0;color:#A65D79;font-size:9px;letter-spacing:.1em;line-height:1.5;
+}
+#photos-archival .archive-photo-caption strong{
+  display:block;margin:0;color:#542D40;font:400 clamp(18px,2vw,23px)/1.25 Georgia,serif;
+}
+#photos-archival .archive-photo-caption .archive-card-action{
+  display:block;margin:4px 0 0;color:#A64F70;font-size:12px;
+}
+#photos-archival .archive-album-navigation{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:18px 4px 2px;
+}
+#photos-archival .archive-page-button{
+  appearance:none;border:1px solid #DDB5C2!important;border-radius:999px!important;
+  background:#FFF9F5!important;color:#89536B!important;
+  padding:10px 17px!important;font:500 13px Georgia,serif!important;
+  cursor:pointer;box-shadow:none!important;
+}
+#photos-archival .archive-page-button:hover:not(:disabled){
+  background:#A95778!important;color:#FFF9F5!important;border-color:#A95778!important;
+}
+#photos-archival .archive-page-button:disabled{
+  opacity:.4;cursor:not-allowed;
+}
+#photos-archival .archive-page-count{
+  color:#94677A;font:italic 13px Georgia,serif;text-align:center;
+}
+#photos-archival .archive-album-spread.is-turning{animation:archivePageIn .28s ease both}
+@keyframes archivePageIn{
+  from{opacity:.45;transform:perspective(900px) rotateY(-2deg)}
+  to{opacity:1;transform:perspective(900px) rotateY(0)}
+}
+@media(max-width:700px){
+  #photos-archival .archive-album-controls,
+  #photos-archival .archive-album{width:calc(100% - 28px)}
+  #photos-archival .archive-album-controls{gap:7px}
+  #photos-archival .archive-category{padding:9px 12px!important;font-size:12px!important}
+  #photos-archival .archive-album{padding:10px}
+  #photos-archival .archive-album-spread{min-height:0}
+  #photos-archival .archive-album-photo{padding:15px 10px 16px!important}
+  #photos-archival .archive-photo-image-wrap{height:clamp(125px,32vw,205px);border-width:4px}
+  #photos-archival .archive-photo-number{margin-bottom:8px;font-size:11px}
+  #photos-archival .archive-photo-caption{gap:6px;padding:11px 1px 0}
+  #photos-archival .archive-photo-caption .archive-card-type{font-size:8px}
+  #photos-archival .archive-photo-caption strong{font-size:16px}
+  #photos-archival .archive-photo-caption .archive-card-action{font-size:11px}
+  #photos-archival .archive-album-navigation{padding-top:13px;gap:7px}
+  #photos-archival .archive-page-button{padding:9px 11px!important;font-size:11px!important}
+  #photos-archival .archive-page-count{font-size:11px}
+}
+@media(max-width:390px){
+  #photos-archival .archive-album-photo{padding:12px 7px!important}
+  #photos-archival .archive-photo-image-wrap{height:125px}
+  #photos-archival .archive-photo-caption strong{font-size:14px}
+  #photos-archival .archive-page-button{padding:8px 8px!important}
+}
