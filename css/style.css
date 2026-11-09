@@ -328,3 +328,55 @@ a{color:inherit}
   .feature-card,.feature-card:nth-child(2),.feature-card:nth-child(3){border-radius:28px 22px 30px 20px}
   .archive-note{min-height:170px}
 }
+
+
+/* Divy's welcome moment */
+body.divy-is-welcoming{overflow:hidden}
+body.divy-is-welcoming > :not(#divy-welcome){filter:blur(5px);pointer-events:none;user-select:none}
+.divy-welcome{position:fixed;inset:0;z-index:3000;display:grid;place-items:center;padding:24px;background:rgba(38,17,37,.34);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);cursor:pointer;animation:divyFadeIn .35s ease both}
+.divy-welcome-inner{position:relative;width:min(920px,96vw);min-height:570px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.divy-character{position:absolute;z-index:2;left:0;bottom:10px;width:min(42%,360px);height:auto;max-height:90%;object-fit:contain;object-position:bottom center;filter:drop-shadow(0 12px 12px rgba(79,36,58,.14))}
+.divy-heart{position:relative;margin-left:23%;width:min(690px,78%);min-height:530px;display:grid;place-items:center;filter:drop-shadow(0 16px 28px rgba(87,39,64,.2))}
+.divy-heart:before{content:"";position:absolute;inset:0;background:#fff3f5;clip-path:polygon(50% 96%,44% 91%,15% 68%,5% 56%,0 42%,2% 27%,10% 14%,23% 8%,36% 12%,50% 25%,64% 12%,77% 8%,90% 14%,98% 27%,100% 42%,95% 56%,85% 68%,56% 91%);border:0}
+.divy-message{position:relative;z-index:1;width:72%;max-width:470px;padding:105px 20px 70px 20px;text-align:center;color:#593348;font-family:var(--serif);font-size:16px;line-height:1.48}
+.divy-kicker{display:block;color:#b65e7b;font:700 10px/1.4 var(--serif);letter-spacing:.13em;margin-bottom:9px}
+.divy-message h2{font:600 clamp(25px,3vw,37px)/1.05 var(--brand);color:#a64f70;margin:0 0 15px}
+.divy-message p{margin:10px 0}
+.divy-message strong{color:#8d3e60;font-weight:700}
+.divy-message em{font-style:italic;color:#a64f70}
+.divy-signoff{font-weight:700;color:#a64f70}
+.divy-signoff span{font-size:20px}
+.divy-email{display:inline-block;margin-top:3px;padding:7px 14px;border:1px solid #d9a2b4;border-radius:30px;color:#8d3e60;font-size:13px;font-weight:700}
+.divy-email:hover{background:#f7dce5}
+.divy-dismiss-hint{position:absolute;bottom:-4px;right:12%;font:700 10px/1 var(--serif);letter-spacing:.14em;color:#fff5f7;text-shadow:0 1px 5px rgba(40,15,30,.5)}
+@keyframes divyFadeIn{from{opacity:0}to{opacity:1}}
+/* Heart-shaped feature and content cards: keep the copy centred within the silhouette. */
+.feature-card,.event-card,.turning-card,.contact-card,.archive-note,.empty-state{
+  position:relative;isolation:isolate;overflow:hidden;
+  clip-path:polygon(50% 100%,43% 94%,13% 69%,4% 57%,0 43%,2% 27%,11% 12%,25% 6%,38% 11%,50% 24%,62% 11%,75% 6%,89% 12%,98% 27%,100% 43%,96% 57%,87% 69%,57% 94%);
+  border:0!important;border-radius:0!important;
+  padding:clamp(48px,6vw,72px) clamp(24px,4vw,48px) clamp(54px,6vw,74px);
+  background:#f8e5e9!important;color:#633b4d;
+}
+.feature-card:nth-child(2),.event-card:nth-child(3n+2),.turning-card:nth-child(3n+2){background:#f2d4df!important}
+.feature-card:nth-child(3),.event-card:nth-child(3n),.turning-card:nth-child(3n){background:#fbeef0!important}
+.feature-card h2,.event-card h3,.turning-card h2,.contact-card h3{color:#713b54!important;font-weight:700}
+.feature-card p,.event-card p,.turning-card p,.contact-card p{color:#654657!important}
+.feature-card .feature-number,.feature-card .feature-icon,.feature-card .feature-link,.event-card .event-date,.event-card .event-tag,.event-card .card-read,.turning-card .event-date,.turning-card .card-read{color:#a64f70!important}
+.event-card,.turning-card{min-height:360px;display:flex;flex-direction:column;justify-content:center;text-align:center;align-items:center}
+.event-card p,.turning-card p{max-width:250px}
+.event-card .card-read,.turning-card .card-read{margin-top:auto}
+.contact-card{border-left:0!important;padding:65px 42px 76px;text-align:center}
+.archive-note{padding:75px 45px 80px;text-align:center}
+.empty-state{padding:80px 35px;text-align:center;background:#f8e5e9!important;color:#654657!important}
+@media(max-width:700px){
+ .divy-welcome{padding:12px}
+ .divy-welcome-inner{width:100%;min-height:min(760px,96vh);align-items:flex-end}
+ .divy-character{width:42%;left:-2%;bottom:28px;max-height:55%}
+ .divy-heart{width:100%;margin-left:8%;min-height:560px}
+ .divy-message{width:76%;padding:100px 8px 66px;font-size:13px;line-height:1.38}
+ .divy-message h2{font-size:26px}
+ .divy-dismiss-hint{right:8%;bottom:5px}
+ .feature-card,.event-card,.turning-card,.contact-card,.archive-note,.empty-state{padding:62px 24px 72px;min-height:330px}
+}
+@media(prefers-reduced-motion:reduce){.divy-welcome{animation:none}}
