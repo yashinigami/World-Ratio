@@ -203,21 +203,18 @@ function renderMap() {
       const paint = () => popup.setContent(mapGroupPopup(records, activeIndex));
       const el = popup.getElement();
       if (!el) return;
-      const previous = el.querySelector("[data-map-prev]");
-      const next = el.querySelector("[data-map-next]");
-      const open = el.querySelector("[data-map-open]");
-      previous?.addEventListener("click", () => {
-        activeIndex = (activeIndex - 1 + records.length) % records.length;
-        paint();
-      });
-      next?.addEventListener("click", () => {
-        activeIndex = (activeIndex + 1) % records.length;
-        paint();
-      });
-      open?.addEventListener("click", () => {
-        const selected = records[activeIndex];
-        if (selected.kind === "event") openEvent(selected.data.id);
-        else showInstitution(selected.data.id);
+      el.addEventListener("click", event => {
+        if (event.target.closest("[data-map-prev]")) {
+          activeIndex = (activeIndex - 1 + records.length) % records.length;
+          paint();
+        } else if (event.target.closest("[data-map-next]")) {
+          activeIndex = (activeIndex + 1) % records.length;
+          paint();
+        } else if (event.target.closest("[data-map-open]")) {
+          const selected = records[activeIndex];
+          if (selected.kind === "event") openEvent(selected.data.id);
+          else showInstitution(selected.data.id);
+        }
       });
     });
   });
