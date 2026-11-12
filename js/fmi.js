@@ -103,7 +103,7 @@ function checkPracticeAnswer(){
   box.className="practice-feedback "+(ok?"good":"partial");
   const intro=ok?"✓ Correct. The calculator has been fed and behaved.":"Not quite — but this is exactly where the learning happens.";
   const lines=(q.steps||[]).map((s,i)=>"<li>"+safe(s)+"</li>").join("");
-  box.innerHTML="<strong>"+intro+"</strong><p>"+(ok?"Your answer is within the accepted rounding tolerance.":"Your answer: "+safe(raw)+". Expected answer: "+safe(q.answer)+" "+safe(q.unit)+".")+"</p><div class='divy-worked'><b>DivY's worked solution ✿</b><p class='divy-comic'>"+safe(q.divy)+"</p><p><b>Formula:</b> "+safe(q.formula)+"</p><ol>"+lines+"</ol><p><b>Final answer:</b> "+safe(q.answer)+" "+safe(q.unit)+"</p><small>Based on class-note numerical pages "+safe(q.sourcePages||"")+". Check units and rounding in your working.</small></div>";
+  box.innerHTML="<strong>"+intro+"</strong><p>"+(ok?"Your answer is within the accepted rounding tolerance.":"Your answer: "+safe(raw)+". Expected answer: "+safe(q.answer)+" "+safe(q.unit)+".")+"</p><div class='divy-worked'><b>DivY's worked solution ✿</b><p class='divy-comic'>"+safe(q.divy)+"</p><p><b>Formula:</b> "+safe(q.formula)+"</p><ol>"+lines+"</ol><p><b>Final answer:</b> "+safe(q.answer)+" "+safe(q.unit)+"</p><p class='practice-trap'><b>DivY's exam trap alert:</b> "+safe(q.commonTrap||"Check your formula, units and signs.")+"</p><small>Based on class-note numerical pages "+safe(q.sourcePages||"")+". Check units and rounding in your working.</small></div>";
  }else{
   const result=gradeTheory(raw,q),good=result.level==="good",partial=result.level==="partial";
   box.className="practice-feedback "+(good?"good":partial?"partial":"weak");
