@@ -3135,7 +3135,8 @@
           "explanation": "A strong answer should state the core idea precisely: The slides introduce forwards, futures, options, swaps and swaptions. Then connect it to the example and explain its financial implication.",
           "theme": "Exam-style"
         }
-      ]
+      ],
+      "classNotes": "The opening slides group derivative-market participants by purpose: hedgers use derivatives to protect themselves against adverse movements in an underlying price; traders/speculators take a view and seek profit from price fluctuations; arbitrageurs exploit price differences for the same asset across markets. The lecture also uses the terms cash-and-carry arbitrage (buy the underlying and sell futures) and reverse cash-and-carry arbitrage (sell the underlying and buy futures)."
     },
     {
       "id": "forwards",
@@ -3241,7 +3242,10 @@
         "Futures have a linear payoff: for a long, payoff = settlement/expiry futures price − original futures price; for a short, reverse the subtraction.",
         "Long futures generally benefit when the futures price rises; short futures generally benefit when it falls.",
         "The lecture describes futures as regulated by SEBI and contrasts their exchange framework with OTC forwards.",
-        "Leverage magnifies both gains and losses. A small price movement can have a large effect relative to the margin deposited."
+        "Leverage magnifies both gains and losses. A small price movement can have a large effect relative to the margin deposited.",
+        "The lecture's Nifty Index Futures section describes the index as a basket of 50 stocks and explains that the futures contract derives its value from the Nifty spot index. The lot-size figure of 75 and quoted prices are from the slide snapshot and should be treated as historical classroom data, not today's contract specification.",
+        "Open interest (OI) is the number of outstanding contracts that have not yet been closed or expired. Every open contract has one long and one short, so the number of longs equals the number of shorts and equals OI.",
+        "New long + new short creates a new contract and increases OI. An old long and old short closing together reduces OI. When one participant exits and another enters (a transfer), OI remains unchanged."
       ],
       "key": "Do not confuse contract value with margin. Contract value is the full exposure; margin is the amount deposited to support the position. The examples in the slides are historical illustrations, not current lot-size or margin advice.",
       "related": [
@@ -3250,7 +3254,7 @@
         "futures-margin",
         "mark-to-market"
       ],
-      "classNotes": "Class note — futures P/L: for a long futures position, gross P/L per unit = closing/exit futures price − entry futures price. For a short position, reverse the subtraction. Deduct transaction costs on the relevant legs. One handwritten SBI illustration uses entry ₹269.80, expiry/closing ₹275 and ₹0.20 transaction cost per unit, giving ₹5 net per unit or ₹5,000 for 1,000 units under that illustration's stated cost assumption.",
+      "classNotes": "Open-interest counting (lecture slides): count outstanding contracts, not the number of trades. At any time, longs = shorts = OI. If a new buyer and new seller open a contract, OI rises by one. If an existing long and existing short both close, OI falls by one. If one side closes and a new participant takes the other side, the contract is transferred and OI is unchanged. The slides flag OI counting as a possible short question.",
       "quizQuestions": [
         {
           "id": "tq-futures-1",
@@ -3569,7 +3573,8 @@
           "explanation": "A strong answer should state the core idea precisely: Simplified slide formula: F = S × [1 + (r − d)]^t; S=spot, r=financing rate, d=dividend yield, t=time in years. Then connect it to the example and explain its financial implication.",
           "theme": "Exam-style"
         }
-      ]
+      ],
+      "classNotes": "Cash-and-carry illustration in the lecture: spot gold is ₹62,130 per 10 grams and carrying costs are ₹100 per 10 grams for three months, so the illustrative futures fair price is ₹62,230. If futures trade above that fair value, the slide describes buying spot gold, selling futures and holding to delivery; the reverse trade is considered when futures are below fair value. Actual arbitrage depends on transaction costs, financing, storage, taxes, margin and practical constraints."
     },
     {
       "id": "options",
