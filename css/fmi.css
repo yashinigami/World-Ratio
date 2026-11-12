@@ -190,3 +190,24 @@
 .fmi-body #fmi-detail .fmi-source-credit{display:grid;gap:5px;padding-top:13px;margin-top:20px;border-top:1px solid #EBD6DE}
 .fmi-body #fmi-detail .fmi-source-credit b{font:700 10px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#A64F70}
 .fmi-body #fmi-detail .fmi-source-credit span{font:11px/1.5 Arial,sans-serif;color:#876778}
+
+
+/* NMIMS semester access gate + subject chooser */
+.fmi-body.nmims-locked{overflow:hidden}
+.nmims-gate{position:fixed;inset:0;z-index:99999;display:grid;place-items:center;padding:22px;background:rgba(84,45,64,.42);backdrop-filter:blur(7px);overflow:auto}
+.nmims-gate[hidden],.nmims-gate-card[hidden]{display:none!important}
+.nmims-gate-card{width:min(590px,100%);padding:clamp(24px,5vw,44px);background:#FFFAF8;border:1px solid #DDAFBE;border-radius:20px;box-shadow:0 24px 80px rgba(48,20,35,.28);text-align:center}
+.nmims-gate-card h1{font:500 clamp(30px,5vw,44px)/1.15 'Playfair Display',serif;color:#542D40;margin:8px 0 14px}
+.nmims-gate-card>p:not(.nmims-gate-hand){font:16px/1.6 Arial,sans-serif;color:#674354;margin:0 0 22px}
+.nmims-gate-hand{font:22px 'Caveat',cursive;color:#A64F70;margin:10px 0}
+#nmims-gate-form{display:flex;gap:9px;max-width:440px;margin:0 auto;flex-wrap:wrap}
+#nmims-gate-answer{flex:1 1 200px;min-width:0;border:1px solid #D9A8B9;border-radius:9px;background:#FFF4F6;padding:13px 14px;font:14px Arial,sans-serif;color:#542D40}
+.nmims-gate-card small{display:block;color:#947486;font:11px/1.5 Arial,sans-serif;margin-top:18px}
+.nmims-gate-error{color:#A33D5C!important;font:13px Arial,sans-serif!important;margin:12px 0 0!important}
+.nmims-subject-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:22px 0}
+.nmims-subject-grid button{display:flex;flex-direction:column;align-items:flex-start;gap:7px;text-align:left;padding:18px;border:1px solid #D9A8B9;border-radius:12px;background:#F9E4EB;color:#633B50;cursor:pointer;transition:.18s ease}
+.nmims-subject-grid button:hover{background:#EFCBD8;border-color:#B96B86;transform:translateY(-2px)}
+.nmims-subject-grid strong{font:600 20px 'Playfair Display',serif}
+.nmims-subject-grid span{font:11px/1.4 Arial,sans-serif;color:#876276}
+.nmims-subject-status{padding:11px 13px;background:#FFF1C9;border-radius:9px;color:#684C31!important;font:13px/1.5 Arial,sans-serif!important}
+@media(max-width:520px){.nmims-subject-grid{grid-template-columns:1fr}#nmims-gate-form{flex-direction:column}#nmims-gate-form .fmi-button{width:100%}}
