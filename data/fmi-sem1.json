@@ -162,13 +162,28 @@
     },
     {
       "id": "ppt9",
-      "title": "FMI PPT 9 PW.pdf",
+      "title": "Module IV — Derivatives: Futures, Forwards & Options",
       "name": "FMI PPT 9 PW.pdf",
-      "kind": "PPT/PDF",
-      "module": "Additional material",
-      "topics": [],
-      "description": "The uploaded file could not be read reliably. No content is invented for this entry.",
-      "status": "unavailable"
+      "kind": "PDF · Lecture slides",
+      "module": "Module IV",
+      "topics": [
+        "derivatives",
+        "forwards",
+        "futures",
+        "futures-margin",
+        "mark-to-market",
+        "cost-of-carry",
+        "options",
+        "option-payoffs",
+        "option-strategies",
+        "covered-call",
+        "protective-put",
+        "bull-call-spread",
+        "bear-put-spread"
+      ],
+      "description": "150-page Module IV lecture: derivatives, OTC forwards, exchange-traded futures, index futures, margins, daily MTM, cost of carry, open interest and options.",
+      "status": "available",
+      "note": "Source-derived notes are mapped to this 150-page lecture. Numerical examples and dated market snapshots are identified as classroom illustrations."
     },
     {
       "id": "optpdf",
@@ -3042,13 +3057,17 @@
       "title": "Derivatives",
       "module": "Module IV",
       "level": "Foundation",
-      "detail": "A derivative is a contract whose value depends on another asset, called the underlying.",
-      "simple": "Its value is derived from something else: a share, index, currency, rate or commodity.",
-      "example": "A futures contract on an index changes value as the index/futures price changes.",
+      "detail": "A derivative is a financial contract whose value is derived from (depends on) an underlying asset or reference. The lecture uses shares, stock indices and commodities such as gold to explain the idea. The contract itself is not the underlying asset: it is an agreement whose value changes when the underlying value changes.",
+      "simple": "Think of a derivative as a price-linked contract. If the thing it is linked to moves, the contract's value can move too.",
+      "example": "The slides use Infosys stock and gold as examples. A contract linked to Infosys derives value from Infosys; a gold forward derives value from the price of gold.",
       "points": [
-        "The slides introduce forwards, futures, options, swaps and swaptions."
+        "A derivative is a financial instrument that derives its value from another asset; that other asset is the underlying asset.",
+        "The movement in the price of the underlying asset directly affects the derivative's value.",
+        "The lecture identifies three broad purposes: hedging, speculation and arbitrage.",
+        "Hedgers use derivatives to reduce or protect against an existing price exposure; speculators take a view on price movements; arbitrageurs seek to exploit price differences between markets.",
+        "The slides list forwards, futures, options and swaps as derivative-market instruments."
       ],
-      "key": "Derivatives can be used for hedging, speculation and arbitrage.",
+      "key": "Always identify the underlying first. Then identify whether the participant is hedging an existing exposure, speculating on a view, or exploiting a price difference.",
       "related": [
         "forwards",
         "futures",
@@ -3123,13 +3142,19 @@
       "title": "Forward contracts",
       "module": "Module IV",
       "level": "Core",
-      "detail": "A forward is a private agreement today to buy or sell an asset at an agreed price on a future date.",
-      "simple": "Two parties customise a deal now and promise to complete it later.",
-      "example": "A jeweller agrees to buy 15 kg of gold in three months at ₹2,450 per gram. If market price rises, the jeweller benefits; if it falls, the agreed price still applies.",
+      "detail": "A forward contract is a customised, bilateral agreement between two parties to buy or sell an agreed quantity and quality of an underlying asset at a price fixed today, with settlement on a specified future date. The lecture describes forwards as over-the-counter (OTC): the parties negotiate directly rather than trading a standardised exchange contract.",
+      "simple": "Two parties privately lock in a price today for a transaction that will happen later. Both sides are committed to the agreed terms.",
+      "example": "The lecture's gold example: on 9 December 2014, a jeweller agrees to buy 15 kg of 999-purity gold from a dealer after three months at ₹2,450 per gram. The agreed amount is ₹3.675 crore. If the market price at settlement is ₹2,700/g, the jeweller benefits because the contract price is lower. If it is ₹2,050/g, the jeweller is still bound to pay ₹2,450/g.",
       "points": [
-        "Forwards are OTC and can be customised for quantity, quality, price and date. Both sides are obligated."
+        "Forward contracts are private OTC agreements and can be customised for quantity, quality, price and delivery date.",
+        "The buyer takes a long position and agrees to buy; the seller takes a short position and agrees to sell.",
+        "Both parties are obligated to complete the contract at the agreed price and date; unlike an option, neither side simply has a right to walk away.",
+        "Scenario 1 in the slides: gold rises from ₹2,450/g to ₹2,700/g. The jeweller saves approximately ₹38 lakh compared with buying at the new market price; the dealer bears the corresponding loss.",
+        "Scenario 2: gold falls to ₹2,050/g. The jeweller must still buy at ₹2,450/g. The slide states a loss of about ₹59.5 lakh and a matching dealer gain. The displayed deal values (₹3.675 crore and ₹3.075 crore) imply ₹60 lakh, so treat ₹59.5 lakh as the slide's stated rounded figure.",
+        "Scenario 3: if the market price remains at the original level, neither party gains from the price movement.",
+        "Key risks highlighted: liquidity risk (finding an opposite counterparty can be difficult), counterparty/default risk, regulatory risk (the lecture notes the bilateral OTC structure), and rigidity (the contract can be difficult to exit early)."
       ],
-      "key": "Risks include counterparty default, low liquidity and rigidity.",
+      "key": "Forward = customised + OTC + bilateral + both parties obligated. The lecture introduces exchange-traded futures as a way to address several limitations of forwards.",
       "related": [
         "derivatives",
         "futures",
@@ -3204,13 +3229,21 @@
       "title": "Futures contracts",
       "module": "Module IV",
       "level": "Core",
-      "detail": "A future is a standardised agreement traded on an exchange to buy or sell an underlying at a predetermined price/date.",
-      "simple": "Like a forward, but standardised and exchange-traded.",
-      "example": "Buy 100 futures at 8,350 and exit at 8,475: profit = 100 × 125 = ₹12,500 before costs.",
+      "detail": "A futures contract is a standardised agreement traded on an exchange to buy or sell an underlying asset at a predetermined price for a specified expiry. The exchange standardises key terms such as lot size and expiry, and the clearing system supports settlement.",
+      "simple": "A forward-like agreement, but standardised and exchange-traded. You can usually exit by taking the opposite position instead of waiting for expiry.",
+      "example": "The lecture gives an Infosys illustration: buy futures at ₹1,651 and sell at ₹1,653. With a lot size of 250, the gross gain is (₹1,653 − ₹1,651) × 250 = ₹500, before transaction costs.",
       "points": [
-        "Futures specify lot size and expiry, require margin and can generally be closed by an opposite trade."
+        "Lot size is the minimum quantity specified in the futures contract; expiry is the last date up to which the contract can be held.",
+        "Contract value = Futures price × Lot size.",
+        "To enter a futures position, a trader deposits margin, a fraction of the full contract value. This creates leverage.",
+        "Futures are tradable before expiry: an investor can close the position with an opposite trade, even intraday, subject to market liquidity and costs.",
+        "The lecture states that equity index futures in India are cash-settled; the slide contrasts this with physical delivery examples in other markets.",
+        "Futures have a linear payoff: for a long, payoff = settlement/expiry futures price − original futures price; for a short, reverse the subtraction.",
+        "Long futures generally benefit when the futures price rises; short futures generally benefit when it falls.",
+        "The lecture describes futures as regulated by SEBI and contrasts their exchange framework with OTC forwards.",
+        "Leverage magnifies both gains and losses. A small price movement can have a large effect relative to the margin deposited."
       ],
-      "key": "Long benefits from rising prices; short benefits from falling prices. Open interest counts outstanding contracts once.",
+      "key": "Do not confuse contract value with margin. Contract value is the full exposure; margin is the amount deposited to support the position. The examples in the slides are historical illustrations, not current lot-size or margin advice.",
       "related": [
         "derivatives",
         "forwards",
@@ -3286,13 +3319,19 @@
       "title": "Futures margin and leverage",
       "module": "Module IV",
       "level": "Core",
-      "detail": "Margin is money deposited to support a futures position; it is only a fraction of the contract's full value.",
-      "simple": "You put down a deposit but your gains and losses are based on a much larger position.",
-      "example": "Contract value ₹835,000 at 15% margin requires ₹125,250 margin.",
+      "detail": "Margin is the amount deposited by a futures trader to support the position and help manage the risk that losses will not be paid. The lecture explains that the trader gets exposure to the full contract value by depositing only a percentage of it. It distinguishes initial margin, minimum/maintenance margin and the daily mark-to-market balance.",
+      "simple": "Margin is a security deposit, not the price of the whole contract and not a cap on your loss. Because the exposure is larger than the deposit, leverage works both ways.",
+      "example": "The slide's simple illustration: contract value ₹8,35,000 and margin rate 15%. Margin = ₹8,35,000 × 15% = ₹1,25,250.",
       "points": [
-        "Initial margin = SPAN margin + exposure margin, as described in the slides."
+        "Contract value = futures price × lot size.",
+        "Margin percentage = margin deposited ÷ contract value × 100.",
+        "The lecture describes initial margin as comprising SPAN margin plus exposure margin.",
+        "Initial margin is the starting deposit. The minimum/maintenance margin is the threshold used in the slide's margin-balance illustration.",
+        "If daily losses reduce the margin balance below the stated minimum margin, additional funds must be deposited; if the balance is above the initial margin, excess may be withdrawn under the example's rules.",
+        "Leverage = contract exposure relative to the margin deposited. Higher leverage means a larger gain or loss relative to the cash put down.",
+        "Margin does not limit the trader's total possible loss to the margin amount."
       ],
-      "key": "Leverage magnifies both gains and losses. Margin is not the maximum possible loss.",
+      "key": "When solving a margin question, calculate full contract value first, then apply the margin percentage. For a margin-call table, update the balance after daily MTM before deciding whether a deposit or withdrawal is needed.",
       "related": [
         "futures",
         "mark-to-market"
@@ -3366,13 +3405,19 @@
       "title": "Mark-to-market",
       "module": "Module IV",
       "level": "Core",
-      "detail": "Futures positions are revalued each day and daily gains/losses are credited/debited.",
-      "simple": "Every trading day, the exchange works out how much the position gained or lost since the previous reference price.",
-      "example": "A long 2,000-unit position moves from ₹165 to ₹168.30: daily M2M = (168.30−165)×2,000 = ₹6,600 gain.",
+      "detail": "Mark-to-market (MTM) is the daily settlement of gains and losses on a futures position using the change in the futures closing price. The lecture's tables track daily contract value, daily gain/loss, margin balance and any deposit or withdrawal needed to restore the required margin level.",
+      "simple": "At the end of each trading day, the exchange works out how much your futures position gained or lost and adjusts your margin balance.",
+      "example": "For a long position of 200 units, a move in futures closing price from ₹600 to ₹550 produces daily MTM = (₹550 − ₹600) × 200 = −₹10,000. The lecture's table starts with ₹30,000 initial margin and ₹20,000 minimum margin.",
       "points": [
-        "Daily M2M for a long = (today's close − previous reference price) × quantity."
+        "For a long position: daily MTM = (today's closing futures price − previous day's closing/reference price) × quantity.",
+        "For a short position, reverse the price difference: (previous reference price − today's closing price) × quantity.",
+        "A positive MTM is a gain credited to the position; a negative MTM is a loss debited from it.",
+        "After MTM, compare the margin balance with the initial and minimum margin thresholds shown in the question.",
+        "In the 200-unit classroom table, the initial margin is ₹30,000 and minimum margin is ₹20,000. A fall from ₹600 to ₹550 creates a ₹10,000 loss and reduces the balance to ₹20,000.",
+        "A second Nifty illustration uses 750 units and initial margin of approximately ₹14,90,303; the slide's summary reports total MTM loss of ₹4,39,200 across the shown dates.",
+        "The table's sign convention says a negative amount in the withdrawal/deposit column means the investor deposits money; a positive amount means a withdrawal."
       ],
-      "key": "Maintain a running margin balance and compare it with initial/maintenance margin as required by the question.",
+      "key": "Keep the price movement, quantity and position direction clear. A common error is to use the long formula for a short position or to calculate the margin adjustment before updating the MTM balance.",
       "related": [
         "futures",
         "futures-margin"
@@ -3446,13 +3491,19 @@
       "title": "Cost of carry and fair futures price",
       "module": "Module IV",
       "level": "Core",
-      "detail": "Futures pricing reflects spot price, financing cost, income from holding the asset and time to expiry.",
-      "simple": "Holding the underlying has costs and sometimes benefits; those affect the fair futures price.",
-      "example": "The class example uses spot Nifty 1,150, financing 11%, dividend yield 1% and one month to expiry, giving an illustrative futures price near 1,159.",
+      "detail": "Cost of carry explains the relationship between an underlying asset's spot price and its fair futures price. The lecture starts with financing/carrying costs and then adjusts for cash inflows such as dividends on shares or interest on bonds received during the holding period.",
+      "simple": "Holding an asset until the futures expiry can cost money, but it may also generate income. The fair futures price reflects both.",
+      "example": "The lecture's Nifty illustration uses spot value 1,150, financing cost 11% p.a., dividend yield 1% p.a. and one month to expiry: F = 1,150 × [1 + (11% − 1%)]^(1/12), approximately 1,159.",
       "points": [
-        "Simplified slide formula: F = S × [1 + (r − d)]^t; S=spot, r=financing rate, d=dividend yield, t=time in years."
+        "Spot price is the current market price of the underlying in the cash/spot market; futures price is the price of the futures contract.",
+        "Basis is the difference between the current futures price and current spot price (the slide labels it as futures price minus spot price).",
+        "Cost of carry includes the financing/carrying cost of holding the underlying.",
+        "For assets that generate income during the holding period, such as dividends or bond interest, the lecture adjusts the fair futures price downward for those inflows.",
+        "Slide formula: Fair price = Spot price + Cost of carry − Inflows.",
+        "Modified formula shown: F = S(1 + r − q)^T, where F is fair futures price, S is spot price, r is cost of carry/financing rate, q is expected holding-period return/income yield, and T is time in years.",
+        "The lecture lists assumptions such as abundant availability, no seasonal supply constraint, ease of maintaining/holding the asset, short-selling feasibility, no transaction costs, no taxes and no margin requirements. It notes that if these assumptions fail, adjustments may be needed."
       ],
-      "key": "Financing cost generally raises fair futures price; income such as dividends can reduce it.",
+      "key": "Use consistent time units: if the annual rate is given and expiry is one month away, express T as 1/12 year. Include income yield when the underlying pays dividends or interest.",
       "related": [
         "futures",
         "forwards"
@@ -3525,13 +3576,19 @@
       "title": "Options: calls and puts",
       "module": "Module IV",
       "level": "Foundation",
-      "detail": "An option buyer pays a premium for a right, not an obligation. The seller receives premium and takes on an obligation if exercised.",
-      "simple": "The buyer gets a choice; the seller has to fulfil the contract if the buyer uses that choice.",
-      "example": "A call gives the right to buy at strike. A put gives the right to sell at strike.",
+      "detail": "An option is a derivative that gives its buyer a right, but not an obligation, to buy or sell an underlying asset at a specified strike price. The option seller/writer receives the premium and takes on the corresponding obligation if the buyer exercises.",
+      "simple": "The buyer pays for a choice. A call is the right to buy; a put is the right to sell. The seller receives the premium and must honour the contract if exercised.",
+      "example": "A call buyer may choose to buy the underlying at the strike price if that is favourable. A put buyer may choose to sell at the strike price if the market falls below it.",
       "points": [
-        "Strike price is the agreed exercise price; premium is the option price paid by buyer."
+        "Call option: buyer has the right to buy the underlying at the strike price.",
+        "Put option: buyer has the right to sell the underlying at the strike price.",
+        "Strike price is the exercise price fixed in the contract; premium is the option price paid by the buyer and received by the seller.",
+        "Premium and strike are not the same. The slide Q&A explicitly distinguishes them.",
+        "An out-of-the-money put can still have a premium because time value and volatility can contribute to the option's price.",
+        "LTP (last traded price) is the price of the most recent trade; it is not necessarily the price at which your own order will execute. A buyer crossing the spread may pay the ask; a limit order may execute at a different price.",
+        "Option buyers pay premium; option writers receive premium and assume the obligation described by the contract."
       ],
-      "key": "Call buyer = right to buy. Put buyer = right to sell. Long option pays premium; short option receives premium.",
+      "key": "Do not call the premium the strike price. Strike = agreed exercise price; premium = market price paid/received for the option.",
       "related": [
         "option-payoffs",
         "option-strategies"
@@ -3605,13 +3662,20 @@
       "title": "Option payoff and moneyness",
       "module": "Module IV",
       "level": "Core",
-      "detail": "Option payoff is the exercise value at expiry; net profit/loss also includes the premium.",
-      "simple": "First work out whether exercising has value. Then include the premium paid or received.",
-      "example": "Long call net P/L = max(S−K,0)−premium. Long put net P/L = max(K−S,0)−premium.",
+      "detail": "At expiry, option payoff is the value obtained from exercising the option, if exercise is favourable. Net profit/loss is different because it also includes the premium paid by the buyer or received by the seller.",
+      "simple": "First calculate what the option is worth at expiry. Then subtract the premium you paid (or account for the premium you received if you sold it).",
+      "example": "Long call net P/L = max(S − K, 0) − premium. Long put net P/L = max(K − S, 0) − premium. S is expiry market price and K is strike price.",
       "points": [
-        "Call ITM if S>K; put ITM if S<K. Time value = premium − intrinsic value."
+        "A call is in-the-money (ITM) when S > K; a put is ITM when S < K.",
+        "At-the-money (ATM) means market price and strike are equal or very close, subject to the convention used.",
+        "An option is out-of-the-money (OTM) when immediate exercise would not be beneficial.",
+        "Intrinsic value is the immediate exercise value; time value is the part of the premium above intrinsic value.",
+        "Time value = premium − intrinsic value.",
+        "For a long call, expiry payoff = max(S − K, 0); net P/L = payoff − premium paid.",
+        "For a long put, expiry payoff = max(K − S, 0); net P/L = payoff − premium paid.",
+        "The buyer's maximum loss is the premium paid, while the seller's risk depends on the option position and underlying movement."
       ],
-      "key": "Do not confuse payoff with net P/L. A buyer's maximum loss is the premium paid.",
+      "key": "Never confuse payoff with net P/L. A payoff calculation alone does not include the premium.",
       "related": [
         "options",
         "option-strategies"
@@ -3685,13 +3749,18 @@
       "title": "Option strategies",
       "module": "Module IV",
       "level": "Core",
-      "detail": "An option strategy combines positions to express a market view or manage risk.",
-      "simple": "Break the strategy into separate legs, calculate each leg, then add them together.",
-      "example": "Bull call spread buys a lower-strike call and sells a higher-strike call. The short call reduces cost but caps upside.",
+      "detail": "An option strategy combines two or more positions—sometimes with the underlying share—to express a market view or manage risk. The lecture's practice material requires identifying every leg, calculating each leg's payoff and premium, then combining them.",
+      "simple": "Treat each leg separately first. Work out what each one earns or loses, include premiums, and only then add the legs together.",
+      "example": "A bull call spread buys a call at a lower strike and sells a call at a higher strike with the same expiry. The premium received on the short call reduces the initial cost, but the upside is capped.",
       "points": [
-        "Covered call = long stock + short call. Protective put = long stock + long put. Bull call spread = long lower call + short higher call. Bear put spread = long higher put + short lower put."
+        "Covered call = long underlying shares + short call.",
+        "Protective put = long underlying shares + long put.",
+        "Bull call spread = long lower-strike call + short higher-strike call.",
+        "Bear put spread = long higher-strike put + short lower-strike put.",
+        "For each strategy, calculate the net premium first, then determine break-even, maximum gain and maximum loss where applicable.",
+        "The short option leg changes the payoff profile: it can reduce the cost of the strategy but also cap or alter the potential gain."
       ],
-      "key": "Always include premiums. State break-even, maximum gain and maximum loss where relevant.",
+      "key": "Draw a payoff table across expiry prices if you are unsure. Do not calculate each leg in isolation and forget to add the other leg.",
       "related": [
         "options",
         "covered-call",
@@ -3768,13 +3837,17 @@
       "title": "Covered call",
       "module": "Module IV",
       "level": "Core",
-      "detail": "A covered call means owning shares and selling a call option against them.",
-      "simple": "You collect premium but agree to sell the shares at the strike if the option is exercised.",
+      "detail": "A covered call combines ownership of the underlying shares with the sale (writing) of a call option on those shares. The premium received provides income and cushions a small fall, but the short call limits gains above its strike.",
+      "simple": "You already own the shares, and you sell someone else the right to buy them from you at the strike. You collect a premium, but you may have to sell the shares at that strike.",
       "example": "Class example: 500 Reliance shares at ₹2,400; short call strike ₹2,500; premium ₹45. Break-even ₹2,355; maximum gain ₹145 per share under the example's one-to-one assumption.",
       "points": [
-        "Net P/L combines share P/L, short-call payoff and premium received."
+        "Position = long shares + short call.",
+        "At expiry, share P/L = S − purchase price.",
+        "Short-call P/L includes the premium received and the call obligation if S exceeds the strike.",
+        "Break-even for the combined position = share purchase price − call premium received, under the one-share/one-option-unit assumption.",
+        "The maximum gain is capped once the share price rises above the call strike; the premium offers only a limited cushion against a share-price fall."
       ],
-      "key": "Upside is capped above strike; share downside remains, cushioned by premium.",
+      "key": "The word covered refers to already owning the underlying shares against the call written. Always check the share/option lot ratio before applying a per-share example.",
       "related": [
         "option-strategies",
         "protective-put"
@@ -3848,13 +3921,18 @@
       "title": "Protective put",
       "module": "Module IV",
       "level": "Core",
-      "detail": "A protective put means owning shares and buying a put to protect against a fall.",
-      "simple": "The put acts like insurance: if the share falls below strike, the put gains value.",
+      "detail": "A protective put combines ownership of shares with the purchase of a put option. The put gives the investor the right to sell at the strike and therefore places a floor under the share value at expiry, in exchange for the premium paid.",
+      "simple": "You own the shares but buy insurance against a price fall. The put costs a premium; in return, it protects the downside below the strike.",
       "example": "Class example: Infosys purchase price ₹1,500; put strike ₹1,480; premium ₹40. Break-even ₹1,540 and maximum loss ₹60 per share.",
       "points": [
-        "Net P/L = stock P/L + put payoff − premium. Break-even = purchase price + premium."
+        "Position = long shares + long put.",
+        "Stock P/L = expiry share price − purchase price.",
+        "Put payoff = max(strike − expiry share price, 0).",
+        "Net P/L = stock P/L + put payoff − premium paid.",
+        "Break-even = share purchase price + put premium, under the one-share/one-option-unit assumption.",
+        "The put limits the downside below the strike, but the premium makes the overall position more expensive."
       ],
-      "key": "The premium is the cost of protection; upside remains if the share rises.",
+      "key": "A protective put is not the same as a covered call: the investor buys a put for protection rather than selling a call for premium income.",
       "related": [
         "option-strategies",
         "covered-call"
@@ -3928,13 +4006,18 @@
       "title": "Bull call spread",
       "module": "Module IV",
       "level": "Core",
-      "detail": "Buy a lower-strike call and sell a higher-strike call with the same expiry; expect a moderate rise.",
-      "simple": "The second call helps pay for the first, but limits how much you can make.",
+      "detail": "A bull call spread is created by buying a call at a lower strike and selling another call at a higher strike, with the same expiry and underlying. It expresses a moderately bullish view with a limited initial debit, limited loss and capped gain.",
+      "simple": "You expect the price to rise, but not without limit. You buy the lower-strike call and sell the higher-strike call to reduce the cost.",
       "example": "Class example: buy 19,300 call for ₹150; sell 19,500 call for ₹70. Net debit ₹80; max loss ₹80; max gain ₹120; break-even ₹19,380.",
       "points": [
-        "Maximum gain = strike difference − net debit. Break-even = lower strike + net debit."
+        "Buy the lower-strike call; sell the higher-strike call.",
+        "Net debit = premium paid for the lower-strike call − premium received for the higher-strike call.",
+        "Maximum loss = net debit.",
+        "Maximum gain = difference between strikes − net debit.",
+        "Break-even = lower strike + net debit.",
+        "Both options should have the same underlying and expiry for the standard spread described."
       ],
-      "key": "The maximum loss is the net debit; maximum gain is capped.",
+      "key": "Check the direction: lower strike is bought, higher strike is sold. The maximum gain is capped because the short higher-strike call offsets further upside.",
       "related": [
         "option-strategies",
         "bear-put-spread"
@@ -4008,13 +4091,18 @@
       "title": "Bear put spread",
       "module": "Module IV",
       "level": "Core",
-      "detail": "Buy a higher-strike put and sell a lower-strike put with the same expiry; expect a moderate fall.",
-      "simple": "The second put reduces the cost of protection/profit opportunity but caps the gain.",
+      "detail": "A bear put spread is created by buying a put at a higher strike and selling another put at a lower strike, with the same expiry and underlying. It expresses a moderately bearish view with a limited debit and capped gain.",
+      "simple": "You expect the price to fall, but you are not paying for unlimited downside exposure. Buy the higher-strike put and sell the lower-strike put to reduce the premium cost.",
       "example": "Class example: buy 19,000 put for ₹120; sell 18,800 put for ₹80. Net debit ₹40; max loss ₹40; max gain ₹160; break-even ₹18,960.",
       "points": [
-        "Maximum gain = strike difference − net debit. Break-even = higher strike − net debit."
+        "Buy the higher-strike put; sell the lower-strike put.",
+        "Net debit = premium paid for the higher-strike put − premium received for the lower-strike put.",
+        "Maximum loss = net debit.",
+        "Maximum gain = difference between strikes − net debit.",
+        "Break-even = higher strike − net debit.",
+        "Both options should have the same underlying and expiry for the standard spread described."
       ],
-      "key": "The maximum loss is the net debit; maximum gain is capped.",
+      "key": "Check the direction: higher strike is bought, lower strike is sold. The short lower-strike put caps the maximum gain.",
       "related": [
         "option-strategies",
         "bull-call-spread"
