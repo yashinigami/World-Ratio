@@ -265,10 +265,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes The financial system?",
           "choices": [
-            "Financial services",
+            "Think of them as the support services that make financial markets work.",
             "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
-            "Financial markets and their functions",
-            "Financial institutions"
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 1,
           "explanation": "A financial system is the network that moves money from people or organisations with surplus funds to those who need funds. In simple terms: Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
@@ -295,9 +295,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing The financial system?",
           "choices": [
-            "Financial markets and their functions",
-            "Financial institutions",
-            "Financial services",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
+            "Factoring usually involves short-term receivables. Forfaiting is described as non-recourse purchase of export receivables, generally medium/long term.",
             "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 3,
@@ -311,9 +311,9 @@
           "question": "Which explanation would be most accurate in an exam answer on The financial system?",
           "choices": [
             "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
-            "Financial markets and their functions",
-            "Financial institutions",
-            "Financial services"
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
+            "The slides cover investment/merchant banking, distribution, advisory, credit rating, custody, factoring, forfaiting, leasing, hire purchase and housing finance."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: It includes financial markets, institutions, instruments and services, with regulators supervising the system. Then connect it to the example and explain its financial implication.",
@@ -346,9 +346,9 @@
           "question": "Which statement best describes Financial markets and their functions?",
           "choices": [
             "A market connects buyers and sellers and helps establish a price for financial products.",
-            "The financial system",
-            "Secondary market",
-            "Financial institutions"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "They are the organisations doing the work inside the financial system.",
+            "Think of them as the support services that make financial markets work."
           ],
           "answer": 0,
           "explanation": "Financial markets are systems where financial assets are created, issued and traded. In simple terms: A market connects buyers and sellers and helps establish a price for financial products.",
@@ -360,10 +360,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: An investor sells listed shares to another investor through the secondary market. Which topic does it illustrate?",
           "choices": [
-            "Financial institutions",
+            "Financial services",
             "Financial markets and their functions",
             "The financial system",
-            "Secondary market"
+            "Financial institutions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Financial markets and their functions. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -375,10 +375,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Financial markets and their functions?",
           "choices": [
-            "Secondary market",
-            "Financial institutions",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
+            "Factoring usually involves short-term receivables. Forfaiting is described as non-recourse purchase of export receivables, generally medium/long term.",
             "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact. This helps distinguish Financial markets and their functions from related concepts.",
@@ -390,9 +390,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Financial markets and their functions?",
           "choices": [
-            "The financial system",
-            "Secondary market",
-            "Financial institutions",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
+            "The slides cover investment/merchant banking, distribution, advisory, credit rating, custody, factoring, forfaiting, leasing, hire purchase and housing finance.",
             "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 3,
@@ -425,9 +425,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Financial institutions?",
           "choices": [
-            "The financial system",
-            "Financial services",
-            "Financial markets and their functions",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "Think of them as the support services that make financial markets work.",
             "They are the organisations doing the work inside the financial system."
           ],
           "answer": 3,
@@ -442,8 +442,8 @@
           "choices": [
             "Financial institutions",
             "The financial system",
-            "Financial services",
-            "Financial markets and their functions"
+            "Financial markets and their functions",
+            "Financial services"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Financial institutions. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -455,10 +455,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Financial institutions?",
           "choices": [
-            "Financial markets and their functions",
+            "Factoring usually involves short-term receivables. Forfaiting is described as non-recourse purchase of export receivables, generally medium/long term.",
             "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
-            "The financial system",
-            "Financial services"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers. This helps distinguish Financial institutions from related concepts.",
@@ -470,10 +470,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Financial institutions?",
           "choices": [
-            "Financial services",
-            "Financial markets and their functions",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The slides cover investment/merchant banking, distribution, advisory, credit rating, custody, factoring, forfaiting, leasing, hire purchase and housing finance.",
             "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds. Then connect it to the example and explain its financial implication.",
@@ -505,10 +505,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Financial services?",
           "choices": [
-            "IPO process",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Think of them as the support services that make financial markets work.",
-            "Financial institutions"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "Financial services are specialist activities that help raise funds, invest, trade, safeguard assets and complete transactions. In simple terms: Think of them as the support services that make financial markets work.",
@@ -520,9 +520,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: An investment banker coordinates a company's IPO; a registrar processes applications; a custodian safeguards securities. Which topic does it illustrate?",
           "choices": [
-            "Financial institutions",
-            "IPO process",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Financial services"
           ],
           "answer": 3,
@@ -536,9 +536,9 @@
           "question": "Which point should you remember when analysing Financial services?",
           "choices": [
             "Factoring usually involves short-term receivables. Forfaiting is described as non-recourse purchase of export receivables, generally medium/long term.",
-            "Financial institutions",
-            "IPO process",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Factoring usually involves short-term receivables. Forfaiting is described as non-recourse purchase of export receivables, generally medium/long term. This helps distinguish Financial services from related concepts.",
@@ -550,10 +550,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Financial services?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The slides cover investment/merchant banking, distribution, advisory, credit rating, custody, factoring, forfaiting, leasing, hire purchase and housing finance.",
-            "Financial institutions",
-            "IPO process"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: The slides cover investment/merchant banking, distribution, advisory, credit rating, custody, factoring, forfaiting, leasing, hire purchase and housing finance. Then connect it to the example and explain its financial implication.",
@@ -584,10 +584,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Early-stage funding?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "A business idea often needs funding before it earns enough to pay its own bills.",
-            "Angel investors, venture capital and private equity",
-            "IPO process"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "Start-ups need money before their product or business model is fully proven. In simple terms: A business idea often needs funding before it earns enough to pay its own bills.",
@@ -599,10 +599,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A start-up uses seed funding to build a prototype, test demand and hire its first team. Which topic does it illustrate?",
           "choices": [
-            "IPO process",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Early-stage funding",
-            "Angel investors, venture capital and private equity"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Early-stage funding. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -614,9 +614,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Early-stage funding?",
           "choices": [
-            "Angel investors, venture capital and private equity",
-            "IPO process",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Sources include founders, friends/family, angel investors, venture capital, crowdfunding and incubators/accelerators."
           ],
           "answer": 3,
@@ -630,9 +630,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Early-stage funding?",
           "choices": [
             "Pre-seed/seed supports an idea or prototype; early stage follows proof of concept; later stage supports growth and scaling.",
-            "Angel investors, venture capital and private equity",
-            "IPO process",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: Pre-seed/seed supports an idea or prototype; early stage follows proof of concept; later stage supports growth and scaling. Then connect it to the example and explain its financial implication.",
@@ -664,9 +664,9 @@
           "question": "Which statement best describes Angel investors, venture capital and private equity?",
           "choices": [
             "An angel may invest personal money early. A VC fund invests professionally in start-ups. A PE investor usually invests later in a business with a track record.",
-            "Early-stage funding",
-            "IPO process",
-            "The financial system"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "Angel investors and VCs invest in young businesses with growth potential; PE generally focuses on more mature businesses. In simple terms: An angel may invest personal money early. A VC fund invests professionally in start-ups. A PE investor usually invests later in a business with a track record.",
@@ -678,10 +678,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A VC evaluates market size, scalability, product, promoter, technology and risks before investing. Which topic does it illustrate?",
           "choices": [
-            "The financial system",
+            "Financial institutions",
             "Angel investors, venture capital and private equity",
-            "Early-stage funding",
-            "IPO process"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Angel investors, venture capital and private equity. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -693,10 +693,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Angel investors, venture capital and private equity?",
           "choices": [
-            "IPO process",
-            "The financial system",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Post-money valuation = pre-money valuation + new investment. Investor ownership is investment divided by post-money valuation.",
-            "Early-stage funding"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Post-money valuation = pre-money valuation + new investment. Investor ownership is investment divided by post-money valuation. This helps distinguish Angel investors, venture capital and private equity from related concepts.",
@@ -708,9 +708,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Angel investors, venture capital and private equity?",
           "choices": [
-            "Early-stage funding",
-            "IPO process",
-            "The financial system",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "VC process: deal origination, screening, evaluation, negotiation, post-investment monitoring and exit. Exit may occur through IPO, acquisition, buy-back or sale."
           ],
           "answer": 3,
@@ -743,9 +743,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes IPO process?",
           "choices": [
-            "Book building",
-            "ASBA",
-            "Secondary market",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "A company that was privately held offers shares to public investors for the first time."
           ],
           "answer": 3,
@@ -759,9 +759,9 @@
           "question": "A student is given this situation: Company appoints intermediaries, completes due diligence, files DRHP, responds to review, announces price band, receives bids, allots shares and lists. Which topic does it illustrate?",
           "choices": [
             "IPO process",
-            "Book building",
-            "ASBA",
-            "Secondary market"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates IPO process. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -773,10 +773,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing IPO process?",
           "choices": [
-            "Secondary market",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "DRHP is the draft offer document. Registrar processes applications and allotment. After listing, shares trade in the secondary market.",
-            "Book building",
-            "ASBA"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: DRHP is the draft offer document. Registrar processes applications and allotment. After listing, shares trade in the secondary market. This helps distinguish IPO process from related concepts.",
@@ -788,10 +788,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on IPO process?",
           "choices": [
-            "ASBA",
-            "Secondary market",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Key intermediaries include lead manager/BRLM, registrar, bankers to issue, underwriters, syndicate members, depositories and DPs.",
-            "Book building"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: Key intermediaries include lead manager/BRLM, registrar, bankers to issue, underwriters, syndicate members, depositories and DPs. Then connect it to the example and explain its financial implication.",
@@ -822,10 +822,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Book building?",
           "choices": [
-            "ASBA",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Instead of fixing the final price first, the issuer asks investors what price and quantity they are willing to bid for.",
-            "IPO process"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "Book building collects investor bids within a price band to help determine an IPO's final issue price. In simple terms: Instead of fixing the final price first, the issuer asks investors what price and quantity they are willing to bid for.",
@@ -837,9 +837,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: In the class illustration, 3,000 shares are offered from ₹20–₹24. Bids are 500 at ₹24, 1,000 at ₹23 and 1,500 at ₹22; demand reaches 3,000 at ₹22. Which topic does it illustrate?",
           "choices": [
-            "IPO process",
-            "ASBA",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Book building"
           ],
           "answer": 3,
@@ -853,9 +853,9 @@
           "question": "Which point should you remember when analysing Book building?",
           "choices": [
             "Cut-off is the price at which the offered quantity is met in the classroom demand schedule.",
-            "IPO process",
-            "ASBA",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Cut-off is the price at which the offered quantity is met in the classroom demand schedule. This helps distinguish Book building from related concepts.",
@@ -867,10 +867,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Book building?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Fixed-price issues announce a price in advance. Book building uses a price band and demand schedule.",
-            "IPO process",
-            "ASBA"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: Fixed-price issues announce a price in advance. Book building uses a price band and demand schedule. Then connect it to the example and explain its financial implication.",
@@ -901,10 +901,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes ASBA?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "You apply for shares but the bank does not immediately take the money out of your account.",
-            "IPO process",
-            "Book building"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "ASBA means Applications Supported by Blocked Amount. IPO application money stays blocked in the bank account until allotment. In simple terms: You apply for shares but the bank does not immediately take the money out of your account.",
@@ -916,10 +916,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: If ₹15,000 is blocked and shares worth ₹6,000 are allotted, ₹6,000 is debited and the remaining amount is unblocked. Which topic does it illustrate?",
           "choices": [
-            "Book building",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "ASBA",
-            "IPO process"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates ASBA. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -931,9 +931,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing ASBA?",
           "choices": [
-            "IPO process",
-            "Book building",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Only the allotted amount is debited; unused blocked money is released."
           ],
           "answer": 3,
@@ -947,9 +947,9 @@
           "question": "Which explanation would be most accurate in an exam answer on ASBA?",
           "choices": [
             "SCSBs are banks designated to provide ASBA services.",
-            "IPO process",
-            "Book building",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: SCSBs are banks designated to provide ASBA services. Then connect it to the example and explain its financial implication.",
@@ -982,9 +982,9 @@
           "question": "Which statement best describes Secondary market?",
           "choices": [
             "The company has already issued the share. Now investors buy and sell it among themselves.",
-            "Financial markets and their functions",
-            "Market, limit and stop-loss orders",
-            "Equity shares"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "The secondary market is where already-issued securities are traded between investors. In simple terms: The company has already issued the share. Now investors buy and sell it among themselves.",
@@ -996,10 +996,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: You buy a listed share from another investor through the exchange; the company does not receive the sale proceeds. Which topic does it illustrate?",
           "choices": [
-            "Equity shares",
+            "Financial institutions",
             "Secondary market",
-            "Financial markets and their functions",
-            "Market, limit and stop-loss orders"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Secondary market. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1011,10 +1011,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Secondary market?",
           "choices": [
-            "Market, limit and stop-loss orders",
-            "Equity shares",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Bid is buyer's price; ask is seller's price; LTP is the latest completed trade price, not a guaranteed execution price.",
-            "Financial markets and their functions"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Bid is buyer's price; ask is seller's price; LTP is the latest completed trade price, not a guaranteed execution price. This helps distinguish Secondary market from related concepts.",
@@ -1026,9 +1026,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Secondary market?",
           "choices": [
-            "Financial markets and their functions",
-            "Market, limit and stop-loss orders",
-            "Equity shares",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Secondary markets support liquidity, price discovery, market participation and monitoring."
           ],
           "answer": 3,
@@ -1062,9 +1062,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Market, limit and stop-loss orders?",
           "choices": [
-            "Secondary market",
-            "Futures contracts",
-            "Options: calls and puts",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Different order types trade off speed, price control and trigger conditions."
           ],
           "answer": 3,
@@ -1078,9 +1078,9 @@
           "question": "A student is given this situation: A buy limit at ₹100 means buy at ₹100 or lower, but it may not execute. A market order seeks immediate execution but price can vary. Which topic does it illustrate?",
           "choices": [
             "Market, limit and stop-loss orders",
-            "Secondary market",
-            "Futures contracts",
-            "Options: calls and puts"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Market, limit and stop-loss orders. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1092,10 +1092,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Market, limit and stop-loss orders?",
           "choices": [
-            "Options: calls and puts",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Market order: execution not price certainty. Limit order: price control not execution certainty. Stop trigger does not guarantee execution at that exact price.",
-            "Secondary market",
-            "Futures contracts"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Market order: execution not price certainty. Limit order: price control not execution certainty. Stop trigger does not guarantee execution at that exact price. This helps distinguish Market, limit and stop-loss orders from related concepts.",
@@ -1107,10 +1107,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Market, limit and stop-loss orders?",
           "choices": [
-            "Futures contracts",
-            "Options: calls and puts",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Market order prioritises execution. Limit order sets an acceptable price. Stop-loss activates an order when its trigger price is reached.",
-            "Secondary market"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: Market order prioritises execution. Limit order sets an acceptable price. Stop-loss activates an order when its trigger price is reached. Then connect it to the example and explain its financial implication.",
@@ -1142,10 +1142,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Equity shares?",
           "choices": [
-            "Bond basics",
-            "Value investing",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Buying a share means owning a small part of the company.",
-            "Secondary market"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "An equity share represents ownership in a company. In simple terms: Buying a share means owning a small part of the company.",
@@ -1157,9 +1157,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A company may reinvest profits rather than pay dividends; shareholders may benefit from future growth but dividends are not guaranteed. Which topic does it illustrate?",
           "choices": [
-            "Secondary market",
-            "Bond basics",
-            "Value investing",
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Equity shares"
           ],
           "answer": 3,
@@ -1173,9 +1173,9 @@
           "question": "Which point should you remember when analysing Equity shares?",
           "choices": [
             "Dividend yield = annual dividend per share ÷ market price per share × 100. The slides classify stocks by size, dividends, fundamentals, risk and economic cycle.",
-            "Secondary market",
-            "Bond basics",
-            "Value investing"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Dividend yield = annual dividend per share ÷ market price per share × 100. The slides classify stocks by size, dividends, fundamentals, risk and economic cycle. This helps distinguish Equity shares from related concepts.",
@@ -1187,10 +1187,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Equity shares?",
           "choices": [
-            "Value investing",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Equity holders have voting rights as specified and a residual claim after creditors in liquidation.",
-            "Secondary market",
-            "Bond basics"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: Equity holders have voting rights as specified and a residual claim after creditors in liquidation. Then connect it to the example and explain its financial implication.",
@@ -1222,10 +1222,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Bond basics?",
           "choices": [
-            "Macaulay and modified duration",
+            "They are the organisations doing the work inside the financial system.",
             "You lend money to a government or company and receive interest if payments are made as promised.",
-            "Bond valuation",
-            "Yield to maturity"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "A bond is a loan made by an investor to an issuer. The issuer promises interest and repayment of principal according to the terms. In simple terms: You lend money to a government or company and receive interest if payments are made as promised.",
@@ -1237,10 +1237,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A ₹1,000 bond with a 7% annual coupon pays ₹70 annually if the terms specify annual payments. Which topic does it illustrate?",
           "choices": [
-            "Yield to maturity",
-            "Macaulay and modified duration",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Bond basics",
-            "Bond valuation"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Bond basics. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1252,9 +1252,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Bond basics?",
           "choices": [
-            "Bond valuation",
-            "Yield to maturity",
-            "Macaulay and modified duration",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Debt investors are creditors; equity investors are owners. Creditors generally rank ahead of shareholders in insolvency."
           ],
           "answer": 3,
@@ -1268,9 +1268,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Bond basics?",
           "choices": [
             "Key terms: face value, coupon rate, coupon payment, maturity, market price, premium/discount and yield.",
-            "Bond valuation",
-            "Yield to maturity",
-            "Macaulay and modified duration"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: Key terms: face value, coupon rate, coupon payment, maturity, market price, premium/discount and yield. Then connect it to the example and explain its financial implication.",
@@ -1305,9 +1305,9 @@
           "question": "Which statement best describes Bond valuation?",
           "choices": [
             "Work out what all future bond payments are worth today, using the required market yield.",
-            "Bond basics",
-            "Yield to maturity",
-            "Macaulay and modified duration"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "A bond's price is the present value of its future coupon payments plus the present value of principal repayment. In simple terms: Work out what all future bond payments are worth today, using the required market yield.",
@@ -1319,10 +1319,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A ₹1,000 bond paying a 7% annual coupon for five years is worth about ₹960.51 at an 8% required yield in the class example. Which topic does it illustrate?",
           "choices": [
-            "Macaulay and modified duration",
+            "Financial institutions",
             "Bond valuation",
-            "Bond basics",
-            "Yield to maturity"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Bond valuation. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1334,10 +1334,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Bond valuation?",
           "choices": [
-            "Yield to maturity",
-            "Macaulay and modified duration",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Market yields rise → existing fixed-coupon bond prices generally fall. For semi-annual bonds halve annual coupon/yield and double periods.",
-            "Bond basics"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Market yields rise → existing fixed-coupon bond prices generally fall. For semi-annual bonds halve annual coupon/yield and double periods. This helps distinguish Bond valuation from related concepts.",
@@ -1349,9 +1349,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Bond valuation?",
           "choices": [
-            "Bond basics",
-            "Yield to maturity",
-            "Macaulay and modified duration",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "P = C × [1 − (1+y)^(-n)] ÷ y + FV ÷ (1+y)^n. C=coupon per period; y=yield per period; n=periods; FV=face value."
           ],
           "answer": 3,
@@ -1384,9 +1384,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Yield to maturity?",
           "choices": [
-            "Bond valuation",
-            "Macaulay and modified duration",
-            "The financial system",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "It combines coupon income and any gain or loss between the price paid and the amount repaid at maturity."
           ],
           "answer": 3,
@@ -1400,9 +1400,9 @@
           "question": "A student is given this situation: A bond with a 7% coupon can have an 8% YTM if it trades at a discount. Which topic does it illustrate?",
           "choices": [
             "Yield to maturity",
-            "Bond valuation",
-            "Macaulay and modified duration",
-            "The financial system"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Yield to maturity. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1414,10 +1414,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Yield to maturity?",
           "choices": [
-            "The financial system",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Coupon rate is calculated on face value; YTM depends on current market price and future cash flows.",
-            "Bond valuation",
-            "Macaulay and modified duration"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Coupon rate is calculated on face value; YTM depends on current market price and future cash flows. This helps distinguish Yield to maturity from related concepts.",
@@ -1429,10 +1429,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Yield to maturity?",
           "choices": [
-            "Macaulay and modified duration",
-            "The financial system",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "YTM is the discount rate that makes PV of all future cash flows equal current market price.",
-            "Bond valuation"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: YTM is the discount rate that makes PV of all future cash flows equal current market price. Then connect it to the example and explain its financial implication.",
@@ -1464,10 +1464,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Macaulay and modified duration?",
           "choices": [
-            "Yield to maturity",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "It is not simply the maturity date. It tells you how sensitive the bond price may be when yields change.",
-            "Bond valuation"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "Duration measures the weighted timing of bond cash flows and helps estimate interest-rate sensitivity. In simple terms: It is not simply the maturity date. It tells you how sensitive the bond price may be when yields change.",
@@ -1479,9 +1479,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: If modified duration is 4.16, a one-percentage-point rise in yield suggests an approximate 4.16% price fall. Which topic does it illustrate?",
           "choices": [
-            "Bond valuation",
-            "Yield to maturity",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Macaulay and modified duration"
           ],
           "answer": 3,
@@ -1495,9 +1495,9 @@
           "question": "Which point should you remember when analysing Macaulay and modified duration?",
           "choices": [
             "Higher modified duration generally means greater price sensitivity. Convexity describes curvature in the price-yield relationship.",
-            "Bond valuation",
-            "Yield to maturity",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Higher modified duration generally means greater price sensitivity. Convexity describes curvature in the price-yield relationship. This helps distinguish Macaulay and modified duration from related concepts.",
@@ -1509,10 +1509,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Macaulay and modified duration?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Macaulay duration = sum of time × PV of cash flow divided by bond price. Modified duration = Macaulay duration ÷ (1 + yield per coupon period).",
-            "Bond valuation",
-            "Yield to maturity"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: Macaulay duration = sum of time × PV of cash flow divided by bond price. Modified duration = Macaulay duration ÷ (1 + yield per coupon period). Then connect it to the example and explain its financial implication.",
@@ -1544,10 +1544,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Treasury bill and discount yield?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "Pay ₹98 today and receive ₹100 at maturity. The ₹2 difference is the return before annualising.",
-            "Bond valuation",
-            "Bond basics"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "A discount instrument is bought below face value and redeemed at face value; the discount is the investor's return. In simple terms: Pay ₹98 today and receive ₹100 at maturity. The ₹2 difference is the return before annualising.",
@@ -1559,10 +1559,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: ₹100 face value CP bought for ₹98 with 91 days to maturity: effective yield ≈ (2/98) × (365/91) × 100 = 8.19%. Which topic does it illustrate?",
           "choices": [
-            "Bond basics",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Treasury bill and discount yield",
-            "Bond valuation"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Treasury bill and discount yield. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1574,9 +1574,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Treasury bill and discount yield?",
           "choices": [
-            "Bond valuation",
-            "Bond basics",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Effective yield = [(FV−price)/price] × (365/days) × 100. Bank discount yield = [(FV−price)/FV] × (365/days) × 100."
           ],
           "answer": 3,
@@ -1590,9 +1590,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Treasury bill and discount yield?",
           "choices": [
             "Effective yield uses purchase price in the denominator. Bank discount yield uses face value in the denominator.",
-            "Bond valuation",
-            "Bond basics",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: Effective yield uses purchase price in the denominator. Bank discount yield uses face value in the denominator. Then connect it to the example and explain its financial implication.",
@@ -1624,9 +1624,9 @@
           "question": "Which statement best describes Prospect Theory and loss aversion?",
           "choices": [
             "A ₹100 loss can feel worse than a ₹100 gain feels good.",
-            "Disposition effect",
-            "Mental accounting",
-            "The financial system"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "People often feel the pain of losing money more strongly than the pleasure of gaining the same amount. In simple terms: A ₹100 loss can feel worse than a ₹100 gain feels good.",
@@ -1638,10 +1638,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: An investor may sell a small winner quickly but hold a losing share hoping it returns to the purchase price. Which topic does it illustrate?",
           "choices": [
-            "The financial system",
+            "Financial institutions",
             "Prospect Theory and loss aversion",
-            "Disposition effect",
-            "Mental accounting"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Prospect Theory and loss aversion. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1653,10 +1653,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Prospect Theory and loss aversion?",
           "choices": [
-            "Mental accounting",
-            "The financial system",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "The slides connect loss aversion with risk aversion and the disposition effect.",
-            "Disposition effect"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: The slides connect loss aversion with risk aversion and the disposition effect. This helps distinguish Prospect Theory and loss aversion from related concepts.",
@@ -1668,9 +1668,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Prospect Theory and loss aversion?",
           "choices": [
-            "Disposition effect",
-            "Mental accounting",
-            "The financial system",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "People judge outcomes relative to a reference point and respond differently to perceived gains and losses."
           ],
           "answer": 3,
@@ -1701,9 +1701,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Grossman–Stiglitz theory?",
           "choices": [
-            "Financial markets and their functions",
-            "The financial system",
-            "Financial institutions",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Research costs money. If all useful information were already reflected in prices, why would anyone do the research?"
           ],
           "answer": 3,
@@ -1717,8 +1717,8 @@
           "question": "A student is given this situation: Informed investors research mispriced securities and trade; their trading helps prices move towards information-based values. Which topic does it illustrate?",
           "choices": [
             "Grossman–Stiglitz theory",
-            "Financial markets and their functions",
             "The financial system",
+            "Financial markets and their functions",
             "Financial institutions"
           ],
           "answer": 0,
@@ -1731,10 +1731,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Grossman–Stiglitz theory?",
           "choices": [
-            "Financial institutions",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "The slides compare this to people repairing weak spots in a bridge: the repair effort helps keep the bridge strong.",
-            "Financial markets and their functions",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: The slides compare this to people repairing weak spots in a bridge: the repair effort helps keep the bridge strong. This helps distinguish Grossman–Stiglitz theory from related concepts.",
@@ -1746,10 +1746,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Grossman–Stiglitz theory?",
           "choices": [
-            "The financial system",
-            "Financial institutions",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Because information is costly, perfectly efficient markets cannot be sustained all the time.",
-            "Financial markets and their functions"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: Because information is costly, perfectly efficient markets cannot be sustained all the time. Then connect it to the example and explain its financial implication.",
@@ -1780,10 +1780,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Mental accounting?",
           "choices": [
-            "Disposition effect",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "A rupee from salary and a rupee from a bonus are still both rupees, even if people behave differently with them.",
-            "Prospect Theory and loss aversion"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "People mentally divide money into separate buckets and treat each bucket differently. In simple terms: A rupee from salary and a rupee from a bonus are still both rupees, even if people behave differently with them.",
@@ -1795,9 +1795,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: Someone may be cautious with salary but take bigger risks with a bonus because it feels like extra money. Which topic does it illustrate?",
           "choices": [
-            "Prospect Theory and loss aversion",
-            "Disposition effect",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Mental accounting"
           ],
           "answer": 3,
@@ -1811,9 +1811,9 @@
           "question": "Which point should you remember when analysing Mental accounting?",
           "choices": [
             "The slides suggest judging all money as one combined pool against overall financial goals.",
-            "Prospect Theory and loss aversion",
-            "Disposition effect",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: The slides suggest judging all money as one combined pool against overall financial goals. This helps distinguish Mental accounting from related concepts.",
@@ -1825,10 +1825,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Mental accounting?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Separate mental buckets can distort spending, saving and investment decisions.",
-            "Prospect Theory and loss aversion",
-            "Disposition effect"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: Separate mental buckets can distort spending, saving and investment decisions. Then connect it to the example and explain its financial implication.",
@@ -1859,10 +1859,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Disposition effect?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "People like locking in a gain but find it uncomfortable to admit a loss.",
-            "Prospect Theory and loss aversion",
-            "Mental accounting"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "The disposition effect is the tendency to sell winning investments too early and hold losing investments too long. In simple terms: People like locking in a gain but find it uncomfortable to admit a loss.",
@@ -1874,10 +1874,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: An investor sells a share after a small gain but refuses to sell another share that has fallen, hoping it will recover. Which topic does it illustrate?",
           "choices": [
-            "Mental accounting",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Disposition effect",
-            "Prospect Theory and loss aversion"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Disposition effect. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1889,9 +1889,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Disposition effect?",
           "choices": [
-            "Prospect Theory and loss aversion",
-            "Mental accounting",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Review the investment case and whole portfolio rather than focusing only on the purchase price."
           ],
           "answer": 3,
@@ -1905,9 +1905,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Disposition effect?",
           "choices": [
             "The slides link it to loss aversion, cognitive dissonance and mental accounting.",
-            "Prospect Theory and loss aversion",
-            "Mental accounting",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: The slides link it to loss aversion, cognitive dissonance and mental accounting. Then connect it to the example and explain its financial implication.",
@@ -1941,9 +1941,9 @@
           "question": "Which statement best describes Mutual funds?",
           "choices": [
             "Many people contribute to one pool; a professional manager invests the pool and investors hold units.",
-            "NAV — Net Asset Value",
-            "Total Expense Ratio",
-            "Mutual fund structure"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "A mutual fund pools money from many investors and invests it according to a stated objective. In simple terms: Many people contribute to one pool; a professional manager invests the pool and investors hold units.",
@@ -1955,10 +1955,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: An equity fund combines investors' money to buy a portfolio of shares. Which topic does it illustrate?",
           "choices": [
-            "Mutual fund structure",
+            "Financial institutions",
             "Mutual funds",
-            "NAV — Net Asset Value",
-            "Total Expense Ratio"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Mutual funds. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -1970,10 +1970,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Mutual funds?",
           "choices": [
-            "Total Expense Ratio",
-            "Mutual fund structure",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Funds may invest in equities, bonds, money-market instruments or other permitted securities. Returns are not guaranteed.",
-            "NAV — Net Asset Value"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Funds may invest in equities, bonds, money-market instruments or other permitted securities. Returns are not guaranteed. This helps distinguish Mutual funds from related concepts.",
@@ -1985,9 +1985,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Mutual funds?",
           "choices": [
-            "NAV — Net Asset Value",
-            "Total Expense Ratio",
-            "Mutual fund structure",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Income and gains are shared in proportion to units after expenses and levies."
           ],
           "answer": 3,
@@ -2021,9 +2021,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes NAV — Net Asset Value?",
           "choices": [
-            "Mutual funds",
-            "NAV numerical adjustments",
-            "Total Expense Ratio",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Take everything the fund owns, subtract what it owes, and divide the result by the number of units."
           ],
           "answer": 3,
@@ -2037,9 +2037,9 @@
           "question": "A student is given this situation: Securities ₹10.5m + cash ₹2m − liabilities ₹0.5m = net assets ₹12m. With 1m units, NAV = ₹12. Which topic does it illustrate?",
           "choices": [
             "NAV — Net Asset Value",
-            "Mutual funds",
-            "NAV numerical adjustments",
-            "Total Expense Ratio"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates NAV — Net Asset Value. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2051,10 +2051,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing NAV — Net Asset Value?",
           "choices": [
-            "Total Expense Ratio",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Use current market values, add receivables, deduct accrued expenses and use the correct units outstanding for the valuation date.",
-            "Mutual funds",
-            "NAV numerical adjustments"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Use current market values, add receivables, deduct accrued expenses and use the correct units outstanding for the valuation date. This helps distinguish NAV — Net Asset Value from related concepts.",
@@ -2066,10 +2066,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on NAV — Net Asset Value?",
           "choices": [
-            "NAV numerical adjustments",
-            "Total Expense Ratio",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "NAV per unit = (market value investments + other assets + accrued income − liabilities − accrued expenses) ÷ outstanding units.",
-            "Mutual funds"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: NAV per unit = (market value investments + other assets + accrued income − liabilities − accrued expenses) ÷ outstanding units. Then connect it to the example and explain its financial implication.",
@@ -2101,10 +2101,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes NAV numerical adjustments?",
           "choices": [
-            "Mutual funds",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Do not just add the investment values. Include income due, expenses owed and updated units.",
-            "NAV — Net Asset Value"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "NAV questions require you to identify every asset and liability at the correct date, then divide by the correct unit count. In simple terms: Do not just add the investment values. Include income due, expenses owed and updated units.",
@@ -2116,9 +2116,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: If an investment falls 20%, use 80% of its value. Deduct an accrued fee once. If units are redeemed, use the new unit count. Which topic does it illustrate?",
           "choices": [
-            "NAV — Net Asset Value",
-            "Mutual funds",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "NAV numerical adjustments"
           ],
           "answer": 3,
@@ -2132,9 +2132,9 @@
           "question": "Which point should you remember when analysing NAV numerical adjustments?",
           "choices": [
             "Net assets = assets − liabilities. NAV = net assets ÷ units outstanding. Watch the timing of each transaction.",
-            "NAV — Net Asset Value",
-            "Mutual funds",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Net assets = assets − liabilities. NAV = net assets ÷ units outstanding. Watch the timing of each transaction. This helps distinguish NAV numerical adjustments from related concepts.",
@@ -2146,10 +2146,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on NAV numerical adjustments?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The practice file includes fees, units, dividend reinvestment, growth, dividend yield, purchases, sales and cash flows.",
-            "NAV — Net Asset Value",
-            "Mutual funds"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: The practice file includes fees, units, dividend reinvestment, growth, dividend yield, purchases, sales and cash flows. Then connect it to the example and explain its financial implication.",
@@ -2181,10 +2181,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Total Expense Ratio?",
           "choices": [
-            "Mutual fund categories",
+            "They are the organisations doing the work inside the financial system.",
             "It is the fund's running cost. Costs reduce the return left for investors.",
-            "Mutual funds",
-            "NAV — Net Asset Value"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "TER is the recurring cost of operating a mutual fund, expressed as a percentage of assets. In simple terms: It is the fund's running cost. Costs reduce the return left for investors.",
@@ -2196,10 +2196,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A fund earns a gross return, but management and operating expenses reduce the amount reflected in NAV. Which topic does it illustrate?",
           "choices": [
-            "NAV — Net Asset Value",
-            "Mutual fund categories",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Total Expense Ratio",
-            "Mutual funds"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Total Expense Ratio. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2211,9 +2211,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Total Expense Ratio?",
           "choices": [
-            "Mutual funds",
-            "NAV — Net Asset Value",
-            "Mutual fund categories",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "NAVs are reported net of expenses. Check the scheme documents for actual charges."
           ],
           "answer": 3,
@@ -2227,9 +2227,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Total Expense Ratio?",
           "choices": [
             "The slides list management, distribution, audit, custodian, registration, communication and other scheme expenses.",
-            "Mutual funds",
-            "NAV — Net Asset Value",
-            "Mutual fund categories"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: The slides list management, distribution, audit, custodian, registration, communication and other scheme expenses. Then connect it to the example and explain its financial implication.",
@@ -2261,9 +2261,9 @@
           "question": "Which statement best describes Mutual fund structure?",
           "choices": [
             "The AMC manages the money, but other organisations safeguard assets, keep investor records and supervise the AMC.",
-            "Mutual funds",
-            "Mutual fund categories",
-            "The financial system"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "A mutual fund has several entities with different responsibilities. In simple terms: The AMC manages the money, but other organisations safeguard assets, keep investor records and supervise the AMC.",
@@ -2275,10 +2275,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: The custodian safeguards securities; the RTA processes applications and redemptions; trustees oversee the AMC. Which topic does it illustrate?",
           "choices": [
-            "The financial system",
+            "Financial institutions",
             "Mutual fund structure",
-            "Mutual funds",
-            "Mutual fund categories"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Mutual fund structure. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2290,10 +2290,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Mutual fund structure?",
           "choices": [
-            "Mutual fund categories",
-            "The financial system",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Sponsor establishes the structure; trustees protect unit holders; AMC manages investments; custodian safekeeps securities.",
-            "Mutual funds"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Sponsor establishes the structure; trustees protect unit holders; AMC manages investments; custodian safekeeps securities. This helps distinguish Mutual fund structure from related concepts.",
@@ -2305,9 +2305,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Mutual fund structure?",
           "choices": [
-            "Mutual funds",
-            "Mutual fund categories",
-            "The financial system",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The slides cover sponsor, trustees, AMC, custodian, RTA, fund accountant and auditor."
           ],
           "answer": 3,
@@ -2340,9 +2340,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Mutual fund categories?",
           "choices": [
-            "Mutual funds",
-            "SIP, SWP and STP",
-            "Tracking error",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Different funds invest in different things; the label gives you a starting point for understanding risk and portfolio."
           ],
           "answer": 3,
@@ -2356,9 +2356,9 @@
           "question": "A student is given this situation: An equity fund invests mainly in shares; a liquid fund invests in very short-term debt; a hybrid fund combines asset classes. Which topic does it illustrate?",
           "choices": [
             "Mutual fund categories",
-            "Mutual funds",
-            "SIP, SWP and STP",
-            "Tracking error"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Mutual fund categories. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2370,10 +2370,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Mutual fund categories?",
           "choices": [
-            "Tracking error",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Equity funds carry equity-market risk; debt funds carry interest-rate and credit risk; hybrid funds combine exposures.",
-            "Mutual funds",
-            "SIP, SWP and STP"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Equity funds carry equity-market risk; debt funds carry interest-rate and credit risk; hybrid funds combine exposures. This helps distinguish Mutual fund categories from related concepts.",
@@ -2385,10 +2385,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Mutual fund categories?",
           "choices": [
-            "SIP, SWP and STP",
-            "Tracking error",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The slides classify equity, debt, hybrid, solution-oriented and other schemes, including index funds, ETFs and FoFs.",
-            "Mutual funds"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: The slides classify equity, debt, hybrid, solution-oriented and other schemes, including index funds, ETFs and FoFs. Then connect it to the example and explain its financial implication.",
@@ -2419,10 +2419,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes SIP, SWP and STP?",
           "choices": [
-            "Mutual funds",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "SIP = invest. SWP = withdraw. STP = transfer.",
-            "Mutual fund categories"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "SIP puts money in regularly; SWP takes money out regularly; STP transfers money between schemes in stages. In simple terms: SIP = invest. SWP = withdraw. STP = transfer.",
@@ -2434,9 +2434,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A monthly SIP invests ₹1,000. A retiree may use an SWP for regular withdrawals. An STP can move a lump sum gradually from a liquid fund to an equity fund. Which topic does it illustrate?",
           "choices": [
-            "Mutual fund categories",
-            "Mutual funds",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "SIP, SWP and STP"
           ],
           "answer": 3,
@@ -2450,9 +2450,9 @@
           "question": "Which point should you remember when analysing SIP, SWP and STP?",
           "choices": [
             "Rupee-cost averaging can change average purchase cost but does not guarantee profit.",
-            "Mutual fund categories",
-            "Mutual funds",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Rupee-cost averaging can change average purchase cost but does not guarantee profit. This helps distinguish SIP, SWP and STP from related concepts.",
@@ -2464,10 +2464,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on SIP, SWP and STP?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "SIP supports regular investing; SWP creates scheduled withdrawals; STP moves money from one scheme to another.",
-            "Mutual fund categories",
-            "Mutual funds"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: SIP supports regular investing; SWP creates scheduled withdrawals; STP moves money from one scheme to another. Then connect it to the example and explain its financial implication.",
@@ -2499,10 +2499,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Tracking error?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "It measures how much the fund's return differs from the index over time.",
-            "Mutual fund categories",
-            "Mutual funds"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "Tracking error measures how closely an index fund follows its benchmark. In simple terms: It measures how much the fund's return differs from the index over time.",
@@ -2514,10 +2514,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: If the index returns 2% and the fund returns 1.8%, the difference for that period is −0.2 percentage points. Which topic does it illustrate?",
           "choices": [
-            "Mutual funds",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Tracking error",
-            "Mutual fund categories"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Tracking error. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2529,9 +2529,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Tracking error?",
           "choices": [
-            "Mutual fund categories",
-            "Mutual funds",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Slides use √12 for monthly data and √252 for daily data. Fees, cash, transaction costs and flows can create tracking differences."
           ],
           "answer": 3,
@@ -2545,9 +2545,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Tracking error?",
           "choices": [
             "Periodic difference = fund return − benchmark return. Annualised tracking error = standard deviation of periodic differences × square root of periods per year.",
-            "Mutual fund categories",
-            "Mutual funds",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: Periodic difference = fund return − benchmark return. Annualised tracking error = standard deviation of periodic differences × square root of periods per year. Then connect it to the example and explain its financial implication.",
@@ -2582,9 +2582,9 @@
           "question": "Which statement best describes Portfolio construction?",
           "choices": [
             "It is deciding what goes into the investment basket and how much of each thing to hold.",
-            "Value investing",
-            "Quality investing",
-            "Factor investing"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "Portfolio construction is selecting and combining assets to fit goals, risk tolerance, liquidity and time horizon. In simple terms: It is deciding what goes into the investment basket and how much of each thing to hold.",
@@ -2596,10 +2596,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A portfolio may combine shares from different sectors, bonds and cash instead of depending on one company. Which topic does it illustrate?",
           "choices": [
-            "Factor investing",
+            "Financial institutions",
             "Portfolio construction",
-            "Value investing",
-            "Quality investing"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Portfolio construction. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2611,10 +2611,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Portfolio construction?",
           "choices": [
-            "Quality investing",
-            "Factor investing",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Diversification can reduce concentration risk but cannot eliminate broad market risk.",
-            "Value investing"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Diversification can reduce concentration risk but cannot eliminate broad market risk. This helps distinguish Portfolio construction from related concepts.",
@@ -2626,9 +2626,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Portfolio construction?",
           "choices": [
-            "Value investing",
-            "Quality investing",
-            "Factor investing",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The guide covers value, quality, factors, swing pricing and side pocketing."
           ],
           "answer": 3,
@@ -2661,9 +2661,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Value investing?",
           "choices": [
-            "Portfolio construction",
-            "Quality investing",
-            "Equity shares",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "They try to buy something for less than what they think it is worth."
           ],
           "answer": 3,
@@ -2677,9 +2677,9 @@
           "question": "A student is given this situation: A learner compares a company's share price with earnings, book value, cash flow, debt and outlook. Which topic does it illustrate?",
           "choices": [
             "Value investing",
-            "Portfolio construction",
-            "Quality investing",
-            "Equity shares"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Value investing. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2691,10 +2691,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Value investing?",
           "choices": [
-            "Equity shares",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Intrinsic value is an estimate, not a guaranteed price. An apparently cheap share may be cheap for a reason.",
-            "Portfolio construction",
-            "Quality investing"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Intrinsic value is an estimate, not a guaranteed price. An apparently cheap share may be cheap for a reason. This helps distinguish Value investing from related concepts.",
@@ -2706,10 +2706,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Value investing?",
           "choices": [
-            "Quality investing",
-            "Equity shares",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The guide mentions P/E, P/B, dividend yield and free cash flow.",
-            "Portfolio construction"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: The guide mentions P/E, P/B, dividend yield and free cash flow. Then connect it to the example and explain its financial implication.",
@@ -2741,10 +2741,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Quality investing?",
           "choices": [
-            "Value investing",
-            "Factor investing",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Look for companies that are financially strong and can sustain their business.",
-            "Portfolio construction"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "Quality investing focuses on businesses with strong financial health and durable advantages. In simple terms: Look for companies that are financially strong and can sustain their business.",
@@ -2756,9 +2756,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: One company may have lower debt, stable profits and stronger cash generation than a similar competitor. Which topic does it illustrate?",
           "choices": [
-            "Portfolio construction",
-            "Value investing",
-            "Factor investing",
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Quality investing"
           ],
           "answer": 3,
@@ -2772,9 +2772,9 @@
           "question": "Which point should you remember when analysing Quality investing?",
           "choices": [
             "A good company is not automatically a good investment at any price.",
-            "Portfolio construction",
-            "Value investing",
-            "Factor investing"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: A good company is not automatically a good investment at any price. This helps distinguish Quality investing from related concepts.",
@@ -2786,10 +2786,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Quality investing?",
           "choices": [
-            "Factor investing",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The guide highlights high ROE, low debt, stable earnings, strong cash flow and durable competitive advantage.",
-            "Portfolio construction",
-            "Value investing"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: The guide highlights high ROE, low debt, stable earnings, strong cash flow and durable competitive advantage. Then connect it to the example and explain its financial implication.",
@@ -2821,10 +2821,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Factor investing?",
           "choices": [
-            "Quality investing",
+            "They are the organisations doing the work inside the financial system.",
             "Instead of choosing only by company name, investors use characteristics such as value, momentum or quality.",
-            "Portfolio construction",
-            "Value investing"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "Factor investing groups securities by characteristics linked to patterns in risk and return. In simple terms: Instead of choosing only by company name, investors use characteristics such as value, momentum or quality.",
@@ -2836,10 +2836,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A momentum strategy may focus on securities with stronger recent price trends. Which topic does it illustrate?",
           "choices": [
-            "Value investing",
-            "Quality investing",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Factor investing",
-            "Portfolio construction"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Factor investing. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2851,9 +2851,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Factor investing?",
           "choices": [
-            "Portfolio construction",
-            "Value investing",
-            "Quality investing",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Value = inexpensive; momentum = recent trend; size = company size; quality = financial strength; low volatility = steadier price movement."
           ],
           "answer": 3,
@@ -2867,9 +2867,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Factor investing?",
           "choices": [
             "The guide lists value, momentum, size, quality, low volatility and growth.",
-            "Portfolio construction",
-            "Value investing",
-            "Quality investing"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: The guide lists value, momentum, size, quality, low volatility and growth. Then connect it to the example and explain its financial implication.",
@@ -2902,9 +2902,9 @@
           "question": "Which statement best describes Swing pricing?",
           "choices": [
             "If many people leave and the fund has to sell assets, the cost should not unfairly fall on only the investors who stay.",
-            "Portfolio construction",
-            "Side pocketing",
-            "NAV — Net Asset Value"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "Swing pricing adjusts a fund's NAV during large inflows or outflows so the investors causing trading costs bear more of them. In simple terms: If many people leave and the fund has to sell assets, the cost should not unfairly fall on only the investors who stay.",
@@ -2916,10 +2916,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: Large redemptions can force a fund to trade and incur costs; an NAV adjustment aims to allocate those costs more fairly. Which topic does it illustrate?",
           "choices": [
-            "NAV — Net Asset Value",
+            "Financial institutions",
             "Swing pricing",
-            "Portfolio construction",
-            "Side pocketing"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Swing pricing. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -2931,10 +2931,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Swing pricing?",
           "choices": [
-            "Side pocketing",
-            "NAV — Net Asset Value",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "It is intended to reduce dilution for continuing investors; actual application depends on scheme rules.",
-            "Portfolio construction"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: It is intended to reduce dilution for continuing investors; actual application depends on scheme rules. This helps distinguish Swing pricing from related concepts.",
@@ -2946,9 +2946,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Swing pricing?",
           "choices": [
-            "Portfolio construction",
-            "Side pocketing",
-            "NAV — Net Asset Value",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The guide gives an illustrative NAV adjustment from ₹100 to ₹98."
           ],
           "answer": 3,
@@ -2981,9 +2981,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Side pocketing?",
           "choices": [
-            "Portfolio construction",
-            "Swing pricing",
-            "NAV — Net Asset Value",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Put the difficult-to-sell investment in a separate pocket so it does not distort the liquid part of the fund."
           ],
           "answer": 3,
@@ -2997,9 +2997,9 @@
           "question": "A student is given this situation: If a bond becomes difficult to sell or value, it may be segregated while the main portfolio continues operating. Which topic does it illustrate?",
           "choices": [
             "Side pocketing",
-            "Portfolio construction",
-            "Swing pricing",
-            "NAV — Net Asset Value"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Side pocketing. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3011,10 +3011,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Side pocketing?",
           "choices": [
-            "NAV — Net Asset Value",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Recovery is uncertain. The technique separates valuation/liquidity issues rather than making the loss disappear.",
-            "Portfolio construction",
-            "Swing pricing"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Recovery is uncertain. The technique separates valuation/liquidity issues rather than making the loss disappear. This helps distinguish Side pocketing from related concepts.",
@@ -3026,10 +3026,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Side pocketing?",
           "choices": [
-            "Swing pricing",
-            "NAV — Net Asset Value",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Investors present at segregation retain entitlement to recovery from the side pocket; new investors are not exposed to that isolated asset.",
-            "Portfolio construction"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: Investors present at segregation retain entitlement to recovery from the side pocket; new investors are not exposed to that isolated asset. Then connect it to the example and explain its financial implication.",
@@ -3062,10 +3062,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Derivatives?",
           "choices": [
-            "Futures contracts",
-            "Options: calls and puts",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Its value is derived from something else: a share, index, currency, rate or commodity.",
-            "Forward contracts"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "A derivative is a contract whose value depends on another asset, called the underlying. In simple terms: Its value is derived from something else: a share, index, currency, rate or commodity.",
@@ -3077,9 +3077,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A futures contract on an index changes value as the index/futures price changes. Which topic does it illustrate?",
           "choices": [
-            "Forward contracts",
-            "Futures contracts",
-            "Options: calls and puts",
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Derivatives"
           ],
           "answer": 3,
@@ -3093,9 +3093,9 @@
           "question": "Which point should you remember when analysing Derivatives?",
           "choices": [
             "Derivatives can be used for hedging, speculation and arbitrage.",
-            "Forward contracts",
-            "Futures contracts",
-            "Options: calls and puts"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Derivatives can be used for hedging, speculation and arbitrage. This helps distinguish Derivatives from related concepts.",
@@ -3107,10 +3107,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Derivatives?",
           "choices": [
-            "Options: calls and puts",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The slides introduce forwards, futures, options, swaps and swaptions.",
-            "Forward contracts",
-            "Futures contracts"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: The slides introduce forwards, futures, options, swaps and swaptions. Then connect it to the example and explain its financial implication.",
@@ -3143,10 +3143,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Forward contracts?",
           "choices": [
-            "Commodity derivatives",
+            "They are the organisations doing the work inside the financial system.",
             "Two parties customise a deal now and promise to complete it later.",
-            "Derivatives",
-            "Futures contracts"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "A forward is a private agreement today to buy or sell an asset at an agreed price on a future date. In simple terms: Two parties customise a deal now and promise to complete it later.",
@@ -3158,10 +3158,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A jeweller agrees to buy 15 kg of gold in three months at ₹2,450 per gram. If market price rises, the jeweller benefits; if it falls, the agreed price still applies. Which topic does it illustrate?",
           "choices": [
-            "Futures contracts",
-            "Commodity derivatives",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Forward contracts",
-            "Derivatives"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Forward contracts. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3173,9 +3173,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Forward contracts?",
           "choices": [
-            "Derivatives",
-            "Futures contracts",
-            "Commodity derivatives",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Risks include counterparty default, low liquidity and rigidity."
           ],
           "answer": 3,
@@ -3189,9 +3189,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Forward contracts?",
           "choices": [
             "Forwards are OTC and can be customised for quantity, quality, price and date. Both sides are obligated.",
-            "Derivatives",
-            "Futures contracts",
-            "Commodity derivatives"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: Forwards are OTC and can be customised for quantity, quality, price and date. Both sides are obligated. Then connect it to the example and explain its financial implication.",
@@ -3226,9 +3226,9 @@
           "question": "Which statement best describes Futures contracts?",
           "choices": [
             "Like a forward, but standardised and exchange-traded.",
-            "Derivatives",
-            "Forward contracts",
-            "Futures margin and leverage"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "A future is a standardised agreement traded on an exchange to buy or sell an underlying at a predetermined price/date. In simple terms: Like a forward, but standardised and exchange-traded.",
@@ -3240,10 +3240,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: Buy 100 futures at 8,350 and exit at 8,475: profit = 100 × 125 = ₹12,500 before costs. Which topic does it illustrate?",
           "choices": [
-            "Futures margin and leverage",
+            "Financial institutions",
             "Futures contracts",
-            "Derivatives",
-            "Forward contracts"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Futures contracts. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3255,10 +3255,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Futures contracts?",
           "choices": [
-            "Forward contracts",
-            "Futures margin and leverage",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Long benefits from rising prices; short benefits from falling prices. Open interest counts outstanding contracts once.",
-            "Derivatives"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Long benefits from rising prices; short benefits from falling prices. Open interest counts outstanding contracts once. This helps distinguish Futures contracts from related concepts.",
@@ -3270,9 +3270,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Futures contracts?",
           "choices": [
-            "Derivatives",
-            "Forward contracts",
-            "Futures margin and leverage",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Futures specify lot size and expiry, require margin and can generally be closed by an opposite trade."
           ],
           "answer": 3,
@@ -3305,9 +3305,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Futures margin and leverage?",
           "choices": [
-            "Futures contracts",
-            "Mark-to-market",
-            "The financial system",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "You put down a deposit but your gains and losses are based on a much larger position."
           ],
           "answer": 3,
@@ -3321,9 +3321,9 @@
           "question": "A student is given this situation: Contract value ₹835,000 at 15% margin requires ₹125,250 margin. Which topic does it illustrate?",
           "choices": [
             "Futures margin and leverage",
-            "Futures contracts",
-            "Mark-to-market",
-            "The financial system"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Futures margin and leverage. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3335,10 +3335,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Futures margin and leverage?",
           "choices": [
-            "The financial system",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Leverage magnifies both gains and losses. Margin is not the maximum possible loss.",
-            "Futures contracts",
-            "Mark-to-market"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Leverage magnifies both gains and losses. Margin is not the maximum possible loss. This helps distinguish Futures margin and leverage from related concepts.",
@@ -3350,10 +3350,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Futures margin and leverage?",
           "choices": [
-            "Mark-to-market",
-            "The financial system",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Initial margin = SPAN margin + exposure margin, as described in the slides.",
-            "Futures contracts"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: Initial margin = SPAN margin + exposure margin, as described in the slides. Then connect it to the example and explain its financial implication.",
@@ -3385,10 +3385,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Mark-to-market?",
           "choices": [
-            "Futures margin and leverage",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Every trading day, the exchange works out how much the position gained or lost since the previous reference price.",
-            "Futures contracts"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "Futures positions are revalued each day and daily gains/losses are credited/debited. In simple terms: Every trading day, the exchange works out how much the position gained or lost since the previous reference price.",
@@ -3400,9 +3400,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A long 2,000-unit position moves from ₹165 to ₹168.30: daily M2M = (168.30−165)×2,000 = ₹6,600 gain. Which topic does it illustrate?",
           "choices": [
-            "Futures contracts",
-            "Futures margin and leverage",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Mark-to-market"
           ],
           "answer": 3,
@@ -3416,9 +3416,9 @@
           "question": "Which point should you remember when analysing Mark-to-market?",
           "choices": [
             "Maintain a running margin balance and compare it with initial/maintenance margin as required by the question.",
-            "Futures contracts",
-            "Futures margin and leverage",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Maintain a running margin balance and compare it with initial/maintenance margin as required by the question. This helps distinguish Mark-to-market from related concepts.",
@@ -3430,10 +3430,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Mark-to-market?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Daily M2M for a long = (today's close − previous reference price) × quantity.",
-            "Futures contracts",
-            "Futures margin and leverage"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: Daily M2M for a long = (today's close − previous reference price) × quantity. Then connect it to the example and explain its financial implication.",
@@ -3464,10 +3464,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Cost of carry and fair futures price?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "Holding the underlying has costs and sometimes benefits; those affect the fair futures price.",
-            "Futures contracts",
-            "Forward contracts"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "Futures pricing reflects spot price, financing cost, income from holding the asset and time to expiry. In simple terms: Holding the underlying has costs and sometimes benefits; those affect the fair futures price.",
@@ -3479,10 +3479,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: The class example uses spot Nifty 1,150, financing 11%, dividend yield 1% and one month to expiry, giving an illustrative futures price near 1,159. Which topic does it illustrate?",
           "choices": [
-            "Forward contracts",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Cost of carry and fair futures price",
-            "Futures contracts"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Cost of carry and fair futures price. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3494,9 +3494,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Cost of carry and fair futures price?",
           "choices": [
-            "Futures contracts",
-            "Forward contracts",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Financing cost generally raises fair futures price; income such as dividends can reduce it."
           ],
           "answer": 3,
@@ -3510,9 +3510,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Cost of carry and fair futures price?",
           "choices": [
             "Simplified slide formula: F = S × [1 + (r − d)]^t; S=spot, r=financing rate, d=dividend yield, t=time in years.",
-            "Futures contracts",
-            "Forward contracts",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: Simplified slide formula: F = S × [1 + (r − d)]^t; S=spot, r=financing rate, d=dividend yield, t=time in years. Then connect it to the example and explain its financial implication.",
@@ -3545,9 +3545,9 @@
           "question": "Which statement best describes Options: calls and puts?",
           "choices": [
             "The buyer gets a choice; the seller has to fulfil the contract if the buyer uses that choice.",
-            "Option payoff and moneyness",
-            "Option strategies",
-            "The financial system"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "An option buyer pays a premium for a right, not an obligation. The seller receives premium and takes on an obligation if exercised. In simple terms: The buyer gets a choice; the seller has to fulfil the contract if the buyer uses that choice.",
@@ -3559,10 +3559,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A call gives the right to buy at strike. A put gives the right to sell at strike. Which topic does it illustrate?",
           "choices": [
-            "The financial system",
+            "Financial institutions",
             "Options: calls and puts",
-            "Option payoff and moneyness",
-            "Option strategies"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Options: calls and puts. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3574,10 +3574,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Options: calls and puts?",
           "choices": [
-            "Option strategies",
-            "The financial system",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Call buyer = right to buy. Put buyer = right to sell. Long option pays premium; short option receives premium.",
-            "Option payoff and moneyness"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Call buyer = right to buy. Put buyer = right to sell. Long option pays premium; short option receives premium. This helps distinguish Options: calls and puts from related concepts.",
@@ -3589,9 +3589,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Options: calls and puts?",
           "choices": [
-            "Option payoff and moneyness",
-            "Option strategies",
-            "The financial system",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Strike price is the agreed exercise price; premium is the option price paid by buyer."
           ],
           "answer": 3,
@@ -3624,9 +3624,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Option payoff and moneyness?",
           "choices": [
-            "Options: calls and puts",
-            "Option strategies",
-            "The financial system",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "First work out whether exercising has value. Then include the premium paid or received."
           ],
           "answer": 3,
@@ -3640,9 +3640,9 @@
           "question": "A student is given this situation: Long call net P/L = max(S−K,0)−premium. Long put net P/L = max(K−S,0)−premium. Which topic does it illustrate?",
           "choices": [
             "Option payoff and moneyness",
-            "Options: calls and puts",
-            "Option strategies",
-            "The financial system"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Option payoff and moneyness. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3654,10 +3654,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Option payoff and moneyness?",
           "choices": [
-            "The financial system",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Do not confuse payoff with net P/L. A buyer's maximum loss is the premium paid.",
-            "Options: calls and puts",
-            "Option strategies"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Do not confuse payoff with net P/L. A buyer's maximum loss is the premium paid. This helps distinguish Option payoff and moneyness from related concepts.",
@@ -3669,10 +3669,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Option payoff and moneyness?",
           "choices": [
-            "Option strategies",
-            "The financial system",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Call ITM if S>K; put ITM if S<K. Time value = premium − intrinsic value.",
-            "Options: calls and puts"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: Call ITM if S>K; put ITM if S<K. Time value = premium − intrinsic value. Then connect it to the example and explain its financial implication.",
@@ -3707,10 +3707,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Option strategies?",
           "choices": [
-            "Covered call",
-            "Protective put",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "Break the strategy into separate legs, calculate each leg, then add them together.",
-            "Options: calls and puts"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "An option strategy combines positions to express a market view or manage risk. In simple terms: Break the strategy into separate legs, calculate each leg, then add them together.",
@@ -3722,9 +3722,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: Bull call spread buys a lower-strike call and sells a higher-strike call. The short call reduces cost but caps upside. Which topic does it illustrate?",
           "choices": [
-            "Options: calls and puts",
-            "Covered call",
-            "Protective put",
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Option strategies"
           ],
           "answer": 3,
@@ -3738,9 +3738,9 @@
           "question": "Which point should you remember when analysing Option strategies?",
           "choices": [
             "Always include premiums. State break-even, maximum gain and maximum loss where relevant.",
-            "Options: calls and puts",
-            "Covered call",
-            "Protective put"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: Always include premiums. State break-even, maximum gain and maximum loss where relevant. This helps distinguish Option strategies from related concepts.",
@@ -3752,10 +3752,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Option strategies?",
           "choices": [
-            "Protective put",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Covered call = long stock + short call. Protective put = long stock + long put. Bull call spread = long lower call + short higher call. Bear put spread = long higher put + short lower put.",
-            "Options: calls and puts",
-            "Covered call"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: Covered call = long stock + short call. Protective put = long stock + long put. Bull call spread = long lower call + short higher call. Bear put spread = long higher put + short lower put. Then connect it to the example and explain its financial implication.",
@@ -3787,10 +3787,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Covered call?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "You collect premium but agree to sell the shares at the strike if the option is exercised.",
-            "Option strategies",
-            "Protective put"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "A covered call means owning shares and selling a call option against them. In simple terms: You collect premium but agree to sell the shares at the strike if the option is exercised.",
@@ -3802,10 +3802,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: Class example: 500 Reliance shares at ₹2,400; short call strike ₹2,500; premium ₹45. Break-even ₹2,355; maximum gain ₹145 per share under the example's one-to-one assumption. Which topic does it illustrate?",
           "choices": [
-            "Protective put",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Covered call",
-            "Option strategies"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Covered call. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3817,9 +3817,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Covered call?",
           "choices": [
-            "Option strategies",
-            "Protective put",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Upside is capped above strike; share downside remains, cushioned by premium."
           ],
           "answer": 3,
@@ -3833,9 +3833,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Covered call?",
           "choices": [
             "Net P/L combines share P/L, short-call payoff and premium received.",
-            "Option strategies",
-            "Protective put",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: Net P/L combines share P/L, short-call payoff and premium received. Then connect it to the example and explain its financial implication.",
@@ -3868,9 +3868,9 @@
           "question": "Which statement best describes Protective put?",
           "choices": [
             "The put acts like insurance: if the share falls below strike, the put gains value.",
-            "Option strategies",
-            "Covered call",
-            "The financial system"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "A protective put means owning shares and buying a put to protect against a fall. In simple terms: The put acts like insurance: if the share falls below strike, the put gains value.",
@@ -3882,10 +3882,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: Class example: Infosys purchase price ₹1,500; put strike ₹1,480; premium ₹40. Break-even ₹1,540 and maximum loss ₹60 per share. Which topic does it illustrate?",
           "choices": [
-            "The financial system",
+            "Financial institutions",
             "Protective put",
-            "Option strategies",
-            "Covered call"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Protective put. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3897,10 +3897,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Protective put?",
           "choices": [
-            "Covered call",
-            "The financial system",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "The premium is the cost of protection; upside remains if the share rises.",
-            "Option strategies"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: The premium is the cost of protection; upside remains if the share rises. This helps distinguish Protective put from related concepts.",
@@ -3912,9 +3912,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Protective put?",
           "choices": [
-            "Option strategies",
-            "Covered call",
-            "The financial system",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Net P/L = stock P/L + put payoff − premium. Break-even = purchase price + premium."
           ],
           "answer": 3,
@@ -3947,9 +3947,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Bull call spread?",
           "choices": [
-            "Option strategies",
-            "Bear put spread",
-            "The financial system",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "The second call helps pay for the first, but limits how much you can make."
           ],
           "answer": 3,
@@ -3963,9 +3963,9 @@
           "question": "A student is given this situation: Class example: buy 19,300 call for ₹150; sell 19,500 call for ₹70. Net debit ₹80; max loss ₹80; max gain ₹120; break-even ₹19,380. Which topic does it illustrate?",
           "choices": [
             "Bull call spread",
-            "Option strategies",
-            "Bear put spread",
-            "The financial system"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Bull call spread. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -3977,10 +3977,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Bull call spread?",
           "choices": [
-            "The financial system",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "The maximum loss is the net debit; maximum gain is capped.",
-            "Option strategies",
-            "Bear put spread"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: The maximum loss is the net debit; maximum gain is capped. This helps distinguish Bull call spread from related concepts.",
@@ -3992,10 +3992,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Bull call spread?",
           "choices": [
-            "Bear put spread",
-            "The financial system",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Maximum gain = strike difference − net debit. Break-even = lower strike + net debit.",
-            "Option strategies"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: Maximum gain = strike difference − net debit. Break-even = lower strike + net debit. Then connect it to the example and explain its financial implication.",
@@ -4027,10 +4027,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Bear put spread?",
           "choices": [
-            "Bull call spread",
-            "The financial system",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "The second put reduces the cost of protection/profit opportunity but caps the gain.",
-            "Option strategies"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it."
           ],
           "answer": 2,
           "explanation": "Buy a higher-strike put and sell a lower-strike put with the same expiry; expect a moderate fall. In simple terms: The second put reduces the cost of protection/profit opportunity but caps the gain.",
@@ -4042,9 +4042,9 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: Class example: buy 19,000 put for ₹120; sell 18,800 put for ₹80. Net debit ₹40; max loss ₹40; max gain ₹160; break-even ₹18,960. Which topic does it illustrate?",
           "choices": [
-            "Option strategies",
-            "Bull call spread",
             "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Bear put spread"
           ],
           "answer": 3,
@@ -4058,9 +4058,9 @@
           "question": "Which point should you remember when analysing Bear put spread?",
           "choices": [
             "The maximum loss is the net debit; maximum gain is capped.",
-            "Option strategies",
-            "Bull call spread",
-            "The financial system"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers."
           ],
           "answer": 0,
           "explanation": "The defining point is: The maximum loss is the net debit; maximum gain is capped. This helps distinguish Bear put spread from related concepts.",
@@ -4072,10 +4072,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Bear put spread?",
           "choices": [
-            "The financial system",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "Maximum gain = strike difference − net debit. Break-even = higher strike − net debit.",
-            "Option strategies",
-            "Bull call spread"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
           ],
           "answer": 1,
           "explanation": "A strong answer should state the core idea precisely: Maximum gain = strike difference − net debit. Break-even = higher strike − net debit. Then connect it to the example and explain its financial implication.",
@@ -4106,10 +4106,10 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Commodity markets?",
           "choices": [
-            "The financial system",
+            "They are the organisations doing the work inside the financial system.",
             "These are markets for physical goods, not company shares or bonds.",
-            "Commodity derivatives",
-            "Commodity exchanges"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products."
           ],
           "answer": 1,
           "explanation": "Commodity markets trade movable, tangible goods such as metals, energy and agricultural products. In simple terms: These are markets for physical goods, not company shares or bonds.",
@@ -4121,10 +4121,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A farmer worries wheat prices may fall before harvest; a food producer worries prices may rise before buying supplies. Which topic does it illustrate?",
           "choices": [
-            "Commodity exchanges",
-            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions",
             "Commodity markets",
-            "Commodity derivatives"
+            "The financial system"
           ],
           "answer": 2,
           "explanation": "This situation illustrates Commodity markets. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -4136,9 +4136,9 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Commodity markets?",
           "choices": [
-            "Commodity derivatives",
-            "Commodity exchanges",
-            "The financial system",
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Quality, location, storage, transport and perishability can affect commodity prices."
           ],
           "answer": 3,
@@ -4152,9 +4152,9 @@
           "question": "Which explanation would be most accurate in an exam answer on Commodity markets?",
           "choices": [
             "The slides classify commodities as perishable/non-perishable and consumable/non-consumable.",
-            "Commodity derivatives",
-            "Commodity exchanges",
-            "The financial system"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
           ],
           "answer": 0,
           "explanation": "A strong answer should state the core idea precisely: The slides classify commodities as perishable/non-perishable and consumable/non-consumable. Then connect it to the example and explain its financial implication.",
@@ -4189,9 +4189,9 @@
           "question": "Which statement best describes Commodity derivatives?",
           "choices": [
             "They help farmers, producers and users manage uncertainty about future commodity prices.",
-            "Commodity markets",
-            "Commodity exchanges",
-            "Forward contracts"
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system."
           ],
           "answer": 0,
           "explanation": "Commodity derivatives are contracts whose value depends on a physical commodity's price. In simple terms: They help farmers, producers and users manage uncertainty about future commodity prices.",
@@ -4203,10 +4203,10 @@
           "difficulty": "02 · Apply",
           "question": "A student is given this situation: A farmer sells wheat futures to reduce the risk of a price fall before harvest. A buyer can hedge against prices rising. Which topic does it illustrate?",
           "choices": [
-            "Forward contracts",
+            "Financial institutions",
             "Commodity derivatives",
-            "Commodity markets",
-            "Commodity exchanges"
+            "The financial system",
+            "Financial markets and their functions"
           ],
           "answer": 1,
           "explanation": "This situation illustrates Commodity derivatives. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -4218,10 +4218,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Commodity derivatives?",
           "choices": [
-            "Commodity exchanges",
-            "Forward contracts",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Hedging reduces existing price exposure; speculation seeks profit from price movement; arbitrage exploits price differences.",
-            "Commodity markets"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants."
           ],
           "answer": 2,
           "explanation": "The defining point is: Hedging reduces existing price exposure; speculation seeks profit from price movement; arbitrage exploits price differences. This helps distinguish Commodity derivatives from related concepts.",
@@ -4233,9 +4233,9 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Commodity derivatives?",
           "choices": [
-            "Commodity markets",
-            "Commodity exchanges",
-            "Forward contracts",
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system.",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The slides cover futures, options, forwards and swaps. Participants include hedgers, speculators and arbitrageurs."
           ],
           "answer": 3,
@@ -4267,9 +4267,9 @@
           "difficulty": "01 · Understand",
           "question": "Which statement best describes Commodity exchanges?",
           "choices": [
-            "Commodity markets",
-            "Commodity derivatives",
-            "The financial system",
+            "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+            "A market connects buyers and sellers and helps establish a price for financial products.",
+            "They are the organisations doing the work inside the financial system.",
             "They bring buyers and sellers together under common contract and delivery rules."
           ],
           "answer": 3,
@@ -4283,9 +4283,9 @@
           "question": "A student is given this situation: NCDEX is described as agriculture-focused; MCX covers bullion, energy and metals among other commodity groups. Which topic does it illustrate?",
           "choices": [
             "Commodity exchanges",
-            "Commodity markets",
-            "Commodity derivatives",
-            "The financial system"
+            "The financial system",
+            "Financial markets and their functions",
+            "Financial institutions"
           ],
           "answer": 0,
           "explanation": "This situation illustrates Commodity exchanges. Identify the financial idea being applied, then connect it to the facts in the example.",
@@ -4297,10 +4297,10 @@
           "difficulty": "03 · Distinguish",
           "question": "Which point should you remember when analysing Commodity exchanges?",
           "choices": [
-            "The financial system",
+            "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
             "Physical delivery can require warehouses, transport and quality checks; storage, perishability and location matter.",
-            "Commodity markets",
-            "Commodity derivatives"
+            "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+            "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact."
           ],
           "answer": 1,
           "explanation": "The defining point is: Physical delivery can require warehouses, transport and quality checks; storage, perishability and location matter. This helps distinguish Commodity exchanges from related concepts.",
@@ -4312,10 +4312,10 @@
           "difficulty": "04 · Exam style",
           "question": "Which explanation would be most accurate in an exam answer on Commodity exchanges?",
           "choices": [
-            "Commodity derivatives",
-            "The financial system",
+            "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability.",
+            "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds.",
             "The slides also name TOCOM, Dalian Commodity Exchange, Shanghai Futures Exchange and CME Group.",
-            "Commodity markets"
+            "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
           ],
           "answer": 2,
           "explanation": "A strong answer should state the core idea precisely: The slides also name TOCOM, Dalian Commodity Exchange, Shanghai Futures Exchange and CME Group. Then connect it to the example and explain its financial implication.",
