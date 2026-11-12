@@ -274,7 +274,8 @@
       "related": [
         "financial-system",
         "secondary-market"
-      ]
+      ],
+      "classNotes": "Class note: Money market instruments are short-term and generally mature within 365 days. The handwritten notes contrast CDs as wholesale in nature with FDs as generally retail. Call money is very short-term funding used when money is needed immediately; a rise in call-money rates can signal tight short-term liquidity."
     },
     {
       "id": "institutions",
@@ -291,7 +292,8 @@
       "related": [
         "financial-system",
         "financial-services"
-      ]
+      ],
+      "classNotes": "Class note: The notes distinguish neobanks (for example, Jupiter) from banks with physical branches. They also compare factoring and forfaiting as receivables-finance arrangements; the exact distinction depends on the tenor and nature of the receivable, so check the lecture wording before using it in an exam answer."
     },
     {
       "id": "financial-services",
@@ -308,7 +310,8 @@
       "related": [
         "institutions",
         "ipo-process"
-      ]
+      ],
+      "classNotes": "Class note: The handwritten pages also mention bill discounting, factoring, forfaiting, export credit and letters of credit. These are trade-finance tools: they help a seller receive funds earlier or help a buyer/seller manage payment risk."
     },
     {
       "id": "startup-funding",
@@ -430,7 +433,8 @@
         "secondary-market",
         "futures",
         "options"
-      ]
+      ],
+      "classNotes": "Class note — order practice: a buy limit order at ₹4,300 will not execute immediately if the market is ₹4,400; it can execute only at ₹4,300 or lower. A buy stop is a trigger order: if the trigger is ₹730, it activates when the market reaches the trigger, with execution depending on the order type and available price. A stop-loss sell with trigger ₹1,510 and limit ₹1,500 becomes a limit sell after the trigger; it is not guaranteed to execute."
     },
     {
       "id": "equity-shares",
@@ -485,7 +489,8 @@
         "ytm",
         "duration",
         "discount-yield"
-      ]
+      ],
+      "classNotes": "Class note — valuation method: discount every coupon separately and discount face value at maturity, then add the present values. For semi-annual coupons, convert the annual coupon and annual yield into per-period amounts and double the number of periods. The notes work through a ₹1,000 face-value bond with a 9% annual coupon, five years to maturity and a 10% required yield; the approximate value is ₹962.07 when coupons are annual."
     },
     {
       "id": "ytm",
@@ -502,7 +507,8 @@
       "related": [
         "bond-pricing",
         "duration"
-      ]
+      ],
+      "classNotes": "Class note: YTM is the discount rate that equates the present value of all promised coupon and principal cash flows with the current market price. The handwritten examples also distinguish current yield (annual coupon ÷ current market price × 100) from YTM. For a callable bond, compare yield to call with YTM; the notes indicate choosing the more conservative/higher yield convention where required by the question."
     },
     {
       "id": "duration",
@@ -519,7 +525,8 @@
       "related": [
         "bond-pricing",
         "ytm"
-      ]
+      ],
+      "classNotes": "Class note: Macaulay duration is the weighted average time at which the bond's present-value cash flows are received. Modified duration estimates price sensitivity: approximate percentage price change ≈ − modified duration × change in yield. The lecture also notes that higher duration generally means greater price sensitivity, all else equal."
     },
     {
       "id": "discount-yield",
@@ -536,7 +543,8 @@
       "related": [
         "bond-pricing",
         "bond-basics"
-      ]
+      ],
+      "classNotes": "Class note: Keep the denominator straight. Effective yield uses the purchase price; bank discount yield uses face value. The handwritten notes introduce money-market instruments alongside this topic and emphasise the short maturity of money-market claims."
     },
     {
       "id": "prospect-theory",
@@ -640,7 +648,8 @@
         "mutual-funds",
         "nav-adjustments",
         "ter"
-      ]
+      ],
+      "classNotes": "Class note — NAV workflow: add market value of investments and other assets, include accrued income where relevant, subtract liabilities and accrued expenses, then divide by units outstanding. The handwritten examples include dividends, ex-dividend NAV, reinvestment at the ex-dividend NAV and revised unit counts. Do not subtract a dividend twice: adjust NAV and units consistently with the scheme's stated treatment."
     },
     {
       "id": "nav-adjustments",
@@ -657,7 +666,8 @@
       "related": [
         "nav",
         "mutual-funds"
-      ]
+      ],
+      "classNotes": "Class note — dividend/reinvestment: the pages show a cum-dividend NAV, an ex-dividend NAV after the distribution, and reinvestment of the dividend amount into additional units at the ex-dividend NAV. Holding-period return is calculated as (final value − initial investment) ÷ initial investment × 100; include cash distributions if they were paid out rather than reinvested."
     },
     {
       "id": "ter",
@@ -744,7 +754,8 @@
       "related": [
         "fund-categories",
         "mutual-funds"
-      ]
+      ],
+      "classNotes": "Class note — calculation sequence: calculate each period's active return (fund return − benchmark return), find the mean active return, calculate deviations from that mean, square and sum them, divide by n−1 for sample variance, take the square root for monthly tracking error, then annualise by multiplying by √12. The handwritten worked examples use monthly observations."
     },
     {
       "id": "portfolio-construction",
@@ -891,7 +902,8 @@
         "derivatives",
         "futures",
         "commodity-derivatives"
-      ]
+      ],
+      "classNotes": "Class note: The lecture's futures/forwards section uses long position for a buyer of the contract and short position for a seller. A long benefits when the futures price rises; a short benefits when it falls. Both sides are obligated under a forward, unlike an option buyer."
     },
     {
       "id": "futures",
@@ -910,7 +922,8 @@
         "forwards",
         "futures-margin",
         "mark-to-market"
-      ]
+      ],
+      "classNotes": "Class note — futures P/L: for a long futures position, gross P/L per unit = closing/exit futures price − entry futures price. For a short position, reverse the subtraction. Deduct transaction costs on the relevant legs. One handwritten SBI illustration uses entry ₹269.80, expiry/closing ₹275 and ₹0.20 transaction cost per unit, giving ₹5 net per unit or ₹5,000 for 1,000 units under that illustration's stated cost assumption."
     },
     {
       "id": "futures-margin",
@@ -927,7 +940,8 @@
       "related": [
         "futures",
         "mark-to-market"
-      ]
+      ],
+      "classNotes": "Class note: Margin is a performance deposit, not the purchase price of the underlying. The pages distinguish initial margin from mark-to-market settlement and note that leverage makes gains and losses large relative to the margin deposited."
     },
     {
       "id": "mark-to-market",
@@ -944,7 +958,8 @@
       "related": [
         "futures",
         "futures-margin"
-      ]
+      ],
+      "classNotes": "Class note: Mark-to-market settles the daily gain or loss on an open futures position. A long position gains when the settlement price rises and loses when it falls; a short position behaves in the opposite way. Margin may need replenishment after adverse daily movements."
     },
     {
       "id": "cost-of-carry",
@@ -978,7 +993,8 @@
       "related": [
         "option-payoffs",
         "option-strategies"
-      ]
+      ],
+      "classNotes": "Class note: An option buyer pays a premium for a right, not an obligation. A call gives the right to buy; a put gives the right to sell. The option seller/writer receives the premium and takes on the corresponding obligation if exercised."
     },
     {
       "id": "option-payoffs",
@@ -995,7 +1011,8 @@
       "related": [
         "options",
         "option-strategies"
-      ]
+      ],
+      "classNotes": "Class note: Intrinsic value is the immediate exercise value; time value is the portion of premium above intrinsic value. A call is in-the-money when market price is above strike; a put is in-the-money when market price is below strike. At-the-money means market price and strike are equal (or very close, depending on the convention used)."
     },
     {
       "id": "option-strategies",
@@ -1015,7 +1032,8 @@
         "protective-put",
         "bull-call-spread",
         "bear-put-spread"
-      ]
+      ],
+      "classNotes": "Class note — strategy identification: covered call = long underlying + short call; protective put = long underlying + long put; bull call spread = buy lower-strike call and sell higher-strike call; bear put spread = buy higher-strike put and sell lower-strike put. The notes stress that a spread has two option legs and its payoff must be calculated by combining both legs with the net premium."
     },
     {
       "id": "covered-call",
@@ -1032,7 +1050,8 @@
       "related": [
         "option-strategies",
         "protective-put"
-      ]
+      ],
+      "classNotes": "Class note: A covered call is used when the investor already owns the underlying and sells a call to collect premium. The premium cushions a limited fall, but upside is capped above the strike because the short call may be exercised."
     },
     {
       "id": "protective-put",
@@ -1049,7 +1068,8 @@
       "related": [
         "option-strategies",
         "covered-call"
-      ]
+      ],
+      "classNotes": "Class note: A protective put combines ownership of the underlying with a bought put. It creates a downside floor (before considering costs) while retaining upside participation; the premium is the cost of that protection."
     },
     {
       "id": "bull-call-spread",
@@ -1066,7 +1086,8 @@
       "related": [
         "option-strategies",
         "bear-put-spread"
-      ]
+      ],
+      "classNotes": "Class note: The handwritten pages describe buying a lower-strike call and selling a higher-strike call. Net debit is the premium paid minus premium received; maximum loss is the net debit, maximum gain is strike difference minus net debit, and break-even is lower strike plus net debit."
     },
     {
       "id": "bear-put-spread",
@@ -1083,7 +1104,8 @@
       "related": [
         "option-strategies",
         "bull-call-spread"
-      ]
+      ],
+      "classNotes": "Class note: Buy a higher-strike put and sell a lower-strike put. Net debit is premium paid minus premium received; maximum loss is the net debit, maximum gain is strike difference minus net debit, and break-even is higher strike minus net debit."
     },
     {
       "id": "commodity-markets",
@@ -1119,7 +1141,8 @@
         "commodity-exchanges",
         "forwards",
         "futures"
-      ]
+      ],
+      "classNotes": "Class note: The lecture examples calculate futures gains/losses for long and short positions, include brokerage/transaction costs, and use simultaneous cash-market and futures positions to demonstrate hedging. A hedge is intended to reduce exposure to an adverse price movement, not guarantee a profit."
     },
     {
       "id": "commodity-exchanges",
@@ -1143,15 +1166,16 @@
     {
       "id": "q1",
       "topic": "financial-markets",
-      "question": "A company sells newly issued shares to raise money. Which market is this?",
+      "difficulty": "1 · Foundation",
+      "question": "A company issues fresh shares to investors to raise new capital. Where does this transaction take place?",
       "choices": [
         "Secondary market",
         "Primary market",
         "Commodity spot market",
-        "Forex market"
+        "Foreign-exchange market"
       ],
       "answer": 1,
-      "explanation": "The primary market is where an issuer sells new securities and raises funds. Secondary markets trade securities that have already been issued.",
+      "explanation": "The primary market is where securities are issued for the first time and the issuer raises funds. Once those securities are traded between investors, the trades occur in the secondary market.",
       "related": [
         "ipo-process",
         "secondary-market"
@@ -1159,155 +1183,165 @@
     },
     {
       "id": "q2",
-      "topic": "bond-pricing",
-      "question": "If market yields rise, what generally happens to the price of an existing fixed-coupon bond?",
+      "topic": "financial-markets",
+      "difficulty": "2 · Understanding",
+      "question": "Which statement best explains why a rise in call-money rates can indicate tighter short-term liquidity?",
       "choices": [
-        "It rises",
-        "It falls",
-        "It stays exactly the same",
-        "It becomes zero"
+        "Banks have more surplus funds to lend overnight",
+        "Immediate/very short-term funds are becoming scarcer relative to demand",
+        "Long-term corporate bonds have become risk-free",
+        "Equity market turnover must have increased"
       ],
       "answer": 1,
-      "explanation": "New bonds may offer higher yields, making the old fixed coupon less attractive. Its price generally falls until its yield is competitive.",
+      "explanation": "Call money is very short-term borrowing and lending. When demand for immediate funds is high relative to available supply, the rate can rise. It is a liquidity signal, not proof by itself of a wider market event.",
+      "related": [
+        "financial-system",
+        "discount-yield"
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "trading-orders",
+      "difficulty": "3 · Application",
+      "question": "A share is trading at ₹4,400. An investor places a buy limit order at ₹4,300. What is the correct interpretation?",
+      "choices": [
+        "It must execute immediately at ₹4,400",
+        "It can execute only at ₹4,300 or lower, and may remain unfilled",
+        "It triggers a buy only after the price rises above ₹4,300",
+        "It guarantees the investor will buy exactly at ₹4,300"
+      ],
+      "answer": 1,
+      "explanation": "A buy limit sets the maximum price the investor is willing to pay. If the market does not reach ₹4,300 or lower, the order may not execute. A limit controls price, not execution certainty.",
+      "related": [
+        "secondary-market",
+        "futures"
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "nav",
+      "difficulty": "4 · Calculation",
+      "question": "A mutual fund has investments worth ₹12,00,000, other assets of ₹50,000, liabilities of ₹30,000 and 1,00,000 units outstanding. What is its NAV per unit?",
+      "choices": [
+        "₹11.80",
+        "₹12.00",
+        "₹12.20",
+        "₹12.80"
+      ],
+      "answer": 2,
+      "explanation": "Net assets = ₹12,00,000 + ₹50,000 − ₹30,000 = ₹12,20,000. NAV per unit = ₹12,20,000 ÷ 1,00,000 = ₹12.20. Always subtract liabilities before dividing by units.",
+      "related": [
+        "nav-adjustments",
+        "mutual-funds"
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "bond-pricing",
+      "difficulty": "5 · Multi-step calculation",
+      "question": "A ₹1,000 face-value bond pays a 9% annual coupon for five years. If the required annual yield is 10%, which is the closest fair value?",
+      "choices": [
+        "₹900.00",
+        "₹962.07",
+        "₹1,000.00",
+        "₹1,045.00"
+      ],
+      "answer": 1,
+      "explanation": "Annual coupon = ₹90. Price = 90/(1.10) + 90/(1.10)² + 90/(1.10)³ + 90/(1.10)⁴ + 1,090/(1.10)⁵ ≈ ₹962.07. Because the coupon rate (9%) is below the required yield (10%), the bond trades at a discount.",
       "related": [
         "ytm",
         "duration"
       ]
     },
     {
-      "id": "q3",
-      "topic": "nav",
-      "question": "NAV per unit is calculated by dividing net assets by:",
-      "choices": [
-        "Annual return",
-        "Face value",
-        "Outstanding units",
-        "Number of securities"
-      ],
-      "answer": 2,
-      "explanation": "NAV per unit = (total assets − total liabilities) ÷ units outstanding. Use the units outstanding on the valuation date.",
-      "related": [
-        "nav-adjustments",
-        "ter"
-      ]
-    },
-    {
-      "id": "q4",
-      "topic": "forwards",
-      "question": "Which is a key feature of a forward contract?",
-      "choices": [
-        "Always exchange-traded and standardised",
-        "Customised OTC agreement",
-        "Buyer has a right but no obligation",
-        "No counterparty risk"
-      ],
-      "answer": 1,
-      "explanation": "Forwards are privately negotiated OTC contracts. Both sides are obligated and counterparty risk matters.",
-      "related": [
-        "futures",
-        "derivatives"
-      ]
-    },
-    {
-      "id": "q5",
-      "topic": "options",
-      "question": "What does the buyer of a call option receive?",
-      "choices": [
-        "An obligation to sell",
-        "A right to buy",
-        "A right to sell",
-        "Guaranteed profit"
-      ],
-      "answer": 1,
-      "explanation": "A call gives its buyer the right, not the obligation, to buy the underlying at the strike price. The buyer pays a premium.",
-      "related": [
-        "option-payoffs",
-        "option-strategies"
-      ]
-    },
-    {
       "id": "q6",
-      "topic": "prospect-theory",
-      "question": "Loss aversion means that people tend to:",
+      "topic": "ytm",
+      "difficulty": "6 · Interpretation",
+      "question": "A bond has a face value of ₹1,000, annual coupon of ₹80 and current market price of ₹950. Which statement is correct about its current yield?",
       "choices": [
-        "Ignore all losses",
-        "Feel losses more strongly than equivalent gains",
-        "Always choose the riskiest investment",
-        "Treat every rupee differently"
+        "8.00% because coupon ÷ face value",
+        "8.42% because ₹80 ÷ ₹950 × 100",
+        "5.00% because face value − market price",
+        "10.53% because market price ÷ coupon"
       ],
       "answer": 1,
-      "explanation": "Prospect Theory describes how losses often feel more painful than equivalent gains feel pleasurable. This can affect risk-taking and selling decisions.",
+      "explanation": "Current yield = annual coupon ÷ current market price × 100 = 80/950 × 100 ≈ 8.42%. It does not include the capital gain or loss that may occur by maturity, so it is not the same as YTM.",
       "related": [
-        "disposition-effect",
-        "mental-accounting"
+        "bond-pricing",
+        "duration"
       ]
     },
     {
       "id": "q7",
-      "topic": "book-building",
-      "question": "In book building, investors generally:",
+      "topic": "tracking-error",
+      "difficulty": "7 · Method",
+      "question": "You have 12 monthly active-return observations (fund return minus benchmark return). After calculating their sample standard deviation, how do you annualise monthly tracking error using the class method?",
       "choices": [
-        "Bid within an announced price band",
-        "Receive shares without applying",
-        "Set the company's market cap",
-        "Pay after listing"
+        "Multiply by 12",
+        "Divide by √12",
+        "Multiply by √12",
+        "Add 12 percentage points"
       ],
-      "answer": 0,
-      "explanation": "Investors submit bids at prices within the announced band. The demand schedule helps determine the final issue price.",
+      "answer": 2,
+      "explanation": "The class notes calculate the standard deviation of monthly active returns and annualise it by multiplying by √12. This assumes monthly observations are suitable for the standard annualisation convention used in the lecture.",
       "related": [
-        "ipo-process",
-        "asba"
+        "mutual-funds",
+        "fund-categories"
       ]
     },
     {
       "id": "q8",
-      "topic": "tracking-error",
-      "question": "A lower tracking error generally means an index fund:",
+      "topic": "futures",
+      "difficulty": "8 · Applied P/L",
+      "question": "A trader goes long 1,000 futures units at ₹269.80 and closes at ₹275.00. The notes assume a transaction cost of ₹0.20 per unit for the relevant round-trip calculation. What is the net gain under that class illustration?",
       "choices": [
-        "Always earns a higher return",
-        "Follows its benchmark more closely",
-        "Has no risk",
-        "Charges no fees"
+        "₹4,800",
+        "₹5,000",
+        "₹5,200",
+        "₹5,400"
       ],
       "answer": 1,
-      "explanation": "Tracking error measures variation in the difference between fund and benchmark returns. Lower tracking error means closer tracking, not guaranteed higher returns.",
+      "explanation": "Gross gain per unit = ₹275.00 − ₹269.80 = ₹5.20. Less ₹0.20 transaction cost = ₹5.00 net per unit. Net gain = ₹5 × 1,000 = ₹5,000. Follow the cost assumption stated in the question; do not deduct the same cost twice.",
       "related": [
-        "fund-categories",
-        "mutual-funds"
+        "mark-to-market",
+        "futures-margin"
       ]
     },
     {
       "id": "q9",
-      "topic": "futures-margin",
-      "question": "Why can futures trading magnify both gains and losses?",
+      "topic": "duration",
+      "difficulty": "9 · Risk analysis",
+      "question": "A bond has modified duration of 4.2. Using the duration approximation, what is the estimated percentage price change if its yield rises by 0.50 percentage points?",
       "choices": [
-        "Futures have no expiry",
-        "Margin supports exposure larger than cash deposited",
-        "Losses are capped at premium",
-        "Exchange guarantees profit"
+        "+2.10%",
+        "−2.10%",
+        "−8.40%",
+        "+8.40%"
       ],
       "answer": 1,
-      "explanation": "The trader deposits only a portion of contract value but is exposed to the full contract. Price movements can be large relative to margin.",
+      "explanation": "Approximate % price change ≈ − modified duration × change in yield. The yield change is +0.005, so −4.2 × 0.005 = −0.021, or approximately −2.10%. The negative sign captures the inverse price–yield relationship.",
       "related": [
-        "futures",
-        "mark-to-market"
+        "bond-pricing",
+        "ytm"
       ]
     },
     {
       "id": "q10",
-      "topic": "commodity-derivatives",
-      "question": "A farmer sells wheat futures to reduce the risk of wheat prices falling. The farmer is a:",
+      "topic": "option-strategies",
+      "difficulty": "10 · Integrated strategy",
+      "question": "An investor owns a share and buys a put option on that same share. Which position is created, and what is its main trade-off?",
       "choices": [
-        "Speculator",
-        "Hedger",
-        "Registrar",
-        "Custodian"
+        "Covered call; upside is capped and no downside floor exists",
+        "Protective put; downside is limited by the put's protection, but the premium is a cost",
+        "Bull call spread; both upside and downside are unlimited",
+        "Bear put spread; the investor has no exposure to the underlying"
       ],
       "answer": 1,
-      "explanation": "A hedger uses a derivative to reduce an existing risk connected to the commodity they produce or consume.",
+      "explanation": "A protective put = long underlying + long put. If the share falls below the put strike, the put gains value and cushions the loss. The investor pays a premium for this protection; upside in the share is retained, before costs.",
       "related": [
-        "commodity-markets",
-        "futures"
+        "covered-call",
+        "bull-call-spread",
+        "bear-put-spread"
       ]
     }
   ]
