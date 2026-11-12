@@ -72,7 +72,7 @@ function newPracticeQuestion(){
  let pool=bank.filter(q=>q.id!==activePractice?.id);if(!pool.length)pool=bank;
  activePractice=pool[Math.floor(Math.random()*pool.length)];practiceAnswered=false;
  $("#practice-type-label").textContent=practiceMode==="numericals"?"NUMERICAL WORKOUT": "THEORY / CONCEPT CHECK";
- $("#practice-q-count").textContent=bank.length+" questions in this bank · question "+(++practiceCounts[practiceMode])+" for this session";
+ $("#practice-q-count").textContent=bank.length+" questions in this bank · question "+(++practiceCounts[practiceMode])+" for this session";document.querySelector("[data-practice-mode=\"numericals\"]").textContent="Numericals · "+(F.practiceBanks?.numericals?.length||0);document.querySelector("[data-practice-mode=\"theory\"]").textContent="Theory · "+(F.practiceBanks?.theory?.length||0);
  $("#practice-question").textContent=activePractice.question;
  $("#practice-topic").textContent=F.topics.find(t=>t.id===activePractice.topic)?.title||activePractice.kind||"FMI practice";
  $("#practice-unit").textContent=practiceMode==="numericals"?"Enter your final answer ("+activePractice.unit+").": "Write the answer in your own words. Similar wording is fine.";
