@@ -139,4 +139,43 @@ function initPractice(){
  setPracticeMode("numericals");
 }
 
-document.addEventListener("DOMContentLoaded",()=>{init();$("#fmi-search").addEventListener("input",renderFiles);$("#fmi-filters").addEventListener("click",e=>{const b=e.target.closest("[data-mod]");if(!b)return;mod=b.dataset.mod;document.querySelectorAll("[data-mod]").forEach(x=>x.classList.toggle("active",x===b));renderFiles();});$("#fmi-files").addEventListener("click",e=>{const b=e.target.closest("[data-file]");if(b)chooseFile(b.dataset.file);});$("#fmi-topics").addEventListener("click",e=>{const b=e.target.closest("[data-topic]");if(b)openTopic(b.dataset.topic);});$("#fmi-related-list").addEventListener("click",e=>{const b=e.target.closest("[data-rel]");if(!b)return;const t=F.topics.find(x=>x.id===b.dataset.rel),src=F.sources.find(s=>s.topics.includes(t.id));if(src)chooseFile(src.id);openTopic(t.id);});$("#fmi-choices").addEventListener("click",e=>{const b=e.target.closest("[data-answer]");if(b)selectAnswer(b);});$("#fmi-check").addEventListener("click",checkAnswer);$("#fmi-next").addEventListener("click",nextQuestion);$("#fmi-restart").addEventListener("click",renderQuiz);$("#fmi-feedback").addEventListener("click",e=>{const b=e.target.closest("[data-review]");if(!b)return;const t=F.topics.find(x=>x.id===b.dataset.review),src=F.sources.find(s=>s.topics.includes(t.id));if(src)chooseFile(src.id);openTopic(t.id);$("#fmi-library").scrollIntoView({behavior:"smooth"});});});
+
+function initNmimsGate(){
+ const layer=$("#nmims-gate"),form=$("#nmims-gate-form"),answer=$("#nmims-gate-answer");
+ if(!layer||!form||!answer)return;
+ document.body.classList.add("nmims-locked");
+ form.addEventListener("submit",event=>{
+  event.preventDefault();
+  const value=answer.value.toLocaleLowerCase().trim();
+  if(value.includes("parag")){
+   $("#nmims-gate-question").hidden=true;
+   $("#nmims-subject-select").hidden=false;
+   $("#nmims-subject-status").hidden=true;
+   const first=$("#nmims-subject-select button");
+   if(first)first.focus();
+  }else{
+   $("#nmims-gate-error").hidden=false;
+   answer.setAttribute("aria-invalid","true");
+   answer.focus();
+  }
+ });
+ answer.addEventListener("input",()=>{
+  $("#nmims-gate-error").hidden=true;
+  answer.removeAttribute("aria-invalid");
+ });
+ $("#nmims-subject-select").addEventListener("click",event=>{
+  const button=event.target.closest("[data-subject]");
+  if(!button)return;
+  if(button.dataset.subject==="FMI"){
+   layer.remove();
+   document.body.classList.remove("nmims-locked");
+   $("#fmi-library").scrollIntoView({behavior:"smooth",block:"start"});
+  }else{
+   const status=$("#nmims-subject-status");
+   status.textContent=button.dataset.subject+" study desk is not set up here yet. FMI is the currently available classroom.";
+   status.hidden=false;
+  }
+ });
+}
+
+document.addEventListener("DOMContentLoaded",()=>{initNmimsGate();init();$("#fmi-search").addEventListener("input",renderFiles);$("#fmi-filters").addEventListener("click",e=>{const b=e.target.closest("[data-mod]");if(!b)return;mod=b.dataset.mod;document.querySelectorAll("[data-mod]").forEach(x=>x.classList.toggle("active",x===b));renderFiles();});$("#fmi-files").addEventListener("click",e=>{const b=e.target.closest("[data-file]");if(b)chooseFile(b.dataset.file);});$("#fmi-topics").addEventListener("click",e=>{const b=e.target.closest("[data-topic]");if(b)openTopic(b.dataset.topic);});$("#fmi-related-list").addEventListener("click",e=>{const b=e.target.closest("[data-rel]");if(!b)return;const t=F.topics.find(x=>x.id===b.dataset.rel),src=F.sources.find(s=>s.topics.includes(t.id));if(src)chooseFile(src.id);openTopic(t.id);});$("#fmi-choices").addEventListener("click",e=>{const b=e.target.closest("[data-answer]");if(b)selectAnswer(b);});$("#fmi-check").addEventListener("click",checkAnswer);$("#fmi-next").addEventListener("click",nextQuestion);$("#fmi-restart").addEventListener("click",renderQuiz);$("#fmi-feedback").addEventListener("click",e=>{const b=e.target.closest("[data-review]");if(!b)return;const t=F.topics.find(x=>x.id===b.dataset.review),src=F.sources.find(s=>s.topics.includes(t.id));if(src)chooseFile(src.id);openTopic(t.id);$("#fmi-library").scrollIntoView({behavior:"smooth"});});});
