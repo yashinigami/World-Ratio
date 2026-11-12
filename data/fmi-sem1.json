@@ -8759,6 +8759,60 @@
         "sourcePages": "45, 54–55",
         "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
         "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
+      },
+      {
+        "id": "class-commodity-1",
+        "topic": "commodity-derivatives",
+        "kind": "Commodity futures contract value",
+        "question": "A silver futures contract has 3 lots, each of 30 kg. The quoted price is ₹68,550 per kg. Calculate the total contract value.",
+        "answer": 6169500,
+        "unit": "₹",
+        "tolerance": 1,
+        "formula": "Contract value = Price per kg × Number of lots × Lot size",
+        "steps": [
+          "Total quantity = 3 × 30 kg = 90 kg",
+          "Contract value = ₹68,550 × 90",
+          "Total contract value = ₹6,169,500"
+        ],
+        "sourcePages": "41–42",
+        "divy": "Commodity contracts: before you chase profit, check the contract size. One lot is not necessarily one kilogram. Multiply first; then calculate.",
+        "commonTrap": "Common trap: contract value = price per unit × total quantity. Apply margin and brokerage percentages to the contract value, not to one lot unless the question says so."
+      },
+      {
+        "id": "class-commodity-2",
+        "topic": "commodity-derivatives",
+        "kind": "Initial margin",
+        "question": "Using the silver futures contract value of ₹6,169,500, calculate the initial margin if the exchange requires 5%.",
+        "answer": 308475,
+        "unit": "₹",
+        "tolerance": 1,
+        "formula": "Initial margin = Contract value × Margin percentage",
+        "steps": [
+          "Contract value = ₹6,169,500",
+          "Initial margin = ₹6,169,500 × 5%",
+          "Initial margin payable = ₹308,475"
+        ],
+        "sourcePages": "41–42",
+        "divy": "Commodity contracts: before you chase profit, check the contract size. One lot is not necessarily one kilogram. Multiply first; then calculate.",
+        "commonTrap": "Common trap: contract value = price per unit × total quantity. Apply margin and brokerage percentages to the contract value, not to one lot unless the question says so."
+      },
+      {
+        "id": "class-commodity-3",
+        "topic": "commodity-derivatives",
+        "kind": "Brokerage",
+        "question": "A silver futures contract has a total contract value of ₹6,169,500. Brokerage is 0.75% of contract value. Calculate brokerage.",
+        "answer": 46271.25,
+        "unit": "₹",
+        "tolerance": 1,
+        "formula": "Brokerage = Contract value × Brokerage rate",
+        "steps": [
+          "Contract value = ₹6,169,500",
+          "Brokerage = ₹6,169,500 × 0.75%",
+          "Brokerage = ₹46,271.25"
+        ],
+        "sourcePages": "41–42",
+        "divy": "Commodity contracts: before you chase profit, check the contract size. One lot is not necessarily one kilogram. Multiply first; then calculate.",
+        "commonTrap": "Common trap: contract value = price per unit × total quantity. Apply margin and brokerage percentages to the contract value, not to one lot unless the question says so."
       }
     ],
     "theory": [
