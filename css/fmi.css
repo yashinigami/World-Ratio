@@ -178,3 +178,15 @@
 .fmi-body .practice-card{border-radius:14px}
 @media(max-width:900px){.fmi-body .fmi-topics{grid-template-columns:1fr}}
 @media(max-width:600px){.fmi-body .fmi-file{padding:12px}.fmi-body #fmi-detail{padding:17px}.fmi-body .fmi-topic{min-height:58px}}
+
+.fmi-body #fmi-detail .fmi-detail-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.fmi-body #fmi-detail .fmi-detail-top>span:first-child{font:700 10px/1.4 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#A64F70}
+.fmi-body #fmi-detail .fmi-reading-label{font:10px Arial,sans-serif;color:#A47A8A;letter-spacing:.12em}
+.fmi-body #fmi-detail .fmi-detail-section{margin:17px 0}
+.fmi-body #fmi-detail .fmi-detail-section>p{font:15px/1.8 Arial,sans-serif;color:#674354;margin:8px 0}
+.fmi-body #fmi-detail .fmi-exam-lens{margin:17px 0;padding:16px 18px;border:1px solid #E4C4CF;background:#F8EDF1;border-radius:10px}
+.fmi-body #fmi-detail .fmi-exam-lens>b{display:block;font:700 10px/1.4 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#A64F70;margin-bottom:7px}
+.fmi-body #fmi-detail .fmi-exam-lens p{font:14px/1.75 Arial,sans-serif;color:#59384A;margin:0}
+.fmi-body #fmi-detail .fmi-source-credit{display:grid;gap:5px;padding-top:13px;margin-top:20px;border-top:1px solid #EBD6DE}
+.fmi-body #fmi-detail .fmi-source-credit b{font:700 10px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#A64F70}
+.fmi-body #fmi-detail .fmi-source-credit span{font:11px/1.5 Arial,sans-serif;color:#876778}
