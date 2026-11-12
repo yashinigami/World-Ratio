@@ -66,3 +66,24 @@
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .fmi-quiz-count{font-size:11px;color:#765366}
 @media(max-width:600px){.divy-chat{right:10px;bottom:10px;width:min(360px,calc(100vw - 20px))}.divy-messages{height:220px}}
+
+.fmi-practice{padding:48px 0 30px;max-width:980px;margin:0 auto}
+.practice-card{background:#fffaf7;border:1px solid #e5cdd5;border-radius:16px;padding:clamp(16px,3vw,28px);margin-top:20px;box-shadow:0 10px 28px rgba(77,37,56,.06)}
+.practice-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.practice-tabs button{border:1px solid #dfc2cc;border-radius:24px;background:#fff;color:#65374e;padding:9px 15px;cursor:pointer}
+.practice-tabs button.active{background:#6b344e;color:#fff;border-color:#6b344e}
+.practice-meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#8b5c70;font-size:10px;letter-spacing:.08em;font-weight:700}
+.practice-topic{display:inline-block;margin:13px 0 5px;background:#f6e7ec;color:#743f58;padding:5px 9px;border-radius:20px;font-size:11px}
+.practice-card h3{font:600 clamp(18px,2.5vw,24px)/1.4 'Playfair Display',serif;color:#542d40;margin:9px 0}
+.practice-card textarea{width:100%;box-sizing:border-box;border:1px solid #d9bcc6;border-radius:10px;padding:13px;background:#fff;color:#542d40;font:14px/1.6 Arial,sans-serif;resize:vertical}
+.practice-actions{display:flex;gap:9px;flex-wrap:wrap;margin:13px 0}
+.practice-feedback{margin-top:16px;border-radius:12px;padding:15px;background:#fff4e6;border:1px solid #e8d3b2;color:#563d36;font-size:13px;line-height:1.6}
+.practice-feedback.good{background:#edf7ef;border-color:#c6dfca;color:#234b31}
+.practice-feedback.weak{background:#fff0ed;border-color:#e9c4bc;color:#683b36}
+.practice-feedback p{margin:8px 0}
+.divy-worked{margin-top:12px;padding:13px;background:#fffaf2;border:1px dashed #d7b98e;border-radius:10px;color:#4f3b30}
+.divy-comic{font:600 17px/1.4 'Caveat',cursive;color:#9a4c67}
+.divy-worked ol{padding-left:22px}.divy-worked li{margin:5px 0}
+.practice-feedback details{margin-top:10px}.practice-feedback summary{cursor:pointer;font-weight:700}
+.practice-footnote{font-size:11px;color:#876a78;line-height:1.5;margin:12px 0 0}
+@media(max-width:650px){.fmi-practice{padding:30px 14px}.practice-meta{display:grid;gap:5px}}
