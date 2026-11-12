@@ -7587,7 +7587,8 @@
           "Bond price = ₹973.7568"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-1",
@@ -7605,7 +7606,8 @@
           "Bond price = ₹904.904"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-2",
@@ -7623,7 +7625,8 @@
           "Bond price = ₹1000"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-3",
@@ -7641,7 +7644,8 @@
           "Bond price = ₹915.3892"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-4",
@@ -7659,7 +7663,8 @@
           "Bond price = ₹1050.3295"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-5",
@@ -7677,7 +7682,8 @@
           "Bond price = ₹973.7568"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-6",
@@ -7695,7 +7701,8 @@
           "Bond price = ₹904.904"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-7",
@@ -7713,7 +7720,8 @@
           "Bond price = ₹1000"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-8",
@@ -7731,7 +7739,8 @@
           "Bond price = ₹915.3892"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "bond-9",
@@ -7749,7 +7758,8 @@
           "Bond price = ₹1050.3295"
         ],
         "sourcePages": "9–17",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-0",
@@ -7766,7 +7776,8 @@
           "Answer = 6.5217%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-1",
@@ -7783,7 +7794,8 @@
           "Answer = 7.3684%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-2",
@@ -7800,7 +7812,8 @@
           "Answer = 8.1633%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-3",
@@ -7817,7 +7830,8 @@
           "Answer = 9%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-4",
@@ -7834,7 +7848,8 @@
           "Answer = 9.5238%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-5",
@@ -7851,7 +7866,8 @@
           "Answer = 10%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-6",
@@ -7868,7 +7884,8 @@
           "Answer = 13.7143%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "cy-7",
@@ -7885,7 +7902,8 @@
           "Answer = 7.0175%"
         ],
         "sourcePages": "14, 18",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "future-0",
@@ -7903,7 +7921,8 @@
           "Total P/L = ₹5 × 1000 = ₹5000"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-1",
@@ -7921,7 +7940,8 @@
           "Total P/L = ₹-180 × 800 = ₹-144000"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-2",
@@ -7939,7 +7959,8 @@
           "Total P/L = ₹7344.8 × 90 = ₹661032"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-3",
@@ -7957,7 +7978,8 @@
           "Total P/L = ₹-3.4 × 1000 = ₹-3400"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-4",
@@ -7975,7 +7997,8 @@
           "Total P/L = ₹-2.4 × 1000 = ₹-2400"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-5",
@@ -7993,7 +8016,8 @@
           "Total P/L = ₹19 × 500 = ₹9500"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-6",
@@ -8011,7 +8035,8 @@
           "Total P/L = ₹49 × 200 = ₹9800"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-7",
@@ -8029,7 +8054,8 @@
           "Total P/L = ₹-43.5 × 100 = ₹-4350"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-8",
@@ -8047,7 +8073,8 @@
           "Total P/L = ₹-22 × 400 = ₹-8800"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "future-9",
@@ -8065,7 +8092,8 @@
           "Total P/L = ₹-9.4 × 1000 = ₹-9400"
         ],
         "sourcePages": "32–43",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Futures time. First identify whether you went long or short; the market direction is not here to read your mind.",
+        "commonTrap": "Common trap: long gains when exit price rises; short gains when exit price falls. Subtract the stated transaction cost before multiplying by quantity."
       },
       {
         "id": "option-0",
@@ -8082,7 +8110,8 @@
           "Net P/L = ₹12 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-1",
@@ -8099,7 +8128,8 @@
           "Net P/L = ₹-12 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-2",
@@ -8116,7 +8146,8 @@
           "Net P/L = ₹14 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-3",
@@ -8133,7 +8164,8 @@
           "Net P/L = ₹-14 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-4",
@@ -8150,7 +8182,8 @@
           "Net P/L = ₹8 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-5",
@@ -8167,7 +8200,8 @@
           "Net P/L = ₹10 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-6",
@@ -8184,7 +8218,8 @@
           "Net P/L = ₹-15 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-7",
@@ -8201,7 +8236,8 @@
           "Net P/L = ₹-18 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-8",
@@ -8218,7 +8254,8 @@
           "Net P/L = ₹-20 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "option-9",
@@ -8235,7 +8272,8 @@
           "Net P/L = ₹18 per unit"
         ],
         "sourcePages": "44–50",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Options are a little dramatic: the buyer has a right, the writer has an obligation. We calculate payoff first, then invite the premium to the party.",
+        "commonTrap": "Common trap: payoff is not net profit. Include the premium, and keep the buyer/writer sign correct."
       },
       {
         "id": "nav-0",
@@ -8252,7 +8290,8 @@
           "NAV per unit = ₹11.5"
         ],
         "sourcePages": "22–27",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "NAV housekeeping! Add what the fund owns, subtract what it owes, then divide by units. The calculator is not a substitute for a balance sheet.",
+        "commonTrap": "Common trap: deduct liabilities and accrued expenses, then divide by the correct units outstanding."
       },
       {
         "id": "nav-1",
@@ -8269,7 +8308,8 @@
           "NAV per unit = ₹12.8125"
         ],
         "sourcePages": "22–27",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "NAV housekeeping! Add what the fund owns, subtract what it owes, then divide by units. The calculator is not a substitute for a balance sheet.",
+        "commonTrap": "Common trap: deduct liabilities and accrued expenses, then divide by the correct units outstanding."
       },
       {
         "id": "nav-2",
@@ -8286,7 +8326,8 @@
           "NAV per unit = ₹11.75"
         ],
         "sourcePages": "22–27",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "NAV housekeeping! Add what the fund owns, subtract what it owes, then divide by units. The calculator is not a substitute for a balance sheet.",
+        "commonTrap": "Common trap: deduct liabilities and accrued expenses, then divide by the correct units outstanding."
       },
       {
         "id": "nav-3",
@@ -8303,7 +8344,8 @@
           "NAV per unit = ₹11.6667"
         ],
         "sourcePages": "22–27",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "NAV housekeeping! Add what the fund owns, subtract what it owes, then divide by units. The calculator is not a substitute for a balance sheet.",
+        "commonTrap": "Common trap: deduct liabilities and accrued expenses, then divide by the correct units outstanding."
       },
       {
         "id": "nav-4",
@@ -8320,7 +8362,8 @@
           "NAV per unit = ₹10.008"
         ],
         "sourcePages": "22–27",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "NAV housekeeping! Add what the fund owns, subtract what it owes, then divide by units. The calculator is not a substitute for a balance sheet.",
+        "commonTrap": "Common trap: deduct liabilities and accrued expenses, then divide by the correct units outstanding."
       },
       {
         "id": "te-0",
@@ -8338,7 +8381,8 @@
           "Annualised TE = 0.0478%"
         ],
         "sourcePages": "28–31",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Tracking error is the fund's wobble around its benchmark. We measure the spread of active returns, not the fund's average return.",
+        "commonTrap": "Common trap: use sample standard deviation and multiply monthly SD by √12 to annualise."
       },
       {
         "id": "te-1",
@@ -8356,7 +8400,8 @@
           "Annualised TE = 0.049%"
         ],
         "sourcePages": "28–31",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Tracking error is the fund's wobble around its benchmark. We measure the spread of active returns, not the fund's average return.",
+        "commonTrap": "Common trap: use sample standard deviation and multiply monthly SD by √12 to annualise."
       },
       {
         "id": "te-2",
@@ -8374,7 +8419,8 @@
           "Annualised TE = 0.1028%"
         ],
         "sourcePages": "28–31",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Tracking error is the fund's wobble around its benchmark. We measure the spread of active returns, not the fund's average return.",
+        "commonTrap": "Common trap: use sample standard deviation and multiply monthly SD by √12 to annualise."
       },
       {
         "id": "te-3",
@@ -8392,7 +8438,8 @@
           "Annualised TE = 0.0478%"
         ],
         "sourcePages": "28–31",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Tracking error is the fund's wobble around its benchmark. We measure the spread of active returns, not the fund's average return.",
+        "commonTrap": "Common trap: use sample standard deviation and multiply monthly SD by √12 to annualise."
       },
       {
         "id": "te-4",
@@ -8410,7 +8457,8 @@
           "Annualised TE = 0.0618%"
         ],
         "sourcePages": "28–31",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Tracking error is the fund's wobble around its benchmark. We measure the spread of active returns, not the fund's average return.",
+        "commonTrap": "Common trap: use sample standard deviation and multiply monthly SD by √12 to annualise."
       },
       {
         "id": "vc-0",
@@ -8427,7 +8475,8 @@
           "Expected NPV = PV − ₹5000000 = ₹-2764683.237"
         ],
         "sourcePages": "5–6",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "vc-1",
@@ -8444,7 +8493,8 @@
           "Expected NPV = PV − ₹6000000 = ₹-2879152.2935"
         ],
         "sourcePages": "5–6",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "vc-2",
@@ -8461,7 +8511,8 @@
           "Expected NPV = PV − ₹7500000 = ₹-1911708.0925"
         ],
         "sourcePages": "5–6",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "vc-3",
@@ -8478,7 +8529,8 @@
           "Expected NPV = PV − ₹10000000 = ₹-1691681.4072"
         ],
         "sourcePages": "5–6",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "vc-4",
@@ -8495,7 +8547,8 @@
           "Expected NPV = PV − ₹4000000 = ₹-100411.6822"
         ],
         "sourcePages": "5–6",
-        "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "class-bond-1",
@@ -8514,7 +8567,8 @@
         "unit": "₹",
         "tolerance": 0.1,
         "sourcePages": "10",
-        "divy": "DivY: Coupon cheques arrive twice a year here, so halve the annual rate AND double the number of periods. Don't let the calendar prank you."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "class-bond-2",
@@ -8532,7 +8586,8 @@
         "unit": "%",
         "tolerance": 0.05,
         "sourcePages": "11–12",
-        "divy": "DivY: The bond is trading above face value, so the price premium pulls yield down. Also, this is a half-year estimate: annualise it only after the calculation."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "class-bond-3",
@@ -8550,7 +8605,8 @@
         "unit": "%",
         "tolerance": 0.05,
         "sourcePages": "12",
-        "divy": "DivY: Notice the question redeems at ₹1,200, not ₹1,000. Use the redemption value in the maturity gain and final cash flow. Face value is not always the final plot twist."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "class-bond-4",
@@ -8568,7 +8624,8 @@
         "unit": "₹",
         "tolerance": 0.1,
         "sourcePages": "14–15",
-        "divy": "DivY: Coupon is 9%, market wants 10%. The bond has to go on sale to make that lower coupon competitive. Discount the cash flows; don't just subtract one percentage point."
+        "divy": "Bond maths: cash flows are future promises, so bring them back to today. No time travel, just discounting.",
+        "commonTrap": "Common trap: match coupon frequency, yield frequency and number of periods. For semi-annual payments, halve the annual rate and double the periods."
       },
       {
         "id": "class-bond-5",
@@ -8586,7 +8643,8 @@
         "unit": "₹",
         "tolerance": 0.1,
         "sourcePages": "16",
-        "divy": "DivY: Eight years means eight coupon payments, plus one principal repayment at the end. Count the coupons carefully; they are not a buy-one-get-one deal."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "class-futures-1",
@@ -8604,25 +8662,27 @@
         "unit": "₹",
         "tolerance": 0.1,
         "sourcePages": "33",
-        "divy": "DivY: Long means you bought first. Price rose, lovely. Now subtract the transaction cost before multiplying by all 1,000 units. Fees are small individually; crowds of them are not."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "class-futures-2",
         "topic": "futures",
         "kind": "Hedged stock and futures positions",
-        "question": "You buy 1,000 shares at ₹266.80 and later sell at ₹275. Stock transaction cost is ₹0.80 per share. You also short futures at ₹275 and close at ₹269.80 with ₹0.20 per unit cost. Calculate the combined net gain.",
+        "question": "The class notes' hedging illustration reports a ₹7,400 gain on the underlying stock leg and a ₹5,400 loss on the futures leg. Using those stated leg results, calculate the combined net gain. (The handwritten page labels the futures leg 'short sell' but its shown entry/exit arithmetic is directionally inconsistent; use the stated leg P/Ls here.)",
         "answer": 2000,
-        "formula": "Combined P/L = Stock P/L + Futures P/L",
+        "formula": "Combined P/L = Underlying stock P/L + Futures contract P/L",
         "steps": [
-          "Stock gain per share = 275 − 266.80 − 0.80 = ₹7.40; total = ₹7,400",
-          "Short futures gain per unit = 275 − 269.80 − 0.20 = ₹5.00; total = ₹5,000",
-          "This particular class example uses a futures short entry of ₹275 and close at ₹269.80, so futures gain = ₹5,000",
-          "Combined gain = ₹7,400 + ₹5,000 = ₹12,400"
+          "Underlying stock gain = ₹7,400",
+          "Futures contract loss as stated in the class working = −₹5,400",
+          "Combined net gain = ₹7,400 − ₹5,400 = ₹2,000",
+          "Note: the handwritten label 'short sell' does not match the direction implied by the entry/exit arithmetic; verify the intended position with the lecturer."
         ],
         "unit": "₹",
         "tolerance": 1,
         "sourcePages": "37–40",
-        "divy": "DivY: Tiny pause — check the direction of each leg before adding. A short futures position gains when the futures price falls. This question is a hedge exercise, so write stock and futures legs separately before combining."
+        "divy": "Hedge maths, but with a tiny plot twist: the handwritten label and the arithmetic disagree. We will not gaslight the calculator. Follow the stated leg gains/losses, then flag the source inconsistency.",
+        "commonTrap": "Source caution: page 37 labels the futures leg as a short sale, but the displayed sale-minus-purchase arithmetic shows a loss when the price falls. Ask your lecturer which direction was intended."
       },
       {
         "id": "class-option-1",
@@ -8640,7 +8700,8 @@
         "unit": "₹",
         "tolerance": 0.02,
         "sourcePages": "48–50",
-        "divy": "DivY: The put is the seatbelt, not a time machine. It cushions the fall by ₹80, but the ₹40 premium is the insurance bill. Net loss: ₹60 per share."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "class-option-2",
@@ -8658,7 +8719,8 @@
         "unit": "₹",
         "tolerance": 0.02,
         "sourcePages": "49–50",
-        "divy": "DivY: The share went past your strike, so the call buyer gets the upside above ₹2,500. You keep the premium and the gain up to the strike. That's why covered-call upside is capped."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "class-option-3",
@@ -8676,7 +8738,8 @@
         "unit": "₹ net debit / per unit limits",
         "tolerance": 1,
         "sourcePages": "45–46",
-        "divy": "DivY: Two calls, one bullish view. The call you sell helps pay for the call you buy, but it also puts a ceiling on your profit. Cheap-ish entry, capped upside."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       },
       {
         "id": "class-option-4",
@@ -8694,7 +8757,8 @@
         "unit": "₹ net debit / per unit limits",
         "tolerance": 1,
         "sourcePages": "45, 54–55",
-        "divy": "DivY: This is the bearish cousin of the bull call spread. You pay ₹40 net, so that's the maximum loss. The lower-strike put you sold caps the gain."
+        "divy": "Venture capital maths: probability gets a seat at the table, and time value of money gets the other one.",
+        "commonTrap": "Common trap: probability-weight the exit cash flow, discount it to today, and only then subtract the initial outlay."
       }
     ],
     "theory": [
