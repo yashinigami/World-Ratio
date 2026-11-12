@@ -6,10 +6,28 @@ async function init(){try{const response=await fetch("data/fmi-sem1.json");if(!r
 function progress(){$("#fmi-progress-count").textContent=completed.size;}
 function renderFiles(){const term=$("#fmi-search").value.toLowerCase();const files=F.sources.filter(x=>(mod==="all"||x.module===mod)&&[x.name,x.title,x.module].join(" ").toLowerCase().includes(term));$("#fmi-files").innerHTML=files.map(x=>`<button type="button" class="fmi-file ${selectedFile?.id===x.id?"active":""}" data-file="${safe(x.id)}" aria-pressed="${selectedFile?.id===x.id}"><strong>${safe(x.title)}</strong><small>${safe(x.kind)} · ${safe(x.name)}</small></button>`).join("")||"<p>No matching source files.</p>";}
 function chooseFile(id){selectedFile=F.sources.find(x=>x.id===id);if(!selectedFile)return;selectedTopic=null;$("#fmi-study-title").textContent=selectedFile.title;$("#fmi-study-desc").textContent=selectedFile.description;renderFiles();const topics=selectedFile.topics.map(id=>F.topics.find(t=>t.id===id)).filter(Boolean);$("#fmi-detail").hidden=true;$("#fmi-related").hidden=true;if(selectedFile.status==="unavailable"){$("#fmi-topics").innerHTML="<p>This upload could not be read reliably. No notes have been invented for it; please replace it with a readable copy.</p>";return;}$("#fmi-topics").innerHTML=topics.length?topics.map(t=>`<button type="button" class="fmi-topic" data-topic="${safe(t.id)}" aria-pressed="false"><span><strong>${safe(t.title)}</strong><small>${safe(t.module)} · ${safe(t.level)}</small></span><span aria-hidden="true">↗</span></button>`).join(""):"<p>This is a duplicate upload. Use the original question bank entry for the same notes.</p>";}
-function openTopic(id){const t=F.topics.find(x=>x.id===id);if(!t)return;selectedTopic=id;document.querySelectorAll("[data-topic]").forEach(b=>{b.classList.toggle("active",b.dataset.topic===id);b.setAttribute("aria-pressed",String(b.dataset.topic===id));});const isDone=completed.has(id);$("#fmi-detail").hidden=false;$("#fmi-detail").innerHTML=`<div class="fmi-kicker">${safe(t.module)} · ${safe(t.level)}</div><h3>${safe(t.title)}</h3><p>${safe(t.detail)}</p><div class="fmi-simple"><b>In simple words</b><p>${safe(t.simple)}</p></div><div class="fmi-example"><b>Example</b><p>${safe(t.example)}</p></div><h4>Remember these points</h4><ul>${t.points.map(p=>`<li>${safe(p)}</li>`).join("")}</ul>${t.classNotes?`<aside class="fmi-class-notes" aria-label="Handwritten class notes"><span>✎ From your class notebook</span><p>${safe(t.classNotes)}</p></aside>`:""}<div class="fmi-topic-actions"><button type="button" class="fmi-button secondary" id="mark-done">${isDone?"✓ Completed — mark again":"Mark as understood ✓"}</button><button type="button" class="fmi-button" id="topic-quiz">Quiz me on this ↗</button></div>`;
-$("#mark-done").onclick=()=>{completed.has(id)?completed.delete(id):completed.add(id);localStorage.setItem("wr-fmi-done",JSON.stringify([...completed]));progress();openTopic(id);};
-$("#topic-quiz").onclick=()=>{startQuiz(id);$("#fmi-quiz").scrollIntoView({behavior:"smooth",block:"start"});};
-const related=t.related.map(id=>F.topics.find(x=>x.id===id)).filter(Boolean);$("#fmi-related").hidden=!related.length;$("#fmi-related-list").innerHTML=related.map(x=>`<button type="button" data-rel="${safe(x.id)}">${safe(x.title)} ↗</button>`).join("");
+function openTopic(id){
+ const t=F.topics.find(x=>x.id===id);if(!t)return;selectedTopic=id;
+ document.querySelectorAll("[data-topic]").forEach(b=>{b.classList.toggle("active",b.dataset.topic===id);b.setAttribute("aria-pressed",String(b.dataset.topic===id));});
+ const isDone=completed.has(id);
+ const sourceNames=F.sources.filter(s=>(s.topics||[]).includes(id)).map(s=>s.title);
+ $("#fmi-detail").hidden=false;
+ $("#fmi-detail").innerHTML=`
+  <div class="fmi-detail-top"><span>${safe(t.module)} · ${safe(t.level)}</span><span class="fmi-reading-label">LECTURE NOTES</span></div>
+  <h3>${safe(t.title)}</h3>
+  <div class="fmi-detail-section"><h4>01 · The concept</h4><p>${safe(t.detail)}</p></div>
+  <div class="fmi-simple"><b>02 · In simple words</b><p>${safe(t.simple)}</p></div>
+  <div class="fmi-example"><b>03 · Example from the explanation</b><p>${safe(t.example)}</p></div>
+  <div class="fmi-detail-section"><h4>04 · Remember these points</h4><ul class="fmi-key-list">${(t.points||[]).map(p=>`<li>${safe(p)}</li>`).join("")}</ul></div>
+  ${t.key?`<div class="fmi-exam-lens"><b>05 · Exam lens / key distinction</b><p>${safe(t.key)}</p></div>`:""}
+  ${t.classNotes?`<aside class="fmi-class-notes" aria-label="Additional class notes"><span>✎ Additional class-note detail</span><p>${safe(t.classNotes)}</p></aside>`:""}
+  ${sourceNames.length?`<div class="fmi-source-credit"><b>Source material in this library</b><span>${sourceNames.map(safe).join(" · ")}</span></div>`:""}
+  <div class="fmi-topic-actions"><button type="button" class="fmi-button secondary" id="mark-done">${isDone?"✓ Completed — mark again":"Mark as understood ✓"}</button><button type="button" class="fmi-button" id="topic-quiz">Quiz me on this ↗</button></div>`;
+ $("#mark-done").onclick=()=>{completed.has(id)?completed.delete(id):completed.add(id);localStorage.setItem("wr-fmi-done",JSON.stringify([...completed]));progress();openTopic(id);};
+ $("#topic-quiz").onclick=()=>{startQuiz(id);$("#fmi-quiz").scrollIntoView({behavior:"smooth",block:"start"});};
+ const related=(t.related||[]).map(id=>F.topics.find(x=>x.id===id)).filter(Boolean);
+ $("#fmi-related").hidden=!related.length;
+ $("#fmi-related-list").innerHTML=related.map(x=>`<button type="button" data-rel="${safe(x.id)}">${safe(x.title)} ↗</button>`).join("");
 }
 function startQuiz(id){const topic=F.topics.find(t=>t.id===id);quiz=topic&&topic.quizQuestions?[...topic.quizQuestions]:[];quizTitle=topic?topic.title:"Topic revision";if(!quiz.length){$("#fmi-qno").textContent="QUIZ UNAVAILABLE";$("#fmi-question").textContent="No topic-specific questions are available for this topic yet.";$("#fmi-choices").innerHTML="";return;}beginQuiz();}
 function beginQuiz(){qIndex=0;score=0;asked=0;incorrect=[];if($("#fmi-quiz-title"))$("#fmi-quiz-title").textContent=quizTitle+" · "+(quizTitle==="Mixed FMI revision"?"Mixed quiz":"Topic-specific quiz");showQuestion();$("#fmi-score").textContent="Score: 0 / "+quiz.length;}
