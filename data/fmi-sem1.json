@@ -8726,7 +8726,7 @@
         "id": "class-option-3",
         "topic": "bull-call-spread",
         "kind": "Bull call spread — payoff limits",
-        "question": "You buy a call with strike ₹19,300 for premium ₹150 and sell a call with strike ₹19,500 for premium ₹70. Calculate net debit, maximum loss, maximum gain and break-even.",
+        "question": "You buy a call with strike ₹19,300 for premium ₹150 and sell a call with strike ₹19,500 for premium ₹70. Calculate the net debit (premium paid less premium received). DivY will also walk through the maximum loss, maximum gain and break-even.",
         "answer": 80,
         "formula": "Net debit = Premium paid − Premium received; Max gain = Strike gap − net debit; BE = Lower strike + net debit",
         "steps": [
@@ -8745,7 +8745,7 @@
         "id": "class-option-4",
         "topic": "bear-put-spread",
         "kind": "Bear put spread — payoff limits",
-        "question": "You buy a put with strike ₹19,000 for ₹120 and sell a put with strike ₹18,800 for ₹80. Calculate net debit, maximum loss, maximum gain and break-even.",
+        "question": "You buy a put with strike ₹19,000 for ₹120 and sell a put with strike ₹18,800 for ₹80. Calculate the net debit (premium paid less premium received). DivY will also walk through the maximum loss, maximum gain and break-even.",
         "answer": 40,
         "formula": "Net debit = Premium paid − Premium received; Max gain = Strike gap − net debit; BE = Higher strike − net debit",
         "steps": [
