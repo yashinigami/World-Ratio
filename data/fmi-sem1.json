@@ -8496,6 +8496,205 @@
         ],
         "sourcePages": "5–6",
         "divy": "Deep breath. The numbers are being loud, but we are staying calm. Let's solve this one line at a time."
+      },
+      {
+        "id": "class-bond-1",
+        "topic": "bond-pricing",
+        "kind": "Semi-annual bond valuation",
+        "question": "A bond has face value ₹1,000, a 6% annual coupon, 5 years to maturity and a market yield of 8% p.a. Coupons are paid half-yearly. Calculate the bond price.",
+        "answer": 918.891,
+        "formula": "P = Σ[C ÷ (1+y)^t] + FV ÷ (1+y)^n",
+        "steps": [
+          "Half-yearly coupon = ₹1,000 × 6% ÷ 2 = ₹30",
+          "Half-yearly yield = 8% ÷ 2 = 4%; number of periods = 5 × 2 = 10",
+          "PV of coupons = ₹30 × [1 − (1.04)^−10] ÷ 0.04 = ₹243.3269",
+          "PV of principal = ₹1,000 ÷ (1.04)^10 = ₹675.5642",
+          "Bond price = ₹918.891"
+        ],
+        "unit": "₹",
+        "tolerance": 0.1,
+        "sourcePages": "10",
+        "divy": "DivY: Coupon cheques arrive twice a year here, so halve the annual rate AND double the number of periods. Don't let the calendar prank you."
+      },
+      {
+        "id": "class-bond-2",
+        "topic": "ytm",
+        "kind": "Approximate YTM — semi-annual",
+        "question": "A ₹1,000 face-value bond pays a 10% coupon semi-annually, has 4 years to maturity and currently trades at ₹1,140. Estimate annual YTM using the approximate formula.",
+        "answer": 6.0748,
+        "formula": "Approx. half-year YTM = [Coupon per half-year + (FV − Price) ÷ number of half-years] ÷ [(FV + Price) ÷ 2]; annualise × 2",
+        "steps": [
+          "Half-year coupon = ₹1,000 × 10% ÷ 2 = ₹50",
+          "Periods = 4 × 2 = 8",
+          "Approx. half-year YTM = [50 + (1,000 − 1,140) ÷ 8] ÷ [(1,000 + 1,140) ÷ 2] = 32.5 ÷ 1,070 = 3.0374%",
+          "Annual approximate YTM = 6.0748%"
+        ],
+        "unit": "%",
+        "tolerance": 0.05,
+        "sourcePages": "11–12",
+        "divy": "DivY: The bond is trading above face value, so the price premium pulls yield down. Also, this is a half-year estimate: annualise it only after the calculation."
+      },
+      {
+        "id": "class-bond-3",
+        "topic": "ytm",
+        "kind": "Approximate YTM — redemption premium",
+        "question": "A bond has face value ₹1,000, redemption value ₹1,200 after 4 years, annual coupon rate 8% and current market price ₹1,050. Estimate annual YTM using the approximate formula.",
+        "answer": 10.4444,
+        "formula": "Approx. YTM = [Annual coupon + (Redemption value − Price) ÷ n] ÷ [(Redemption value + Price) ÷ 2] × 100",
+        "steps": [
+          "Annual coupon = ₹1,000 × 8% = ₹80",
+          "Annualised capital gain = (₹1,200 − ₹1,050) ÷ 4 = ₹37.50",
+          "Average investment = (₹1,200 + ₹1,050) ÷ 2 = ₹1,125",
+          "Approx. YTM = (₹80 + ₹37.50) ÷ ₹1,125 × 100 = 10.4444%"
+        ],
+        "unit": "%",
+        "tolerance": 0.05,
+        "sourcePages": "12",
+        "divy": "DivY: Notice the question redeems at ₹1,200, not ₹1,000. Use the redemption value in the maturity gain and final cash flow. Face value is not always the final plot twist."
+      },
+      {
+        "id": "class-bond-4",
+        "topic": "bond-pricing",
+        "kind": "Bond price at required yield",
+        "question": "Mr A wants a 5-year bond with ₹1,000 face value and 9% annual coupon. The required market yield is 10%. Calculate the price Mr A should pay.",
+        "answer": 962.0921,
+        "formula": "P = C × [1 − (1+y)^−n] ÷ y + FV ÷ (1+y)^n",
+        "steps": [
+          "Annual coupon = ₹1,000 × 9% = ₹90",
+          "PV of coupons = ₹90 × [1 − (1.10)^−5] ÷ 0.10 = ₹341.1708",
+          "PV of principal = ₹1,000 ÷ (1.10)^5 = ₹620.9213",
+          "Bond price = ₹962.0921"
+        ],
+        "unit": "₹",
+        "tolerance": 0.1,
+        "sourcePages": "14–15",
+        "divy": "DivY: Coupon is 9%, market wants 10%. The bond has to go on sale to make that lower coupon competitive. Discount the cash flows; don't just subtract one percentage point."
+      },
+      {
+        "id": "class-bond-5",
+        "topic": "bond-pricing",
+        "kind": "Eight-year bond valuation",
+        "question": "An 8-year bond has face value ₹2,000 and annual coupon rate 10%. If the required yield is 8% p.a., calculate its present value.",
+        "answer": 2229.8656,
+        "formula": "P = C × [1 − (1+y)^−n] ÷ y + FV ÷ (1+y)^n",
+        "steps": [
+          "Annual coupon = ₹2,000 × 10% = ₹200",
+          "PV of coupons = ₹200 × [1 − (1.08)^−8] ÷ 0.08 = ₹1149.3278",
+          "PV of principal = ₹2,000 ÷ (1.08)^8 = ₹1080.5378",
+          "Bond value = ₹2229.8656"
+        ],
+        "unit": "₹",
+        "tolerance": 0.1,
+        "sourcePages": "16",
+        "divy": "DivY: Eight years means eight coupon payments, plus one principal repayment at the end. Count the coupons carefully; they are not a buy-one-get-one deal."
+      },
+      {
+        "id": "class-futures-1",
+        "topic": "futures",
+        "kind": "SBI futures — long position",
+        "question": "You buy 1,000 SBI futures units at ₹269.80 and hold to expiry. The futures closing price is ₹275. Transaction cost is ₹0.20 per unit for the round trip. Calculate net gain.",
+        "answer": 5000,
+        "formula": "Long futures P/L = (Closing price − Purchase price − transaction cost per unit) × quantity",
+        "steps": [
+          "Price gain per unit = ₹275 − ₹269.80 = ₹5.20",
+          "Less transaction cost = ₹0.20",
+          "Net gain per unit = ₹5.00",
+          "Total gain = ₹5 × 1,000 = ₹5,000"
+        ],
+        "unit": "₹",
+        "tolerance": 0.1,
+        "sourcePages": "33",
+        "divy": "DivY: Long means you bought first. Price rose, lovely. Now subtract the transaction cost before multiplying by all 1,000 units. Fees are small individually; crowds of them are not."
+      },
+      {
+        "id": "class-futures-2",
+        "topic": "futures",
+        "kind": "Hedged stock and futures positions",
+        "question": "You buy 1,000 shares at ₹266.80 and later sell at ₹275. Stock transaction cost is ₹0.80 per share. You also short futures at ₹275 and close at ₹269.80 with ₹0.20 per unit cost. Calculate the combined net gain.",
+        "answer": 2000,
+        "formula": "Combined P/L = Stock P/L + Futures P/L",
+        "steps": [
+          "Stock gain per share = 275 − 266.80 − 0.80 = ₹7.40; total = ₹7,400",
+          "Short futures gain per unit = 275 − 269.80 − 0.20 = ₹5.00; total = ₹5,000",
+          "This particular class example uses a futures short entry of ₹275 and close at ₹269.80, so futures gain = ₹5,000",
+          "Combined gain = ₹7,400 + ₹5,000 = ₹12,400"
+        ],
+        "unit": "₹",
+        "tolerance": 1,
+        "sourcePages": "37–40",
+        "divy": "DivY: Tiny pause — check the direction of each leg before adding. A short futures position gains when the futures price falls. This question is a hedge exercise, so write stock and futures legs separately before combining."
+      },
+      {
+        "id": "class-option-1",
+        "topic": "protective-put",
+        "kind": "Protective put — downside protection",
+        "question": "You buy a share at ₹1,500 and buy a put with strike ₹1,480 for a premium of ₹40. At expiry the share price is ₹1,400. Calculate net P/L per share.",
+        "answer": -60,
+        "formula": "Protective put P/L = (Expiry spot − Share purchase price) + max(Strike − Expiry spot, 0) − Premium",
+        "steps": [
+          "Share P/L = ₹1,400 − ₹1,500 = −₹100",
+          "Put payoff = max(₹1,480 − ₹1,400, 0) = ₹80",
+          "Subtract premium = ₹40",
+          "Net P/L = −100 + 80 − 40 = −₹60"
+        ],
+        "unit": "₹",
+        "tolerance": 0.02,
+        "sourcePages": "48–50",
+        "divy": "DivY: The put is the seatbelt, not a time machine. It cushions the fall by ₹80, but the ₹40 premium is the insurance bill. Net loss: ₹60 per share."
+      },
+      {
+        "id": "class-option-2",
+        "topic": "covered-call",
+        "kind": "Covered call — maximum gain",
+        "question": "You own a share bought at ₹2,400 and write a call with strike ₹2,500, receiving premium ₹45. At expiry the share price is ₹2,600. Calculate net P/L per share.",
+        "answer": 145,
+        "formula": "Covered call P/L = (Expiry spot − Purchase price) + Premium received − max(Expiry spot − Strike, 0)",
+        "steps": [
+          "Share gain = ₹2,600 − ₹2,400 = ₹200",
+          "Short call payoff loss = max(₹2,600 − ₹2,500, 0) = ₹100",
+          "Add premium received = ₹45",
+          "Net P/L = ₹200 − ₹100 + ₹45 = ₹145"
+        ],
+        "unit": "₹",
+        "tolerance": 0.02,
+        "sourcePages": "49–50",
+        "divy": "DivY: The share went past your strike, so the call buyer gets the upside above ₹2,500. You keep the premium and the gain up to the strike. That's why covered-call upside is capped."
+      },
+      {
+        "id": "class-option-3",
+        "topic": "bull-call-spread",
+        "kind": "Bull call spread — payoff limits",
+        "question": "You buy a call with strike ₹19,300 for premium ₹150 and sell a call with strike ₹19,500 for premium ₹70. Calculate net debit, maximum loss, maximum gain and break-even.",
+        "answer": 80,
+        "formula": "Net debit = Premium paid − Premium received; Max gain = Strike gap − net debit; BE = Lower strike + net debit",
+        "steps": [
+          "Net debit = ₹150 − ₹70 = ₹80",
+          "Maximum loss = net debit = ₹80",
+          "Maximum gain = (₹19,500 − ₹19,300) − ₹80 = ₹120",
+          "Break-even = ₹19,300 + ₹80 = ₹19,380"
+        ],
+        "unit": "₹ net debit / per unit limits",
+        "tolerance": 1,
+        "sourcePages": "45–46",
+        "divy": "DivY: Two calls, one bullish view. The call you sell helps pay for the call you buy, but it also puts a ceiling on your profit. Cheap-ish entry, capped upside."
+      },
+      {
+        "id": "class-option-4",
+        "topic": "bear-put-spread",
+        "kind": "Bear put spread — payoff limits",
+        "question": "You buy a put with strike ₹19,000 for ₹120 and sell a put with strike ₹18,800 for ₹80. Calculate net debit, maximum loss, maximum gain and break-even.",
+        "answer": 40,
+        "formula": "Net debit = Premium paid − Premium received; Max gain = Strike gap − net debit; BE = Higher strike − net debit",
+        "steps": [
+          "Net debit = ₹120 − ₹80 = ₹40",
+          "Maximum loss = ₹40",
+          "Maximum gain = (₹19,000 − ₹18,800) − ₹40 = ₹160",
+          "Break-even = ₹19,000 − ₹40 = ₹18,960"
+        ],
+        "unit": "₹ net debit / per unit limits",
+        "tolerance": 1,
+        "sourcePages": "45, 54–55",
+        "divy": "DivY: This is the bearish cousin of the bull call spread. You pay ₹40 net, so that's the maximum loss. The lower-strike put you sold caps the gain."
       }
     ],
     "theory": [
