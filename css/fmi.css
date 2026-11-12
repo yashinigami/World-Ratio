@@ -36,3 +36,33 @@
 .fmi-body .fmi-kicker{line-height:1.5}
 .fmi-body .fmi-file,.fmi-body .fmi-topic{line-height:1.5}
 @media(prefers-reduced-motion:reduce){.fmi-body *{scroll-behavior:auto!important;transition:none!important}}
+
+/* DivY: lightweight notes-powered FMI chat, with no API keys or server dependency */
+.divy-chat{position:fixed;right:22px;bottom:18px;width:min(370px,calc(100vw - 28px));z-index:1000;background:#fffaf5;border:1px solid #dcbac7;box-shadow:0 14px 45px rgba(77,37,56,.2);border-radius:15px;overflow:hidden;color:#542D40}
+.divy-chat-toggle{width:100%;display:flex;justify-content:space-between;align-items:center;padding:13px 16px;background:#6b344e;color:#fff;border:0;cursor:pointer;text-align:left}
+.divy-title{font:600 16px/1.3 'Playfair Display',serif}.divy-toggle-mark{font-size:22px;line-height:1}
+.divy-chat-content{display:flex;flex-direction:column}.divy-chat.is-collapsed .divy-chat-content{display:none}
+.divy-chat-head{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #ead5dc}
+.divy-chat-head img{width:48px;height:48px;object-fit:contain;border-radius:50%;background:#fff1dc}
+.divy-chat-head strong{display:block;font:600 17px 'Playfair Display',serif}.divy-chat-head small{display:block;color:#765366;font-size:11px}
+.divy-online{margin-left:auto;font-size:9px;letter-spacing:.08em;border:1px solid #ddc3cd;padding:4px 6px;border-radius:20px;color:#785368}
+.divy-messages{height:270px;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:10px;scroll-behavior:smooth}
+.divy-message{max-width:95%;padding:11px 12px;border-radius:12px;font-size:13px;line-height:1.55;overflow-wrap:anywhere}
+.divy-message p{margin:6px 0;color:#573d4b}.divy-message ul{padding-left:18px;margin:7px 0}
+.divy-message.bot{align-self:flex-start;background:#f8e9ed;border:1px solid #ecd2db}
+.divy-message.user{align-self:flex-end;background:#6b344e;color:#fff}.divy-message.user p{color:#fff}
+.divy-source{display:block;margin-top:9px;color:#765366;font-size:10px}
+.divy-formula{padding:8px 10px;background:#fff8dd;border-left:3px solid #d3ad55;margin:8px 0}
+.divy-formula p{font-family:ui-monospace,monospace;font-size:12px}
+.divy-hand-note{font:18px/1.35 'Caveat',cursive!important;background:#fff2b8;padding:9px}
+.divy-message details{margin-top:8px}.divy-message summary{cursor:pointer;color:#813e5b;font-weight:600}
+.divy-search-link{display:inline-block;margin-top:6px;color:#813e5b;font-weight:600}
+.divy-suggestions{display:flex;gap:6px;overflow-x:auto;padding:0 12px 10px}
+.divy-suggestions button{white-space:nowrap;border:1px solid #dfc2cc;background:#fff;color:#65374e;border-radius:20px;padding:6px 9px;font-size:10px;cursor:pointer}
+.divy-form{display:flex;gap:7px;padding:10px 12px;border-top:1px solid #ead5dc}
+.divy-form input{flex:1;min-width:0;border:1px solid #d9bcc6;border-radius:9px;padding:10px;font:13px Arial,sans-serif;color:#542D40;background:white}
+.divy-form button{border:0;background:#b65e7b;color:white;border-radius:9px;padding:0 13px;cursor:pointer}
+.divy-disclaimer{font-size:9px;line-height:1.4;color:#765366;padding:0 13px 11px;margin:0}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.fmi-quiz-count{font-size:11px;color:#765366}
+@media(max-width:600px){.divy-chat{right:10px;bottom:10px;width:min(360px,calc(100vw - 20px))}.divy-messages{height:220px}}
