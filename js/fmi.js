@@ -2,7 +2,7 @@ let F={sources:[],topics:[],quizzes:[]},selectedFile=null,selectedTopic=null,mod
 const $=s=>document.querySelector(s);
 const safe=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const completed=new Set(JSON.parse(localStorage.getItem("wr-fmi-done")||"[]"));
-async function init(){try{const response=await fetch("data/fmi-sem1.json");if(!response.ok)throw new Error("Library request failed");F=await response.json();$("#fmi-file-count").textContent=F.sources.length;$("#fmi-topic-count").textContent=F.topics.length;progress();renderFiles();renderQuiz();initDivY();}catch(error){$("#fmi-files").textContent="Unable to load the FMI study library. Please refresh the page.";$("#fmi-question").textContent="The quiz could not be loaded.";}}
+async function init(){try{const response=await fetch("data/fmi-sem1.json");if(!response.ok)throw new Error("Library request failed");F=await response.json();$("#fmi-file-count").textContent=F.sources.length;$("#fmi-topic-count").textContent=F.topics.length;progress();renderFiles();renderQuiz();initDivY();initPractice();}catch(error){$("#fmi-files").textContent="Unable to load the FMI study library. Please refresh the page.";$("#fmi-question").textContent="The quiz could not be loaded.";}}
 function progress(){$("#fmi-progress-count").textContent=completed.size;}
 function renderFiles(){const term=$("#fmi-search").value.toLowerCase();const files=F.sources.filter(x=>(mod==="all"||x.module===mod)&&[x.name,x.title,x.module].join(" ").toLowerCase().includes(term));$("#fmi-files").innerHTML=files.map(x=>`<button type="button" class="fmi-file ${selectedFile?.id===x.id?"active":""}" data-file="${safe(x.id)}" aria-pressed="${selectedFile?.id===x.id}"><strong>${safe(x.title)}</strong><small>${safe(x.kind)} · ${safe(x.name)}</small></button>`).join("")||"<p>No matching source files.</p>";}
 function chooseFile(id){selectedFile=F.sources.find(x=>x.id===id);if(!selectedFile)return;selectedTopic=null;$("#fmi-study-title").textContent=selectedFile.title;$("#fmi-study-desc").textContent=selectedFile.description;renderFiles();const topics=selectedFile.topics.map(id=>F.topics.find(t=>t.id===id)).filter(Boolean);$("#fmi-detail").hidden=true;$("#fmi-related").hidden=true;if(selectedFile.status==="unavailable"){$("#fmi-topics").innerHTML="<p>This upload could not be read reliably. No notes have been invented for it; please replace it with a readable copy.</p>";return;}$("#fmi-topics").innerHTML=topics.length?topics.map(t=>`<button type="button" class="fmi-topic" data-topic="${safe(t.id)}" aria-pressed="false"><span><strong>${safe(t.title)}</strong><small>${safe(t.module)} · ${safe(t.level)}</small></span><span aria-hidden="true">↗</span></button>`).join(""):"<p>This is a duplicate upload. Use the original question bank entry for the same notes.</p>";}
@@ -13,7 +13,7 @@ const related=t.related.map(id=>F.topics.find(x=>x.id===id)).filter(Boolean);$("
 }
 function startQuiz(id){const topic=F.topics.find(t=>t.id===id);quiz=topic&&topic.quizQuestions?[...topic.quizQuestions]:[];quizTitle=topic?topic.title:"Topic revision";if(!quiz.length){$("#fmi-qno").textContent="QUIZ UNAVAILABLE";$("#fmi-question").textContent="No topic-specific questions are available for this topic yet.";$("#fmi-choices").innerHTML="";return;}beginQuiz();}
 function beginQuiz(){qIndex=0;score=0;asked=0;incorrect=[];if($("#fmi-quiz-title"))$("#fmi-quiz-title").textContent=quizTitle+" · "+(quizTitle==="Mixed FMI revision"?"Mixed quiz":"Topic-specific quiz");showQuestion();$("#fmi-score").textContent="Score: 0 / "+quiz.length;}
-function renderQuiz(){quiz=[...F.quizzes];quizTitle="Mixed FMI revision";beginQuiz();}
+function renderQuiz(){const bank=F.practiceBanks?.mcq||F.quizzes;quiz=shuffleCopy(bank).slice(0,10);quizTitle="Mixed FMI revision";beginQuiz();}
 function showQuestion(){chosen=null;answered=false;const q=quiz[qIndex];if(!q)return;$("#fmi-qno").textContent="QUESTION "+(qIndex+1)+" / "+quiz.length+" · "+(q.difficulty||"Revision");$("#fmi-question").textContent=q.question;$("#fmi-choices").innerHTML=q.choices.map((choice,i)=>`<button type="button" class="fmi-choice" data-answer="${i}" aria-pressed="false"><span class="fmi-choice-mark">${String.fromCharCode(65+i)}</span><span>${safe(choice)}</span></button>`).join("");$("#fmi-feedback").hidden=true;$("#fmi-check").hidden=false;$("#fmi-check").disabled=true;$("#fmi-next").hidden=false;$("#fmi-next").disabled=true;$("#fmi-next").textContent="Answer first to continue";$("#fmi-score").textContent="Score: "+score+" / "+asked+" answered";$("#fmi-progress-fill").style.width=(qIndex/quiz.length*100)+"%";$("#fmi-progress-fill").setAttribute("aria-valuenow",String(qIndex));}
 function selectAnswer(button){if(answered)return;chosen=Number(button.dataset.answer);document.querySelectorAll("[data-answer]").forEach(b=>{const active=b===button;b.classList.toggle("selected",active);b.setAttribute("aria-pressed",String(active));});$("#fmi-check").disabled=false;}
 function checkAnswer(){if(chosen===null||answered)return;answered=true;asked++;const q=quiz[qIndex],correct=chosen===q.answer;if(correct)score++;else incorrect.push(q);document.querySelectorAll("[data-answer]").forEach(b=>{const n=Number(b.dataset.answer);b.disabled=true;b.classList.toggle("correct",n===q.answer);b.classList.toggle("wrong",n===chosen&&!correct);});const feedback=$("#fmi-feedback");feedback.hidden=false;feedback.className="fmi-feedback "+(correct?"correct":"");feedback.innerHTML=`<strong>${correct?"✓ Correct!":"Not quite — let's break it down."}</strong><p>${correct?"You got it. ":"The correct answer is "+safe(q.choices[q.answer])+". "}${safe(q.explanation)}</p><button type="button" class="fmi-text-button" data-review="${safe(q.topic)}">Review this topic ↗</button>`;$("#fmi-check").hidden=true;$("#fmi-next").disabled=false;$("#fmi-next").textContent=qIndex===quiz.length-1?"See your result":"Next question →";$("#fmi-score").textContent="Score: "+score+" / "+asked;$("#fmi-progress-fill").style.width=((qIndex+1)/quiz.length*100)+"%";feedback.focus?.();}
@@ -61,6 +61,64 @@ function initDivY(){
  document.querySelector("#divy-form").addEventListener("submit",e=>{e.preventDefault();divYAsk();});
  document.querySelector("#divy-suggestions").addEventListener("click",e=>{const b=e.target.closest("[data-ask]");if(b)divYAsk(b.dataset.ask);});
  document.querySelector("#divy-toggle").addEventListener("click",()=>{const panel=document.querySelector("#divy-chat");const collapsed=panel.classList.toggle("is-collapsed");document.querySelector("#divy-toggle").setAttribute("aria-expanded",String(!collapsed));document.querySelector(".divy-toggle-mark").textContent=collapsed?"+":"−";});
+}
+
+
+let practiceMode="numericals",activePractice=null,practiceAnswered=false,practiceCounts={numericals:0,theory:0};
+function shuffleCopy(list){const a=[...(list||[])];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function practiceBank(){return F.practiceBanks?.[practiceMode]||[];}
+function newPracticeQuestion(){
+ const bank=practiceBank();if(!bank.length)return;
+ let pool=bank.filter(q=>q.id!==activePractice?.id);if(!pool.length)pool=bank;
+ activePractice=pool[Math.floor(Math.random()*pool.length)];practiceAnswered=false;
+ $("#practice-type-label").textContent=practiceMode==="numericals"?"NUMERICAL WORKOUT": "THEORY / CONCEPT CHECK";
+ $("#practice-q-count").textContent=bank.length+" questions in this bank · question "+(++practiceCounts[practiceMode])+" for this session";
+ $("#practice-question").textContent=activePractice.question;
+ $("#practice-topic").textContent=F.topics.find(t=>t.id===activePractice.topic)?.title||activePractice.kind||"FMI practice";
+ $("#practice-unit").textContent=practiceMode==="numericals"?"Enter your final answer ("+activePractice.unit+").": "Write the answer in your own words. Similar wording is fine.";
+ $("#practice-answer").value="";$("#practice-feedback").hidden=true;$("#practice-check").disabled=false;$("#practice-next").hidden=true;
+ $("#practice-answer").placeholder=practiceMode==="numericals"?"Your numerical answer…":"Type your explanation here…";
+ $("#practice-answer").rows=practiceMode==="numericals"?2:5;
+}
+function setPracticeMode(mode){
+ practiceMode=mode;document.querySelectorAll("[data-practice-mode]").forEach(b=>{b.classList.toggle("active",b.dataset.practiceMode===mode);b.setAttribute("aria-pressed",String(b.dataset.practiceMode===mode));});
+ newPracticeQuestion();
+}
+function numericFromAnswer(value){const cleaned=String(value).replace(/,/g,"").replace(/[₹$%]/g,"").trim();const match=cleaned.match(/-?\d+(?:\.\d+)?/);return match?Number(match[0]):NaN;}
+function gradeTheory(answer,q){
+ const normalized=String(answer||"").toLowerCase().replace(/[^a-z0-9₹.%+-]+/g," ");
+ const words=[...new Set((q.keywords||[]).filter(w=>w.length>3))];
+ const matched=words.filter(w=>normalized.includes(w));
+ const ratio=words.length?matched.length/words.length:0;
+ const score=Math.round(ratio*100);
+ return {score,matched,missing:words.filter(w=>!matched.includes(w)),level:score>=55?"good":score>=25?"partial":"weak"};
+}
+function checkPracticeAnswer(){
+ if(!activePractice||practiceAnswered)return;
+ const raw=$("#practice-answer").value.trim();if(!raw){$("#practice-feedback").hidden=false;$("#practice-feedback").className="practice-feedback partial";$("#practice-feedback").textContent="Pop an answer in first. Even a rough attempt gives us something to work with.";return;}
+ practiceAnswered=true;$("#practice-check").disabled=true;$("#practice-next").hidden=false;
+ const q=activePractice,box=$("#practice-feedback");box.hidden=false;
+ if(practiceMode==="numericals"){
+  const given=numericFromAnswer(raw),correct=Number(q.answer),ok=Number.isFinite(given)&&Math.abs(given-correct)<=Number(q.tolerance||0.01);
+  box.className="practice-feedback "+(ok?"good":"partial");
+  const intro=ok?"✓ Correct. The calculator has been fed and behaved.":"Not quite — but this is exactly where the learning happens.";
+  const lines=(q.steps||[]).map((s,i)=>"<li>"+safe(s)+"</li>").join("");
+  box.innerHTML="<strong>"+intro+"</strong><p>"+(ok?"Your answer is within the accepted rounding tolerance.":"Your answer: "+safe(raw)+". Expected answer: "+safe(q.answer)+" "+safe(q.unit)+".")+"</p><div class='divy-worked'><b>DivY's worked solution ✿</b><p class='divy-comic'>"+safe(q.divy)+"</p><p><b>Formula:</b> "+safe(q.formula)+"</p><ol>"+lines+"</ol><p><b>Final answer:</b> "+safe(q.answer)+" "+safe(q.unit)+"</p><small>Based on class-note numerical pages "+safe(q.sourcePages||"")+". Check units and rounding in your working.</small></div>";
+ }else{
+  const result=gradeTheory(raw,q),good=result.level==="good",partial=result.level==="partial";
+  box.className="practice-feedback "+(good?"good":partial?"partial":"weak");
+  const heading=good?"✓ Good answer — you've captured the central ideas.":partial?"You're part-way there. A few important ideas are missing.":"Not close enough yet. Let's compare your answer with the class-note points.";
+  const missed=result.missing.slice(0,5);
+  box.innerHTML="<strong>"+heading+"</strong><p>Concept coverage: "+result.score+"% · "+result.matched.length+" of "+(result.matched.length+result.missing.length)+" key terms detected.</p><p><b>Ideas you included:</b> "+(result.matched.length?result.matched.map(safe).join(", "):"The checker could not identify the key terms.")+"</p><p><b>Ideas to revisit:</b> "+(missed.length?missed.map(safe).join(", "):"No major keyword gaps detected.")+"</p><details><summary>Compare with a model answer</summary><p>"+safe(q.modelAnswer)+"</p></details><small>This is an offline keyword/rubric check, not an AI semantic judgement. It accepts relevant terms even if your sentences differ, but may miss a correct answer phrased very differently.</small>";
+ }
+}
+function initPractice(){
+ if(!$("#practice-question"))return;
+ document.querySelectorAll("[data-practice-mode]").forEach(b=>b.addEventListener("click",()=>setPracticeMode(b.dataset.practiceMode)));
+ $("#practice-check").addEventListener("click",checkPracticeAnswer);
+ $("#practice-next").addEventListener("click",newPracticeQuestion);
+ $("#practice-answer").addEventListener("keydown",e=>{if(e.key==="Enter"&&e.ctrlKey){e.preventDefault();checkPracticeAnswer();}});
+ setPracticeMode("numericals");
 }
 
 document.addEventListener("DOMContentLoaded",()=>{init();$("#fmi-search").addEventListener("input",renderFiles);$("#fmi-filters").addEventListener("click",e=>{const b=e.target.closest("[data-mod]");if(!b)return;mod=b.dataset.mod;document.querySelectorAll("[data-mod]").forEach(x=>x.classList.toggle("active",x===b));renderFiles();});$("#fmi-files").addEventListener("click",e=>{const b=e.target.closest("[data-file]");if(b)chooseFile(b.dataset.file);});$("#fmi-topics").addEventListener("click",e=>{const b=e.target.closest("[data-topic]");if(b)openTopic(b.dataset.topic);});$("#fmi-related-list").addEventListener("click",e=>{const b=e.target.closest("[data-rel]");if(!b)return;const t=F.topics.find(x=>x.id===b.dataset.rel),src=F.sources.find(s=>s.topics.includes(t.id));if(src)chooseFile(src.id);openTopic(t.id);});$("#fmi-choices").addEventListener("click",e=>{const b=e.target.closest("[data-answer]");if(b)selectAnswer(b);});$("#fmi-check").addEventListener("click",checkAnswer);$("#fmi-next").addEventListener("click",nextQuestion);$("#fmi-restart").addEventListener("click",renderQuiz);$("#fmi-feedback").addEventListener("click",e=>{const b=e.target.closest("[data-review]");if(!b)return;const t=F.topics.find(x=>x.id===b.dataset.review),src=F.sources.find(s=>s.topics.includes(t.id));if(src)chooseFile(src.id);openTopic(t.id);$("#fmi-library").scrollIntoView({behavior:"smooth"});});});
