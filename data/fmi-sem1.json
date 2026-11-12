@@ -1,0 +1,1314 @@
+{
+  "sources": [
+    {
+      "id": "m1",
+      "title": "Module I — Financial System & Institutions",
+      "name": "1-PW--FMI Module I - An Introduction to a financial System and its Constituents - sent to students-protected (1).pdf",
+      "kind": "PDF",
+      "module": "Module I",
+      "topics": [
+        "financial-system",
+        "financial-markets",
+        "institutions",
+        "financial-services"
+      ],
+      "description": "Markets, institutions, instruments, services and regulators.",
+      "status": "available"
+    },
+    {
+      "id": "m2a",
+      "title": "Module II — Pre-IPO & IPO Fund Raising",
+      "name": "2-PW-FMI Module 2-edited- Sections 1&2 - Module II-Pre IPO + IPO fund raising-protected (1).pdf",
+      "kind": "PDF",
+      "module": "Module II",
+      "topics": [
+        "startup-funding",
+        "venture-capital",
+        "ipo-process",
+        "book-building",
+        "asba"
+      ],
+      "description": "How companies raise funds before and during a public issue.",
+      "status": "available"
+    },
+    {
+      "id": "m2b",
+      "title": "Module II — Secondary Markets, Equity & Bonds",
+      "name": "3-PW-Module 2 edited- Sec 3 &4 &5- Module II-Secondary Markets + Equity and Bonds-protected (1).pdf",
+      "kind": "PDF",
+      "module": "Module II",
+      "topics": [
+        "secondary-market",
+        "trading-orders",
+        "equity-shares",
+        "bond-basics",
+        "bond-pricing",
+        "ytm",
+        "duration"
+      ],
+      "description": "Trading of existing securities, equity ownership and debt valuation.",
+      "status": "available"
+    },
+    {
+      "id": "bond",
+      "title": "Bond Valuation — Numerical Practice",
+      "name": "4- Module 2-Bond valuation Numericals.pdf",
+      "kind": "PDF · Numericals",
+      "module": "Module II",
+      "topics": [
+        "bond-pricing",
+        "ytm",
+        "duration",
+        "discount-yield"
+      ],
+      "description": "Bond price, yield, duration and discount-instrument calculations.",
+      "status": "available"
+    },
+    {
+      "id": "behaviour",
+      "title": "Behavioural Finance",
+      "name": "5-Module 2- MSC- BEHAVIOURAL Finance.pdf",
+      "kind": "PDF",
+      "module": "Module II",
+      "topics": [
+        "prospect-theory",
+        "grossman-stiglitz",
+        "mental-accounting",
+        "disposition-effect"
+      ],
+      "description": "Psychological biases and financial decision-making.",
+      "status": "available"
+    },
+    {
+      "id": "mf",
+      "title": "Module III — Mutual Funds",
+      "name": "6-PW-FMI- Module 3- Mutual Funds- edited-FMI -Module III - Mutual Funds_protected.pdf",
+      "kind": "PDF",
+      "module": "Module III",
+      "topics": [
+        "mutual-funds",
+        "nav",
+        "ter",
+        "fund-structure",
+        "fund-categories",
+        "sip-swp-stp",
+        "tracking-error"
+      ],
+      "description": "Mutual fund basics, NAV, costs, structure, schemes and plans.",
+      "status": "available"
+    },
+    {
+      "id": "nav",
+      "title": "NAV — Important Numerical Practice",
+      "name": "7-Important-NAV numericals-Mutual fund Additional Numericals.pdf",
+      "kind": "PDF · Numericals",
+      "module": "Module III",
+      "topics": [
+        "nav",
+        "nav-adjustments"
+      ],
+      "description": "Worked NAV calculations and adjustments.",
+      "status": "available"
+    },
+    {
+      "id": "portfolio",
+      "title": "Portfolio Construction — Value, Quality & More",
+      "name": "8-Msc-Module 3-Comprehensive Guide to Portfolio Construction VALUE QUALITY SWING SIDEPOCKETING.pdf",
+      "kind": "PDF",
+      "module": "Module III",
+      "topics": [
+        "portfolio-construction",
+        "value-investing",
+        "quality-investing",
+        "factor-investing",
+        "swing-pricing",
+        "side-pocketing"
+      ],
+      "description": "Value, quality, factors, swing pricing and side pocketing.",
+      "status": "available"
+    },
+    {
+      "id": "derivatives",
+      "title": "Module IV — Derivatives: Futures & Forwards",
+      "name": "9 PW-MSCupload -PS-Sept 2026-Module IV -FMI -Edited Derivatives (Futures & Forwards) - Shared with Students_protected.pdf",
+      "kind": "PDF",
+      "module": "Module IV",
+      "topics": [
+        "derivatives",
+        "forwards",
+        "futures",
+        "futures-margin",
+        "mark-to-market",
+        "cost-of-carry",
+        "options",
+        "option-strategies"
+      ],
+      "description": "Forward and futures contracts, margining, settlement and options.",
+      "status": "available"
+    },
+    {
+      "id": "commodity",
+      "title": "Module V — Commodity Markets",
+      "name": "10-pw-MSC-Module 5 - Commodity markets.pdf",
+      "kind": "PDF",
+      "module": "Module V",
+      "topics": [
+        "commodity-markets",
+        "commodity-derivatives",
+        "commodity-exchanges"
+      ],
+      "description": "Commodity markets, hedging, instruments and exchanges.",
+      "status": "available"
+    },
+    {
+      "id": "ppt9",
+      "title": "FMI PPT 9 PW.pdf",
+      "name": "FMI PPT 9 PW.pdf",
+      "kind": "PPT/PDF",
+      "module": "Additional material",
+      "topics": [],
+      "description": "The uploaded file could not be read reliably. No content is invented for this entry.",
+      "status": "unavailable"
+    },
+    {
+      "id": "optpdf",
+      "title": "Options — Question Bank",
+      "name": "options questions part 1.pdf",
+      "kind": "PDF · Question bank",
+      "module": "Module IV",
+      "topics": [
+        "options",
+        "option-strategies"
+      ],
+      "description": "Option payoff and strategy practice.",
+      "status": "available"
+    },
+    {
+      "id": "optdoc",
+      "title": "Option Strategy Questions",
+      "name": "OPTION STRATEGY QUES.docx",
+      "kind": "DOCX · Question bank",
+      "module": "Module IV",
+      "topics": [
+        "option-strategies",
+        "covered-call",
+        "protective-put",
+        "bull-call-spread",
+        "bear-put-spread"
+      ],
+      "description": "Questions and worked strategy solutions.",
+      "status": "available"
+    },
+    {
+      "id": "optdoc2",
+      "title": "Option Strategy Questions (duplicate upload)",
+      "name": "OPTION STRATEGY QUES (1).docx",
+      "kind": "DOCX · Duplicate",
+      "module": "Module IV",
+      "topics": [
+        "option-strategies"
+      ],
+      "description": "Duplicate upload; use the same option-strategy notes.",
+      "status": "duplicate"
+    },
+    {
+      "id": "optxlsx",
+      "title": "Options — Numerical Workbook",
+      "name": "Module 4 - 2026- REVISED Numericals OPTION Practice Question Solution Changed (1).xlsx",
+      "kind": "Excel · Numericals",
+      "module": "Module IV",
+      "topics": [
+        "option-strategies",
+        "covered-call",
+        "protective-put",
+        "bull-call-spread",
+        "bear-put-spread"
+      ],
+      "description": "Option strategy questions and solutions in spreadsheet form.",
+      "status": "available"
+    },
+    {
+      "id": "optxlsx2",
+      "title": "Options — Numerical Workbook (duplicate upload)",
+      "name": "Module 4 - 2026- REVISED Numericals OPTION Practice Question Solution Changed (1) (1).xlsx",
+      "kind": "Excel · Duplicate",
+      "module": "Module IV",
+      "topics": [
+        "option-strategies"
+      ],
+      "description": "Duplicate workbook upload; use the main numerical workbook.",
+      "status": "duplicate"
+    }
+  ],
+  "topics": [
+    {
+      "id": "financial-system",
+      "title": "The financial system",
+      "module": "Module I",
+      "level": "Foundation",
+      "detail": "A financial system is the network that moves money from people or organisations with surplus funds to those who need funds.",
+      "simple": "Think of it as the economy's money-connection system: savers, borrowers, markets, institutions and regulators all connect through it.",
+      "example": "A household saves money in a bank. The bank lends to a business that needs funds to buy equipment. The system connects the saver and borrower.",
+      "points": [
+        "It includes financial markets, institutions, instruments and services, with regulators supervising the system."
+      ],
+      "key": "Markets enable issue and trading; institutions collect, lend, invest and insure; instruments are products such as shares and bonds; regulators supervise participants.",
+      "related": [
+        "financial-markets",
+        "institutions",
+        "financial-services"
+      ]
+    },
+    {
+      "id": "financial-markets",
+      "title": "Financial markets and their functions",
+      "module": "Module I",
+      "level": "Foundation",
+      "detail": "Financial markets are systems where financial assets are created, issued and traded.",
+      "simple": "A market connects buyers and sellers and helps establish a price for financial products.",
+      "example": "An investor sells listed shares to another investor through the secondary market.",
+      "points": [
+        "Functions include price discovery, liquidity, lower transaction/information costs, savings mobilisation, diversification and transferability."
+      ],
+      "key": "Primary markets issue new securities; secondary markets trade existing securities. Liquidity means being able to sell without a major price impact.",
+      "related": [
+        "financial-system",
+        "secondary-market"
+      ]
+    },
+    {
+      "id": "institutions",
+      "title": "Financial institutions",
+      "module": "Module I",
+      "level": "Foundation",
+      "detail": "Financial institutions are organisations that help people and businesses save, borrow, invest, insure and make payments.",
+      "simple": "They are the organisations doing the work inside the financial system.",
+      "example": "A commercial bank accepts deposits and provides loans. A mutual fund pools investors' money and invests it.",
+      "points": [
+        "The material covers commercial banks, co-operative banks, payment banks, small finance banks, NBFCs, ARCs, primary dealers, DFIs, mutual funds, insurers and pension funds."
+      ],
+      "key": "Payment banks can accept eligible deposits and facilitate payments but cannot lend. Small finance banks can accept deposits and lend. NBFCs do not have all banking powers.",
+      "related": [
+        "financial-system",
+        "financial-services"
+      ]
+    },
+    {
+      "id": "financial-services",
+      "title": "Financial services",
+      "module": "Module I",
+      "level": "Foundation",
+      "detail": "Financial services are specialist activities that help raise funds, invest, trade, safeguard assets and complete transactions.",
+      "simple": "Think of them as the support services that make financial markets work.",
+      "example": "An investment banker coordinates a company's IPO; a registrar processes applications; a custodian safeguards securities.",
+      "points": [
+        "The slides cover investment/merchant banking, distribution, advisory, credit rating, custody, factoring, forfaiting, leasing, hire purchase and housing finance."
+      ],
+      "key": "Factoring usually involves short-term receivables. Forfaiting is described as non-recourse purchase of export receivables, generally medium/long term.",
+      "related": [
+        "institutions",
+        "ipo-process"
+      ]
+    },
+    {
+      "id": "startup-funding",
+      "title": "Early-stage funding",
+      "module": "Module II",
+      "level": "Foundation",
+      "detail": "Start-ups need money before their product or business model is fully proven.",
+      "simple": "A business idea often needs funding before it earns enough to pay its own bills.",
+      "example": "A start-up uses seed funding to build a prototype, test demand and hire its first team.",
+      "points": [
+        "Pre-seed/seed supports an idea or prototype; early stage follows proof of concept; later stage supports growth and scaling."
+      ],
+      "key": "Sources include founders, friends/family, angel investors, venture capital, crowdfunding and incubators/accelerators.",
+      "related": [
+        "venture-capital",
+        "ipo-process"
+      ]
+    },
+    {
+      "id": "venture-capital",
+      "title": "Angel investors, venture capital and private equity",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "Angel investors and VCs invest in young businesses with growth potential; PE generally focuses on more mature businesses.",
+      "simple": "An angel may invest personal money early. A VC fund invests professionally in start-ups. A PE investor usually invests later in a business with a track record.",
+      "example": "A VC evaluates market size, scalability, product, promoter, technology and risks before investing.",
+      "points": [
+        "VC process: deal origination, screening, evaluation, negotiation, post-investment monitoring and exit. Exit may occur through IPO, acquisition, buy-back or sale."
+      ],
+      "key": "Post-money valuation = pre-money valuation + new investment. Investor ownership is investment divided by post-money valuation.",
+      "related": [
+        "startup-funding",
+        "ipo-process"
+      ]
+    },
+    {
+      "id": "ipo-process",
+      "title": "IPO process",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "An IPO is a public offer by an unlisted company seeking to list its securities on a stock exchange.",
+      "simple": "A company that was privately held offers shares to public investors for the first time.",
+      "example": "Company appoints intermediaries, completes due diligence, files DRHP, responds to review, announces price band, receives bids, allots shares and lists.",
+      "points": [
+        "Key intermediaries include lead manager/BRLM, registrar, bankers to issue, underwriters, syndicate members, depositories and DPs."
+      ],
+      "key": "DRHP is the draft offer document. Registrar processes applications and allotment. After listing, shares trade in the secondary market.",
+      "related": [
+        "book-building",
+        "asba",
+        "secondary-market"
+      ]
+    },
+    {
+      "id": "book-building",
+      "title": "Book building",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "Book building collects investor bids within a price band to help determine an IPO's final issue price.",
+      "simple": "Instead of fixing the final price first, the issuer asks investors what price and quantity they are willing to bid for.",
+      "example": "In the class illustration, 3,000 shares are offered from ₹20–₹24. Bids are 500 at ₹24, 1,000 at ₹23 and 1,500 at ₹22; demand reaches 3,000 at ₹22.",
+      "points": [
+        "Fixed-price issues announce a price in advance. Book building uses a price band and demand schedule."
+      ],
+      "key": "Cut-off is the price at which the offered quantity is met in the classroom demand schedule.",
+      "related": [
+        "ipo-process",
+        "asba"
+      ]
+    },
+    {
+      "id": "asba",
+      "title": "ASBA",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "ASBA means Applications Supported by Blocked Amount. IPO application money stays blocked in the bank account until allotment.",
+      "simple": "You apply for shares but the bank does not immediately take the money out of your account.",
+      "example": "If ₹15,000 is blocked and shares worth ₹6,000 are allotted, ₹6,000 is debited and the remaining amount is unblocked.",
+      "points": [
+        "SCSBs are banks designated to provide ASBA services."
+      ],
+      "key": "Only the allotted amount is debited; unused blocked money is released.",
+      "related": [
+        "ipo-process",
+        "book-building"
+      ]
+    },
+    {
+      "id": "secondary-market",
+      "title": "Secondary market",
+      "module": "Module II",
+      "level": "Foundation",
+      "detail": "The secondary market is where already-issued securities are traded between investors.",
+      "simple": "The company has already issued the share. Now investors buy and sell it among themselves.",
+      "example": "You buy a listed share from another investor through the exchange; the company does not receive the sale proceeds.",
+      "points": [
+        "Secondary markets support liquidity, price discovery, market participation and monitoring."
+      ],
+      "key": "Bid is buyer's price; ask is seller's price; LTP is the latest completed trade price, not a guaranteed execution price.",
+      "related": [
+        "financial-markets",
+        "trading-orders",
+        "equity-shares"
+      ]
+    },
+    {
+      "id": "trading-orders",
+      "title": "Market, limit and stop-loss orders",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "An order tells the broker how you want to buy or sell a security.",
+      "simple": "Different order types trade off speed, price control and trigger conditions.",
+      "example": "A buy limit at ₹100 means buy at ₹100 or lower, but it may not execute. A market order seeks immediate execution but price can vary.",
+      "points": [
+        "Market order prioritises execution. Limit order sets an acceptable price. Stop-loss activates an order when its trigger price is reached."
+      ],
+      "key": "Market order: execution not price certainty. Limit order: price control not execution certainty. Stop trigger does not guarantee execution at that exact price.",
+      "related": [
+        "secondary-market",
+        "futures",
+        "options"
+      ]
+    },
+    {
+      "id": "equity-shares",
+      "title": "Equity shares",
+      "module": "Module II",
+      "level": "Foundation",
+      "detail": "An equity share represents ownership in a company.",
+      "simple": "Buying a share means owning a small part of the company.",
+      "example": "A company may reinvest profits rather than pay dividends; shareholders may benefit from future growth but dividends are not guaranteed.",
+      "points": [
+        "Equity holders have voting rights as specified and a residual claim after creditors in liquidation."
+      ],
+      "key": "Dividend yield = annual dividend per share ÷ market price per share × 100. The slides classify stocks by size, dividends, fundamentals, risk and economic cycle.",
+      "related": [
+        "secondary-market",
+        "bond-basics",
+        "value-investing"
+      ]
+    },
+    {
+      "id": "bond-basics",
+      "title": "Bond basics",
+      "module": "Module II",
+      "level": "Foundation",
+      "detail": "A bond is a loan made by an investor to an issuer. The issuer promises interest and repayment of principal according to the terms.",
+      "simple": "You lend money to a government or company and receive interest if payments are made as promised.",
+      "example": "A ₹1,000 bond with a 7% annual coupon pays ₹70 annually if the terms specify annual payments.",
+      "points": [
+        "Key terms: face value, coupon rate, coupon payment, maturity, market price, premium/discount and yield."
+      ],
+      "key": "Debt investors are creditors; equity investors are owners. Creditors generally rank ahead of shareholders in insolvency.",
+      "related": [
+        "bond-pricing",
+        "ytm",
+        "duration"
+      ]
+    },
+    {
+      "id": "bond-pricing",
+      "title": "Bond valuation",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "A bond's price is the present value of its future coupon payments plus the present value of principal repayment.",
+      "simple": "Work out what all future bond payments are worth today, using the required market yield.",
+      "example": "A ₹1,000 bond paying a 7% annual coupon for five years is worth about ₹960.51 at an 8% required yield in the class example.",
+      "points": [
+        "P = C × [1 − (1+y)^(-n)] ÷ y + FV ÷ (1+y)^n. C=coupon per period; y=yield per period; n=periods; FV=face value."
+      ],
+      "key": "Market yields rise → existing fixed-coupon bond prices generally fall. For semi-annual bonds halve annual coupon/yield and double periods.",
+      "related": [
+        "bond-basics",
+        "ytm",
+        "duration",
+        "discount-yield"
+      ]
+    },
+    {
+      "id": "ytm",
+      "title": "Yield to maturity",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "YTM is the return implied by the bond's current price if held to maturity and promised cash flows are received.",
+      "simple": "It combines coupon income and any gain or loss between the price paid and the amount repaid at maturity.",
+      "example": "A bond with a 7% coupon can have an 8% YTM if it trades at a discount.",
+      "points": [
+        "YTM is the discount rate that makes PV of all future cash flows equal current market price."
+      ],
+      "key": "Coupon rate is calculated on face value; YTM depends on current market price and future cash flows.",
+      "related": [
+        "bond-pricing",
+        "duration"
+      ]
+    },
+    {
+      "id": "duration",
+      "title": "Macaulay and modified duration",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "Duration measures the weighted timing of bond cash flows and helps estimate interest-rate sensitivity.",
+      "simple": "It is not simply the maturity date. It tells you how sensitive the bond price may be when yields change.",
+      "example": "If modified duration is 4.16, a one-percentage-point rise in yield suggests an approximate 4.16% price fall.",
+      "points": [
+        "Macaulay duration = sum of time × PV of cash flow divided by bond price. Modified duration = Macaulay duration ÷ (1 + yield per coupon period)."
+      ],
+      "key": "Higher modified duration generally means greater price sensitivity. Convexity describes curvature in the price-yield relationship.",
+      "related": [
+        "bond-pricing",
+        "ytm"
+      ]
+    },
+    {
+      "id": "discount-yield",
+      "title": "Treasury bill and discount yield",
+      "module": "Module II",
+      "level": "Core",
+      "detail": "A discount instrument is bought below face value and redeemed at face value; the discount is the investor's return.",
+      "simple": "Pay ₹98 today and receive ₹100 at maturity. The ₹2 difference is the return before annualising.",
+      "example": "₹100 face value CP bought for ₹98 with 91 days to maturity: effective yield ≈ (2/98) × (365/91) × 100 = 8.19%.",
+      "points": [
+        "Effective yield uses purchase price in the denominator. Bank discount yield uses face value in the denominator."
+      ],
+      "key": "Effective yield = [(FV−price)/price] × (365/days) × 100. Bank discount yield = [(FV−price)/FV] × (365/days) × 100.",
+      "related": [
+        "bond-pricing",
+        "bond-basics"
+      ]
+    },
+    {
+      "id": "prospect-theory",
+      "title": "Prospect Theory and loss aversion",
+      "module": "Behavioural Finance",
+      "level": "Foundation",
+      "detail": "People often feel the pain of losing money more strongly than the pleasure of gaining the same amount.",
+      "simple": "A ₹100 loss can feel worse than a ₹100 gain feels good.",
+      "example": "An investor may sell a small winner quickly but hold a losing share hoping it returns to the purchase price.",
+      "points": [
+        "People judge outcomes relative to a reference point and respond differently to perceived gains and losses."
+      ],
+      "key": "The slides connect loss aversion with risk aversion and the disposition effect.",
+      "related": [
+        "disposition-effect",
+        "mental-accounting"
+      ]
+    },
+    {
+      "id": "grossman-stiglitz",
+      "title": "Grossman–Stiglitz theory",
+      "module": "Behavioural Finance",
+      "level": "Core",
+      "detail": "If markets were perfectly efficient, investors would have little reason to pay to gather information.",
+      "simple": "Research costs money. If all useful information were already reflected in prices, why would anyone do the research?",
+      "example": "Informed investors research mispriced securities and trade; their trading helps prices move towards information-based values.",
+      "points": [
+        "Because information is costly, perfectly efficient markets cannot be sustained all the time."
+      ],
+      "key": "The slides compare this to people repairing weak spots in a bridge: the repair effort helps keep the bridge strong.",
+      "related": [
+        "financial-markets"
+      ]
+    },
+    {
+      "id": "mental-accounting",
+      "title": "Mental accounting",
+      "module": "Behavioural Finance",
+      "level": "Foundation",
+      "detail": "People mentally divide money into separate buckets and treat each bucket differently.",
+      "simple": "A rupee from salary and a rupee from a bonus are still both rupees, even if people behave differently with them.",
+      "example": "Someone may be cautious with salary but take bigger risks with a bonus because it feels like extra money.",
+      "points": [
+        "Separate mental buckets can distort spending, saving and investment decisions."
+      ],
+      "key": "The slides suggest judging all money as one combined pool against overall financial goals.",
+      "related": [
+        "prospect-theory",
+        "disposition-effect"
+      ]
+    },
+    {
+      "id": "disposition-effect",
+      "title": "Disposition effect",
+      "module": "Behavioural Finance",
+      "level": "Core",
+      "detail": "The disposition effect is the tendency to sell winning investments too early and hold losing investments too long.",
+      "simple": "People like locking in a gain but find it uncomfortable to admit a loss.",
+      "example": "An investor sells a share after a small gain but refuses to sell another share that has fallen, hoping it will recover.",
+      "points": [
+        "The slides link it to loss aversion, cognitive dissonance and mental accounting."
+      ],
+      "key": "Review the investment case and whole portfolio rather than focusing only on the purchase price.",
+      "related": [
+        "prospect-theory",
+        "mental-accounting"
+      ]
+    },
+    {
+      "id": "mutual-funds",
+      "title": "Mutual funds",
+      "module": "Module III",
+      "level": "Foundation",
+      "detail": "A mutual fund pools money from many investors and invests it according to a stated objective.",
+      "simple": "Many people contribute to one pool; a professional manager invests the pool and investors hold units.",
+      "example": "An equity fund combines investors' money to buy a portfolio of shares.",
+      "points": [
+        "Income and gains are shared in proportion to units after expenses and levies."
+      ],
+      "key": "Funds may invest in equities, bonds, money-market instruments or other permitted securities. Returns are not guaranteed.",
+      "related": [
+        "nav",
+        "ter",
+        "fund-structure",
+        "fund-categories"
+      ]
+    },
+    {
+      "id": "nav",
+      "title": "NAV — Net Asset Value",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "NAV is the value of one mutual-fund unit.",
+      "simple": "Take everything the fund owns, subtract what it owes, and divide the result by the number of units.",
+      "example": "Securities ₹10.5m + cash ₹2m − liabilities ₹0.5m = net assets ₹12m. With 1m units, NAV = ₹12.",
+      "points": [
+        "NAV per unit = (market value investments + other assets + accrued income − liabilities − accrued expenses) ÷ outstanding units."
+      ],
+      "key": "Use current market values, add receivables, deduct accrued expenses and use the correct units outstanding for the valuation date.",
+      "related": [
+        "mutual-funds",
+        "nav-adjustments",
+        "ter"
+      ]
+    },
+    {
+      "id": "nav-adjustments",
+      "title": "NAV numerical adjustments",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "NAV questions require you to identify every asset and liability at the correct date, then divide by the correct unit count.",
+      "simple": "Do not just add the investment values. Include income due, expenses owed and updated units.",
+      "example": "If an investment falls 20%, use 80% of its value. Deduct an accrued fee once. If units are redeemed, use the new unit count.",
+      "points": [
+        "The practice file includes fees, units, dividend reinvestment, growth, dividend yield, purchases, sales and cash flows."
+      ],
+      "key": "Net assets = assets − liabilities. NAV = net assets ÷ units outstanding. Watch the timing of each transaction.",
+      "related": [
+        "nav",
+        "mutual-funds"
+      ]
+    },
+    {
+      "id": "ter",
+      "title": "Total Expense Ratio",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "TER is the recurring cost of operating a mutual fund, expressed as a percentage of assets.",
+      "simple": "It is the fund's running cost. Costs reduce the return left for investors.",
+      "example": "A fund earns a gross return, but management and operating expenses reduce the amount reflected in NAV.",
+      "points": [
+        "The slides list management, distribution, audit, custodian, registration, communication and other scheme expenses."
+      ],
+      "key": "NAVs are reported net of expenses. Check the scheme documents for actual charges.",
+      "related": [
+        "mutual-funds",
+        "nav",
+        "fund-categories"
+      ]
+    },
+    {
+      "id": "fund-structure",
+      "title": "Mutual fund structure",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "A mutual fund has several entities with different responsibilities.",
+      "simple": "The AMC manages the money, but other organisations safeguard assets, keep investor records and supervise the AMC.",
+      "example": "The custodian safeguards securities; the RTA processes applications and redemptions; trustees oversee the AMC.",
+      "points": [
+        "The slides cover sponsor, trustees, AMC, custodian, RTA, fund accountant and auditor."
+      ],
+      "key": "Sponsor establishes the structure; trustees protect unit holders; AMC manages investments; custodian safekeeps securities.",
+      "related": [
+        "mutual-funds",
+        "fund-categories"
+      ]
+    },
+    {
+      "id": "fund-categories",
+      "title": "Mutual fund categories",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "A scheme category tells you what kind of assets or strategy a mutual fund focuses on.",
+      "simple": "Different funds invest in different things; the label gives you a starting point for understanding risk and portfolio.",
+      "example": "An equity fund invests mainly in shares; a liquid fund invests in very short-term debt; a hybrid fund combines asset classes.",
+      "points": [
+        "The slides classify equity, debt, hybrid, solution-oriented and other schemes, including index funds, ETFs and FoFs."
+      ],
+      "key": "Equity funds carry equity-market risk; debt funds carry interest-rate and credit risk; hybrid funds combine exposures.",
+      "related": [
+        "mutual-funds",
+        "sip-swp-stp",
+        "tracking-error"
+      ]
+    },
+    {
+      "id": "sip-swp-stp",
+      "title": "SIP, SWP and STP",
+      "module": "Module III",
+      "level": "Foundation",
+      "detail": "SIP puts money in regularly; SWP takes money out regularly; STP transfers money between schemes in stages.",
+      "simple": "SIP = invest. SWP = withdraw. STP = transfer.",
+      "example": "A monthly SIP invests ₹1,000. A retiree may use an SWP for regular withdrawals. An STP can move a lump sum gradually from a liquid fund to an equity fund.",
+      "points": [
+        "SIP supports regular investing; SWP creates scheduled withdrawals; STP moves money from one scheme to another."
+      ],
+      "key": "Rupee-cost averaging can change average purchase cost but does not guarantee profit.",
+      "related": [
+        "fund-categories",
+        "mutual-funds"
+      ]
+    },
+    {
+      "id": "tracking-error",
+      "title": "Tracking error",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "Tracking error measures how closely an index fund follows its benchmark.",
+      "simple": "It measures how much the fund's return differs from the index over time.",
+      "example": "If the index returns 2% and the fund returns 1.8%, the difference for that period is −0.2 percentage points.",
+      "points": [
+        "Periodic difference = fund return − benchmark return. Annualised tracking error = standard deviation of periodic differences × square root of periods per year."
+      ],
+      "key": "Slides use √12 for monthly data and √252 for daily data. Fees, cash, transaction costs and flows can create tracking differences.",
+      "related": [
+        "fund-categories",
+        "mutual-funds"
+      ]
+    },
+    {
+      "id": "portfolio-construction",
+      "title": "Portfolio construction",
+      "module": "Module III",
+      "level": "Foundation",
+      "detail": "Portfolio construction is selecting and combining assets to fit goals, risk tolerance, liquidity and time horizon.",
+      "simple": "It is deciding what goes into the investment basket and how much of each thing to hold.",
+      "example": "A portfolio may combine shares from different sectors, bonds and cash instead of depending on one company.",
+      "points": [
+        "The guide covers value, quality, factors, swing pricing and side pocketing."
+      ],
+      "key": "Diversification can reduce concentration risk but cannot eliminate broad market risk.",
+      "related": [
+        "value-investing",
+        "quality-investing",
+        "factor-investing",
+        "swing-pricing",
+        "side-pocketing"
+      ]
+    },
+    {
+      "id": "value-investing",
+      "title": "Value investing",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "Value investors look for securities they believe are priced below their estimated fundamental worth.",
+      "simple": "They try to buy something for less than what they think it is worth.",
+      "example": "A learner compares a company's share price with earnings, book value, cash flow, debt and outlook.",
+      "points": [
+        "The guide mentions P/E, P/B, dividend yield and free cash flow."
+      ],
+      "key": "Intrinsic value is an estimate, not a guaranteed price. An apparently cheap share may be cheap for a reason.",
+      "related": [
+        "portfolio-construction",
+        "quality-investing",
+        "equity-shares"
+      ]
+    },
+    {
+      "id": "quality-investing",
+      "title": "Quality investing",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "Quality investing focuses on businesses with strong financial health and durable advantages.",
+      "simple": "Look for companies that are financially strong and can sustain their business.",
+      "example": "One company may have lower debt, stable profits and stronger cash generation than a similar competitor.",
+      "points": [
+        "The guide highlights high ROE, low debt, stable earnings, strong cash flow and durable competitive advantage."
+      ],
+      "key": "A good company is not automatically a good investment at any price.",
+      "related": [
+        "portfolio-construction",
+        "value-investing",
+        "factor-investing"
+      ]
+    },
+    {
+      "id": "factor-investing",
+      "title": "Factor investing",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "Factor investing groups securities by characteristics linked to patterns in risk and return.",
+      "simple": "Instead of choosing only by company name, investors use characteristics such as value, momentum or quality.",
+      "example": "A momentum strategy may focus on securities with stronger recent price trends.",
+      "points": [
+        "The guide lists value, momentum, size, quality, low volatility and growth."
+      ],
+      "key": "Value = inexpensive; momentum = recent trend; size = company size; quality = financial strength; low volatility = steadier price movement.",
+      "related": [
+        "portfolio-construction",
+        "value-investing",
+        "quality-investing"
+      ]
+    },
+    {
+      "id": "swing-pricing",
+      "title": "Swing pricing",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "Swing pricing adjusts a fund's NAV during large inflows or outflows so the investors causing trading costs bear more of them.",
+      "simple": "If many people leave and the fund has to sell assets, the cost should not unfairly fall on only the investors who stay.",
+      "example": "Large redemptions can force a fund to trade and incur costs; an NAV adjustment aims to allocate those costs more fairly.",
+      "points": [
+        "The guide gives an illustrative NAV adjustment from ₹100 to ₹98."
+      ],
+      "key": "It is intended to reduce dilution for continuing investors; actual application depends on scheme rules.",
+      "related": [
+        "portfolio-construction",
+        "side-pocketing",
+        "nav"
+      ]
+    },
+    {
+      "id": "side-pocketing",
+      "title": "Side pocketing",
+      "module": "Module III",
+      "level": "Core",
+      "detail": "Side pocketing separates an illiquid or hard-to-value asset from the main portfolio.",
+      "simple": "Put the difficult-to-sell investment in a separate pocket so it does not distort the liquid part of the fund.",
+      "example": "If a bond becomes difficult to sell or value, it may be segregated while the main portfolio continues operating.",
+      "points": [
+        "Investors present at segregation retain entitlement to recovery from the side pocket; new investors are not exposed to that isolated asset."
+      ],
+      "key": "Recovery is uncertain. The technique separates valuation/liquidity issues rather than making the loss disappear.",
+      "related": [
+        "portfolio-construction",
+        "swing-pricing",
+        "nav"
+      ]
+    },
+    {
+      "id": "derivatives",
+      "title": "Derivatives",
+      "module": "Module IV",
+      "level": "Foundation",
+      "detail": "A derivative is a contract whose value depends on another asset, called the underlying.",
+      "simple": "Its value is derived from something else: a share, index, currency, rate or commodity.",
+      "example": "A futures contract on an index changes value as the index/futures price changes.",
+      "points": [
+        "The slides introduce forwards, futures, options, swaps and swaptions."
+      ],
+      "key": "Derivatives can be used for hedging, speculation and arbitrage.",
+      "related": [
+        "forwards",
+        "futures",
+        "options",
+        "commodity-derivatives"
+      ]
+    },
+    {
+      "id": "forwards",
+      "title": "Forward contracts",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "A forward is a private agreement today to buy or sell an asset at an agreed price on a future date.",
+      "simple": "Two parties customise a deal now and promise to complete it later.",
+      "example": "A jeweller agrees to buy 15 kg of gold in three months at ₹2,450 per gram. If market price rises, the jeweller benefits; if it falls, the agreed price still applies.",
+      "points": [
+        "Forwards are OTC and can be customised for quantity, quality, price and date. Both sides are obligated."
+      ],
+      "key": "Risks include counterparty default, low liquidity and rigidity.",
+      "related": [
+        "derivatives",
+        "futures",
+        "commodity-derivatives"
+      ]
+    },
+    {
+      "id": "futures",
+      "title": "Futures contracts",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "A future is a standardised agreement traded on an exchange to buy or sell an underlying at a predetermined price/date.",
+      "simple": "Like a forward, but standardised and exchange-traded.",
+      "example": "Buy 100 futures at 8,350 and exit at 8,475: profit = 100 × 125 = ₹12,500 before costs.",
+      "points": [
+        "Futures specify lot size and expiry, require margin and can generally be closed by an opposite trade."
+      ],
+      "key": "Long benefits from rising prices; short benefits from falling prices. Open interest counts outstanding contracts once.",
+      "related": [
+        "derivatives",
+        "forwards",
+        "futures-margin",
+        "mark-to-market"
+      ]
+    },
+    {
+      "id": "futures-margin",
+      "title": "Futures margin and leverage",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "Margin is money deposited to support a futures position; it is only a fraction of the contract's full value.",
+      "simple": "You put down a deposit but your gains and losses are based on a much larger position.",
+      "example": "Contract value ₹835,000 at 15% margin requires ₹125,250 margin.",
+      "points": [
+        "Initial margin = SPAN margin + exposure margin, as described in the slides."
+      ],
+      "key": "Leverage magnifies both gains and losses. Margin is not the maximum possible loss.",
+      "related": [
+        "futures",
+        "mark-to-market"
+      ]
+    },
+    {
+      "id": "mark-to-market",
+      "title": "Mark-to-market",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "Futures positions are revalued each day and daily gains/losses are credited/debited.",
+      "simple": "Every trading day, the exchange works out how much the position gained or lost since the previous reference price.",
+      "example": "A long 2,000-unit position moves from ₹165 to ₹168.30: daily M2M = (168.30−165)×2,000 = ₹6,600 gain.",
+      "points": [
+        "Daily M2M for a long = (today's close − previous reference price) × quantity."
+      ],
+      "key": "Maintain a running margin balance and compare it with initial/maintenance margin as required by the question.",
+      "related": [
+        "futures",
+        "futures-margin"
+      ]
+    },
+    {
+      "id": "cost-of-carry",
+      "title": "Cost of carry and fair futures price",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "Futures pricing reflects spot price, financing cost, income from holding the asset and time to expiry.",
+      "simple": "Holding the underlying has costs and sometimes benefits; those affect the fair futures price.",
+      "example": "The class example uses spot Nifty 1,150, financing 11%, dividend yield 1% and one month to expiry, giving an illustrative futures price near 1,159.",
+      "points": [
+        "Simplified slide formula: F = S × [1 + (r − d)]^t; S=spot, r=financing rate, d=dividend yield, t=time in years."
+      ],
+      "key": "Financing cost generally raises fair futures price; income such as dividends can reduce it.",
+      "related": [
+        "futures",
+        "forwards"
+      ]
+    },
+    {
+      "id": "options",
+      "title": "Options: calls and puts",
+      "module": "Module IV",
+      "level": "Foundation",
+      "detail": "An option buyer pays a premium for a right, not an obligation. The seller receives premium and takes on an obligation if exercised.",
+      "simple": "The buyer gets a choice; the seller has to fulfil the contract if the buyer uses that choice.",
+      "example": "A call gives the right to buy at strike. A put gives the right to sell at strike.",
+      "points": [
+        "Strike price is the agreed exercise price; premium is the option price paid by buyer."
+      ],
+      "key": "Call buyer = right to buy. Put buyer = right to sell. Long option pays premium; short option receives premium.",
+      "related": [
+        "option-payoffs",
+        "option-strategies"
+      ]
+    },
+    {
+      "id": "option-payoffs",
+      "title": "Option payoff and moneyness",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "Option payoff is the exercise value at expiry; net profit/loss also includes the premium.",
+      "simple": "First work out whether exercising has value. Then include the premium paid or received.",
+      "example": "Long call net P/L = max(S−K,0)−premium. Long put net P/L = max(K−S,0)−premium.",
+      "points": [
+        "Call ITM if S>K; put ITM if S<K. Time value = premium − intrinsic value."
+      ],
+      "key": "Do not confuse payoff with net P/L. A buyer's maximum loss is the premium paid.",
+      "related": [
+        "options",
+        "option-strategies"
+      ]
+    },
+    {
+      "id": "option-strategies",
+      "title": "Option strategies",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "An option strategy combines positions to express a market view or manage risk.",
+      "simple": "Break the strategy into separate legs, calculate each leg, then add them together.",
+      "example": "Bull call spread buys a lower-strike call and sells a higher-strike call. The short call reduces cost but caps upside.",
+      "points": [
+        "Covered call = long stock + short call. Protective put = long stock + long put. Bull call spread = long lower call + short higher call. Bear put spread = long higher put + short lower put."
+      ],
+      "key": "Always include premiums. State break-even, maximum gain and maximum loss where relevant.",
+      "related": [
+        "options",
+        "covered-call",
+        "protective-put",
+        "bull-call-spread",
+        "bear-put-spread"
+      ]
+    },
+    {
+      "id": "covered-call",
+      "title": "Covered call",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "A covered call means owning shares and selling a call option against them.",
+      "simple": "You collect premium but agree to sell the shares at the strike if the option is exercised.",
+      "example": "Class example: 500 Reliance shares at ₹2,400; short call strike ₹2,500; premium ₹45. Break-even ₹2,355; maximum gain ₹145 per share under the example's one-to-one assumption.",
+      "points": [
+        "Net P/L combines share P/L, short-call payoff and premium received."
+      ],
+      "key": "Upside is capped above strike; share downside remains, cushioned by premium.",
+      "related": [
+        "option-strategies",
+        "protective-put"
+      ]
+    },
+    {
+      "id": "protective-put",
+      "title": "Protective put",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "A protective put means owning shares and buying a put to protect against a fall.",
+      "simple": "The put acts like insurance: if the share falls below strike, the put gains value.",
+      "example": "Class example: Infosys purchase price ₹1,500; put strike ₹1,480; premium ₹40. Break-even ₹1,540 and maximum loss ₹60 per share.",
+      "points": [
+        "Net P/L = stock P/L + put payoff − premium. Break-even = purchase price + premium."
+      ],
+      "key": "The premium is the cost of protection; upside remains if the share rises.",
+      "related": [
+        "option-strategies",
+        "covered-call"
+      ]
+    },
+    {
+      "id": "bull-call-spread",
+      "title": "Bull call spread",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "Buy a lower-strike call and sell a higher-strike call with the same expiry; expect a moderate rise.",
+      "simple": "The second call helps pay for the first, but limits how much you can make.",
+      "example": "Class example: buy 19,300 call for ₹150; sell 19,500 call for ₹70. Net debit ₹80; max loss ₹80; max gain ₹120; break-even ₹19,380.",
+      "points": [
+        "Maximum gain = strike difference − net debit. Break-even = lower strike + net debit."
+      ],
+      "key": "The maximum loss is the net debit; maximum gain is capped.",
+      "related": [
+        "option-strategies",
+        "bear-put-spread"
+      ]
+    },
+    {
+      "id": "bear-put-spread",
+      "title": "Bear put spread",
+      "module": "Module IV",
+      "level": "Core",
+      "detail": "Buy a higher-strike put and sell a lower-strike put with the same expiry; expect a moderate fall.",
+      "simple": "The second put reduces the cost of protection/profit opportunity but caps the gain.",
+      "example": "Class example: buy 19,000 put for ₹120; sell 18,800 put for ₹80. Net debit ₹40; max loss ₹40; max gain ₹160; break-even ₹18,960.",
+      "points": [
+        "Maximum gain = strike difference − net debit. Break-even = higher strike − net debit."
+      ],
+      "key": "The maximum loss is the net debit; maximum gain is capped.",
+      "related": [
+        "option-strategies",
+        "bull-call-spread"
+      ]
+    },
+    {
+      "id": "commodity-markets",
+      "title": "Commodity markets",
+      "module": "Module V",
+      "level": "Foundation",
+      "detail": "Commodity markets trade movable, tangible goods such as metals, energy and agricultural products.",
+      "simple": "These are markets for physical goods, not company shares or bonds.",
+      "example": "A farmer worries wheat prices may fall before harvest; a food producer worries prices may rise before buying supplies.",
+      "points": [
+        "The slides classify commodities as perishable/non-perishable and consumable/non-consumable."
+      ],
+      "key": "Quality, location, storage, transport and perishability can affect commodity prices.",
+      "related": [
+        "commodity-derivatives",
+        "commodity-exchanges"
+      ]
+    },
+    {
+      "id": "commodity-derivatives",
+      "title": "Commodity derivatives",
+      "module": "Module V",
+      "level": "Core",
+      "detail": "Commodity derivatives are contracts whose value depends on a physical commodity's price.",
+      "simple": "They help farmers, producers and users manage uncertainty about future commodity prices.",
+      "example": "A farmer sells wheat futures to reduce the risk of a price fall before harvest. A buyer can hedge against prices rising.",
+      "points": [
+        "The slides cover futures, options, forwards and swaps. Participants include hedgers, speculators and arbitrageurs."
+      ],
+      "key": "Hedging reduces existing price exposure; speculation seeks profit from price movement; arbitrage exploits price differences.",
+      "related": [
+        "commodity-markets",
+        "commodity-exchanges",
+        "forwards",
+        "futures"
+      ]
+    },
+    {
+      "id": "commodity-exchanges",
+      "title": "Commodity exchanges",
+      "module": "Module V",
+      "level": "Core",
+      "detail": "Commodity exchanges provide organised platforms for trading standardised commodity contracts.",
+      "simple": "They bring buyers and sellers together under common contract and delivery rules.",
+      "example": "NCDEX is described as agriculture-focused; MCX covers bullion, energy and metals among other commodity groups.",
+      "points": [
+        "The slides also name TOCOM, Dalian Commodity Exchange, Shanghai Futures Exchange and CME Group."
+      ],
+      "key": "Physical delivery can require warehouses, transport and quality checks; storage, perishability and location matter.",
+      "related": [
+        "commodity-markets",
+        "commodity-derivatives"
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "financial-markets",
+      "question": "A company sells newly issued shares to raise money. Which market is this?",
+      "choices": [
+        "Secondary market",
+        "Primary market",
+        "Commodity spot market",
+        "Forex market"
+      ],
+      "answer": 1,
+      "explanation": "The primary market is where an issuer sells new securities and raises funds. Secondary markets trade securities that have already been issued.",
+      "related": [
+        "ipo-process",
+        "secondary-market"
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "bond-pricing",
+      "question": "If market yields rise, what generally happens to the price of an existing fixed-coupon bond?",
+      "choices": [
+        "It rises",
+        "It falls",
+        "It stays exactly the same",
+        "It becomes zero"
+      ],
+      "answer": 1,
+      "explanation": "New bonds may offer higher yields, making the old fixed coupon less attractive. Its price generally falls until its yield is competitive.",
+      "related": [
+        "ytm",
+        "duration"
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "nav",
+      "question": "NAV per unit is calculated by dividing net assets by:",
+      "choices": [
+        "Annual return",
+        "Face value",
+        "Outstanding units",
+        "Number of securities"
+      ],
+      "answer": 2,
+      "explanation": "NAV per unit = (total assets − total liabilities) ÷ units outstanding. Use the units outstanding on the valuation date.",
+      "related": [
+        "nav-adjustments",
+        "ter"
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "forwards",
+      "question": "Which is a key feature of a forward contract?",
+      "choices": [
+        "Always exchange-traded and standardised",
+        "Customised OTC agreement",
+        "Buyer has a right but no obligation",
+        "No counterparty risk"
+      ],
+      "answer": 1,
+      "explanation": "Forwards are privately negotiated OTC contracts. Both sides are obligated and counterparty risk matters.",
+      "related": [
+        "futures",
+        "derivatives"
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "options",
+      "question": "What does the buyer of a call option receive?",
+      "choices": [
+        "An obligation to sell",
+        "A right to buy",
+        "A right to sell",
+        "Guaranteed profit"
+      ],
+      "answer": 1,
+      "explanation": "A call gives its buyer the right, not the obligation, to buy the underlying at the strike price. The buyer pays a premium.",
+      "related": [
+        "option-payoffs",
+        "option-strategies"
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "prospect-theory",
+      "question": "Loss aversion means that people tend to:",
+      "choices": [
+        "Ignore all losses",
+        "Feel losses more strongly than equivalent gains",
+        "Always choose the riskiest investment",
+        "Treat every rupee differently"
+      ],
+      "answer": 1,
+      "explanation": "Prospect Theory describes how losses often feel more painful than equivalent gains feel pleasurable. This can affect risk-taking and selling decisions.",
+      "related": [
+        "disposition-effect",
+        "mental-accounting"
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "book-building",
+      "question": "In book building, investors generally:",
+      "choices": [
+        "Bid within an announced price band",
+        "Receive shares without applying",
+        "Set the company's market cap",
+        "Pay after listing"
+      ],
+      "answer": 0,
+      "explanation": "Investors submit bids at prices within the announced band. The demand schedule helps determine the final issue price.",
+      "related": [
+        "ipo-process",
+        "asba"
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "tracking-error",
+      "question": "A lower tracking error generally means an index fund:",
+      "choices": [
+        "Always earns a higher return",
+        "Follows its benchmark more closely",
+        "Has no risk",
+        "Charges no fees"
+      ],
+      "answer": 1,
+      "explanation": "Tracking error measures variation in the difference between fund and benchmark returns. Lower tracking error means closer tracking, not guaranteed higher returns.",
+      "related": [
+        "fund-categories",
+        "mutual-funds"
+      ]
+    },
+    {
+      "id": "q9",
+      "topic": "futures-margin",
+      "question": "Why can futures trading magnify both gains and losses?",
+      "choices": [
+        "Futures have no expiry",
+        "Margin supports exposure larger than cash deposited",
+        "Losses are capped at premium",
+        "Exchange guarantees profit"
+      ],
+      "answer": 1,
+      "explanation": "The trader deposits only a portion of contract value but is exposed to the full contract. Price movements can be large relative to margin.",
+      "related": [
+        "futures",
+        "mark-to-market"
+      ]
+    },
+    {
+      "id": "q10",
+      "topic": "commodity-derivatives",
+      "question": "A farmer sells wheat futures to reduce the risk of wheat prices falling. The farmer is a:",
+      "choices": [
+        "Speculator",
+        "Hedger",
+        "Registrar",
+        "Custodian"
+      ],
+      "answer": 1,
+      "explanation": "A hedger uses a derivative to reduce an existing risk connected to the commodity they produce or consume.",
+      "related": [
+        "commodity-markets",
+        "futures"
+      ]
+    }
+  ]
+}
